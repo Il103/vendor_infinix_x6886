@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<volume_tables>
+    <volume stream="AUDIO_STREAM_VOICE_CALL" deviceCategory="DEVICE_CATEGORY_HEADSET">
+        <volume index="1" minDecibels="-4950" maxDecibels="300" volumeInc="3"/>
+        <volume index="6" minDecibels="-4950" maxDecibels="300" volumeInc="3"/>
+        <volume index="11" minDecibels="-4950" maxDecibels="300" volumeInc="3"/>
+        <volume index="16" minDecibels="-4950" maxDecibels="300" volumeInc="3"/>
+        <volume index="21" minDecibels="-4950" maxDecibels="300" volumeInc="3"/>
+    </volume>
+    <volume stream="AUDIO_STREAM_VOICE_CALL" deviceCategory="DEVICE_CATEGORY_SPEAKER">
+        <volume index="1" minDecibels="-4950" maxDecibels="300" volumeInc="3"/>
+        <volume index="6" minDecibels="-4950" maxDecibels="300" volumeInc="3"/>
+        <volume index="11" minDecibels="-4950" maxDecibels="300" volumeInc="3"/>
+        <volume index="16" minDecibels="-4950" maxDecibels="300" volumeInc="3"/>
+        <volume index="21" minDecibels="-4950" maxDecibels="300" volumeInc="3"/>
+    </volume>
+    <volume stream="AUDIO_STREAM_MUSIC" deviceCategory="DEVICE_CATEGORY_HEADSET">
+        <volume index="1" minDecibels="-4950" maxDecibels="300" volumeInc="3"/>
+        <volume index="6" minDecibels="-4950" maxDecibels="300" volumeInc="3"/>
+        <volume index="11" minDecibels="-4950" maxDecibels="300" volumeInc="3"/>
+        <volume index="16" minDecibels="-4950" maxDecibels="300" volumeInc="3"/>
+        <volume index="21" minDecibels="-4950" maxDecibels="300" volumeInc="3"/>
+    </volume>
+    <volume stream="AUDIO_STREAM_MUSIC" deviceCategory="DEVICE_CATEGORY_SPEAKER">
+        <volume index="1" minDecibels="-4950" maxDecibels="300" volumeInc="3"/>
+        <volume index="6" minDecibels="-4950" maxDecibels="300" volumeInc="3"/>
+        <volume index="11" minDecibels="-4950" maxDecibels="300" volumeInc="3"/>
+        <volume index="16" minDecibels="-4950" maxDecibels="300" volumeInc="3"/>
+        <volume index="21" minDecibels="-4950" maxDecibels="300" volumeInc="3"/>
+    </volume>
+    <volume stream="AUDIO_STREAM_RING" deviceCategory="DEVICE_CATEGORY_SPEAKER">
+        <volume index="1" minDecibels="-4950" maxDecibels="300" volumeInc="3"/>
+        <volume index="6" minDecibels="-4950" maxDecibels="300" volumeInc="3"/>
+        <volume index="11" minDecibels="-4950" maxDecibels="300" volumeInc="3"/>
+        <volume index="16" minDecibels="-4950" maxDecibels="300" volumeInc="3"/>
+        <volume index="21" minDecibels="-4950" maxDecibels="300" volumeInc="3"/>
+    </volume>
+</volume_tables>

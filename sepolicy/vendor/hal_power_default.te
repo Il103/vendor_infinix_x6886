@@ -1,0 +1,16 @@
+type hal_power_default, domain;
+hal_server_domain(hal_power_default, hal_power)
+
+binder_use(hal_power_default)
+hal_power_binder_calls(hal_power_default)
+
+allow hal_power_default system_data_file:file { read open };
+allow hal_power_default system_data_file:dir { search read open };
+
+allow hal_power_default mnt_user_file:file { read open };
+allow hal_power_default mnt_user_file:dir { search read open };
+
+allow hal_power_default vendor_data_file:file { read open create write ioctl };
+allow hal_power_default vendor_data_file:dir { search read open create write ioctl };
+
+allow hal_power_default default_prop:file { read open };

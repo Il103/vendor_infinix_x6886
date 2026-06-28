@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<audioPolicyConfiguration version="1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <modules>
+        <module name="usb" halVersion="2.0">
+            <attachedDevices>
+                <item>USB Headset</item>
+                <item>USB Headset Mic</item>
+            </attachedDevices>
+            <defaultOutputDevice>USB Headset</defaultOutputDevice>
+            <defaultInputDevice>USB Headset Mic</defaultInputDevice>
+            <mixPorts>
+                <mixPort name="primary output" role="source">
+                    <profile name="" format="AUDIO_FORMAT_PCM_16_BIT" samplingRates="44100,48000,96000,192000" channelMasks="AUDIO_CHANNEL_OUT_STEREO"/>
+                </mixPort>
+                <mixPort name="primary input" role="sink">
+                    <profile name="" format="AUDIO_FORMAT_PCM_16_BIT" samplingRates="44100,48000,96000,192000" channelMasks="AUDIO_CHANNEL_IN_MONO,AUDIO_CHANNEL_IN_STEREO"/>
+                </mixPort>
+            </mixPorts>
+            <devicePorts>
+                <devicePort tagName="USB Headset" type="AUDIO_DEVICE_OUT_USB_HEADSET" role="sink"/>
+                <devicePort tagName="USB Headset Mic" type="AUDIO_DEVICE_IN_USB_HEADSET" role="source"/>
+            </devicePorts>
+            <routes>
+                <route type="mix" sink="USB Headset" sources="primary output"/>
+                <route type="mix" sink="primary input" sources="USB Headset Mic"/>
+            </routes>
+        </module>
+    </modules>
+</audioPolicyConfiguration>

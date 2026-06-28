@@ -1,0 +1,19 @@
+type hal_vibrator_default, domain;
+hal_server_domain(hal_vibrator_default, hal_vibrator)
+
+binder_use(hal_vibrator_default)
+hal_vibrator_binder_calls(hal_vibrator_default)
+
+allow hal_vibrator_default system_data_file:file { read open };
+allow hal_vibrator_default system_data_file:dir { search read open };
+
+allow hal_vibrator_default mnt_user_file:file { read open };
+allow hal_vibrator_default mnt_user_file:dir { search read open };
+
+allow hal_vibrator_default vendor_data_file:file { read open create write ioctl };
+allow hal_vibrator_default vendor_data_file:dir { search read open create write ioctl };
+
+allow hal_vibrator_default vibrator_device:chr_file { read write ioctl open };
+allow hal_vibrator_default vibrator_device:dir { search read open };
+
+allow hal_vibrator_default default_prop:file { read open };

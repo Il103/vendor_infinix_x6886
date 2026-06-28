@@ -1,0 +1,16 @@
+type hal_gnss_default, domain;
+hal_server_domain(hal_gnss_default, hal_gnss)
+
+binder_use(hal_gnss_default)
+hal_gnss_binder_calls(hal_gnss_default)
+
+allow hal_gnss_default system_data_file:file { read open };
+allow hal_gnss_default system_data_file:dir { search read open };
+
+allow hal_gnss_default mnt_user_file:file { read open };
+allow hal_gnss_default mnt_user_file:dir { search read open };
+
+allow hal_gnss_default vendor_data_file:file { read open create write ioctl };
+allow hal_gnss_default vendor_data_file:dir { search read open create write ioctl };
+
+allow hal_gnss_default default_prop:file { read open };

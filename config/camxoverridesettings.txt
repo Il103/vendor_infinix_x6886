@@ -1,0 +1,48 @@
+# Camera overrides for Infinix Hot 60 Pro Plus (X6886)
+# OV50C40 (Main Camera) - 50MP
+# IMX355 (Front Camera) - 13MP
+
+# Disable ZSL for better quality
+persist.vendor.camera.zsl.default=0
+
+# Enable MFNR
+persist.vendor.camera.mfnr.enable=1
+
+# Enable EIS
+persist.vendor.camera.eis.enable=1
+
+# Enable HDR
+persist.vendor.camera.hdr.enable=1
+
+# Enable portrait mode
+persist.vendor.camera.portrait.enable=1
+
+# Enable night mode
+persist.vendor.camera.night.enable=1
+
+# Enable AI camera
+persist.vendor.camera.ai.enable=1
+
+# Enable macro mode
+persist.vendor.camera.macro.enable=1
+
+# Camera buffer count
+persist.vendor.camera.buffer.count=15
+
+# Camera preview size
+persist.vendor.camera.preview.size=1920x1080
+
+# Camera capture size
+persist.vendor.camera.capture.size=4000x3000
+
+# Camera video size
+persist.vendor.camera.video.size=1920x1080
+
+# Camera video fps
+persist.vendor.camera.video.fps=30
+
+# Camera front video size
+persist.vendor.camera.front.video.size=1920x1080
+
+# Camera front video fps
+persist.vendor.camera.front.video.fps=30

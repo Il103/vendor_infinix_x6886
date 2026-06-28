@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<audioPolicyConfiguration version="1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <modules>
+        <module name="bluetooth" halVersion="2.0">
+            <attachedDevices>
+                <item>BT SCO Headset</item>
+                <item>BT SCO Headset Mic</item>
+            </attachedDevices>
+            <defaultOutputDevice>BT SCO Headset</defaultOutputDevice>
+            <defaultInputDevice>BT SCO Headset Mic</defaultInputDevice>
+            <mixPorts>
+                <mixPort name="primary output" role="source">
+                    <profile name="" format="AUDIO_FORMAT_PCM_16_BIT" samplingRates="8000,16000,48000" channelMasks="AUDIO_CHANNEL_OUT_MONO,AUDIO_CHANNEL_OUT_STEREO"/>
+                </mixPort>
+                <mixPort name="primary input" role="sink">
+                    <profile name="" format="AUDIO_FORMAT_PCM_16_BIT" samplingRates="8000,16000,48000" channelMasks="AUDIO_CHANNEL_IN_MONO"/>
+                </mixPort>
+            </mixPorts>
+            <devicePorts>
+                <devicePort tagName="BT SCO Headset" type="AUDIO_DEVICE_OUT_BLUETOOTH_SCO" role="sink"/>
+                <devicePort tagName="BT SCO Headset Mic" type="AUDIO_DEVICE_IN_BLUETOOTH_SCO_HEADSET" role="source"/>
+            </devicePorts>
+            <routes>
+                <route type="mix" sink="BT SCO Headset" sources="primary output"/>
+                <route type="mix" sink="primary input" sources="BT SCO Headset Mic"/>
+            </routes>
+        </module>
+    </modules>
+</audioPolicyConfiguration>
