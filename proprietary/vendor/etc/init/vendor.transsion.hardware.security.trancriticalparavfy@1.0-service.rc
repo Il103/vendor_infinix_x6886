@@ -1,0 +1,35 @@
+#BSP: add XLWYYF-300 by bsp wen.zhang5 for p7 20240226 start
+on post-fs-data
+    mkdir /mnt/vendor/persist/startPara 0700 root system
+    chmod 0777 /mnt/vendor/persist/startPara
+    chmod 0777 /mnt/vendor/persist/startPara/startPara.dat
+    chmod 0777 /mnt/vendor/persist/startPara/auFile.dat
+    mkdir /mnt/vendor/productinfo/startPara 0700 root system
+    chmod 0777 /mnt/vendor/productinfo/startPara
+    chmod 0777 /mnt/vendor/productinfo/startPara/startPara.dat
+    chmod 0777 /mnt/vendor/productinfo/startPara/auFile.dat
+    mkdir /tranfs/startPara 0700 root system
+    chmod 0777 /tranfs/startPara
+    chmod 0777 /tranfs/startPara/startPara.dat
+    chmod 0777 /tranfs/startPara/auFile.dat
+
+on cali-start
+    #For SPRD
+    mkdir /mnt/vendor/persist/startPara 0700 root system
+    chmod 0777 /mnt/vendor/persist/startPara
+    chmod 0777 /mnt/vendor/persist/startPara/startPara.dat
+    chmod 0777 /mnt/vendor/persist/startPara/auFile.dat
+    mkdir /mnt/vendor/productinfo/startPara 0700 root system
+    chmod 0777 /mnt/vendor/productinfo/startPara
+    chmod 0777 /mnt/vendor/productinfo/startPara/startPara.dat
+    chmod 0777 /mnt/vendor/productinfo/startPara/auFile.dat
+    mkdir /tranfs/startPara 0700 root system
+    chmod 0777 /tranfs/startPara
+    chmod 0777 /tranfs/startPara/startPara.dat
+    chmod 0777 /tranfs/startPara/auFile.dat
+#BSP: add XLWYYF-300 by bsp wen.zhang5 for p7 20240226 end
+
+service trancriticalparavfy_service /vendor/bin/hw/vendor.transsion.hardware.security.trancriticalparavfy@1.0-service
+	class hal
+	user system
+	group system

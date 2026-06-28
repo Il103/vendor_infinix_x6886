@@ -1,0 +1,150 @@
+
+#SPD: add arkfs by peng.zhang3 20190619 start
+on init
+
+    #SID:add KBSHLES-35(XWWYWPO-821) by zhangtao from peng.zhang3 201801012 start
+    # arkfs
+    write /sys/fs/arkfs/size 89600
+    # system_server
+    write /sys/fs/arkfs/whitelist "/data/system/"
+    write /sys/fs/arkfs/whitelist "/data/system_de"
+    write /sys/fs/arkfs/whitelist "/data/property"
+    write /sys/fs/arkfs/whitelist "/data/misc"
+    write /sys/fs/arkfs/whitelist "/data/misc_ce"
+    write /sys/fs/arkfs/whitelist "/data/misc_de"
+    # contacts
+    write /sys/fs/arkfs/whitelist "/data/data/com.android.providers.contacts/databases"
+    write /sys/fs/arkfs/whitelist "/data/user_de/0/com.android.providers.contacts/databases"
+    # telephony
+    write /sys/fs/arkfs/whitelist "/data/user_de/0/com.android.providers.telephony/databases"
+    # google dailer
+    write /sys/fs/arkfs/whitelist "/data/data/com.google.android.dialer/databases"
+    # google messaging
+    write /sys/fs/arkfs/whitelist "/data/data/com.google.android.apps.messaging/databases"
+    #SID1:add KBSHLES-489 by shenglan.zheng from peng.zhang3 20181031 start
+    write /sys/fs/arkfs/whitelist "/data/user_de/0/com.android.providers.blockednumber/databases/"
+    # google ims
+    write /sys/fs/arkfs/whitelist "/data/data/com.google.android.ims/databases"
+    #SID1:add KBSHLES-489 by shenglan.zheng from peng.zhang3 20181031 end
+    # google gms
+    write /sys/fs/arkfs/whitelist "/data/data/com.google.android.gms/databases"
+    #SID2:add XWWYLHLYS-2264 by zhangtao 20181211 start
+    # google gsf
+    write /sys/fs/arkfs/whitelist "/data/data/com.google.android.gsf/databases"
+    #SID2:add XWWYLHLYS-2264 by zhangtao 20181211 end
+    # faceid
+    write /sys/fs/arkfs/whitelist "/data/data/com.transsion.faceid"
+    # fingerprint
+    write /sys/fs/arkfs/whitelist "/data/thh/tee_05"
+    # MTP
+    write /sys/fs/arkfs/whitelist "/data/data/com.android.providers.media.module/databases/internal.db-wal"
+    write /sys/fs/arkfs/whitelist "/data/data/com.android.providers.media.module/databases/internal.db-shm"
+    write /sys/fs/arkfs/whitelist "/data/data/com.android.providers.media.module/databases/external.db-shm"
+    write /sys/fs/arkfs/whitelist "/data/data/com.android.providers.media.module/databases/external.db-wal"
+    # NotificationManagerService
+    write /sys/fs/arkfs/whitelist "/data/data/com.android.providers.calendar/databases"
+    # system ui
+    write /sys/fs/arkfs/whitelist "/data/user_de/0/com.android.systemui/databases"
+    # AccountManagerService
+    write /sys/fs/arkfs/whitelist "/data/system_ce/0/accounts_ce.db"
+    # com.android.dialer
+    write /sys/fs/arkfs/whitelist "/data/data/com.android.dialer/databases"
+    write /sys/fs/arkfs/whitelist "/data/user_de/0/com.android.dialer/databases"
+    #SID1:add HLESPUB-2223 by shenglan.zheng 20181207 start
+    write /sys/fs/arkfs/whitelist "/data/data/com.transsion.appupdate"
+    write /sys/fs/arkfs/whitelist "/data/data/com.transsion.appupdate/databases/AppUpdate.db-wal"
+    write /sys/fs/arkfs/whitelist "/data/data/com.transsion.appupdate/databases/AppUpdate.db"
+    write /sys/fs/arkfs/whitelist "/data/data/com.transsion.appupdate/databases/push.db"
+    write /sys/fs/arkfs/whitelist "/data/data/com.transsion.appupdate/databases/push.db-shm"
+    write /sys/fs/arkfs/whitelist "/data/data/com.transsion.appupdate/databases/push.db-wal"
+    write /sys/fs/arkfs/whitelist "/data/data/com.transsion.appupdate/databases/tms.db"
+    write /sys/fs/arkfs/whitelist "/data/data/com.transsion.appupdate/databases/tms.db-shm"
+    write /sys/fs/arkfs/whitelist "/data/data/com.transsion.appupdate/databases/tms.db-wal"
+    #SID1:add HLESPUB-2223 by shenglan.zheng 20181207 end
+    #SID1:add HLESPUB-2223 by shenglan.zheng 20181226 start
+    write /sys/fs/arkfs/whitelist "/tranfs/SI1/exception.txt"
+    #SID1:add HLESPUB-2223 by shenglan.zheng 20181226 end
+    #SID1:add KBEHHLYS-581 by shenglan.zheng 20190102 start
+    write /sys/fs/arkfs/whitelist "/data/data/com.android.providers.downloads/databases"
+    #SID1:add KBEHHLYS-581 by shenglan.zheng 20190102 end
+    #SID1:add KBEHHLYS-581 by shenglan.zheng 20190102 start
+    write /sys/fs/arkfs/whitelist "/data/data/com.transsion.hilauncher/databases"
+    #SID1:add KBEHHLYS-581 by shenglan.zheng 20190102 end
+    #SID1:add KBEHHLYS-581 by shenglan.zheng 20190102 start
+    write /sys/fs/arkfs/whitelist "/data/data/com.android.settings.intelligence/databases"
+    #SID1:add KBEHHLYS-581 by shenglan.zheng 20190102 end
+    #SID1:add KBQJAEA-85 by shenglan.zheng 20190124 start
+    write /sys/fs/arkfs/whitelist "/data/data/com.android.mtp/databases"
+    #SID1:add KBQJAEA-85 by shenglan.zheng 20190124 end
+    #SID1:add RABHLYSP-1215 by shenglan.zheng 20190215 start
+    write /sys/fs/arkfs/whitelist "/data/data/com.sh.smart.caller/databases"
+    write /sys/fs/arkfs/whitelist "/data/data/com.transsion.ivoice/databases"
+    write /sys/fs/arkfs/whitelist "/data/data/com.transsion.aibox/databases"
+    write /sys/fs/arkfs/whitelist "/data/data/com.jupiter.tornado/databases"
+    write /sys/fs/arkfs/whitelist "/data/data/com.transsion.smartpanel/databases"
+    write /sys/fs/arkfs/whitelist "/data/data/com.transsion.readmode/databases"
+    write /sys/fs/arkfs/whitelist "/data/data/com.transsion.deskclock/databases"
+    #SID1:add RABHLYSP-1215 by shenglan.zheng 20190215 end
+
+    #add XLESHBLEL-433 by zhangtao 20181106 start
+    #XOSLauncher
+    write /sys/fs/arkfs/whitelist "/data/data/com.transsion.XOSLauncher/databases"
+    write /sys/fs/arkfs/whitelist "/data/data/com.transsion.XOSLauncher/files/folder.db"
+    write /sys/fs/arkfs/whitelist "/data/data/com.transsion.XOSLauncher/files/folder.db-shm"
+    write /sys/fs/arkfs/whitelist "/data/data/com.transsion.XOSLauncher/files/folder.db-wal"
+    #add XLESHBLEL-433 by zhangtao 20181106 end
+    #add XWWYLHLYS-2251 by zhangtao 20181130 start
+    write /sys/fs/arkfs/whitelist "/data/data/com.android.providers.downloads/databases/downloads.db"
+    write /sys/fs/arkfs/whitelist "/data/data/com.android.providers.downloads/databases/downloads.db-shm"
+    write /sys/fs/arkfs/whitelist "/data/data/com.android.providers.downloads/databases/downloads.db-wal"
+    write /sys/fs/arkfs/whitelist "/data/user_de/0/com.transsion.deskclock/databases"
+    #add XWWYLHLYS-2251 by zhangtao 20181130 end
+
+    #SDD:add CICHSSE-633 by hua.wang6 20220120 start
+    write /sys/fs/arkfs/whitelist "/data/user_de/0/com.transsion.XOSLauncher/databases"
+    write /sys/fs/arkfs/whitelist "/data/user/0/com.transsion.XOSLauncher/databases"
+    write /sys/fs/arkfs/whitelist "/data/user_de/0/com.transsion.XOSLauncher.upgrade/databases"
+    write /sys/fs/arkfs/whitelist "/data/user/0/com.transsion.XOSLauncher.upgrade/databases"
+    write /sys/fs/arkfs/whitelist "/data/user_de/0/com.transsion.hilauncher/databases"
+    write /sys/fs/arkfs/whitelist "/data/user/0/com.transsion.hilauncher/databases"
+    write /sys/fs/arkfs/whitelist "/data/user_de/0/com.transsion.hilauncher.upgrade/databases"
+    write /sys/fs/arkfs/whitelist "/data/user/0/com.transsion.hilauncher.upgrade/databases"
+    write /sys/fs/arkfs/whitelist "/data/user_de/0/com.transsion.itel.launcher/databases"
+    write /sys/fs/arkfs/whitelist "/data/user/0/com.transsion.itel.launcher/databases"
+    #SDD:add CICHSSE-633 by hua.wang6 20220120 end
+    #SDD:add CKBNHJSY-3599 by lianjie.ma 20230313 start
+    write /sys/fs/arkfs/whitelist "/data/system/recoverablekeystore.db-shm"
+    write /sys/fs/arkfs/whitelist "/data/system/recoverablekeystore.db"
+    #SDD:add CKBNHJSY-3599 by lianjie.ma 20230313 end
+
+    write /sys/fs/arkfs/blacklist "/data/system/syncmanager-log"
+    write /sys/fs/arkfs/blacklist "/data/misc/profiles"
+    write /sys/fs/arkfs/blacklist "/data/misc/gps"
+    write /sys/fs/arkfs/blacklist "/data/misc/mblog"
+    write /sys/fs/arkfs/blacklist "/data/system/procstats"
+    write /sys/fs/arkfs/blacklist "/data/system/package_cache"
+    write /sys/fs/arkfs/blacklist "/data/system/usagestats/0/daily"
+    write /sys/fs/arkfs/blacklist "/data/system/usagestats/0/monthly"
+    write /sys/fs/arkfs/blacklist "/data/system/usagestats/0/weekly"
+    write /sys/fs/arkfs/blacklist "/data/system/usagestats/0/yearly"
+    write /sys/fs/arkfs/blacklist "/data/system/graphicsstats"
+    write /sys/fs/arkfs/blacklist "/data/system/dropbox"
+    write /sys/fs/arkfs/blacklist "/data/system/netstats"
+    write /sys/fs/arkfs/blacklist "/data/system/batterystats.bin"
+    #SID:add KBSHLES-35(XWWYWPO-821) by zhangtao from peng.zhang3 201801012 end
+
+    #SDD:add CH6IH6921T-336 by chonglin.yang 20230606 start
+    write /sys/fs/arkfs/whitelist "/data/user/0/com.transsion.phonemaster/no_backup"
+    write /sys/fs/arkfs/whitelist "/data/user/0/com.transsion.plat.appupdate/databases"
+    write /sys/fs/arkfs/whitelist "/data/user/0/com.google.android.providers.media.module/databases"
+    write /sys/fs/arkfs/whitelist "/data/user/0/com.sh.smart.caller/no_backup"
+    #SDD:add CH6IH6921T-336 by chonglin.yang 20230606 end
+
+#SPD: add arkfs by peng.zhang3 20190619 end
+
+# SPD: add debug option for arkfs peng.zhang3 2019.05.14 start
+on property:ro.vendor.debug.arkfs=1
+    write /sys/fs/arkfs/size 100000000
+    write /sys/fs/arkfs/whitelist "/data/aee_exp/"
+    write /sys/fs/arkfs/whitelist "/data/vendor/aee_exp/"
+# SPD: add debug option for arkfs peng.zhang3 2019.05.14 end

@@ -1,0 +1,15 @@
+service tnevservice /vendor/bin/hw/vendor.tne@1.0-service
+    class core
+    user root
+    group root
+    onrestart restart tne
+    disabled
+
+on property:vendor.debug.mtk.aeev.db=*
+exec /system/bin/tne_dumpstate 0xffffff04 393216 0 "" 0xffffff04
+
+on property:vendor.debug.mtk.aee.db=*
+exec /system/bin/tne_dumpstate 0xffffff04 0 0 "" 0xffffff04
+
+on property:ro.boot.mode=normal
+    start tnevservice

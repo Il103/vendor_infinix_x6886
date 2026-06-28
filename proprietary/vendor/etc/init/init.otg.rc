@@ -1,0 +1,5 @@
+#SDD:add OTG feature for TESSCR-6368 by weike.xu 20210512 start
+on post-fs-data
+
+    chmod 0666 /sys/devices/platform/odm/odm:tran_battery/OTG_CTL
+#SDD:add OTG feature for TESSCR-6368 by weike.xu 20210512 end

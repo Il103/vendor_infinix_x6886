@@ -1,0 +1,37 @@
+#line 1 "device/mediatek/sepolicy/bsp/non_plat/service_contexts"
+# ==============================================
+# MTK Policy Rule
+# ==============================================
+
+android.hardware.neuralnetworks.IDevice/mtk-gpu_shim    u:object_r:hal_neuralnetworks_service:s0
+android.hardware.neuralnetworks.IDevice/mtk-dsp_shim    u:object_r:hal_neuralnetworks_service:s0
+android.hardware.neuralnetworks.IDevice/mtk-mdla_shim   u:object_r:hal_neuralnetworks_service:s0
+android.hardware.neuralnetworks.IDevice/mtk-neuron_shim u:object_r:hal_neuralnetworks_service:s0
+#line 1 "device/mediatek/sepolicy/custom/module/tp_aidl/service_contexts"
+vendor.hardware.trantp.ITrantp/default u:object_r:tran_tp_binder_service:s0
+#line 1 "device/mediatek/sepolicy/custom/tranCharge/non_plat/service_contexts"
+vendor.hardware.trancharge.ITranCharge/default u:object_r:tran_charge_binder_service:s0
+#line 1 "device/mediatek/sepolicy/custom/module/uxdetector/non_plat/service_contexts"
+uxdetector                              u:object_r:transsion_uxdetector_service:s0
+#line 1 "device/mediatek/sepolicy/custom/module/uxdetectorrest/non_plat/service_contexts"
+uxdetectorrest                              u:object_r:transsion_uxdetectorrest_service:s0
+#line 1 "device/mediatek/sepolicy/custom/module/aicharge/non_plat/service_contexts"
+aicharge                              u:object_r:transsion_aicharge_service:s0
+#line 1 "device/mediatek/sepolicy/custom/module/fingerprint/goodix_opt_tee/non_plat/service_contexts"
+#com.goodix.FingerprintService    u:object_r:goodix_fingerprint_service:s0;
+#line 1 "device/mediatek/sepolicy/custom/tranradionet/non_plat/service_contexts"
+vendor.transsion.hardware.trannet.ITranNet/default                              u:object_r:hal_trannet_service:s0
+vendor.transsion.hardware.tranradio.ITranRadio/default                          u:object_r:hal_tranradio_service:s0
+#line 1 "device/mediatek/sepolicy/custom/module/aisupporter/non_plat/service_contexts"
+tran_ai    u:object_r:tran_ai_service:s0
+
+#line 1 "device/mediatek/sepolicy/custom/preisp/non_plat/service_contexts"
+tetras_system       u:object_r:tetras_system_service:s0
+#line 1 "vendor/transsion/tranfac/TranfacSepolicy/common/tranfac/vendor/service_contexts"
+
+vendor.transsion.hardware.tranfacaidl.ITranfacAidl/default     u:object_r:hal_tranfac_service:s0
+#line 1 "device/mediatek/sepolicy/custom/module/pixelworks/non_plat/service_contexts"
+render_accelerating                                     u:object_r:render_accelerating_service:s0
+vendor.pixelworks.hardware.display.IIris/default        u:object_r:hal_display_iris_service:s0
+vendor.pixelworks.hardware.feature.IIrisFeature/default u:object_r:hal_feature_irisfeature_service:s0
+game_assist                                             u:object_r:game_assist_service:s0

@@ -1,0 +1,5 @@
+service chg_sence /vendor/bin/chg_sence
+    class main
+    user system
+    group system
+	oneshot

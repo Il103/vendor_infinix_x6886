@@ -1,0 +1,5 @@
+on property:persist.vendor.zram_bdev_add_once=0.5
+    swapon_all /vendor/etc/memfusion2/fstab.enableswap_wb
+
+on property:persist.vendor.zram_bdev_add_once=1
+    swapon_all /vendor/etc/memfusion2/fstab.enableswap_wb

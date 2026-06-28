@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Transsion Top Secret-->
+<logExportConfig>
+    <version>1.0.0</version>
+    <log_group>
+        <unknown display="不能确认-Unknown">-1</unknown>
+        <normal display="普通功能问题-Normal">2,3,4,9</normal>
+        <application_error display="应用报错-App Error">2,3,4,5,6,9,13</application_error>
+        <hang_reboot display="系统卡死、重启-Hang Reboot">2,3,4,5,6,9</hang_reboot>
+        <network display="网络相关-Network">2,3,4,7,8,9,14</network>
+        <latency display="卡顿相关-Latency">0,2,3,4,9</latency>
+        <display display="显示类 (花屏、黑屏、闪屏等)-Display">2,3,4,9,13</display>
+        <boot display="不开机-Boot">-3</boot>
+        <audio display="音频相关">4, 17</audio>
+        <self_def display="自定义-Self Define">-2</self_def>
+    </log_group>
+    <log_type>
+        <systrace index="0" display="systrace" data_flag="0" pre_analysis="0">
+            <action type="adb shell" subDir="systrace" localFile="trace.ctrace">atrace -b 4096 -t 10 -z gfx input view webview wm am sm hal res dalvik power pm ss sched freq idle binder_driver</action>
+        </systrace>
+        
+        <dumpinfo index="1" display="dumpinfo" data_flag="0" pre_analysis="0">
+            <action type="adb shell" subDir="dumpinfo" localFile="dump_cpuinfo">dumpsys cpuinfo</action>
+            <action type="adb shell" subDir="dumpinfo" localFile="dump_meminfo">dumpsys -t 60 meminfo</action>
+            <action type="adb shell" subDir="dumpinfo" localFile="dump_processes">dumpsys activity p</action>
+            <action type="adb shell" subDir="dumpinfo" localFile="dump_activity">dumpsys activity a</action>
+            <action type="adb shell" subDir="dumpinfo" localFile="dump_recents">dumpsys activity r</action>
+            <action type="adb shell" subDir="dumpinfo" localFile="dump_oom">dumpsys activity o</action>
+            <action type="adb shell" subDir="dumpinfo" localFile="dump_services">dumpsys activity s</action>
+            <action type="adb shell" subDir="dumpinfo" localFile="dump_power">dumpsys power</action>
+            <action type="adb shell" subDir="dumpinfo" localFile="dump_battery">dumpsys battery</action>
+            <action type="adb shell" subDir="dumpinfo" localFile="dump_alarm">dumpsys alarm</action>
+            <action type="adb shell" subDir="dumpinfo" localFile="dump_window">dumpsys window</action>
+            <action type="adb shell" subDir="dumpinfo" localFile="SF_bqdump_all">dumpsys SurfaceFlinger</action>
+            <action type="adb shell" subDir="dumpinfo" localFile="dumpinfo">df</action>
+            <action type="adb shell" subDir="dumpinfo" localFile="dump_audio">dumpsys audio</action>
+            <action type="adb shell" subDir="dumpinfo" localFile="dump_audiopolicy">dumpsys media.audio_policy</action>
+            <action type="adb shell" subDir="dumpinfo" localFile="dump_audioflinger">dumpsys media.audio_flinger</action>
+            <action type="adb shell" subDir="dumpinfo" localFile="dump_resourcemanager">dumpsys media.resource_manager</action>
+            <action type="adb shell" subDir="dumpinfo" localFile="dump_extractor">dumpsys media.extractor</action>
+            <action type="adb shell" subDir="dumpinfo" localFile="dump_player">dumpsys media.player</action>
+        </dumpinfo>
+        
+        <packageInfo index="2" display="packageInfo" data_flag="0" pre_analysis="0">
+            <action type="adb shell" subDir="packageInfo" localFile="packageList">pm list package</action>
+            <action type="adb shell" subDir="packageInfo" localFile="packageDirList">pm list package -f</action>
+            <action type="adb shell" subDir="packageInfo" localFile="disabledPackageList">pm list package -d</action>
+            <action type="adb shell" subDir="packageInfo" localFile="systemPackageList">pm list package -s</action>
+            <action type="adb shell" subDir="packageInfo" localFile="thirdPackageList">pm list package -3</action>
+            <action type="adb shell" subDir="packageInfo" localFile="otherInfo_location">pm get-install-location</action>
+            <action type="adb shell" subDir="packageInfo" localFile="otherInfo_users">pm list users</action>
+            <action type="adb shell" subDir="packageInfo" localFile="dump_package">dumpsys package</action>
+        </packageInfo>
+        
+        <phonestate index="3" display="phonestate" data_flag="0" pre_analysis="0">
+            <action type="adb shell" subDir="phonestate" localFile="phoneTime">date</action>
+            <action type="adb shell" subDir="phonestate" localFile="top.txt">top -b -n 5</action>
+            <action type="adb shell" subDir="phonestate" localFile="serviceList.txt">service list</action>
+            <action type="adb shell" subDir="phonestate" localFile="meminfo">cat /proc/meminfo</action>
+            <action type="adb shell" subDir="phonestate" localFile="buddyinfo">cat /proc/buddyinfo</action>
+            <action type="adb shell" subDir="phonestate" localFile="procrank.txt">procrank</action>
+            <action type="adb shell" subDir="phonestate" localFile="sched_debug.txt">cat /proc/sched_debug</action>
+            <action type="adb shell" subDir="phonestate" localFile="interrupts.txt">cat /proc/interrupts</action>
+            <action type="adb shell" subDir="phonestate" localFile="dump_ps_N">ps</action>
+            <action type="adb shell" subDir="phonestate" localFile="dump_ps">ps -AT</action>
+        </phonestate>
+        
+        <mobilelog index="4" display="mobilelog" data_flag="1" pre_analysis="1">
+            <action type="adb pull" subDir="mobilelog">/data/debuglogger/mobilelog</action>
+            <action type="adb pull" subDir="mobilelog">/sdcard/debuglogger/mobilelog</action>
+        </mobilelog>
+        
+        <db index="5" display="db" data_flag="1" pre_analysis="1">
+            <action type="adb pull" subDir="data_aee_exp">/data/aee_exp</action>
+            <action type="adb shell">mkdir /sdcard/data_vendor_aee_exp</action>
+            <action type="adb shell">cp -R /data/vendor/aee_exp/  /sdcard/data_vendor_aee_exp/</action>
+            <action type="adb shell">cp -R /data/vendor/mtklog/aee_exp/  /sdcard/data_vendor_aee_exp/</action>
+            <action type="adb pull" subDir="data_vendor_aee_exp">/sdcard/data_vendor_aee_exp</action>
+            <action type="adb shell">rm -rf /sdcard/data_vendor_aee_exp</action>
+        </db>
+        
+        <eventTrack index="6" display="TNE" data_flag="1" pre_analysis="0">
+            <action type="adb pull" subDir="data_TNE">/data/TNE</action>
+        </eventTrack>
+        
+        <mdlog index="7" display="mdlog" data_flag="1" pre_analysis="0">
+            <action type="adb pull" subDir="modemlog">/data/debuglogger/mdlog1</action>
+            <action type="adb pull" subDir="modemlog">/data/debuglogger/mdlog1_config</action>
+            <action type="adb pull" subDir="modemlog">/sdcard/debuglogger/mdlog1</action>
+            <action type="adb pull" subDir="modemlog">/sdcard/debuglogger/mdlog1_config</action>
+        </mdlog>
+        
+        <networklog index="8" display="network log" data_flag="1" pre_analysis="0">
+            <action type="adb pull" subDir="networklog">/data/debuglogger/netlog</action>
+            <action type="adb pull" subDir="networklog">/data/debuglogger/netlog_config</action>
+            <action type="adb pull" subDir="networklog">/sdcard/debuglogger/netlog</action>
+            <action type="adb pull" subDir="networklog">/sdcard/debuglogger/netlog_config</action>
+        </networklog>
+
+        <anr index="9" display="anr" data_flag="1" pre_analysis="0">
+            <action type="adb pull" subDir="anr">/data/anr</action>
+        </anr>
+        
+        <local_hprof index="10" display="local_hprof" data_flag="1" pre_analysis="0">
+            <action type="adb pull" subDir="data_local_tmp">/data/local/tmp</action>
+            <action type="adb pull" subDir="data_hprof">/data/hprof</action>
+        </local_hprof>
+        
+        <tranfs index="11" display="tranfs" data_flag="0" pre_analysis="0">
+            <action type="adb pull" subDir="tranfs">/tranfs</action>
+        </tranfs>
+
+        <taglog index="12" display="taglog" data_flag="1" pre_analysis="0">
+            <action type="adb pull" subDir="taglog">/data/debuglogger/taglog</action>
+            <action type="adb pull" subDir="taglog">/sdcard/debuglogger/taglog</action>
+        </taglog>
+        <bugreport index="13" display="bugreport" data_flag="0" pre_analysis="0">
+            <action type="adb">bugreport bugreport.zip</action>
+            <!--SDD: modify LCLGHLYQ-1647 by jixue.tang 2020/06/12 start-->
+            <action type="adb pull" subDir="bugreports">/data/user_de/0/com.android.shell/files/bugreports</action>
+            <!--SDD: modify LCLGHLYQ-1647 by jixue.tang 2020/06/12 end-->
+        </bugreport>
+        <connsyslog index="14" display="connsyslog" data_flag="1" pre_analysis="0">
+            <action type="adb pull" subDir="connsyslog">/data/debuglogger/connsyslog</action>
+            <action type="adb pull" subDir="connsyslog">/sdcard/debuglogger/connsyslog</action>
+        </connsyslog>
+        <autolog index="15" display="autolog" data_flag="1" pre_analysis="0">
+            <action type="adb pull" subDir="autolog">/sdcard/Auto</action>
+        </autolog>
+        <screenshot index="16" display="screenshot" data_flag="0" pre_analysis="0">
+            <action type="adb shell">screencap -p sdcard/logexportscreenshot.png</action>
+            <action type="adb pull" subDir="logexportscreenshots">/sdcard/logexportscreenshot.png</action>
+            <action type="adb shell">rm -rf sdcard/logexportscreenshot.png</action>
+        </screenshot>
+        <audio index="17" display="audio" data_flag="0" pre_analysis="0">
+            <action type="adb pull" subDir="audio_dump/audiohal">/data/vendor/audiohal/audio_dump/</action>
+            <action type="adb pull" subDir="audio_dump/data_audio_dump">/data/debuglogger/audio_dump/</action>
+            <action type="adb shell" subDir="audio_dump" localFile="dump_audio">dumpsys audio</action>
+            <action type="adb shell" subDir="audio_dump" localFile="media.metrics.txt">dumpsys media.metrics</action>
+        </audio>
+        <seriallog index="-3" display="logcat" data_flag="0" pre_analysis="0">
+            <action type="adb shell" subDir="logcat" localFile="mount" >mount</action>
+            <action type="adb" subDir="logcat" localFile="logcat.txt">logcat -b all -d</action>
+        </seriallog>
+    </log_type>
+</logExportConfig>
+

@@ -1,0 +1,28 @@
+on boot
+    chown root system /sys/pnpmgr/ams/activity
+    chmod 0664 /sys/pnpmgr/ams/activity
+    chown root system /sys/pnpmgr/mwn
+    chmod 0664 /sys/pnpmgr/mwn
+    chown root system /sys/module/lowmemorykiller/parameters/enable_adaptive_lmk
+    chmod 0664 /sys/module/lowmemorykiller/parameters/enable_adaptive_lmk
+    chown root system /sys/module/lowmemorykiller/parameters/vmpressure_file_min
+    chmod 0664 /sys/module/lowmemorykiller/parameters/vmpressure_file_min
+    chown root system /sys/module/lowmemorykiller/parameters/minfree
+    chmod 0664 /sys/module/lowmemorykiller/parameters/minfree
+    chown root system /sys/module/lowmemorykiller/parameters/adj
+    chmod 0664 /sys/module/lowmemorykiller/parameters/adj
+
+    
+
+    chmod 0550 /dev/cg2_bpf
+    mkdir /dev/cg2_bpf/pnpmgr_fg
+    mkdir /dev/cg2_bpf/pnpmgr_bg
+
+on property:sys.boot_completed=1
+    start pnpmgr
+
+service pnpmgr /vendor/bin/pnpmgr
+    class core
+    user root
+    group root system
+    disabled

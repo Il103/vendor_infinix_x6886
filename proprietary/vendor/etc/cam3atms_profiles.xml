@@ -1,0 +1,242 @@
+<?xml version="1.0" ?>
+<!--
+    Description : Package for tuning custom parameters
+    Author      : wei.miao@transsion.com
+-->
+
+<TranCamAtmsProfiles>
+        <!--transsion camera-->
+        <!--Cam Mode-->
+        <Package name="com.transsion.camera"
+            featureName="TranCamMode_ShortVideo"
+            eApp="App_ShortVideo"
+            />
+
+        <Package name="com.transsion.camera"
+            featureName="TranCamMode_FaceBeauty"
+            eApp="App_FaceBeauty"
+            />
+
+        <Package name="com.transsion.camera"
+            featureName="TranCamMode_FilmVideo"
+            eApp="App_FilmVideo"
+            />
+
+        <Package name="com.transsion.camera"
+            featureName="TranCamMode_Panorama"
+            eApp="App_Panorama"
+            />
+
+        <Package name="com.transsion.camera"
+            featureName="TranCamMode_TimeLapse"
+            eApp="App_TimeLapse"
+            />
+
+        <Package name="com.transsion.camera"
+            featureName="TranCamMode_Documents"
+            eApp="App_Documents"
+            />
+
+        <Package name="com.transsion.camera"
+            featureName="TranCamMode_Professional"
+            eApp="App_Professional"
+            />
+
+        <Package name="com.transsion.camera"
+            featureName="TranCamMode_Video"
+            eApp="App_Video"
+            />
+
+        <Package name="com.transsion.camera"
+            featureName="TranCamMode_UltraHD"
+            eApp="App_TranCustom0"
+            />
+
+        <Package name="com.transsion.camera"
+            featureName="TranCamMode_Portrait"
+            eApp="App_Portrait"
+            />
+
+        <Package name="com.transsion.camera"
+            featureName="TranCamMode_MagicSky"
+            eApp="App_MagicSky"
+            />
+
+        <Package name="com.transsion.camera"
+            featureName="TranCamMode_SuperNight"
+            eApp="App_SuperNight"
+            />
+
+        <Package name="com.transsion.camera"
+            featureName="TranCamMode_ARshot"
+            eApp="App_ARshot"
+            />
+        
+        <Package name="com.transsion.camera"
+            featureName="TranCamMode_DualVideo"
+            eApp="App_DualVideo"
+            />
+
+        <Package name="com.transsion.camera"
+            featureName="TranCamMode_EXT_VideoFilter"
+            eApp="App_VideoFilter"
+            />
+
+        <Package name="com.transsion.camera"
+            featureName="TranCamMode_EXT_VideoMakeup"
+            eApp="App_VideoMakeup"
+            />
+        
+        <!--3PartyMode, some special mode-->
+        <Package name="com.transsion.camera"
+            featureName="TranCamMode_EXT_360VideoHDR"
+            eApp="App_360VideoHDR"
+            />
+
+        <Package name="com.transsion.camera"
+            featureName="TranCamMode_EXT_AntiVideo"
+            eApp="App_AntiVideo"
+            />
+
+        <Package name="com.transsion.camera"
+            featureName="TranCamMode_EXT_1080pVideoSuperNight"
+            eApp="App_1080pVideoSuperNight"
+            />
+
+        <Package name="com.transsion.camera"
+            featureName="TranCamMode_EXT_4kVideoSuperNight"
+            eApp="App_4kVideoSuperNight"
+            />
+
+        <Package name="com.transsion.camera"
+            featureName="TranCamMode_EXT_PortraitBokeh"
+            eApp="App_PortraitBokeh"
+            />
+
+        <Package name="com.transsion.camera"
+            featureName="TranCamMode_EXT_PortraitBeauty"
+            eApp="App_PortraitBeauty"
+            />
+
+        <Package name="com.transsion.camera"
+            featureName="TranCamMode_EXT_VideoFaceBeauty"
+            eApp="App_VideoFaceBeauty"
+            />
+
+        <Package name="com.transsion.camera"
+            featureName="TranCamMode_SlowMotion"
+            eApp="App_SlowMotion"
+            />
+
+        <!--3rd apk-->
+        <Package name="com.facebook.katana"
+            featureName="TranCamMode_UnKown"
+            eApp="App_Facebook"
+            />
+
+        <Package name="jp.naver.line.android"
+            featureName="TranCamMode_UnKown"
+            eApp="App_Line"
+            />
+
+        <Package name="com.tencent.mobileqq"
+            featureName="TranCamMode_UnKown"
+            eApp="App_QQ"
+            />
+
+        <Package name="com.tencent.mm"
+            featureName="TranCamMode_UnKown"
+            eApp="App_Wechat"
+            />
+
+        <Package name="com.whatsapp"
+            featureName="TranCamMode_UnKown"
+            eApp="App_Whatsapp"
+            />
+
+        <Package name="com.twitter.android"
+            featureName="TranCamMode_UnKown"
+            eApp="App_Twitter"
+            />
+
+        <Package name="com.snapchat.android"
+            featureName="TranCamMode_UnKown"
+            eApp="App_Snapchat"
+            />
+
+        <Package name="org.telegram.messenger"
+            featureName="TranCamMode_UnKown"
+            eApp="App_Telegram"
+            />
+
+        <Package name="com.instagram.android"
+            featureName="TranCamMode_UnKown"
+            eApp="App_Instagram"
+            />
+
+        <Package name="com.zhiliaoapp.musically"
+            featureName="TranCamMode_UnKown"
+            eApp="App_TikTok"
+            />
+
+        <Package name="com.facebook.orca"
+            featureName="TranCamMode_UnKown"
+            eApp="App_Messenger"
+            />
+
+        <Package name="com.venticake.retrica"
+            featureName="TranCamMode_UnKown"
+            eApp="App_Retrica"
+            />
+
+        <Package name="com.linecorp.b612.android"
+            featureName="TranCamMode_UnKown"
+            eApp="App_B612"
+            />
+
+        <Package name="com.cyberlink.youperfect"
+            featureName="TranCamMode_UnKown"
+            eApp="App_YouCam"
+            />
+
+        <Package name="com.google.android.apps.tachyon"
+            featureName="TranCamMode_UnKown"
+            eApp="App_Duo"
+            />
+
+        <Package name="com.ufotosoft.justshot"
+            featureName="TranCamMode_UnKown"
+            eApp="App_SweetSnap"
+            />
+
+        <Package name="com.joeware.android.gpulumera"
+            featureName="TranCamMode_UnKown"
+            eApp="App_CandyCam"
+            />
+
+        <Package name="hd.camera"
+            featureName="TranCamMode_UnKown"
+            eApp="App_HdCamera"
+            />
+
+        <Package name="com.zhiliaoapp.musically.go"
+            featureName="TranCamMode_UnKown"
+            eApp="App_TikTok_Lite"
+            />
+
+        <Package name="com.google.android.youtube"
+            featureName="TranCamMode_UnKown"
+            eApp="App_3rd_party"
+            />
+
+        <Package name="com.ss.android.ugc.tiktok.lite"
+            featureName="TranCamMode_UnKown"
+            eApp="App_TikTok_Lite"
+            />
+
+       <Package name="com.magicvfacemakeup.beauty.makeup.camera.selfie.photoeditor.dailyaims"
+            featureName="TranCamMode_UnKown"
+            eApp="App_3rd_party"
+            />
+
+</TranCamAtmsProfiles>

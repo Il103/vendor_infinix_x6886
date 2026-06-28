@@ -1,0 +1,12 @@
+service vndservicemanager /vendor/bin/vndservicemanager /dev/vndbinder
+    class core
+    user system
+    group system readproc
+    writepid /dev/cpuset/system-background/tasks
+    onrestart class_restart main
+    onrestart class_restart hal
+    onrestart class_restart early_hal
+#SPD: add pnp2.0 porting KBBGHLESGQ-7880 by yuanjiong.gao 20191111 start
+    writepid /dev/blkio/pnpmgr_fg/cgroup.procs
+#SPD: add pnp2.0 porting KBBGHLESGQ-7880 by yuanjiong.gao 20191111 end
+    shutdown critical

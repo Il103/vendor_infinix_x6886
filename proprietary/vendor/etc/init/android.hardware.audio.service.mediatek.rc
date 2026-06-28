@@ -1,0 +1,15 @@
+on post-fs-data
+    mkdir /data/vendor/audiohal 0771 system audio
+    # USD: add vpnr dump path by weicheng.liao 20241212 start
+    mkdir /data/vendor/audio 0770  audio audio
+    # USD: add vpnr dump path by weicheng.liao 20241212 end
+
+service vendor.audio-hal /vendor/bin/hw/android.hardware.audio.service.mediatek
+    class hal
+    user audioserver
+    # media gid needed for /dev/fm (radio) and for /data/misc/media (tee)
+    group audio camera drmrpc inet media mediadrm net_bt net_bt_admin net_bw_acct wakelock context_hub system sdcard_rw
+    capabilities BLOCK_SUSPEND SYS_NICE
+    ioprio rt 4
+    task_profiles ProcessCapacityHigh HighPerformance
+    onrestart restart audioserver

@@ -1,0 +1,97 @@
+{
+  "commonNv": {
+    "COMMON": {
+      "path": "/mnt/vendor/nvdata/APCFG/APRDEB/",
+      "size": 1024
+    },
+    "PRODUCT_INFO": {
+    },
+    "PRODUCT_BENCHFLAG": {
+    },
+    "PRODUCT_INFO_2": {
+    },
+    "PRODUCT_MEM_TRACE_INFO": {
+    }
+  },
+  "sensorNv": {
+    "COMMON": {
+      "path": "/mnt/vendor/nvdata/APCFG/APRDCL/",
+      "backup": true
+    },
+    "HWMON_ACC": {
+      "size": 12
+    },
+    "HWMON_SUB_ACCEL": {
+      "size": 12
+    },
+    "HWMON_GYRO": {
+      "size": 12
+    },
+    "HWMON_SUB_GYRO": {
+      "size": 12
+    },
+    "HWMON_ALS": {
+      "size": 20
+    },
+    "HWMON_MAINSUB_ALS": {
+      "size": 20
+    },
+    "HWMON_SUB_ALS": {
+      "size": 20
+    },
+    "HWMON_ALS_MAIN_KVALUE": {
+      "size": 36
+    },
+    "HWMON_ALS_SUB_KVALUE": {
+      "size": 36
+    },
+    "HWMON_ALS_AVALUE": {
+      "size": 36
+    },
+    "HWMON_ALS_BVALUE": {
+      "size": 36
+    },
+    "HWMON_ALS_NUMBER27_BIT32": {
+      "size": 96
+    },
+    "HWMON_ALSNUMBER18BIT32": {
+      "size": 72
+    },
+    "HWMON_ALS_NUMBER27_BIT32_V2": {
+      "size": 108
+    },
+    "HWMON_PS": {
+      "size": 32
+    },
+    "HWMON_MSENSOR2": {
+      "size": 108
+    },
+    "HWMON_SAR": {
+      "size": 52
+    },
+    "HWMON_3DHALL": {
+      "size": 56
+    },
+    "HWMON_HINGE_FLAG": {
+      "size": 48
+    },
+    "LASER_VI5300_CALIB": {
+      "size": 9
+    },
+    "LASER_CALIB": {
+      "size": 409
+    },
+    "OTP_IDX0": {
+      "size": 58
+    },
+    "OTP_IDX1": {
+      "size": 58
+    },
+    "HWMON_FLICKER": {
+      "size": 8
+    },
+    "HWMON_ALS_HR_SPO2": {
+      "size": 60
+    }
+  }
+}

@@ -1,0 +1,12 @@
+service vendor.vibrator-default /vendor/bin/hw/android.hardware.vibrator-service.mediatek
+    class hal
+    user system
+    group system
+#BSP: Vibr 2.0 for AAC RichTap support by yun.luo 20220930 start
+    setenv RICHTAP_DEVICE_PATH  /dev/aw8697_haptic
+    setenv ENV_RICHTAP_CONFIG_PATH /vendor/etc/aac_richtap.config
+#BSP: Vibr 2.0 for AAC RichTap support by yun.luo 20220930 end
+#BSP: add get vibrator gain by jiangzhu.yang at 20230324 start
+on property:persist.sys.value_vibrate_ontouch=*
+    setprop persist.vendor.vibrate_gain ${persist.sys.value_vibrate_ontouch}
+#BSP: add get vibrator gain by jiangzhu.yang at 20230324 end

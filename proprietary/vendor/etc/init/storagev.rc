@@ -1,0 +1,4 @@
+service transtorage /vendor/bin/hw/vendor.storage@1.0-service
+     class core
+     user system
+     group system
