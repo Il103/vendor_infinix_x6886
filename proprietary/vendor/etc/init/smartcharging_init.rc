@@ -1,4 +1,0 @@
-service smartcharging /vendor/bin/smartcharging
-    class core
-    user system
-    group system

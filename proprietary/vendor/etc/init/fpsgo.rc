@@ -1,8 +1,0 @@
-# FPSGO
-service fpsgo /vendor/bin/fpsgo
-    class main
-    user system
-    group system readproc wifi media media_rw camera audio
-
-on boot
-    start fpsgo

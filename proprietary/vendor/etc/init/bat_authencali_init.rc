@@ -1,5 +1,0 @@
-service bat_authencali /vendor/bin/bat_authencali -h
-    class main
-    user system
-    group system
-    oneshot

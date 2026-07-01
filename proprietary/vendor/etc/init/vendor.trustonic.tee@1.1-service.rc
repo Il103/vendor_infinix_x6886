@@ -1,4 +1,0 @@
-service tee-1-1 /vendor/bin/hw/vendor.trustonic.tee@1.1-service
-    class hal
-    user system
-    group system
