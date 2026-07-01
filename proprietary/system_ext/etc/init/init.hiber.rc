@@ -1,0 +1,21 @@
+service hiber /system_ext/bin/hiber
+    class core
+    user root
+    group root system
+    oneshot
+
+on late-init
+    mkdir /dev/freezer/
+    mount cgroup freezer /dev/freezer freezer
+    mkdir /dev/freezer/frozen/
+    write /dev/freezer/frozen/freezer.state FROZEN
+    chown system system /dev/freezer/cgroup.procs
+    chown system system /dev/freezer/freezer.state
+    chown system system /dev/freezer/frozen/cgroup.procs
+    chown system system /dev/freezer/frozen/freezer.state
+    chmod 0664 /dev/freezer/cgroup.procs
+    chmod 0664 /dev/freezer/frozen/cgroup.procs
+
+on property:sys.boot_completed=1
+    start hiber
+

@@ -1,0 +1,43 @@
+﻿{
+	"magazine": [{
+			"path": "/product/theme/lockscreen/magazine/img/wallpaper01.webp",
+			"wid": "wallpaper01"
+		},
+		{
+			"path": "/product/theme/lockscreen/magazine/img/wallpaper02.webp",
+			"wid": "wallpaper02"
+		},
+		{
+			"path": "/product/theme/lockscreen/magazine/img/wallpaper03.webp",
+			"wid": "wallpaper03"
+		},
+		{
+			"path": "/product/theme/lockscreen/magazine/img/wallpaper04.webp",
+			"wid": "wallpaper04"
+		},
+		{
+			"path": "/product/theme/lockscreen/magazine/img/wallpaper05.webp",
+			"wid": "wallpaper05"
+		},
+		{
+			"path": "/product/theme/lockscreen/magazine/img/wallpaper06.webp",
+			"wid": "wallpaper06"
+		},
+		{
+			"path": "/product/theme/lockscreen/magazine/img/wallpaper07.webp",
+			"wid": "wallpaper07"
+		},
+		{
+			"path": "/product/theme/lockscreen/magazine/img/wallpaper08.webp",
+			"wid": "wallpaper08"
+		},
+		{
+			"path": "/product/theme/lockscreen/magazine/img/wallpaper09.webp",
+			"wid": "wallpaper09"
+		},
+		{
+			"path": "/product/theme/lockscreen/magazine/img/wallpaper10.webp",
+			"wid": "wallpaper10"
+		}
+	]
+}

@@ -1,0 +1,6 @@
+<!-- add for aegean2.0 by yunjun.yang at 20241012 -->
+<top time="2024101201" version="2.0">
+    <package name="com.google.android.youtube">
+        <activity name="all" policy="default" />
+    </package>
+</top>

@@ -1,0 +1,10 @@
+{
+  "key": "feature_health_standard_sync",
+  "version_code": 1,
+  "version_name": "v1.0",
+  "sync_bp_enable": 1,
+  "sync_time_expired": 30,
+  "sync_count_threshold": 12,
+  "sync_count_time_period": 60,
+  "sync_upload_max_count": 100
+}

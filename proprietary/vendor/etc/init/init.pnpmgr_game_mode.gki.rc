@@ -1,0 +1,4 @@
+on boot
+    chown root system /sys/pnpmgr/ams/mode_ctl
+    chmod 0664 /sys/pnpmgr/ams/mode_ctl
+    

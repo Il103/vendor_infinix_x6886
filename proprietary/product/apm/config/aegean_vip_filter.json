@@ -1,0 +1,30 @@
+{
+  "ver": 1,
+  "ver_seq": 2025042101,
+  "scene_assoc": [
+    {
+      "name": "android.chrome:privileged",
+      "value": [
+        "{\"pattern\":\"VizCompositorTh|CrGpuMain|CompositorGpuTh\", \"event\":\"top\", \"delay\":\"500\"}"
+      ]
+    },{
+      "name": "^com.ss.android.lark.transsion$",
+      "value": [
+        "{\"pattern\":\"VizWebView\", \"event\":\"resume com.ss.android.lark.transsion com.ss.android.lark.main.app.MainActivity\", \"delay\":\"50\"}",
+        "{\"pattern\":\"VizWebView\", \"event\":\"resume com.bytedance.lark.webview.container.impl.WebContainerFullScreenOptActivity\", \"delay\":\"50\"}",
+        "{\"pattern\":\"VizWebView\", \"event\":\"resume com.ss.android.lark.main.router.RouterActivity\", \"delay\":\"50\"}",
+        "{\"pattern\":\"VizWebView\", \"event\":\"resume com.ss.android.lark.gadget.container.standard.placeholder.MiniappTabActivity5\", \"delay\":\"50\"}"
+      ]
+    }
+  ],
+  "mark_assoc": [
+    {
+      "tag": "ll.splashscreen",
+      "name": "com.android.systemui",
+      "value": "RenderThread|ll.splashscreen|ll.splashworker|wmshell.main"
+    }
+  ],
+  "proc_assoc": [
+    "android.chrome:privileged"
+  ]
+}

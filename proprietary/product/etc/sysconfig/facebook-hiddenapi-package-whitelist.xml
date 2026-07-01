@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Transsion Top Secret-->
+<!--
+This XML file declares which platform apps that need to access internal APIs
+-->
+<config>
+  <hidden-api-whitelisted-app package="com.facebook.appmanager" />
+  <hidden-api-whitelisted-app package="com.facebook.system" />
+  <hidden-api-whitelisted-app package="com.facebook.services" />
+</config>

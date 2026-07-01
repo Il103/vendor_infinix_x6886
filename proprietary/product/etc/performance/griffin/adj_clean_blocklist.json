@@ -1,0 +1,22 @@
+{
+    "version": 2,
+    "update": 20240227,
+    "block_list":[
+        "com.transsion.kolun.aiservice",
+        "com.transsion.kolun.assistant",
+        "com.tencent.android.qqdownloader",
+        "com.tencent.android.qqdownloader:daemon",
+        "com.tencent.android.qqdownloader:live",
+        "com.transsion.notebook",
+        "com.transsion.plat.appupdate",
+        "com.hoffnung.mobile.service",
+        "com.transsion.trancare,50"
+    ],
+    "forcestop_list":[
+        "com.tencent.android.qqdownloader",
+        "com.root.clean.boost.explorer.filemanager",
+        "com.antivirus.speed.cleaner",
+        "com.oneapp.max.cleaner.booster",
+        "com.apkpure.aegon"
+    ]
+}

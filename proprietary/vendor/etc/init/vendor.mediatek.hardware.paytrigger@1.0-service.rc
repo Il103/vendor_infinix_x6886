@@ -1,0 +1,4 @@
+service paytrigger_hal_service /vendor/bin/hw/vendor.mediatek.hardware.paytrigger@1.0-service
+	class hal
+	user system
+	group system

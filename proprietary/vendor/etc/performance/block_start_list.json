@@ -1,0 +1,27 @@
+{
+  "version":4,
+  "product":"default",
+  "up_time": 20250605,
+  "block_enable":true,
+  "block_start":[
+    "com.oneapp.max.cleaner.booster",
+    "com.cleanmaster.mguard",
+    "com.antivirus.speed.cleaner",
+    "com.rocket.cleaner.app",
+    "com.rocket.tools.clean.antivirus.master",
+    "com.hyperspeed.rocketclean.pro",
+    "com.oneapp.max.security.pro",
+    "com.ludashi.dualspace",
+    "com.xingin.xhs",
+    "com.ss.android.article.news",
+    "com.ss.android.ugc.aweme",
+    "com.sport.hbzhibo1",
+    "com.baidu.youavideo",
+    "com.xunmeng.pinduoduo",
+    "com.tencent.android.qqdownloader",
+    "jackpal.androidterm",
+    "com.tencent.tmgp.pubgmhd",
+    "com.lenovo.anyshare.gps",
+    "com.purple.files.manager.king"
+  ]
+}

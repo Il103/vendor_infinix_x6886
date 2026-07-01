@@ -1,0 +1,219 @@
+{
+    "code": "00000001",
+    "asr": [
+        {
+            "code": "00010001",
+            "source": "presets",
+            "product": "transsion",
+            "language": "en",
+            "language_code": "en",
+            "mode": "offline",
+            "server_url": "",
+            "model_version": 1,
+            "engine_version": 1,
+            "checksum": "804ef6a6a6400a5b2ff3bfa1eef7a8b7",
+            "path": "/data/models/speech/model/asr/1_transsion_en"
+        },
+        {
+            "code": "00010002",
+            "enable": true,
+            "source": "presets",
+            "product": "transsion",
+            "language": "fr",
+            "language_code": "fr",
+            "mode": "offline",
+            "server_url": "",
+            "model_version": 1,
+            "engine_version": 1,
+            "checksum": "ef3e57133282cd6eaa665fd375e25eca",
+            "path": "/data/models/speech/model/asr/1_transsion_fr"
+        },
+        {
+            "code": "00010003",
+            "enable": true,
+            "source": "presets",
+            "product": "transsion",
+            "language": "ar",
+            "language_code": "ar",
+            "mode": "offline",
+            "server_url": "",
+            "model_version": 1,
+            "engine_version": 1,
+            "checksum": "7ba527c202589dbd461e4c4802bcc15d",
+            "path": "/data/models/speech/model/asr/1_transsion_ar"
+        }
+    ],
+    "punc": [
+        {
+            "code": "00020001",
+            "enable": true,
+            "source": "presets",
+            "product": "transsion",
+            "language": "en",
+            "language_code": "en",
+            "mode": "offline",
+            "server_url": "",
+            "model_version": 1,
+            "engine_version": 1,
+            "checksum": "4f2362651a32a7683750e1a78b6a43ba",
+            "path": "/data/models/speech/model/punc/1_transsion_en"
+        },
+        {
+            "code": "00020002",
+            "enable": true,
+            "source": "presets",
+            "product": "transsion",
+            "language": "fr",
+            "language_code": "fr",
+            "mode": "offline",
+            "server_url": "",
+            "model_version": 1,
+            "engine_version": 1,
+            "checksum": "0e1fd21375739589a3cafd801ae343ed",
+            "path": "/data/models/speech/model/punc/1_transsion_fr"
+        },
+        {
+            "code": "00020003",
+            "enable": true,
+            "source": "presets",
+            "product": "transsion",
+            "language": "ar",
+            "language_code": "ar",
+            "mode": "offline",
+            "server_url": "",
+            "model_version": 1,
+            "engine_version": 1,
+            "checksum": "156cd526629ea4b2cc80cf95d6176846",
+            "path": "/data/models/speech/model/punc/1_transsion_ar"
+        }
+    ],
+    "mnt": [
+        {
+            "code": "00030001",
+            "enable": true,
+            "source": "presets",
+            "product": "google",
+            "language": "en",
+            "language_code": "en",
+            "mode": "offline",
+            "server_url": "",
+            "model_version": 1,
+            "engine_version": 1,
+            "checksum": "",
+            "path": ""
+        },
+        {
+            "code": "00030002",
+            "enable": true,
+            "source": "presets",
+            "product": "google",
+            "language": "fr",
+            "language_code": "fr",
+            "mode": "offline",
+            "server_url": "",
+            "model_version": 1,
+            "engine_version": 1,
+            "checksum": "ba61a6c1881d1ed05b9f527cdbf1e6fd",
+            "path": "/data/models/speech/model/mnt/1_transsion_mnt_fr"
+        },
+        {
+            "code": "00030003",
+            "enable": true,
+            "source": "presets",
+            "product": "google",
+            "language": "ar",
+            "language_code": "ar",
+            "mode": "offline",
+            "server_url": "",
+            "model_version": 1,
+            "engine_version": 1,
+            "checksum": "c2683e4323b312a328486c79848a78ec",
+            "path": "/data/models/speech/model/mnt/1_transsion_mnt_ar"
+        }
+    ],
+    "vad": [
+        {
+            "code": "00040003",
+            "enable": true,
+            "source": "presets",
+            "product": "transsion",
+            "language": "",
+            "mode": "offline",
+            "model_version": 1,
+            "engine_version": 1,
+            "checksum": "48d14f23857aa55c7fc5c45149417d47",
+            "path": "/data/models/speech/model/vad/1_transsion_vad"
+        }
+    ],
+    "tts": [
+        {
+            "code": "00050001",
+            "source": "presets",
+            "product": "google",
+            "language": "en",
+            "language_code": "en",
+            "mode": "offline",
+            "server_url": "",
+            "model_version": 1,
+            "engine_version": 1,
+            "checksum": "",
+            "path": "",
+            "voice_list": [
+                {
+                    "type": 0,
+                    "name": "en-us-x-iom-local"
+                },
+                {
+                    "type": 1,
+                    "name": "en-US-language"
+                }
+            ]
+        },
+        {
+            "code": "00050002",
+            "source": "presets",
+            "product": "google",
+            "language": "fr",
+            "language_code": "fr",
+            "mode": "offline",
+            "server_url": "",
+            "model_version": 1,
+            "engine_version": 1,
+            "checksum": "",
+            "path": "",
+            "voice_list": [
+                {
+                    "type": 0,
+                    "name": "fr-fr-x-frd-local"
+                },
+                {
+                    "type": 1,
+                    "name": "fr-FR-language"
+                }
+            ]
+        },
+        {
+            "code": "00050003",
+            "source": "presets",
+            "product": "google",
+            "language": "ar",
+            "language_code": "ar",
+            "mode": "offline",
+            "server_url": "",
+            "model_version": 1,
+            "engine_version": 1,
+            "checksum": "",
+            "path": "",
+            "voice_list": [
+                {
+                    "type": 0,
+                    "name": "ar-xa-x-are-local"
+                },
+                {
+                    "type": 1,
+                    "name": "ar-language"
+                }
+            ]
+        }
+    ]
+}

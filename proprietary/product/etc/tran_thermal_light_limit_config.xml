@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright (C) 2012 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<!--
+package: com.foo
+
+level1:
+    param1: the first threshold of temperature rise
+    param2: hysteresis temperature of param1 when temperature down
+    param3: brightness ratio when temperature over the first threshold
+    param4: luxlimit. the threshold value of ambient light intensity, when
+             the ambient lux is lower than it, it is indoors.(0: invalid)
+
+level2:
+    param1: the second threshold of temperature rise
+    param2: hysteresis temperature of param1 when temperature down
+    param3: brightness ratio when temperature over the second threshold
+    param4: luxlimit. the threshold value of ambient light intensity, when
+             the ambient lux is lower than it, it is indoors.(0: invalid)
+
+level3:
+    param1: the second threshold of temperature rise
+    param2: hysteresis temperature of param1 when temperature down
+    param3: brightness ratio when temperature over the second threshold
+    param4: luxlimit. the threshold value of ambient light intensity, when
+             the ambient lux is lower than it, it is indoors.(0: invalid)
+
+white_list_config_autolight_on:
+    Parameters currently expected to take effect when the user turns on automatic backlighting
+
+white_list_config_auto_light_off:
+    Parameters currently expected to take effect when the user turns on manual backlighting
+-->
+<packages>
+	<!--<black_list_config package="com.transsion.XOSLauncher"/>-->
+	<white_list_config_autolight_on package="^.*$" level1="43,41,80,2000" level2="46,44,65,2000" level3="49,47,50,2000"/>                         <!--Common AutoLight-->
+	<white_list_config_auto_light_off package="^.*$" level1="45,43,85,0" level2="49,47,75,0"/>                         <!--Common ManualLight-->
+<!--============================================重载游戏=======================================================-->
+	<white_list_config_auto_light_off package="com.mobile.legends" level1="45,43,75,0" level2="48,46,60,0"/>            <!--MLBB-->
+	<white_list_config_auto_light_off package="com.dts.freefireth" level1="45,43,75,0" level2="48,46,60,0"/>            <!--FreeFire-->
+	<white_list_config_auto_light_off package="com.dts.freefiremax" level1="45,43,75,0" level2="48,46,60,0"/>           <!--FreeFire-->
+	<white_list_config_auto_light_off package="com.tencent.ig" level1="43,41,75,0" level2="46,44,55,0"/>                <!--PUBG-->
+	<white_list_config_auto_light_off package="com.ea.gp.fifamobile" level1="45,43,75,0" level2="48,46,60,0"/>          <!--FIFA-->
+	<white_list_config_auto_light_off package="jp.konami.pesam" level1="40,38,75,0" level2="43,41,60,0"/>               <!--efootball-->
+	<white_list_config_auto_light_off package="com.miHoYo.GenshinImpact" level1="45,43,75,0" level2="48,46,60,0"/>      <!--Yuanshen-->
+
+<!--============================================中载游戏=======================================================-->
+	<white_list_config_auto_light_off package="com.garena.game.codm" level1="45,43,75,0" level2="48,46,60,0"/>          <!--Call of Duty-->
+	<white_list_config_auto_light_off package="com.kiloo.subwaysurf" level1="45,43,75,0" level2="48,46,60,0"/>          <!--Subway Surfers-->
+	<white_list_config_auto_light_off package="com.yalla.yallagames" level1="45,43,75,0" level2="48,46,60,0"/>          <!--Yalla Ludo-->
+	<white_list_config_auto_light_off package="com.roblox.client" level1="45,43,75,0" level2="48,46,60,0"/>             <!--Roblox-->
+	<white_list_config_auto_light_off package="com.king.candycrushsaga" level1="45,43,75,0" level2="48,46,60,0"/>       <!--Candy Crush Saga-->
+	<white_list_config_auto_light_off package="com.ludo.king" level1="45,43,75,0" level2="48,46,60,0"/>                 <!--Ludo King-->
+
+<!--==============================================社交=========================================================-->
+<!--********************************************长视频*********************************************************-->
+	<white_list_config_auto_light_off package="com.google.android.youtube" level1="45,43,75,0" level2="48,46,60,0"/>
+<!--********************************************短视频*********************************************************-->
+	<white_list_config_auto_light_off package="com.ss.android.ugc.trill" level1="45,43,75,0" level2="48,46,60,0"/>
+	<white_list_config_auto_light_off package="com.ss.android.ugc.aweme" level1="45,43,75,0" level2="48,46,60,0"/>
+	<white_list_config_auto_light_off package="com.zhiliaoapp.musically" level1="45,43,75,0" level2="48,46,60,0"/>
+	<white_list_config_auto_light_off package="com.zhiliaoapp.musically.go" level1="45,43,75,0" level2="48,46,60,0"/>
+<!--********************************************social*********************************************************-->
+	<white_list_config_auto_light_off package="com.instagram.android" level1="45,43,75,0" level2="48,46,60,0"/>
+	<white_list_config_auto_light_off package="com.facebook.katana" level1="45,43,75,0" level2="48,46,60,0"/>
+	<white_list_config_auto_light_off package="com.facebook.lite" level1="45,43,75,0" level2="48,46,60,0"/>
+<!--*********************************************通话**********************************************************-->
+	<white_list_config_auto_light_off package="com.sh.smart.caller" level1="45,43,75,0" level2="48,46,60,0"/>
+	<white_list_config_auto_light_off package="com.whatsapp" level1="43,41,75,0" level2="46,44,60,0"/>
+	<white_list_config_auto_light_off package="us.zoom.videomeetings" level1="43,41,75,0" level2="46,44,60,0"/>
+<!--*********************************************浏览器********************************************************-->
+	<white_list_config_auto_light_off package="com.android.chrome" level1="40,38,80,0" level2="43,41,70,0"/>
+<!--*********************************************导航********************************************************-->
+	<white_list_config_auto_light_off package="com.google.android.apps.maps" level1="40,38,75,0" level2="43,41,60,0"/>
+
+<!--============================================相机场景=======================================================-->
+	<white_list_config_auto_light_off package="com.transsion.camera" level1="43,41,70,0" level2="46,44,55,0"/>          <!--自研相机-->
+	<white_list_config_auto_light_off package="com.snapchat.android" level1="45,43,75,0" level2="48,46,60,0"/>          <!--Snapchat-->
+	<white_list_config_auto_light_off package="in.mohalla.video" level1="45,43,75,0" level2="48,46,60,0"/>              <!--Moj-->
+	<white_list_config_auto_light_off package="com.eterno.shortvideos" level1="45,43,75,0" level2="48,46,60,0"/>        <!--Josh-->
+	<white_list_config_auto_light_off package="com.meitu.meiyancamera" level1="45,43,75,0" level2="48,46,60,0"/>        <!--BeautyCam-->
+	<white_list_config_auto_light_off package="sg.bigo.live" level1="45,43,75,0" level2="48,46,60,0"/>                  <!--BIGO LIVE-->
+	<white_list_config_auto_light_off package="video.like" level1="45,43,75,0" level2="48,46,60,0"/>                    <!--Likee-->
+	<white_list_config_auto_light_off package="com.twitter.android" level1="45,43,75,0" level2="48,46,60,0"/>           <!--Twitter-->
+	<white_list_config_auto_light_off package="com.imo.android.imoim" level1="45,43,75,0" level2="48,46,60,0"/>         <!--imo-->
+	<white_list_config_auto_light_off package="com.cyberlink.youcammakeup" level1="45,43,75,0" level2="48,46,60,0"/>    <!--YouCam Makeup-->
+
+</packages>

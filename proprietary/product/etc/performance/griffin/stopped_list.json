@@ -1,0 +1,9 @@
+{
+  "version":1,
+  "up_time": 20240229,
+  "enable":true,
+  "package_stopped_states_block": [
+  ],
+  "package_stopped_states_white": [
+  ]
+}

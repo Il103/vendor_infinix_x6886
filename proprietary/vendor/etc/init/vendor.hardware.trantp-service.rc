@@ -1,0 +1,6 @@
+service vendor.hardware.trantp-service /vendor/bin/hw/vendor.hardware.trantp-service
+        interface aidl vendor.hardware.trantp.ITrantp/default
+        class hal
+        user system
+        group system
+

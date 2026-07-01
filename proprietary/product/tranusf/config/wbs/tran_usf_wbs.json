@@ -1,0 +1,237 @@
+{
+  "enable": true,
+  "version": 1,
+  "updateDate": "20240808",
+  "wbsList": [
+  {
+    "wbs": {
+      "name": "TranHiber",
+      "comment": "系统冻结",
+      "enable": true,
+      "commands": [
+        {"command": "getprop ro.tran.hiber.support",  "expectedResult": "1",  "verificationMethod": "equal"},
+        {"command": "dumpsys activity hiber dump | grep 'enabled=true'",  "expectedResult": "enabled=true",  "verificationMethod": "contain"}
+      ]
+    }
+  }, {
+    "wbs": {
+      "name": "TranCpuBooster",
+      "comment": "CPU booster",
+      "enable": true,
+      "commands": [
+        {"command": "getprop ro.transsion.cpubooster.group",  "expectedResult": "1",  "verificationMethod": "equal"}
+      ]
+    }
+  },{
+    "wbs": {
+      "name": "TranAiNetControl",
+      "comment": "AI睡眠断网",
+      "enable": true,
+      "commands": [
+        {"command": "getprop persist.tran.ai.net.support",  "expectedResult": "1",  "verificationMethod": "equal"}
+      ]
+    }
+  },{
+  "wbs": {
+    "name": "TranVmheapParameter",
+    "comment": "vmheap参数确认",
+    "enable": true,
+    "commands": [
+      {"command": "getprop dalvik.vm.heapstartsize",  "expectedResult": "8m",  "verificationMethod": "equal"},
+      {"command": "getprop dalvik.vm.heapmaxfree",  "expectedResult": "16m",  "verificationMethod": "equal"},
+      {"command": "getprop dalvik.vm.heapminfree",  "expectedResult": "2m",  "verificationMethod": "equal"},
+      {"command": "getprop dalvik.vm.heaptargetutilization",  "expectedResult": "0.75",  "verificationMethod": "equal"}
+    ]
+  }
+  },{
+  "wbs": {
+    "name": "TranSwappiness",
+    "comment": "Swappiness",
+    "enable": true,
+    "commands": [
+      {"command": "cat /proc/sys/vm/swappiness",  "expectedResult": "100",  "verificationMethod": "equal"}
+    ]
+  }
+  },{
+    "wbs": {
+      "name": "TranLmkdKillAdjOptimize",
+      "comment": "Lmkd kill adj optimize",
+      "enable": true,
+      "commands": [
+        {"command": "getprop persist.vendor.tran_psi_adjust_kill_oom",  "expectedResult": "true",  "verificationMethod": "equal"},
+        {"command": "getprop persist.vendor.lmkd_file_low_percentage",  "expectedResult": "15",  "verificationMethod": "equal"}
+      ]
+    }
+  },{
+    "wbs": {
+      "name": "TranCachedProcess",
+      "comment": "Cached process",
+      "enable": true,
+      "commands": [
+        {"command": "getprop | grep agares",  "expectedResult": "agares",  "verificationMethod": "contain"},
+        {"command": "dumpsys activity settings |grep CUR_MAX_CACHED_PROCESSES",  "expectedResult": "72",  "verificationMethod": "contain"}
+      ]
+    }
+ },{
+    "wbs": {
+      "name": "TranPowerhalCloud",
+      "comment": "powerhal云控",
+      "enable": true,
+      "commands": [
+        {"command": "getprop ro.vendor.powerhal.cloud",  "expectedResult": "1",  "verificationMethod": "equal"}
+      ]
+    }
+  },{
+    "wbs": {
+      "name": "TranIOManager",
+      "comment": "IO Manager",
+      "enable": true,
+      "commands": [
+        {"command": "getprop ro.vendor.iomanager.support",  "expectedResult": "1",  "verificationMethod": "equal"}
+      ]
+    }
+  },{
+    "wbs": {
+      "name": "TranSimplifyAnimation",
+      "comment": "精简动画",
+      "enable": true,
+      "commands": [
+        {"command": "getprop ro.transsion_remote_anim_support",  "expectedResult": "1",  "verificationMethod": "equal"},
+        {"command": "getprop ro.transsion_disable_launcher_unlock_support",  "expectedResult": "1",  "verificationMethod": "equal"},
+        {"command": "getprop ro.transsion_enable_lite_launcher_unlock_support",  "expectedResult": "1",  "verificationMethod": "equal"}
+      ]
+    }
+  },{
+    "wbs": {
+      "name": "TranUSAPPRELOAD",
+      "comment": "USAP预加载",
+      "enable": true,
+      "commands": [
+        {"command": "getprop | grep dalvik.vm.usap_pool_enabled",  "expectedResult": "usap_pool_enabled",  "verificationMethod": "contain"},
+        {"command": "dumpsys meminfo | grep -i usap",  "expectedResult": "usap",  "verificationMethod": "contain"}
+      ]
+    }
+  },{
+    "wbs": {
+      "name": "TranDex2oatBindingSmallCore",
+      "comment": "dex2oat绑小核方案",
+      "enable": true,
+      "commands": [
+        {"command": "getprop persist.sys.dex2oat.threads",  "expectedResult": "4",  "verificationMethod": "equal"}
+      ]
+    }
+  },{
+    "wbs": {
+      "name": "TranSFDisplay",
+      "comment": "SF送显优化",
+      "enable": true,
+      "commands": [
+        {"command": "getprop ro.surface_flinger.max_frame_buffer_acquired_buffers",  "expectedResult": "6",  "verificationMethod": "equal"}
+      ]
+    }
+  },{
+    "wbs": {
+      "name": "TranFansSupport",
+      "comment": "粉丝宏控开启",
+      "enable": true,
+      "commands": [
+        {"command": "getprop ro.tran_fanstrace_support",  "expectedResult": "1",  "verificationMethod": "equal"}
+      ]
+    }
+  },{
+    "wbs": {
+      "name": "TranCpuShare",
+      "comment": "cpushare方案",
+      "enable": true,
+      "commands": [
+        {"command": "cat /dev/cpuctl/top-app/cpu.shares",  "expectedResult": "5120",  "verificationMethod": "equal"},
+        {"command": "cat /dev/cpuctl/foreground/cpu.shares",  "expectedResult": "4196",  "verificationMethod": "equal"}
+      ]
+    }
+  },{
+      "wbs": {
+        "name": "TranFlingModeSupport",
+        "comment": "Fling mode support",
+        "enable": false,
+        "commands": [
+          {"command": "ls /vendor/etc/power_app_fling_cfg.xml",  "expectedResult": "/vendor/etc/power_app_fling_cfg.xml",  "verificationMethod": "contain"}
+        ]
+      }
+    },{
+      "wbs": {
+        "name": "TranLockUiThreadInfoFifoQueue",
+        "comment": "Lock ui thread info fifo queue",
+        "enable": false,
+        "commands": [
+          {"command": "getprop sys.use_fifo_ui",  "expectedResult": "1",  "verificationMethod": "contain"}
+        ]
+      }
+    },{
+      "wbs": {
+        "name": "TranBenchmarkApplicationBoost",
+        "comment": "Benchmark application boost",
+        "enable": false,
+        "commands": [
+          {"command": "cat /vendor/etc/power_app_cfg.xml | grep ‘benchmark’",  "expectedResult": "benchmark",  "verificationMethod": "contain"}
+        ]
+      }
+    },{
+      "wbs": {
+        "name": "TranLmkdCloud",
+        "comment": "lmkd云控",
+        "enable": false,
+        "commands": [
+          {"command": "cat /system/memory/lmkd/lmkd_cloud.cpp",  "expectedResult": "1",  "verificationMethod": "equal"}
+        ]
+      }
+    },{
+      "wbs": {
+        "name": "TranTopAppProf",
+        "comment": "top应用预置prof",
+        "enable": false,
+        "commands": [
+          {"command": "getprop |grep top_app_dexopt_with_speed_profile",  "expectedResult": "top_app_dexopt_with_speed_profile",  "verificationMethod": "contain"},
+          {"command": "dumpsys package com.transsion.hilauncher | grep reason",  "expectedResult": "[status=speed-profile] [reason=bg-dexopt]",  "verificationMethod": "contain"}
+        ]
+      }
+    },{
+      "wbs": {
+        "name": "TranKswapdBindingSmallCore",
+        "comment": "kswapd绑小核",
+        "enable": false,
+        "commands": [
+          {"command": "while true;do taskset -p 143; done",  "expectedResult": "pid 143's current affinity mask: 3f",  "verificationMethod": "contain"}
+        ]
+      }
+    },{
+      "wbs": {
+        "name": "TranColdStartEarlyFrequencyBoost",
+        "comment": "冷启动提前提频方案",
+        "enable": false,
+        "commands": [
+          {"command": "logcat | grep MTKPOWER_HINT_START_ACTIVITY_INNER",  "expectedResult": "MTKPOWER_HINT_START_ACTIVITY_INNER",  "verificationMethod": "contain"}
+        ]
+      }
+    },{
+      "wbs": {
+        "name": "TranPowerhalEncode",
+        "comment": "powerhal加密",
+        "enable": false,
+        "commands": [
+          {"command": "cat /vendor/etc/power_app_cfg.xml | grep 'LAUNCH_HINT'",  "expectedResult": "LAUNCH_HINT",  "verificationMethod": "contain"}
+        ]
+      }
+    },{
+      "wbs": {
+        "name": "TranReadAheadTunning",
+        "comment": "Read ahead tunning",
+        "enable": false,
+        "commands": [
+          {"command": "ls -l /sys/block | grep mmc",  "expectedResult": "mmc",  "verificationMethod": "contain"},
+          {"command": "cat /sys/block/dm-xx/queue/read_ahead_kb",  "expectedResult": "128",  "verificationMethod": "equal"},
+          {"command": "cat /sys/block/mmcblk0/queue/read_ahead_kb ",  "expectedResult": "128",  "verificationMethod": "equal"}
+        ]
+      }
+    }
+  ]
+}

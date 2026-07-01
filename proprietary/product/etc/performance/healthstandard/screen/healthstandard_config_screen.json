@@ -1,0 +1,9 @@
+{
+  "key": "feature_health_standard_screen",
+  "version_code": 1,
+  "version_name": "v1.0",
+  "screen_bp_enable": 1,
+  "screen_time_expired": 3,
+  "screen_check_unit": 60,
+  "screen_upload_max_count": 100
+}

@@ -1,0 +1,105 @@
+on boot
+    chown root system /sys/pnpmgr/fpsgo_boost/boost_enable
+    chmod 0664 /sys/pnpmgr/fpsgo_boost/boost_enable
+    chown root system /sys/pnpmgr/fpsgo_boost/boost_mode
+    chmod 0664 /sys/pnpmgr/fpsgo_boost/boost_mode
+    chown root system /sys/pnpmgr/fpsgo_boost/usrscn_conf
+    chmod 0664 /sys/pnpmgr/fpsgo_boost/usrscn_conf
+    chown root system /sys/pnpmgr/fpsgo_boost/usrscn_notify
+    chmod 0664 /sys/pnpmgr/fpsgo_boost/usrscn_notify
+    chown root system /sys/pnpmgr/fpsgo_boost/fstb/fstb_fps_list
+    chmod 0664 /sys/pnpmgr/fpsgo_boost/fstb/fstb_fps_list
+    chown root system /sys/pnpmgr/fpsgo_boost/fstb/fstb_soft_level
+    chmod 0664 /sys/pnpmgr/fpsgo_boost/fstb/fstb_soft_level
+    chown root system /sys/pnpmgr/fpsgo_boost/fstb/fstb_tune_error_threshold
+    chmod 0664 /sys/pnpmgr/fpsgo_boost/fstb/fstb_tune_error_threshold
+    chown root system /sys/pnpmgr/fpsgo_boost/fstb/fstb_tune_quantile
+    chmod 0664 /sys/pnpmgr/fpsgo_boost/fstb/fstb_tune_quantile
+    chown root system /sys/pnpmgr/fpsgo_boost/fstb/margin_mode
+    chmod 0664 /sys/pnpmgr/fpsgo_boost/fstb/margin_mode
+    chown root system /sys/pnpmgr/fpsgo_boost/fstb/margin_mode_dbnc_a
+    chmod 0664 /sys/pnpmgr/fpsgo_boost/fstb/margin_mode_dbnc_a
+    chown root system /sys/pnpmgr/fpsgo_boost/fstb/margin_mode_dbnc_b
+    chmod 0664 /sys/pnpmgr/fpsgo_boost/fstb/margin_mode_dbnc_b
+#SPD: add XLBQHBWYHW-72 for fpsgo boost fix fps feature by yuanjiong.gao 20200730 start
+    chown root system /sys/pnpmgr/fpsgo_boost/fstb/fstb_fix_fps
+    chmod 0664 /sys/pnpmgr/fpsgo_boost/fstb/fstb_fix_fps
+    chown root system /sys/pnpmgr/fpsgo_boost/fstb/fstb_fix_fps_comm
+    chmod 0664 /sys/pnpmgr/fpsgo_boost/fstb/fstb_fix_fps_comm
+#SPD: add XLBQHBWYHW-72 for fpsgo boost fix fps feature by yuanjiong.gao 20200730 end
+    chown root system /sys/pnpmgr/fpsgo_boost/fbt/adjust_loading
+    chmod 0664 /sys/pnpmgr/fpsgo_boost/fbt/adjust_loading
+    chown root system /sys/pnpmgr/fpsgo_boost/fbt/bhr
+    chmod 0664 /sys/pnpmgr/fpsgo_boost/fbt/bhr
+    chown root system /sys/pnpmgr/fpsgo_boost/fbt/bhr_opp
+    chmod 0664 /sys/pnpmgr/fpsgo_boost/fbt/bhr_opp
+    chown root system /sys/pnpmgr/fpsgo_boost/fbt/floor_bound
+    chmod 0664 /sys/pnpmgr/fpsgo_boost/fbt/floor_bound
+    chown root system /sys/pnpmgr/fpsgo_boost/fbt/floor_opp
+    chmod 0664 /sys/pnpmgr/fpsgo_boost/fbt/floor_opp
+    chown root system /sys/pnpmgr/fpsgo_boost/fbt/kmin
+    chmod 0664 /sys/pnpmgr/fpsgo_boost/fbt/kmin
+    chown root system /sys/pnpmgr/fpsgo_boost/fbt/light_loading_policy
+    chmod 0664 /sys/pnpmgr/fpsgo_boost/fbt/light_loading_policy
+    chown root system /sys/pnpmgr/fpsgo_boost/fbt/loading_th
+    chmod 0664 /sys/pnpmgr/fpsgo_boost/fbt/loading_th
+    chown root system /sys/pnpmgr/fpsgo_boost/fbt/min_rescue_percent
+    chmod 0664 /sys/pnpmgr/fpsgo_boost/fbt/min_rescue_percent
+    chown root system /sys/pnpmgr/fpsgo_boost/fbt/rescue_enhance_f
+    chmod 0664 /sys/pnpmgr/fpsgo_boost/fbt/rescue_enhance_f
+    chown root system /sys/pnpmgr/fpsgo_boost/fbt/rescue_opp_c
+    chmod 0664 /sys/pnpmgr/fpsgo_boost/fbt/rescue_opp_c
+    chown root system /sys/pnpmgr/fpsgo_boost/fbt/rescue_opp_f
+    chmod 0664 /sys/pnpmgr/fpsgo_boost/fbt/rescue_opp_f
+    chown root system /sys/pnpmgr/fpsgo_boost/fbt/rescue_percent
+    chmod 0664 /sys/pnpmgr/fpsgo_boost/fbt/rescue_percent
+    chown root system /sys/pnpmgr/fpsgo_boost/fbt/short_rescue_ns
+    chmod 0664 /sys/pnpmgr/fpsgo_boost/fbt/short_rescue_ns
+    chown root system /sys/pnpmgr/fpsgo_boost/fbt/ultra_rescue
+    chmod 0664 /sys/pnpmgr/fpsgo_boost/fbt/ultra_rescue
+    chown root system /sys/pnpmgr/fpsgo_boost/fbt/variance
+    chmod 0664 /sys/pnpmgr/fpsgo_boost/fbt/variance
+#SPD: add XLBQHBWYHW-72 for fpsgo boost dynamic target time feature by yuanjiong.gao 20200730 start
+    chown root system /sys/pnpmgr/fpsgo_boost/fbt/dyn_tgt_time_en
+    chmod 0664 /sys/pnpmgr/fpsgo_boost/fbt/dyn_tgt_time_en
+    chown root system /sys/pnpmgr/fpsgo_boost/fbt/dyn_tgt_time_offset_a
+    chmod 0664 /sys/pnpmgr/fpsgo_boost/fbt/dyn_tgt_time_offset_a
+    chown root system /sys/pnpmgr/fpsgo_boost/fbt/dyn_tgt_time_offset_b
+    chmod 0664 /sys/pnpmgr/fpsgo_boost/fbt/dyn_tgt_time_offset_b
+#SPD: add XLBQHBWYHW-72 for fpsgo boost dynamic target time feature by yuanjiong.gao 20200730 end
+#SPD: add XLBQHBWYHW-72 for fpsgo boost forecase rescue feature by yuanjiong.gao 20200730 start
+    chown root system /sys/pnpmgr/fpsgo_boost/fbt/forecast_resuce_en
+    chmod 0664 /sys/pnpmgr/fpsgo_boost/fbt/forecast_resuce_en
+    chown root system /sys/pnpmgr/fpsgo_boost/fbt/forecast_resuce_list
+    chmod 0664 /sys/pnpmgr/fpsgo_boost/fbt/forecast_resuce_list
+#SPD: add XLBQHBWYHW-72 for fpsgo boost forecast rescue feature by yuanjiong.gao 20200730 end
+
+    chown root system /sys/pnpmgr/fpsgo_boost/fbt/aa_retarget
+    chmod 0664 /sys/pnpmgr/fpsgo_boost/fbt/aa_retarget
+    chown root system /sys/pnpmgr/fpsgo_boost/fbt/gcc_enable
+    chmod 0664 /sys/pnpmgr/fpsgo_boost/fbt/gcc_enable
+    chown root system /sys/pnpmgr/fpsgo_boost/fbt/qr_enable
+    chmod 0664 /sys/pnpmgr/fpsgo_boost/fbt/qr_enable
+    chown root system /sys/pnpmgr/fpsgo_boost/fstb/fstb_self_ctrl_fps_enable
+    chmod 0664 /sys/pnpmgr/fpsgo_boost/fstb/fstb_self_ctrl_fps_enable
+    chown root system /sys/pnpmgr/fpsgo_boost/fbt/enable_ceiling
+    chmod 0664 /sys/pnpmgr/fpsgo_boost/fbt/enable_ceiling
+    chown root system /sys/pnpmgr/fpsgo_boost/fbt/rescue_second_enable
+    chmod 0664 /sys/pnpmgr/fpsgo_boost/fbt/rescue_second_enable
+    chown root system /sys/pnpmgr/fpsgo_boost/fbt/rescue_second_g_enable
+    chmod 0664 /sys/pnpmgr/fpsgo_boost/fbt/rescue_second_g_enable
+    chown root system /sys/pnpmgr/fpsgo_boost/fbt/gbe_enable1
+    chmod 0664 /sys/pnpmgr/fpsgo_boost/fbt/gbe_enable1
+    chown root system /sys/pnpmgr/fpsgo_boost/fbt/gbe_enable2
+    chmod 0664 /sys/pnpmgr/fpsgo_boost/fbt/gbe_enable2
+    chown root system /sys/pnpmgr/fpsgo_boost/fbt/boost_affinity
+    chmod 0664 /sys/pnpmgr/fpsgo_boost/fbt/boost_affinity
+
+on property:vendor.prop.pnp.fpsgo.state=disable_pending
+    write /sys/pnpmgr/fpsgo_boost/boost_enable 0
+
+on property:vendor.prop.pnp.fpsgo.boost=disable
+    write /sys/pnpmgr/fpsgo_boost/boost_mode "disable_activity,disable_mode"
+
+on property:vendor.prop.pnp.fpsgo.boost=enable
+    write /sys/pnpmgr/fpsgo_boost/boost_enable 1

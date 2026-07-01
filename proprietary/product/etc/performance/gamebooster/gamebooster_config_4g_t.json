@@ -1,0 +1,127 @@
+{
+  "version": 1,
+  "up_time": "20220424",
+  "ram": 4,
+  "enable": false,
+  "pm_enable": false,
+  "memory_compress_enable": false,
+  "vd_enable": false,
+  "proc_enable": false,
+  "trancare_enable": false,
+  "trancare_exception": false,
+  "keep_alive_game_num": 1,
+  "keep_alive_recent_game_num": 1,
+  "vd_preload_cpu_threshold": 70,
+  "vd_preload_io_threshold": 50,
+  "vd_preload_memory_threshold": 3000,
+  "proc_preload_cpu_threshold": 80,
+  "proc_preload_io_threshold": 50,
+  "proc_preload_memory_threshold": 1000,
+  "postpone": 3,
+  "clean_cpu_threshold": 80,
+  "clean_io_threshold": 50,
+  "low_battery": 30,
+  "game_white_list": [
+        "com.tencent.ig",
+        "com.mobile.legends",
+        "com.ludo.king",
+        "com.dts.freefireth",
+        "com.dts.freefiremax",
+        "com.king.candycrushsaga",
+        "com.kiloo.subwaysurf",
+        "com.supercell.clashofclans",
+        "jp.konami.pesam",
+        "bubbleshooter.orig"
+  ],
+  "game_info_list": [
+        {
+            "package": "com.tencent.ig",
+            "vd_preload": true,
+            "proc_preload": true,
+            "related_list": ["com.tencent.ig:plugin", "com.twitter.android", "com.facebook.katana"],
+            "memory_max_threshold": 500,
+            "blacklist_version": [113, 114],
+            "important_thread":[]
+        },
+        {
+            "package": "com.mobile.legends",
+            "vd_preload": true,
+            "proc_preload": true,
+            "related_list": [],
+            "memory_max_threshold": 500,
+            "blacklist_version": ["UnityMain","UnityGfxDeviceW"]
+        },
+        {
+            "package": "com.ludo.king",
+            "vd_preload": true,
+            "proc_preload": true,
+            "related_list": [],
+            "memory_max_threshold": 500,
+            "blacklist_version": [],
+            "important_thread":["UnityMain","UnityGfxDeviceW"]
+        },
+        {
+            "package": "com.dts.freefireth",
+            "vd_preload": true,
+            "proc_preload": true,
+            "related_list": [],
+            "memory_max_threshold": 500,
+            "blacklist_version": [],
+            "important_thread":["UnityMain","UnityGfxDeviceW"]
+        },
+        {
+            "package": "com.dts.freefiremax",
+            "vd_preload": true,
+            "proc_preload": true,
+            "related_list": [],
+            "memory_max_threshold": 500,
+            "blacklist_version": [],
+            "important_thread":["UnityMain","UnityGfxDeviceW"]
+        },
+        {
+            "package": "com.king.candycrushsaga",
+            "vd_preload": true,
+            "proc_preload": true,
+            "related_list": [],
+            "memory_max_threshold": 500,
+            "blacklist_version": [],
+            "important_thread":[".candycrushsaga","GLThread"]
+        },
+        {
+            "package": "com.kiloo.subwaysurf",
+            "vd_preload": true,
+            "proc_preload": true,
+            "related_list": [],
+            "memory_max_threshold": 500,
+            "blacklist_version": [],
+            "important_thread":["iloo.subwaysurf","UnityMain","UnityGfxDeviceW"]
+        },
+        {
+            "package": "com.supercell.clashofclans",
+            "vd_preload": true,
+            "proc_preload": true,
+            "related_list": [],
+            "memory_max_threshold": 500,
+            "blacklist_version": [],
+            "important_thread":["ll.clashofclans"]
+        },
+        {
+            "package": "jp.konami.pesam",
+            "vd_preload": true,
+            "proc_preload": true,
+            "related_list": [],
+            "memory_max_threshold": 500,
+            "blacklist_version": [],
+            "important_thread":["MainThread-UE4"]
+        },
+        {
+            "package": "bubbleshooter.orig",
+            "vd_preload": true,
+            "proc_preload": true,
+            "related_list": [],
+            "memory_max_threshold": 500,
+            "blacklist_version": [],
+            "important_thread":["bleshooter.orig"]
+        }
+  ]
+}

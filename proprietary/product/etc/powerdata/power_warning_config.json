@@ -1,0 +1,189 @@
+{
+    "enabled": true,
+    "updateDate": 20250418,
+    "version": 1.1,
+    "longStandbyCurrentWarningConfig": {
+        "enabled": true,
+        "minScreenOffDurationMs": 10800000,
+        "currentMaThreshold": 40.0
+    },
+    "cpuSuspendRateWarningConfig": {
+        "enabled": true,
+        "minScreenOffDurationMs": 10800000,
+        "suspendRateThreshold": 0.90
+    },
+    "clock26mOffRateWarningConfig": {
+        "enabled": true,
+        "minScreenOffDurationMs": 10800000,
+        "clock26mOffRateThreshold": 0.85
+    },
+    "kernelWakelockWarningConfig": {
+        "enabled": true,
+        "minScreenOffDurationMs": 10800000,
+        "wakelockDurationMsThreshold": 300000
+    },
+    "screenOnPowerWarningConfig": {
+        "enabled": true,
+        "minPowerMah": 133.0,
+        "currentMaThreshold": 800.0
+    },
+    "batteryLevelOffsetWarningConfig": {
+        "enabled": true,
+        "batteryLevelOffsetThreshold": 2.0
+    },
+    "screenOffCallPowerWarningConfig": {
+        "enabled": true,
+        "minPowerMah": 25.0,
+        "currentMaThreshold": 250.0
+    },
+    "screenOffWifiApPowerWarningConfig": {
+        "enabled": true,
+        "minPowerMah": 50.0,
+        "currentMaThreshold": 300.0
+    },
+    "screenOnAppPowerWarningConfig": {
+        "enabled": true,
+        "appPowerConfigList": [
+            {
+                "appPkg": "com.mobile.legends",
+                "minPowerMah": 133.0,
+                "currentMaThreshold": 800.0
+            },
+            {
+                "appPkg": "com.dts.freefireth",
+                "minPowerMah": 133.0,
+                "currentMaThreshold": 800.0
+            },
+            {
+                "appPkg": "com.roblox.client",
+                "minPowerMah": 133.0,
+                "currentMaThreshold": 800.0
+            },
+            {
+                "appPkg": "com.dts.freefiremax",
+                "minPowerMah": 133.0,
+                "currentMaThreshold": 800.0
+            },
+            {
+                "appPkg": "com.tencent.ig",
+                "minPowerMah": 133.0,
+                "currentMaThreshold": 800.0
+            },
+            {
+                "appPkg": "com.google.android.youtube",
+                "minPowerMah": 133.0,
+                "currentMaThreshold": 800.0
+            },
+            {
+                "appPkg": "com.zhiliaoapp.musically.go",
+                "minPowerMah": 133.0,
+                "currentMaThreshold": 800.0
+            },
+            {
+                "appPkg": "com.ss.android.ugc.trill",
+                "minPowerMah": 133.0,
+                "currentMaThreshold": 800.0
+            },
+            {
+                "appPkg": "com.mxtech.videoplayer.ad",
+                "minPowerMah": 133.0,
+                "currentMaThreshold": 800.0
+            },
+            {
+                "appPkg": "com.playit.videoplayer",
+                "minPowerMah": 133.0,
+                "currentMaThreshold": 800.0
+            },
+            {
+                "appPkg": "com.facebook.katana",
+                "minPowerMah": 133.0,
+                "currentMaThreshold": 800.0
+            },
+            {
+                "appPkg": "com.zhiliaoapp.musically",
+                "minPowerMah": 133.0,
+                "currentMaThreshold": 800.0
+            },
+            {
+                "appPkg": "com.facebook.lite",
+                "minPowerMah": 133.0,
+                "currentMaThreshold": 800.0
+            },
+            {
+                "appPkg": "com.instagram.android",
+                "minPowerMah": 133.0,
+                "currentMaThreshold": 800.0
+            },
+            {
+                "appPkg": "com.snapchat.android",
+                "minPowerMah": 133.0,
+                "currentMaThreshold": 800.0
+            },
+            {
+                "appPkg": "com.sh smart.caller",
+                "minPowerMah": 133.0,
+                "currentMaThreshold": 800.0
+            },
+            {
+                "appPkg": "com.android.chrome",
+                "minPowerMah": 133.0,
+                "currentMaThreshold": 800.0
+            },
+            {
+                "appPkg": "com.facebook.orca",
+                "minPowerMah": 133.0,
+                "currentMaThreshold": 800.0
+            },
+            {
+                "appPkg": "com.whatsapp.w4b",
+                "minPowerMah": 133.0,
+                "currentMaThreshold": 800.0
+            },
+            {
+                "appPkg": "com.transsion.phoenix",
+                "minPowerMah": 133.0,
+                "currentMaThreshold": 800.0
+            },
+            {
+                "appPkg": "com.android.chrome",
+                "minPowerMah": 133.0,
+                "currentMaThreshold": 800.0
+            },
+            {
+                "appPkg": "com.hatsune.eagleee",
+                "minPowerMah": 133.0,
+                "currentMaThreshold": 800.0
+            },
+            {
+                "appPkg": "com.meitu.meiyancamera",
+                "minPowerMah": 133.0,
+                "currentMaThreshold": 1200.0
+            },
+            {
+                "appPkg": "com.transsion.camera",
+                "minPowerMah": 133.0,
+                "currentMaThreshold": 1200.0
+            },
+            {
+                "appPkg": "sinet.startup.inDriver",
+                "minPowerMah": 133.0,
+                "currentMaThreshold": 800.0
+            },
+            {
+                "appPkg": "com.grabtaxi.driver2",
+                "minPowerMah": 133.0,
+                "currentMaThreshold": 800.0
+            },
+            {
+                "appPkg": "com.ubercab",
+                "minPowerMah": 133.0,
+                "currentMaThreshold": 800.0
+            },
+            {
+                "appPkg": "ee.mtakso.client",
+                "minPowerMah": 133.0,
+                "currentMaThreshold": 800.0
+            }
+        ]
+    }
+}

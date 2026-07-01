@@ -1,0 +1,33 @@
+{
+  "key": "feature_health_standard_wakelock",
+  "version_code": 2,
+  "version_name": "v1.1",
+  "wakelock_limit_enable": 0,
+  "wakelock_limit_bp_enable": 1,
+  "ignore_notify_time": 7,
+  "wakelock_bg_max_time": 60,
+  "wakelock_fg_max_time": 60,
+  "wakelock_bp_bg_max_time": 10,
+  "wakelock_bp_fg_max_time": 60,
+  "wakelock_notify_max_num": 3,
+  "wakelock_limit_block_list": [
+    "com.rocket.tools.clean.antivirus.master",
+    "com.hyperspeed.rocketclean.pro",
+    "com.oneapp.max.security.pro",
+    "com.jingyao.easybike",
+    "com.tencent.lolm",
+    "tv.africa.streaming",
+    "com.tencent.ig",
+    "com.tencent.android.qqdownloader",
+    "com.ss.android.article.news",
+    "com.sport.hbzhibo1",
+    "com.baidu.youavideo",
+    "com.pubg.imobile",
+    "com.purple.files.manager.king",
+    "com.wavefilemaster.filemanager.wav",
+    "com.maps.locator.gps.gpstracker.phone",
+    "com.fordeal.android",
+    "com.ghwhatsapp",
+    "com.fbwhatsapp"
+  ]
+}

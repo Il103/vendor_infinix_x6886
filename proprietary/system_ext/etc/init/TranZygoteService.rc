@@ -1,0 +1,23 @@
+service zygote_logcat /system_ext/bin/zygoteservice -l
+    user root
+    group system root
+    seclabel u:r:dumpstate:s0
+    oneshot
+    disabled
+
+service hang_monitor /system_ext/bin/zygoteservice -h
+    user root
+    group system root
+    seclabel u:r:dumpstate:s0
+    oneshot
+    disabled
+
+on property:debug.sys.zygotecrash=on
+    start zygote_logcat
+
+on property:debug.sys.zygotecrash=off
+    chmod 0777 /data/hprof/zygotecrash.log
+    stop zygote_logcat
+
+on property:debug.sys.boot=*
+    start hang_monitor

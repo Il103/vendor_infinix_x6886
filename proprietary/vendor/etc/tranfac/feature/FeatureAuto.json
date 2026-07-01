@@ -1,0 +1,21 @@
+{
+    "featureConfig": {
+        "tranfac.sensor.fingerprint.optical": "",
+        "tranfac.sensor.accelerometer.horizontal": "",
+        "tranfac.sensor.gyroscope.horizontal": "",
+        "tranfac.usb.charge.rfc": "",
+        "tranfac.audio.speaker.num": "2",
+        "tranfac.audio.mic.num": "2",
+        "tranfac.usb.charge.reverse": "6",
+        "tranfac.usb.charge.reverse_c2c": "",
+        "tranfac.camera.dummy.front": "",
+        "tranfac.camera.dummy.yuv_index": "2",
+        "tranfac.camera.dummy.yuv2_index": "0",
+        "tranfac.camera.dummy.als_ic": "alspdt17",
+        "tranfac.camera.flashlight.front": "",
+        "tranfac.connect.gps": "",
+        "tranfac.connect.fm": "",
+        "tranfac.other.mono_led": "",
+        "tranfac.other.mono_led.flash": ""
+    }
+}

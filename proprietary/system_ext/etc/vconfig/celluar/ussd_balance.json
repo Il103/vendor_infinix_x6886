@@ -1,0 +1,12 @@
+{
+  "lists": [
+    {"mccmnc":["62130"],"operator_name":"MTN","phone_bill_ussd_code":"*310#","data_balance_ussd_code":"*323#","data_balance_steps":"4","data_balance_keys":"Balance Check"},
+    {"mccmnc":["62150"],"operator_name":"Glo","phone_bill_ussd_code":"*310#","data_balance_ussd_code":"*323#","phone_bill_steps":"1","phone_bill_keys":"Main Balance"},
+    {"mccmnc":["62120"],"operator_name":"Airtel","phone_bill_ussd_code":"*310#","data_balance_ussd_code":"*323#","data_balance_steps":"1","data_balance_keys":"DATA Balance"},
+    {"mccmnc":["62160"],"operator_name":"9mobile","phone_bill_ussd_code":"*310#","data_balance_ussd_code":"*323#","data_balance_steps":"","data_balance_keys":""},
+    {"mccmnc":["63902"],"operator_name":"Safaricom","phone_bill_ussd_code":"*144#","data_balance_ussd_code":"*544#","data_balance_steps":"98,18,1","data_balance_keys":"MORE,Bal,Balance"},
+    {"mccmnc":["63903"],"operator_name":"Airtel","phone_bill_ussd_code":"*133#","data_balance_ussd_code":"*544#","data_balance_steps":"*,11","data_balance_keys":"next,Check Balance"},
+    {"mccmnc":["63907"],"operator_name":"Telkom","phone_bill_ussd_code":"*144#","data_balance_ussd_code":"*544#","data_balance_steps":"98,14","data_balance_keys":"NEXT,Check Data Balance"}
+  ],
+  "sms_keys": "by SMS,by sms,receive an SMS,reply to you via SMS,receive SMS,Message has been sent successfully,receive a confirmation message shortly"
+}

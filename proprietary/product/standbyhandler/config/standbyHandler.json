@@ -1,0 +1,229 @@
+{
+  "version": "1.0.1",
+  "up_time": 20241118,
+  "enable": true,
+
+  "alarm": {
+    "enable": true,
+    "packages": {
+      "com.test.powerhealth": ["kill#on","kill#off"],
+      "com.tplink.tpm5": ["freeze#on","freeze#off","kill#off"],
+      "com.xingin.xhs": ["freeze#on","freeze#off","kill#off"],
+      "com.doudoubird.calendar": ["freeze#on","freeze#off","kill#off"],
+      "com.baidu.searchbox": ["freeze#on","freeze#off","kill#off"],
+      "com.tencent.android.qqdownloader": ["freeze#on","freeze#off","kill#off"],
+      "com.hunantv.imgo.activity": ["freeze#on","freeze#off","kill#off"],
+      "com.xunmeng.pinduoduo": ["kill#off"],
+      "cmb.pb": ["kill#off"],
+      "cn.xuexi.android": ["kill#off"],
+      "com.mybank.android.phone": ["kill#off"],
+      "com.baidu.newapp": ["kill#off"],
+      "com.tunecho.music": ["kill#off"]
+    }
+  },
+
+  "app_screen": {
+    "enable": true,
+    "packages": {
+      "com.test.powerhealth": ["freeze#on","kill#on","kill#off"],
+      "com.ga.spider.ropehero.robot.car.transform.game": ["kill#off"],
+      "cn.ninegame.gamemanager": ["kill#off"]
+    }
+  },
+
+  "bt_scan": {
+    "enable": true,
+    "packages": {
+      "com.test.powerhealth": ["kill#on","kill#off"],
+      "com.umetrip.android.msky.app": ["freeze#on","freeze#off","kill#off"],
+      "com.moji.mjweather": ["freeze#on","freeze#off","kill#off"],
+      "com.lmf.xidi": ["freeze#on","freeze#off","kill#off"],
+      "com.sankuai.meituan": ["freeze#on","freeze#off","kill#off"]
+    }
+  },
+
+  "camera": {
+    "enable": true,
+    "packages": {
+      "com.test.powerhealth": ["kill#on","kill#off"],
+      "com.baidu.duer.superapp": ["kill#off"]
+    }
+  },
+
+  "flashlight": {
+    "enable": true,
+    "packages": {
+      "com.test.powerhealth": ["kill#on","kill#off"]
+    }
+  },
+
+  "job": {
+    "enable": true,
+    "packages": {
+      "com.test.powerhealth": ["freeze#on","freeze#off","proxy#off","proxy#on","kill#on","kill#off"],
+      "com.safaricom.mpesa.lifestyle": ["freeze#on","freeze#off","proxy#off","proxy#on","kill#off"],
+      "com.linkedin.android": ["freeze#on","freeze#off","proxy#off","proxy#on","kill#off"],
+      "com.community.moviebox": ["freeze#on","freeze#off","proxy#off","proxy#on","kill#off"],
+      "com.cymi.WarriorSlide.free": ["freeze#on","freeze#off","proxy#off","proxy#on","kill#on","kill#off"],
+      "com.chinaath.szxd": ["freeze#on","freeze#off","proxy#off","proxy#on","kill#off"],
+      "er.notepad.notes.notebook.checklist.calendar": ["freeze#on","freeze#off","proxy#off","proxy#on","kill#off"],
+      "devian.tubemate.v3": ["freeze#on","freeze#off","proxy#off","proxy#on","kill#off"],
+      "com.grammarly.android.keyboard": ["freeze#off","proxy#off"],
+      "bible.pray.daily.women.offline.kjv": ["freeze#off","proxy#off"],
+      "ee.mtakso.client": ["freeze#off","proxy#off"],
+      "com.ayoba.ayoba": ["freeze#off","proxy#off"],
+      "com.lemon.lvoverseas": ["freeze#off","proxy#off"],
+      "com.eyecon.global": ["freeze#off","proxy#off"],
+      "com.truecaller": ["freeze#off","proxy#off"],
+      "com.viber.voip": ["freeze#off","proxy#off"],
+      "com.whatsapp.w4b": ["freeze#off","proxy#off"],
+      "com.transsion.phonemaster": ["proxy#off","proxy#on","kill#off"],
+      "com.ezt.pdfreader.pdfviewer": ["freeze#off","proxy#off"]
+    }
+  },
+
+  "net_usage": {
+    "enable": true,
+    "packages": {
+      "com.test.powerhealth": ["freeze#off","kill#off"],
+      "com.zhiliaoapp.musically": ["freeze#off","kill#off"],
+      "com.ss.android.ugc.trill": ["freeze#off","kill#off"],
+      "com.kwai.bulldog": ["freeze#off","kill#off"],
+      "com.ss.android.ugc.aweme": ["freeze#off","kill#off"],
+      "com.shopee.ph": ["freeze#off","kill#off"],
+      "com.linkedin.android": ["freeze#off","kill#off"],
+      "com.alibaba.aliexpresshd": ["freeze#off","kill#off"],
+      "com.apkpure.aegon": ["freeze#off","kill#off"],
+      "com.baidu.searchbox": ["freeze#off","kill#off"],
+      "com.ss.android.ugc.aweme.lite": ["kill#off"],
+      "com.ss.android.article.news": ["kill#off"],
+      "com.best.quick.browser": ["kill#off"],
+      "com.dramafever.shorttv.series": ["kill#off"],
+      "com.document.pdf.filereader": ["kill#off"],
+      "com.lazada.android": ["kill#off"],
+      "com.short.reels.drama.sh": ["kill#off"],
+      "com.documentreader.free.viewer.all": ["kill#off"],
+      "com.video.free.x.play.downloader": ["kill#off"],
+      "com.shortbox.drama": ["freeze#off","kill#off"],
+      "com.hatsune.eagleee": ["freeze#off","kill#off"],
+      "com.rapid.short.tv": ["freeze#off","kill#off"],
+      "com.eyecon.global": ["freeze#off","kill#off"],
+      "com.truecaller": ["freeze#off","kill#off"],
+      "com.viber.voip": ["freeze#off","kill#off"],
+      "com.video.free.hd.downloader": ["freeze#off","kill#off"],
+      "com.healthapplines.android.pedometer": ["kill#off"]
+    }
+  },
+
+  "sensor": {
+    "enable": true,
+    "packages": {
+      "com.test.powerhealth": ["freeze#off","freeze#on","kill#on","kill#off"],
+      "com.ss.android.ugc.aweme": ["freeze#off","freeze#on","kill#off"],
+      "com.xingin.xhs": ["freeze#off","freeze#on","kill#off"],
+      "com.zhiliaoapp.musically": ["freeze#off","freeze#on","kill#off"],
+      "com.ss.android.ugc.trill": ["freeze#off","freeze#on","kill#off"],
+      "com.community.moviebox": ["freeze#off","freeze#on","kill#off"],
+      "org.zwanoo.android.speedtest": ["freeze#off","freeze#on","kill#off"],
+      "com.shopee.ph": ["freeze#off","freeze#on","kill#off"],
+      "tv.danmaku.bili": ["freeze#off","freeze#on","kill#off"],
+      "com.taobao.taobao": ["freeze#off","freeze#on","kill#off"],
+      "com.safaricom.mysafaricom": ["freeze#off","freeze#on","kill#off"],
+      "com.UCMobile": ["freeze#off","freeze#on","kill#off"],
+      "bible.pray.daily.women.offline.kjv": ["freeze#off","freeze#on"],
+      "com.opera.app.news": ["kill#off"],
+      "com.pocketnews.lite": ["kill#off"],
+      "com.fun.cubepuzzle": ["kill#off"],
+      "com.xs.fm": ["kill#off"],
+      "email.home.allmail.launcher": ["kill#off"],
+      "com.fcmusicplayer.app": ["kill#off"],
+      "com.shortbox.drama": ["kill#off"],
+      "com.video.free.hd.downloader": ["kill#off"]
+    }
+  },
+
+  "sync": {
+    "enable": true,
+    "packages": {
+      "com.test.powerhealth": ["proxy#off","proxy#on","kill#on","kill#off"],
+      "com.cymi.WarriorSlide.free": ["proxy#off","proxy#on","kill#off"],
+      "org.thunderdog.challegram": ["proxy#off","proxy#on","kill#off"]
+    }
+  },
+
+  "wifi_scan": {
+    "enable": true,
+    "packages": {
+      "com.test.powerhealth": ["freeze#off","freeze#on","kill#on","kill#off"],
+      "com.ollix.fogofworld": ["freeze#off","freeze#on","kill#off"],
+      "io.jagat.lite":["freeze#off","freeze#on"],
+      "com.lmf.xidi": ["freeze#off","freeze#on","kill#off"]
+    }
+  },
+
+  "gps": {
+    "enable": true,
+    "packages": {
+      "com.test.powerhealth": ["kill#on","kill#off"],
+      "com.ollix.fogofworld": ["kill#off"],
+      "com.p1.mobile.putong": ["kill#off"],
+      "me.lyft.android": ["kill#off"],
+      "com.maps.locator.gps.gpstracker.phone": ["kill#off"],
+      "com.liontool.findmykid.gpstracker": ["kill#off"],
+      "com.sankuai.meituan": ["kill#off"],
+      "io.chirptoken.kage": ["kill#off"],
+      "com.taxsee.driver": ["kill#off"]
+    }
+  },
+
+  "cpu": {
+    "enable": true,
+    "packages": {
+      "com.test.powerhealth": ["kill#on","kill#off"],
+      "tv.danmaku.bili": ["kill#off"],
+      "com.short.reels.drama.sh": ["kill#off"],
+      "com.storymatrix.drama": ["kill#off"],
+      "com.appsky.android.bloodpressure": ["kill#off"],
+      "ae.brandsforless.android": ["kill#off"],
+      "com.gopro.smarty": ["kill#off"]
+    }
+  },
+
+  "wakelock": {
+    "enable": true,
+    "packages": {
+      "com.test.powerhealth": ["freeze#off","freeze#on","kill#on","kill#off"],
+      "com.dragon.read": ["freeze#off","freeze#on","kill#off"],
+      "com.baidu.searchbox": ["freeze#off","freeze#on","kill#off"],
+      "com.happymod.apk": ["freeze#off","freeze#on","kill#off"],
+      "com.king.candycrushsaga": ["freeze#off","freeze#on","kill#off"],
+      "helectronsoft.com.live.wallpaper.pixel4d": ["freeze#off","freeze#on"],
+      "com.clean.oneboost.cleaner.onebooster.security": ["forcekill#off"],
+      "com.cleaner.fastcleaner.booster.security.clean": ["forcekill#off"],
+      "com.zzkko": ["forcekill#off"],
+      "com.tencent.tmgp.pubgmhd": ["kill#off"],
+      "com.tencent.lolm": ["kill#off"],
+      "com.purple.files.manager.king": ["kill#off"],
+      "com.wavefilemaster.filemanager.wav": ["forcekill#off"],
+      "proxy.browser.unblock.sites.proxybrowser.unblocksites": ["kill#off"],
+      "com.mdllc.prison.shooter.game": ["kill#off"],
+      "com.roblox.client": ["kill#off"],
+      "com.aisecurity": ["kill#off"],
+      "com.transsion.phonemaster": ["kill#off"],
+      "com.community.moviebox": ["kill#off"],
+      "com.community.mbox.ng": ["kill#off"],
+      "com.community.mbox.ke": ["kill#off"],
+      "com.community.oneroom": ["kill#off"],
+      "com.pinterest": ["kill#off"],
+      "com.truecaller": ["kill#off"],
+      "wdownloader.webpage.picture.saver.video.downloader": ["kill#off"],
+      "com.mearsure.heartratepro.manage": ["kill#off"],
+      "com.liked.livenews": ["kill#off"],
+      "piano.tiles.pop.music.game.beat.tunes.master": ["forcekill#off"],
+      "com.drama.happy.look": ["forcekill#off"],
+      "com.fly.web.smart.browser": ["forcekill#off"],
+      "ae.brandsforless.android": ["forcekill#off"],
+      "com.gopro.smarty": ["forcekill#off"]
+    }
+  }
+}

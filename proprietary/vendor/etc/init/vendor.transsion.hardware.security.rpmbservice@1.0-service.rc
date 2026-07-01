@@ -1,0 +1,14 @@
+on post-fs
+	#USD: add [rpmb] by wenzhang5 add 20240912 start
+    mkdir /mnt/vendor/persist/rpmb 0700 system system
+    chmod 0777 /mnt/vendor/persist/rpmb
+    chmod 0777 /mnt/vendor/persist/rpmb/auFile.dat
+    mkdir /tranfs/rpmb 0700 system system
+    chmod 0777 /tranfs/rpmb
+    chmod 0777 /tranfs/rpmb/auFile.dat
+    #USD: add [rpmb] by wenzhang5 add 20240912 end
+
+service rpmbservice /vendor/bin/hw/vendor.transsion.hardware.security.rpmbservice@1.0-service
+	class hal
+	user system
+	group system

@@ -1,0 +1,3 @@
+MD5 (1_transsion_ar.zip) = 8f1b0d3d588aa6aad7e577b028d52754
+MD5 (1_transsion_en.zip) = dcc740f0b8cfd3c0ea67f14c2ba48a58
+MD5 (1_transsion_fr.zip) = 4683cc5ea2b40143b02269573d820cf8

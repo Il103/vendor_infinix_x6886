@@ -1,0 +1,8 @@
+on property:persist.vendor.tran_tinymix=1
+    start tran_tinymix
+
+service tran_tinymix /vendor/bin/tran_tinymix
+    class main
+    user system
+    group system audio
+	oneshot

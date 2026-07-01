@@ -1,0 +1,162 @@
+{
+  "enable": true,
+  "version": 1,
+  "updateDate": "20240314",
+  "cameraFpsConfig": [
+    {
+      "packageName": "com.whatsapp",
+      "activitiesFps": [
+        {
+          "activity": "com.whatsapp.voipcalling.VoipActivityV2",
+          "fpsRange": [
+            5,
+            20
+          ]
+        }
+      ]
+    },
+    {
+      "packageName": "com.fmwhatsapp",
+      "activitiesFps": [
+        {
+          "activity": "com.whatsapp.voipcalling.VoipActivityV2",
+          "fpsRange": [
+            5,
+            20
+          ]
+        }
+      ]
+    },
+    {
+      "packageName": "com.google.android.apps.meetings",
+      "activitiesFps": [
+        {
+          "activity": "com.google.android.libraries.communications.conference.ui.greenroom.GreenroomActivity",
+          "fpsRange": [
+            5,
+            20
+          ]
+        },
+        {
+          "activity": "com.google.android.libraries.communications.conference.ui.callui.SingleCallActivity",
+          "fpsRange": [
+            5,
+            20
+          ]
+        }
+      ]
+    },
+    {
+      "packageName": "com.google.android.apps.tachyon",
+      "activitiesFps": [
+        {
+          "activity": "com.google.android.apps.tachyon.call.oneonone.ui.OneOnOneCallActivity",
+          "fpsRange": [
+            5,
+            20
+          ]
+        },
+        {
+          "activity": "com.google.android.apps.tachyon.call.precall.OneOnOnePrecallActivity",
+          "fpsRange": [
+            5,
+            20
+          ]
+        },
+        {
+          "activity": "com.google.android.apps.tachyon.groupcalling.incall.InGroupCallActivity",
+          "fpsRange": [
+            5,
+            20
+          ]
+        },
+        {
+          "activity": "com.google.android.apps.tachyon.groupcalling.precall.PrecallScreenGroupActivity",
+          "fpsRange": [
+            5,
+            20
+          ]
+        }
+      ]
+    },
+    {
+      "packageName": "com.instagram.android",
+      "activitiesFps": [
+        {
+          "activity": "com.instagram.rtc.activity.RtcCallActivity",
+          "fpsRange": [
+            5,
+            20
+          ]
+        }
+      ]
+    },
+    {
+      "packageName": "com.instagram.lite",
+      "activitiesFps": [
+        {
+          "activity": "com.facebook.lite.MainActivity",
+          "fpsRange": [
+            5,
+            20
+          ]
+        }
+      ]
+    },
+    {
+      "packageName": "us.zoom.videomeetings",
+      "activitiesFps": [
+        {
+          "activity": "com.zipow.videobox.conference.ui.ZmConfActivity",
+          "fpsRange": [
+            5,
+            20
+          ]
+        },
+        {
+          "activity": "com.zipow.videobox.conference.ui.ZmFoldableConfActivity",
+          "fpsRange": [
+            5,
+            20
+          ]
+        }
+      ]
+    },
+    {
+      "packageName": "com.cisco.webex.meetings",
+      "activitiesFps": [
+        {
+          "activity": "com.cisco.webex.meetings.ui.inmeeting.MeetingClient",
+          "fpsRange": [
+            5,
+            20
+          ]
+        }
+      ]
+    },
+    {
+      "packageName": "com.facebook.orca",
+      "activitiesFps": [
+        {
+          "activity": "com.facebook.messaging.rtc.incall.activity.InCallActivity",
+          "fpsRange": [
+            5,
+            20
+          ]
+        }
+      ]
+    },
+    {
+      "packageName": "com.facebook.katana",
+      "activitiesFps": [
+        {
+          "activity": "com.facebook.rooms.call.app.RoomActivity",
+          "fpsRange": [
+            5,
+            20
+          ]
+        }
+      ]
+    }
+  ]
+}

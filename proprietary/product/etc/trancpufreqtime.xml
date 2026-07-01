@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<trancpufreqtime>
+    <!-- time unit: "ns" -> ns, "us" -> us, "ms" -> ms, "m" -> minutes, "h" -> hour, "d" -> day -->
+    <cpuFreqReportConfig timePeriod="48" timeUnit="h" kernelCount="20" appCount="20" nativeCount="30" />
+    <sysThreadReportConfig timePeriod="24" timeUnit="h" />
+    <cpuAppPulseReportConfig timePeriod="12" timeUnit="h" />
+
+    <sysThreadCommMap>
+        <item comm="^binder:\d+_[A-F\d]+$" name="binder" />
+        <item comm="^HwBinder:\d+_[A-F\d]+$" name="hwbinder" />
+        <item comm="^pool-\d+-thread-*" name="pool" />
+    </sysThreadCommMap>
+
+    <appNameConvertList>
+        <item comm="MainThread-UE4" name="com.tencent.ig" />
+        <item comm="id.gms.unstable" name="com.google.android.gms.unstable" />
+        <item comm=".gms.persistent" name="com.google.android.gms.persistent" />
+    </appNameConvertList>
+
+    <nativeNameConvertList>
+        <item comm="main" name="zygote" />
+    </nativeNameConvertList>
+
+    <!-- please use regular expressions -->
+    <reportWhiteList>
+        <item comm="kswapd.*" />
+        <item comm="usap.*" />
+        <item comm="zygote.*" />
+        <item comm=".*transsion.*" />
+        <item comm="kcompactd.*" />
+        <item comm="kshrink_slabd.*" />
+        <item comm="battery_manager.*" />
+        <item comm="resource_monito.*" />
+        <item comm=".*@.*" />
+    </reportWhiteList>
+
+    <!-- please use regular expressions -->
+    <reportBlackList>
+        <item comm="kworker.*" />
+        <item comm="binder.*" />
+        <item comm="irq.*" />
+        <item comm="migration.*" />
+        <item comm="ksoftirqd.*" />
+    </reportBlackList>
+
+</trancpufreqtime>

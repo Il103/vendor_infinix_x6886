@@ -1,0 +1,9 @@
+{
+  "key": "feature_health_standard_gps",
+  "version_code": 2,
+  "version_name": "v2.0",
+  "gps_limit_enable": 1,
+  "gps_limit_bp_enable": 1,
+  "gps_time_expired": 3,
+  "gps_upload_max_count": 100
+}

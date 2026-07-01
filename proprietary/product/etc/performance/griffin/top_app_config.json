@@ -1,0 +1,29 @@
+{
+  "version":1,
+  "up_time":20231212,
+  "switch":true,
+  "ram_2": {
+    "ram_enable":false,
+    "top_number": 0
+  },
+  "ram_3": {
+    "ram_enable":false,
+    "top_number": 0
+  },
+  "ram_4": {
+    "ram_enable":true,
+    "top_number": 5
+  },
+  "ram_6": {
+    "ram_enable":true,
+    "top_number": 5
+  },
+  "ram_8": {
+    "ram_enable":true,
+    "top_number": 5
+  },
+  "ram_12": {
+    "ram_enable":true,
+    "top_number": 5
+  }
+}

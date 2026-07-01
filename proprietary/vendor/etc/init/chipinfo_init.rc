@@ -1,0 +1,25 @@
+on early-init
+    exec_background - system system -- /vendor/bin/chipinfo
+
+on post-fs-data
+    wait_for_prop ro.vendor.soc.model_ready 1
+    setprop ro.soc.model ${ro.vendor.soc.model}
+    setprop ro.soc.manufacturer ${ro.vendor.soc.manufacturer}
+
+#SPD: add get swappiness、all_heaps、ion_mm_heap、vmallocinfo and gpu_memory for user version by heyuan.li 20230327 start
+on property:persist.sys.getswappiness=1
+    copy /proc/sys/vm/swappiness /sdcard/Download/swappiness.txt
+    setprop persist.sys.getswappiness 0
+
+on property:persist.sys.getdebuginfo=1
+    chmod 444 /proc/dma_heap/all_heaps
+    chmod 444 /sys/kernel/debug/ion/heaps/ion_mm_heap
+    copy /proc/dma_heap/all_heaps /sdcard/Download/all_heaps.txt
+    copy /sys/kernel/debug/ion/heaps/ion_mm_heap /sdcard/Download/ion_mm_heap.txt
+    copy /proc/vmallocinfo /sdcard/Download/vmallocinfo.txt
+    copy /proc/mtk_mali/gpu_memory /sdcard/Download/gpu_memory.txt
+    chmod 664 /proc/dma_heap/all_heaps
+    chmod 664 /sys/kernel/debug/ion/heaps/ion_mm_heap
+    setprop persist.sys.getdebuginfo 0
+#SPD: add get swappiness、all_heaps、ion_mm_heap、vmallocinfo and gpu_memory for user version by heyuan.li 20230327 end
+

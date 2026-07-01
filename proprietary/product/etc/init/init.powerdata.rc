@@ -1,0 +1,2 @@
+on post-fs-data
+    mkdir /data/powerdata  0770 system system

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "update": 20250321,
+    "enable":true,
+    "fix_adj_enable":true,
+    "sort_enable":true,
+    "limit_enable":true,
+    "delay_enable":true
+}

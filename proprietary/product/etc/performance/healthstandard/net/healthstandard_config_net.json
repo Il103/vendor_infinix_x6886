@@ -1,0 +1,15 @@
+{
+  "key": "feature_health_standard_net",
+  "version_code": 1,
+  "version_name": "v1.0",
+  "net_limit_enable": 0,
+  "net_limit_bp_enable": 1,
+  "net_sampling_interval": 15,
+  "net_bp_threshold": 50,
+  "net_limit_block_list": [
+    {
+      "pkg_name": "com.transsion.temp",
+      "net_threshold": 20
+    }
+  ]
+}

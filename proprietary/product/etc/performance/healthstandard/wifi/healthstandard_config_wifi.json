@@ -1,0 +1,8 @@
+{
+  "key": "feature_health_standard_wifi",
+  "version_code": 1,
+  "version_name": "v1.0",
+  "wifi_bp_enable": 1,
+  "wifi_time_expired": 3,
+  "wifi_upload_max_count": 100
+}

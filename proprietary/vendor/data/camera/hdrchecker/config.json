@@ -1,0 +1,108 @@
+{
+    "gc13a0_17201982": {
+        "width": 1440,
+        "height": 1080,
+        "align_width": 1536,
+        "align_height": 1080,
+        "yuv_format": "nv12",
+        "file_ext": "YUV420NV12",
+
+        "HDRCheckImpl": "HDRCHECK_IMPL_NAIVE",
+        "frame_interval": 2,
+
+        "sensor_max_again": 26,
+        "sensor_max_ispgain": 7.1,
+        "sensor_max_shutter_se": 250,
+        "sensor_max_shutter_sn": 400,
+        "is_modify_ae": false,
+
+        "is_check_day_night": false,
+        "lux_day_night": 70,
+
+        "is_check_hdr": false,
+        "over_exposure_check_ratio_day": 0.0005,
+        "over_exposure_check_ratio_night": 0.0005,
+
+        "over_exposure_check_ratio_day_face_scene": 0.40,
+        "over_exposure_check_ratio_night_face_scene": 0.40,
+        "over_exposure_check_ratio_day_no_face_scene": 0.40,
+        "over_exposure_check_ratio_night_no_face_scene": 0.40,
+
+        "is_ghost_check": true,
+        "is_ghost_check_night": false,
+
+        "is_align": false,
+        "ghost_sum_check_ratio_day": 0.0003,
+        "ghost_sum_check_ratio_night": 0.0004,
+        "down_sample_ratio": 0.5,
+        "over_exposure_ratio": 0.85,
+
+        "dark_check_ratio": 0.03,
+        "dark_check_ratio_comment": "过暗占比阈值，暗部比例大于此，进入hdr。默认为0.03f，范围[0, 1]，仅对hdr检测有效",
+
+        "dark_ratio": 0.06,
+        "dark_ratio_comment": "过暗像素阈值（归一化），小于此认为过暗。默认为0.06f，范围[0, 1]，仅对hdr检测有效",
+
+        "extreme_dark_check_ratio": 0.99,
+        "extreme_dark_check_ratio_comment": "极暗占比阈值，极暗比例大于此，不进入hdr。默认为0.99f，范围[0, 1]，仅对hdr检测有效",
+
+        "extreme_dark_ratio": 0.01,
+        "extreme_dark_ratio_comment": "null",
+
+        "smooth_ratio": 0.9,
+        "smooth_ratio_comment": "平滑参数, 当前一次是hdr时, 下一次的阈值会乘以此值, 降低门槛, 防止hdr判断出现在某个值附近波动"
+    },
+    "imx882_17201983": {
+        "width": 1440,
+        "height": 1080,
+        "align_width": 1536,
+        "align_height": 1080,
+        "yuv_format": "nv12",
+        "file_ext": "YUV420NV12",
+
+        "HDRCheckImpl": "HDRCHECK_IMPL_NAIVE",
+        "frame_interval": 2,
+
+        "sensor_max_again": 16,
+        "sensor_max_ispgain": 6,
+        "sensor_max_shutter_se": 100,
+        "sensor_max_shutter_sn": 140,
+        "is_modify_ae": false,
+
+        "is_check_day_night": false,
+        "lux_day_night": 70,
+
+        "is_check_hdr": false,
+        "over_exposure_check_ratio_day": 0.0005,
+        "over_exposure_check_ratio_night": 0.0005,
+
+        "over_exposure_check_ratio_day_face_scene": 0.40,
+        "over_exposure_check_ratio_night_face_scene": 0.40,
+        "over_exposure_check_ratio_day_no_face_scene": 0.40,
+        "over_exposure_check_ratio_night_no_face_scene": 0.40,
+
+        "is_ghost_check": true,
+        "is_ghost_check_night": false,
+    
+        "is_align": false,
+        "ghost_sum_check_ratio_day": 0.0004,
+        "ghost_sum_check_ratio_night": 0.0004,
+        "down_sample_ratio": 0.5,
+        "over_exposure_ratio": 0.85,
+
+        "dark_check_ratio": 0.03,
+        "dark_check_ratio_comment": "过暗占比阈值，暗部比例大于此，进入hdr。默认为0.03f，范围[0, 1]，仅对hdr检测有效",
+
+        "dark_ratio": 0.06,
+        "dark_ratio_comment": "过暗像素阈值（归一化），小于此认为过暗。默认为0.06f，范围[0, 1]，仅对hdr检测有效",
+
+        "extreme_dark_check_ratio": 0.99,
+        "extreme_dark_check_ratio_comment": "极暗占比阈值，极暗比例大于此，不进入hdr。默认为0.99f，范围[0, 1]，仅对hdr检测有效",
+
+        "extreme_dark_ratio": 0.01,
+        "extreme_dark_ratio_comment": "null",
+
+        "smooth_ratio": 0.9,
+        "smooth_ratio_comment": "平滑参数, 当前一次是hdr时, 下一次的阈值会乘以此值, 降低门槛, 防止hdr判断出现在某个值附近波动"
+    }
+}

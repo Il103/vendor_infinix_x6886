@@ -1,0 +1,34 @@
+{
+  "win_at_rm": [
+    {
+      "pkg": "com.transsion.multiwindow",
+      "title": "DragAndZoomBackground"
+    },
+    {
+      "pkg": "com.transsion.smartpanel",
+      "title": "SmartPanel_PanelView"
+    }
+  ],
+  "win_sf_fm_excl": [
+  ],
+  "win_sg": [
+     "com.android.systemui"
+  ],
+  "win_big": {
+    "min_width": 300,
+    "min_height": 300
+  },
+  "win_small": {
+    "min_width": 150,
+    "min_height": 150
+  },
+  "win_micro": {
+    "min_width": 30,
+    "min_height": 30,
+    "vip": [
+      "com.transsion.dynamicbar",
+      "com.android.systemui"
+    ]
+  },
+  "exempt": []
+}

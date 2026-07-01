@@ -1,0 +1,12 @@
+{
+  "key": "feature_health_standard_component",
+  "version_code": 1,
+  "version_name": "v1.0",
+  "enable": 0,
+  "bp_enable": 1,
+  "limit_auto_start_time_hourly": 20,
+  "limit_auto_start_time_ten_min": 10,
+  "restart_service_block_list": [
+    "sg.bigo.live:service"
+  ]
+}

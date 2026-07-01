@@ -1,0 +1,311 @@
+{
+    "metadata": {
+        "code": 200,
+        "debugMessage": "",
+        "requestID": "lAW_20241411_171023_023_NacZqd8w",
+        "requestDelta": ""
+    },
+    "payload": {
+        "models": [
+            {
+                "appPackageName": "",
+                "checksum": "804ef6a6a6400a5b2ff3bfa1eef7a8b7",
+                "code": "00010001",
+                "downloadType": "whole",
+                "engineMode": "offline",
+                "fileType": "model",
+                "files": [
+                    {
+                        "checksum": "804ef6a6a6400a5b2ff3bfa1eef7a8b7",
+                        "link": "https://model-distribution-test.aibotplatform.com/voms/model/1_transsion_en_20241118113826.zip",
+                        "number": 1,
+                        "password": "Transsion",
+                        "size": 54163581
+                    }
+                ],
+                "language": "en",
+                "modelType": "speech",
+                "modelVersionCode": 1,
+                "sceneType": "asr",
+                "showName": "en",
+                "wholeSize": 54163581
+            },
+            {
+                "appPackageName": "",
+                "checksum": "ef3e57133282cd6eaa665fd375e25eca",
+                "code": "00010002",
+                "downloadType": "whole",
+                "engineMode": "offline",
+                "fileType": "model",
+                "files": [
+                    {
+                        "checksum": "ef3e57133282cd6eaa665fd375e25eca",
+                        "link": "https://model-distribution-test.aibotplatform.com/voms/model/1_transsion_fr_20241118114324.zip",
+                        "number": 1,
+                        "password": "Transsion",
+                        "size": 54376040
+                    }
+                ],
+                "language": "fr",
+                "modelType": "speech",
+                "modelVersionCode": 1,
+                "sceneType": "asr",
+                "showName": "fr",
+                "wholeSize": 54376040
+            },
+            {
+                "appPackageName": "",
+                "checksum": "7ba527c202589dbd461e4c4802bcc15d",
+                "code": "00010003",
+                "downloadType": "whole",
+                "engineMode": "offline",
+                "fileType": "model",
+                "files": [
+                    {
+                        "checksum": "7ba527c202589dbd461e4c4802bcc15d",
+                        "link": "https://model-distribution-test.aibotplatform.com/voms/model/1_transsion_ar_20241118114616.zip",
+                        "number": 1,
+                        "password": "Transsion",
+                        "size": 56983455
+                    }
+                ],
+                "language": "ar",
+                "modelType": "speech",
+                "modelVersionCode": 1,
+                "sceneType": "asr",
+                "showName": "ar",
+                "wholeSize": 56983455
+            },
+            {
+                "appPackageName": "",
+                "checksum": "4f2362651a32a7683750e1a78b6a43ba",
+                "code": "00020001",
+                "downloadType": "whole",
+                "engineMode": "offline",
+                "fileType": "model",
+                "files": [
+                    {
+                        "checksum": "4f2362651a32a7683750e1a78b6a43ba",
+                        "link": "https://model-distribution-test.aibotplatform.com/voms/model/1_transsion_en_20241118133647.zip",
+                        "number": 1,
+                        "password": "Transsion",
+                        "size": 3447019
+                    }
+                ],
+                "language": "en",
+                "modelType": "speech",
+                "modelVersionCode": 1,
+                "sceneType": "punc",
+                "showName": "en",
+                "wholeSize": 3447019
+            },
+            {
+                "appPackageName": "",
+                "checksum": "0e1fd21375739589a3cafd801ae343ed",
+                "code": "00020002",
+                "downloadType": "whole",
+                "engineMode": "offline",
+                "fileType": "model",
+                "files": [
+                    {
+                        "checksum": "0e1fd21375739589a3cafd801ae343ed",
+                        "link": "https://model-distribution-test.aibotplatform.com/voms/model/1_transsion_fr_20241118133829.zip",
+                        "number": 1,
+                        "password": "Transsion",
+                        "size": 3487810
+                    }
+                ],
+                "language": "fr",
+                "modelType": "speech",
+                "modelVersionCode": 1,
+                "sceneType": "punc",
+                "showName": "fr",
+                "wholeSize": 3487810
+            },
+            {
+                "appPackageName": "",
+                "checksum": "156cd526629ea4b2cc80cf95d6176846",
+                "code": "00020003",
+                "downloadType": "whole",
+                "engineMode": "offline",
+                "fileType": "model",
+                "files": [
+                    {
+                        "checksum": "156cd526629ea4b2cc80cf95d6176846",
+                        "link": "https://model-distribution-test.aibotplatform.com/voms/model/1_transsion_ar_20241118133945.zip",
+                        "number": 1,
+                        "password": "Transsion",
+                        "size": 2751473
+                    }
+                ],
+                "language": "ar",
+                "modelType": "speech",
+                "modelVersionCode": 1,
+                "sceneType": "punc",
+                "showName": "ar",
+                "wholeSize": 2751473
+            },
+            {
+                "appPackageName": "",
+                "checksum": "4a9783743a5e5189e63675482b3b8ad7",
+                "code": "00030001",
+                "downloadType": "whole",
+                "engineMode": "offline",
+                "fileType": "model",
+                "files": [
+                    {
+                        "checksum": "4a9783743a5e5189e63675482b3b8ad7",
+                        "link": "https://model-distribution-test.aibotplatform.com/voms/model/1_nmt_en_20241118135536.",
+                        "number": 1,
+                        "password": "Transsion",
+                        "size": 10
+                    }
+                ],
+                "language": "en",
+                "modelType": "speech",
+                "modelVersionCode": 1,
+                "sceneType": "nmt",
+                "showName": "en",
+                "wholeSize": 10
+            },
+            {
+                "appPackageName": "",
+                "checksum": "7cfdac7fa50e998344032ea2493c429a",
+                "code": "00030002",
+                "downloadType": "whole",
+                "engineMode": "offline",
+                "fileType": "model",
+                "files": [
+                    {
+                        "checksum": "7cfdac7fa50e998344032ea2493c429a",
+                        "link": "https://model-distribution-test.aibotplatform.com/voms/model/1_nmt_fr_20241118135740.",
+                        "number": 1,
+                        "password": "Transsion",
+                        "size": 17
+                    }
+                ],
+                "language": "fr",
+                "modelType": "speech",
+                "modelVersionCode": 1,
+                "sceneType": "nmt",
+                "showName": "fr",
+                "wholeSize": 17
+            },
+            {
+                "appPackageName": "",
+                "checksum": "562a4d2b82e61aecde249dcf65c261fa",
+                "code": "00030003",
+                "downloadType": "whole",
+                "engineMode": "offline",
+                "fileType": "model",
+                "files": [
+                    {
+                        "checksum": "562a4d2b82e61aecde249dcf65c261fa",
+                        "link": "https://model-distribution-test.aibotplatform.com/voms/model/1_nmt_ar_20241118135834.",
+                        "number": 1,
+                        "password": "Transsion",
+                        "size": 17
+                    }
+                ],
+                "language": "ar",
+                "modelType": "speech",
+                "modelVersionCode": 1,
+                "sceneType": "nmt",
+                "showName": "ar",
+                "wholeSize": 17
+            },
+            {
+                "appPackageName": "",
+                "checksum": "48d14f23857aa55c7fc5c45149417d47",
+                "code": "00040001",
+                "downloadType": "whole",
+                "engineMode": "offline",
+                "fileType": "model",
+                "files": [
+                    {
+                        "checksum": "48d14f23857aa55c7fc5c45149417d47",
+                        "link": "https://model-distribution-test.aibotplatform.com/voms/model/1_transsion_vad_20241118133327.zip",
+                        "number": 1,
+                        "password": "Transsion",
+                        "size": 42818
+                    }
+                ],
+                "language": "en",
+                "modelType": "speech",
+                "modelVersionCode": 1,
+                "sceneType": "vad",
+                "showName": "en",
+                "wholeSize": 42818
+            },
+            {
+                "appPackageName": "",
+                "checksum": "5ebff0f6138e006a03f3cd12f68f13c5",
+                "code": "00050001",
+                "downloadType": "whole",
+                "engineMode": "offline",
+                "fileType": "model",
+                "files": [
+                    {
+                        "checksum": "5ebff0f6138e006a03f3cd12f68f13c5",
+                        "link": "https://model-distribution-test.aibotplatform.com/voms/model/1_tts_en_20241118142950.",
+                        "number": 1,
+                        "password": "Transsion",
+                        "size": 107
+                    }
+                ],
+                "language": "en",
+                "modelType": "speech",
+                "modelVersionCode": 1,
+                "sceneType": "tts",
+                "showName": "en",
+                "wholeSize": 107
+            },
+            {
+                "appPackageName": "",
+                "checksum": "748658c8d3bbefd5787e5490e8b048ee",
+                "code": "00050002",
+                "downloadType": "whole",
+                "engineMode": "offline",
+                "fileType": "model",
+                "files": [
+                    {
+                        "checksum": "748658c8d3bbefd5787e5490e8b048ee",
+                        "link": "https://model-distribution-test.aibotplatform.com/voms/model/1_tts_fr_20241118143041.",
+                        "number": 1,
+                        "password": "Transsion",
+                        "size": 107
+                    }
+                ],
+                "language": "fr",
+                "modelType": "speech",
+                "modelVersionCode": 1,
+                "sceneType": "tts",
+                "showName": "fr",
+                "wholeSize": 107
+            },
+            {
+                "appPackageName": "",
+                "checksum": "b87cb055939db10f9921aa5630c129e0",
+                "code": "00050003",
+                "downloadType": "whole",
+                "engineMode": "offline",
+                "fileType": "model",
+                "files": [
+                    {
+                        "checksum": "b87cb055939db10f9921aa5630c129e0",
+                        "link": "https://model-distribution-test.aibotplatform.com/voms/model/1_tts_ar_20241118143135.",
+                        "number": 1,
+                        "password": "Transsion",
+                        "size": 104
+                    }
+                ],
+                "language": "ar",
+                "modelType": "speech",
+                "modelVersionCode": 1,
+                "sceneType": "tts",
+                "showName": "ar",
+                "wholeSize": 104
+            }
+        ]
+    }
+}

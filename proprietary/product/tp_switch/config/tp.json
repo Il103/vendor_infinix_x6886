@@ -1,0 +1,20 @@
+{
+  "version": 0.1,
+  "defaultRate": "240",
+  "tpList": [{
+    "rate": "360",
+    "packages": ["com.mobile.legends",
+        "com.dts.freefireth", "com.tencent.ig", "com.dts.freefiremax", "com.roblox.client",
+        "jp.konami.pesam", "com.kiloo.subwaysurf", "com.firsttouchgames.dls7",
+        "com.football.soccer.league", "com.garena.game.codm", "com.mojang.minecraftpe",
+        "com.firsttouchgames.dls3", "com.ea.gp.fifamobile", "com.supercell.clashofclans",
+        "com.activision.callofduty.shooter", "com.pubg.imobile", "com.rioo.runnersubway",
+        "com.PlayMax.playergames", "jp.garud.ssimulator", "com.ForgeGames.SpecialForcesGroup2",
+        "com.olzhas.carparking.multyplayer", "com.rockstargames.gtasa", "com.Rohit.IndianBikes",
+        "com.miHoYo.GenshinImpact", "com.craftsman.go", "com.ea.game.pvzfree_row",
+        "net.apex_designs.payback2", "com.supercell.brawlstars", "com.mgc.RopeHero.ViceTown",
+        "com.garena.game.kgth", "com.netease.newspike", "kr.konami.we2012",
+        "com.imangi.templerun2", "com.riotgames.league.wildrift", "com.t2ksports.nba2k20and",
+        "com.igoldtech.streetchaser", "com.soccer.score.star", "com.tencent.tmgp.pubgmhd"]
+  }]
+}

@@ -1,0 +1,5 @@
+com.transsion.filemanagerx:/tr_product/operator/app/OSFileManager
+com.transsion.notebook:/tr_preload/operator/app/Notepad/
+com.transsion.letswitch:/system_ext/app/MobileCloner/
+com.transsion.mobilecloner:/system_ext/app/MobileClonerUI/
+com.transsion.gamespace.app:/tr_product/operator/app/GameSpace/

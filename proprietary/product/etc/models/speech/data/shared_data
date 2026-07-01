@@ -1,0 +1,125 @@
+{
+    "config": {
+        "code": "00000001",
+        "path": "/product/etc/models/speech/config/1_general_config",
+        "version": 1,
+        "checksum": "a82df423cf5f335558c94d8d3d12cb7c",
+        "time": 1722826386058
+    },
+    "model": {
+        "asr": [
+            {
+                "code": "00010001",
+                "language": "en",
+                "mode": "offline",
+                "model_version": 1,
+                "path": "/data/models/speech/model/asr/1_transsion_en",
+                "time": 1722826386058
+            },
+            {
+                "code": "00010002",
+                "language": "fr",
+                "mode": "offline",
+                "model_version": 1,
+                "path": "/data/models/speech/model/asr/1_transsion_fr",
+                "time": 1722826386058
+            },
+            {
+                "code": "00010003",
+                "language": "ar",
+                "mode": "offline",
+                "model_version": 1,
+                "path": "/data/models/speech/model/asr/1_transsion_ar",
+                "time": 1722826386058
+            }
+        ],
+        "punc": [
+            {
+                "code": "00020001",
+                "language": "en",
+                "mode": "offline",
+                "model_version": 1,
+                "path": "/data/models/speech/model/punc/1_transsion_en",
+                "time": 1722826386058
+            },
+            {
+                "code": "00020002",
+                "language": "fr",
+                "mode": "offline",
+                "model_version": 1,
+                "path": "/data/models/speech/model/punc/1_transsion_fr",
+                "time": 1722826386058
+            },
+            {
+                "code": "00020003",
+                "language": "ar",
+                "mode": "offline",
+                "model_version": 1,
+                "path": "/data/models/speech/model/punc/1_transsion_ar",
+                "time": 1722826386058
+            }
+        ],
+        "vad": [
+            {
+                "code": "00040001",
+                "language": "en",
+                "mode": "offline",
+                "model_version": 1,
+                "path": "/data/models/speech/model/vad/1_transsion_vad",
+                "time": 1722826386058
+            }
+        ],
+        "nmt": [
+            {
+                "code": "00030001",
+                "language": "en",
+                "mode": "offline",
+                "model_version": 1,
+                "path": "",
+                "time": 1722826386058
+            },
+            {
+                "code": "00030002",
+                "language": "fr",
+                "mode": "offline",
+                "model_version": 1,
+                "path": "",
+                "time": 1722826386058
+            },
+            {
+                "code": "00030003",
+                "language": "ar",
+                "mode": "offline",
+                "model_version": 1,
+                "path": "",
+                "time": 1722826386058
+            }
+        ],
+        "tts": [
+            {
+                "code": "00050001",
+                "language": "en",
+                "mode": "offline",
+                "model_version": 1,
+                "path": "",
+                "time": 1722826386058
+            },
+            {
+                "code": "00050002",
+                "language": "fr",
+                "mode": "offline",
+                "model_version": 1,
+                "path": "",
+                "time": 1722826386058
+            },
+            {
+                "code": "00050003",
+                "language": "ar",
+                "mode": "offline",
+                "model_version": 1,
+                "path": "",
+                "time": 1722826386058
+            }
+        ]
+    }
+}

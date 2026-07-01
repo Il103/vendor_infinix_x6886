@@ -1,0 +1,8 @@
+{
+  "key": "feature_health_standard_bt",
+  "version_code": 1,
+  "version_name": "v1.0",
+  "bt_limit_bp_enable": 1,
+  "bt_time_expired": 5,
+  "bt_upload_max_count": 100
+}

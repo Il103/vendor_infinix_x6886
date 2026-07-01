@@ -1,0 +1,8 @@
+on late-init
+    start vendor.hardware.trancharge-service
+
+service vendor.hardware.trancharge-service /vendor/bin/hw/vendor.hardware.trancharge-service
+        interface aidl vendor.hardware.trancharge.ITranCharge/default
+        class hal
+        user system
+        group system

@@ -1,0 +1,18 @@
+{
+  "key": "feature_health_standard_usage_app",
+  "version_code": 2,
+  "version_name": "v1.1",
+  "usage_app_toast_enable": 0,
+  "usage_app_toast_bp_enable": 0,
+  "usage_app_toast_start_time": "09:00",
+  "usage_app_toast_start_day": 1,
+  "usage_app_toast_launch_3_day": 10,
+  "usage_app_toast_launch_7_day": 20,
+  "usage_app_toast_visible_3_day": 10,
+  "usage_app_toast_visible_7_day": 20,
+  "usage_app_toast_force_detect": false,
+  "usage_app_toast_install_time": 8,
+  "usage_app_toast_white_set": [
+    "com.transsion.phonemaster"
+  ]
+}

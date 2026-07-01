@@ -1,0 +1,118 @@
+<!-- add for aegean2.0 by yunjun.yang at 20241012 -->
+<group time="2024102901" version="2.0.0">
+    <!-- foreground组切换到foreground limit组，在此配置-->
+    <fg_to_fgl>
+        <!-- for process -->
+        <package name="com.transsion.phonemanager" policy="force" />
+        <package name="com.transsion.microintelligence" policy="force" />
+        <package name="com.transsion.screencapture" policy="force" />
+        <package name="com.transsion.settings.bluetooth" policy="force" />
+        <package name="com.transsion.settings.nfc" policy="force" />
+        <package name="com.transsion.settings.wifi" policy="force" />
+        <package name="com.transsion.zahooc" policy="force" />
+        <package name="com.transsion.necessity" policy="force" />
+        <package name="com.transsion.calendar" policy="force" />
+        <package name="com.transsion.phonemaster" policy="force" />
+        <package name="com.transsion.os.typeface" policy="force" />
+        <package name="com.transsion.statisticalsales" policy="force" />
+        <package name="com.transsion.screenrecorder" policy="force" />
+        <package name="com.transsion.iotservice" policy="force" />
+        <package name="com.transsion.plat.appupdate" policy="force" />
+        <package name="com.transsion.sru" policy="force" />
+        <package name="com.transsion.tranradionet" policy="force" />
+        <package name="com.transsion.tele.settings" policy="force" />
+        <package name="com.transsion.tabe" policy="force" />
+        <package name="com.transsion.kolun.aiservice" policy="force" />
+        <package name="com.transsion.kolun.assistant" policy="force" />
+        <package name="com.transsion.aivoiceassistant:voiceinteractionservice" policy="force" />
+        <package name="com.transsion.batterylab" policy="force" />
+        <package name="com.transsion.aivoiceassistant" policy="force" />
+        <package name="com.transsion.iotcard" policy="force" scene="hidden" />
+        <package name="com.transsion.audiosmartconnect" policy="force" />
+        <package name="com.transsion.healthlife" policy="force" />
+        <package name="com.tencent.android.qqdownloader" policy="force" />
+        <!-- for fgl thread (system_server) -->
+        <package name="android" policy="force" process="system" thread="HeapTaskDaemon" />
+        <package name="android" policy="force" process="system" thread="KT.KolunCore" />
+        <package name="android" policy="force" process="system" thread="KT.KolunCore_E" />
+        <package name="android" policy="force" process="system" thread="KT.AndroidSyst" />
+        <package name="android" policy="force" process="system" thread="TranTrafficMoni" />
+        <package name="android" policy="force" process="system" thread="perfetto_hprof_" />
+        <package name="android" policy="force" process="system" thread="TranAIMaster" />
+        <package name="android" policy="force" process="system" thread="atchdog.monitor" />
+        <package name="android" policy="force" process="system" thread="watchdog" />
+        <package name="android" policy="force" process="system" thread="memfusion" />
+        <package name="android" policy="force" process="system" thread="Memfusion init" />
+        <package name="android" policy="force" process="system" thread="aegean_scene_fg" />
+        <package name="android" policy="force" process="system" thread="TranWatchdogImp" />
+        <package name="android" policy="force" process="system" thread="TranPerIOThread" />
+        <package name="android" policy="force" process="system" thread="TranHeavyLoadin" />
+        <package name="android" policy="force" process="system" thread="app.download" />
+        <package name="android" policy="force" process="system" thread="BehaviorManager" />
+        <package name="android" policy="force" process="system" thread="CpuMonitor" />
+        <package name="android" policy="force" process="system" thread="CpuTracker" />
+        <package name="android" policy="force" process="system" thread="TranBgThread" />
+        <package name="android" policy="force" process="system" thread="ackgroundThread" />
+        <package name="android" policy="force" process="system" thread="batterystats-wo" />
+        <package name="android" policy="force" process="system" thread="batterystats-ha" />
+        <package name="android" policy="force" process="system" thread="roid.usagestats" />
+        <package name="android" policy="force" process="system" thread="LowMemThread" />
+
+    </fg_to_fgl>
+    <!-- foreground组切换到background组，在此配置-->
+    <fg_to_bg>
+        <!-- for process -->
+        <package name="com.transsion.powerdata" policy="force" />
+        <package name="com.transsion.trancare" policy="force" />
+        <package name="com.transsion.uxdetector" policy="force" />
+        <package name="com.transsion.phonemaster" policy="force" />
+        <package name="com.transsion.cloudserver" policy="force" />
+        <package name="com.transsion.tranengine" policy="force" />
+        <package name="com.debug.loggerui" policy="force" />
+        <package name="com.transsion.testcaserepository.test" policy="force" />
+        <package name="com.transsion.testcaserepository" policy="force" />
+        <!-- for fg2bg thread (system_server)-->
+        <package name="android" policy="force" process="system" thread="ThubBpThread" />
+        <package name="android" policy="force" process="system" thread="TranPowerDataEv" />
+        <package name="android" policy="force" process="system" thread="TranFuelgauge" />
+        <package name="android" policy="force" process="system" thread="agares_exceptio" />
+        <package name="android" policy="force" process="system" thread="AgaresBpThread" />
+        <package name="android" policy="force" process="system" thread="CloudEngineF" />
+        <package name="android" policy="force" process="system" thread="TranPowerDataCo" />
+        <package name="android" policy="force" process="system" thread="TranPowerDataIO" />
+        <package name="android" policy="force" process="system" thread="TranLogService" />
+        <package name="android" policy="force" process="system" thread="hstdAppWake" />
+        <package name="android" policy="force" process="system" thread="hstdBehavior" />
+        <package name="android" policy="force" process="system" thread="health_standard" />
+        <package name="android" policy="force" process="system" thread="TranResmonitorM" />
+        <package name="android" policy="force" process="system" thread="AegeanPowerTrac" />
+        <package name="android" policy="force" process="system" thread="meminfoCollectM" />
+        <package name="android" policy="force" process="system" thread="TranMemCollectM" />
+        <package name="android" policy="force" process="system" thread="PMCoreUpdateThr" />
+        <package name="android" policy="force" process="system" thread="PMPolicyUpdateT" />
+        <package name="android" policy="force" process="system" thread="pm.cleaner" />
+        <package name="android" policy="force" process="system" thread="pm.killer" />
+        <package name="android" policy="force" process="system" thread="DeepManualClean" />
+        <package name="android" policy="force" process="system" thread="lmkInfoCollecto" />
+        <package name="android" policy="force" process="system" thread="lmkDumpsysColle" />
+        <package name="android" policy="force" process="system" thread="mem.cleaner" />
+    </fg_to_bg>
+    <!-- system-background组切换到system-background high组，在此配置-->
+    <sbg_to_sbgh>
+        <package name="native" process="/system/bin/servicemanager" />
+        <package name="native" process="/system/system_ext/bin/hwservicemanager" />
+        <package name="native" process="/system/bin/surfaceflinger" />
+        <package name="native" process="/system/bin/gpuservice" />
+        <package name="native" process="/system/bin/keystore2" />
+        <package name="native" process="/vendor/bin/hw/android.hardware.gatekeeper@1.0-service" />
+        <package name="native" process="/system/bin/gatekeeperd" />
+        <package name="native" process="/system/system_ext/bin/hw/android.hidl.allocator@1.0-service" />
+        <package name="native" process="/vendor/bin/hw/android.hardware.graphics.allocator@4.0-service-mediatek" />
+        <package name="native" process="/vendor/bin/hw/android.hardware.graphics.composer@2.3-service" />
+        <package name="native" process="/vendor/bin/hw/android.hardware.biometrics.face@1.0-service.example" />
+        <package name="native" process="/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-mediatek" />
+    </sbg_to_sbgh>
+    <sbg_to_fgl>
+        <package name="native" process="/system/bin/logd" />
+    </sbg_to_fgl>
+</group>

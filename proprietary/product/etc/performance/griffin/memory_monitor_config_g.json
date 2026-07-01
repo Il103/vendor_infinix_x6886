@@ -1,0 +1,351 @@
+{
+  "update":20250314,
+  "ver": 1.1,
+  "enable": 1,
+  "ram": 12,
+  "defaultMem": 3072,
+  "screen": "false",
+  "idle": "false",
+  "limitTime": "false",
+  "beginTime": "00:00:00",
+  "endTime": "23:59:59",
+  "delayCount": 6,
+  "delayTime": 10,
+  "delayResult": "alive",
+  "adj": 1000,
+  "forgroundVisble": "true",
+  "floatWindowVisble": "true",
+  "widgetVisble": "true",
+  "gpsActive": "true",
+  "usingMultiMedia": "true",
+  "recording": "true",
+  "bluetoothWorking": "true",
+  "downloading": "true",
+  "vpnConnected": "true",
+  "TTS": "true",
+  "restoreWorking": "true",
+  "uidCollect": "true",
+  "connectionCollect": "true",
+  "limit": [
+    {
+      "proc": "com.android.systemui",
+      "screen": "off"
+    },
+    {
+      "proc": "com.facebook.katana",
+      "mem": 1419
+    },
+    {
+      "proc": "com.ss.android.ugc.trill",
+      "mem": 1128
+    },
+    {
+      "proc": "com.shopee.id",
+      "mem": 1106
+    },
+    {
+      "proc": "ridmik.keyboard",
+      "mem": 1052
+    },
+	{
+      "proc": "com.zhiliaoapp.musically",
+      "mem": 1007
+    },
+	{
+      "proc": "com.instagram.android",
+      "mem": 793
+    },
+    {
+      "proc": "com.lemon.lvoverseas",
+      "mem": 740
+    },
+    {
+      "proc": "com.afmobi.boomplayer",
+      "mem": 693
+    },
+    {
+      "proc": "com.truecaller",
+      "mem": 684
+    },
+    {
+      "proc": "org.telegram.messenger",
+      "mem": 655
+    },
+    {
+      "proc": "com.snapchat.android",
+      "mem": 629
+    },
+    {
+      "proc": "com.gallery20",
+      "mem": 574
+    },
+    {
+      "proc": "com.viber.voip",
+      "mem": 532
+    },
+    {
+      "proc": "com.dywx.larkplayer",
+      "mem": 519
+    },
+    {
+      "proc": "com.facebook.orca",
+      "mem": 517
+    },
+    {
+      "proc": "com.spotify.music",
+      "mem": 511
+    },
+    {
+      "proc": "com.whatsapp",
+      "mem": 504
+    },
+    {
+      "proc": "id.dana",
+      "mem": 452
+    },
+    {
+      "proc": "com.zhiliaoapp.musically.go",
+      "mem": 440
+    },
+    {
+      "proc": "com.whatsapp.w4b",
+      "mem": 428
+    },
+    {
+      "proc": "com.imo.android.imoim",
+      "mem": 411
+    },
+    {
+      "proc": "com.nemo.vidmate",
+      "mem": 407
+    },
+    {
+      "proc": "com.twitter.android",
+      "mem": 395
+    },
+    {
+      "proc": "com.transsion.phoenix",
+      "mem": 389
+    },
+    {
+      "proc": "com.facebook.lite",
+      "mem": 375
+    },
+    {
+      "proc": "com.video.fun.app",
+      "mem": 373
+    },
+    {
+      "proc": "com.snaptube.premium",
+      "mem": 328
+    },
+    {
+      "proc": "com.transsion.magicshow",
+      "mem": 318
+    },
+    {
+      "proc": "cn.xender",
+      "mem": 289
+    },
+    {
+      "proc": "com.transsion.kolun.aiservice",
+      "mem": 289
+    },
+    {
+      "proc": "com.microsoft.office.outlook",
+      "mem": 284
+    },
+    {
+      "proc": "net.bat.store",
+      "mem": 282
+    },
+    {
+      "proc": "com.transsion.screencapture",
+      "mem": 282
+    },
+    {
+      "proc": "com.lenovo.anyshare.gps",
+      "mem": 256
+    },
+    {
+      "proc": "com.android.settings",
+      "mem": 212
+    },
+    {
+      "proc": "com.transsion.aicoreservice",
+      "mem": 199
+    },
+    {
+      "proc": "com.transsion.easypic",
+      "mem": 1024
+    },
+    {
+      "proc": "com.transsion.phonemaster",
+      "mem": 185
+    },
+    {
+      "proc": "com.apkpure.aegon",
+      "mem": 183
+    },
+    {
+      "proc": "com.talpa.hibrowser",
+      "mem": 180
+    },
+    {
+      "proc": "com.transsion.smartpanel",
+      "mem": 170
+    },
+    {
+      "proc": "com.rlk.weathers",
+      "mem": 163
+    },
+    {
+      "proc": "com.sh.smart.caller",
+      "mem": 151
+    },
+    {
+      "proc": "com.transsion.keyguardtheme",
+      "mem": 131
+    },
+    {
+      "proc": "com.transsion.folax",
+      "mem": 123
+    },
+    {
+      "proc": "com.transsion.ella",
+      "mem": 118
+    },
+    {
+      "proc": "com.transsion.faceid",
+      "mem": 115
+    },
+    {
+      "proc": "com.transsion.deskclock",
+      "mem": 115
+    },
+    {
+      "proc": "com.transsion.mol",
+      "mem": 107
+    },
+    {
+      "proc": "com.transsion.magazineservice.xos",
+      "mem": 105
+    },
+    {
+      "proc": "com.transsion.filemanagerx",
+      "mem": 105
+    },
+    {
+      "proc": "com.transsion.magazineservice.hios",
+      "mem": 105
+    },
+    {
+      "proc": "com.mobile.legends",
+      "mem": 101
+    },
+    {
+      "proc": "com.transsion.ossettingsext",
+      "mem": 90
+    },
+    {
+      "proc": "libweexjsb.so",
+      "mem": 86
+    },
+    {
+      "proc": "com.transsion.uxdetector",
+      "mem": 84
+    },
+    {
+      "proc": "com.ziipin.softkeyboard.iraq",
+      "mem": 2514
+    },
+    {
+      "proc": "com.ziipin.softkeyboard.saudi",
+      "mem": 2306
+    },
+    {
+      "proc": "com.activision.callofduty.shooter",
+      "mem": 1890
+    },
+    {
+      "proc": "com.dts.freefiremax",
+      "mem": 1746
+    },
+    {
+      "proc": "com.dts.freefireth",
+      "mem": 1629
+    },
+    {
+      "proc": "com.roblox.client",
+      "mem": 1605
+    },
+    {
+      "proc": "com.pakdata.easyurdu",
+      "mem": 1554
+    },
+    {
+      "proc": "com.yalla.yallagames",
+      "mem": 1120
+    },
+    {
+      "proc": "com.shopee.id",
+      "mem": 1104
+    },
+    {
+      "proc": "com.callapp.contacts",
+      "mem": 1090
+    },
+    {
+      "proc": "com.miniclip.eightballpool",
+      "mem": 1071
+    },
+    {
+      "proc": "com.shopee.my",
+      "mem": 1052
+    },
+    {
+      "proc": "app_d",
+      "mem": 1008
+    },
+    {
+      "proc": "com.garena.game.codm",
+      "mem": 1933
+    },
+    {
+      "proc": "free.daily.tube.background",
+      "mem": 1599
+    },
+    {
+      "proc": "com.kurogame.wutheringwaves.global",
+      "mem": 3416
+    },
+    {
+      "proc": "com.taxsee.driver",
+      "mem": 2890
+    },
+    {
+      "proc": "com.yango.driver",
+      "mem": 2853
+    },
+    {
+      "proc": "us.ultrasurf.mobile.ultrasurf",
+      "mem": 2836
+    },
+    {
+      "proc": "com.netmarble.sololv",
+      "mem": 2826
+    },
+    {
+      "proc": "com.transsion.im",
+      "mem": 2307
+    },
+    {
+      "proc": "com.activision.callofduty.warzone",
+      "mem": 3072
+    },
+    {
+      "proc": "ru.SOFFGames.gco",
+      "mem": 3072
+    }
+  ]
+}

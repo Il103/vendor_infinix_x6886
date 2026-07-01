@@ -1,0 +1,532 @@
+<GameThermalEngineTypeList>
+    <version value="20251205"/>
+    <!--MLBB-->
+    <TYPE id="0">
+        <!--画质设置：AIVRS/GPU-->
+        <setting type_policy="policy_graphic" value="[0 60],[0 0 0 1001 1001]"/>
+        <AMBIENT value="100">
+            <!--壳温阈值-->
+            <setting ambient_policy="shell_temp_threshold" value="45"/>
+            <!--屏幕亮度调整范围-->
+            <setting ambient_policy="screen_brightness_range" value="180,255"/>
+            <!--音量调整范围-->
+            <setting ambient_policy="volume_range" value="11,15"/>
+            <!--壳温计算区间（速率），单位秒-->
+            <setting ambient_policy="shell_window_size" value="180"/>
+            <!--板温计算区间（平均值），单位秒-->
+            <setting ambient_policy="pcb_window_size" value="30"/>
+            <!--通知间隔，单位秒-->
+            <setting ambient_policy="call_back_period" value="30"/>
+            <!--壳温采样区间，单位秒-->
+            <setting ambient_policy="shell_temp_sampling_period" value="10"/>
+            <!--板温采样区间，单位秒-->
+            <setting ambient_policy="pcb_temp_sampling_period" value="10"/>
+            <!--多少秒平均帧率，单位秒-->
+            <setting ambient_policy="fps_avg_period" value="1"/>
+            <!--目标帧率计算次数-->
+            <setting ambient_policy="target_fps_count" value="30"/>
+            <!--默认帧率（不单独设目标帧率就走common）-->
+            <FPS value="Common">
+                <!--壳温预测方式的恢复温度间隔（距离壳温阈值n度恢复）-->
+                <setting fps_policy="recover_shell_temp_interval" value="10"/>
+                <!--主板温度方式的恢复温度间隔（距离每档温度n度恢复）-->
+                <setting fps_policy="recover_pcb_temp_interval" value="1"/>
+                <!--壳温预测方式的策略触发档位（当前壳温距离壳温阈值的剩余时间，单位分钟）-->
+                <setting fps_policy="shell_time_interval" value="15,10,5"/>
+                <!--主板温度方式的策略触发档位（当前板温距离板温阈值的剩余温度，单位度）-->
+                <setting fps_policy="pcb_temp_interval" value="3,1,0"/>
+                <!--壳温最低触发温度-->
+                <setting fps_policy="min_shell_temp" value="35"/>
+                <!--板温最低触发温度-->
+                <setting fps_policy="min_pcb_temp" value="40"/>
+                <!--限频策略底线-->
+                <setting fps_policy="min_cpu_freq" value="0.5,0.5,0.5"/>
+                <!--锁帧策略底线-->
+                <setting fps_policy="min_fps" value="30"/>
+                <!--默认场景-->
+                <SCENE value="default">
+                    <!--场景是否跟随温度（1：优先级：温度>场景/0：优先级：场景>温度）-->
+                    <setting scene_policy="follow_temp_enable" value="1"/>
+                    <!--屏幕亮度降低档位-->
+                    <setting scene_policy="screen_brightness" value="unknown"/>
+                    <!--音量降低档位-->
+                    <setting scene_policy="volume" value="unknown"/>
+                    <!--脚步声增强开关-->
+                    <setting scene_policy="increased_footsteps" value="0"/>
+                    <!--频率天花板被限制的档位-->
+                    <setting scene_policy="cpu_freq" value="unknown"/>
+                    <!--锁帧的档位-->
+                    <setting scene_policy="fps" value="0.9,0.85,0.85"/>
+                </SCENE>
+            </FPS>
+            <FPS value="90">
+                <setting fps_policy="recover_shell_temp_interval" value="10"/>
+                <setting fps_policy="recover_pcb_temp_interval" value="1"/>
+                <setting fps_policy="shell_time_interval" value="15,10,5"/>
+                <setting fps_policy="min_shell_temp" value="35"/>
+                <setting fps_policy="min_pcb_temp" value="35"/>
+                <setting fps_policy="pcb_temp_interval" value="15,10,0"/>
+                <setting fps_policy="min_cpu_freq" value="0.5,0.5,0.5"/>
+                <setting fps_policy="min_fps" value="83"/>
+                <SCENE value="default">
+                    <setting scene_policy="follow_temp_enable" value="1"/>
+                    <setting scene_policy="screen_brightness" value="unknown"/>
+                    <setting scene_policy="volume" value="unknown"/>
+                    <setting scene_policy="increased_footsteps" value="0"/>
+                    <setting scene_policy="cpu_freq" value="unknown"/>
+                    <setting scene_policy="fps" value="83,83,83"/>
+                </SCENE>
+            </FPS>
+        </AMBIENT>
+    </TYPE>
+    <!--PUBG-->
+    <TYPE id="1">
+        <setting type_policy="policy_graphic" value="[0 60],[0 0 0 1001 1001]"/>
+        <AMBIENT value="100">
+            <setting ambient_policy="shell_temp_threshold" value="45"/>
+            <setting ambient_policy="screen_brightness_range" value="180,255"/>
+            <setting ambient_policy="volume_range" value="11,15"/>
+            <setting ambient_policy="shell_window_size" value="180"/>
+            <setting ambient_policy="pcb_window_size" value="30"/>
+            <setting ambient_policy="call_back_period" value="30"/>
+            <setting ambient_policy="shell_temp_sampling_period" value="10"/>
+            <setting ambient_policy="pcb_temp_sampling_period" value="10"/>
+            <setting ambient_policy="fps_avg_period" value="1"/>
+            <setting ambient_policy="target_fps_count" value="30"/>
+            <FPS value="Common">
+                <setting fps_policy="recover_shell_temp_interval" value="10"/>
+                <setting fps_policy="recover_pcb_temp_interval" value="1"/>
+                <setting fps_policy="shell_time_interval" value="15,10,5"/>
+                <setting fps_policy="pcb_temp_interval" value="3,1,0"/>
+                <setting fps_policy="min_shell_temp" value="30"/>
+                <setting fps_policy="min_pcb_temp" value="40"/>
+                <setting fps_policy="min_cpu_freq" value="0.5,0.5,0.5"/>
+                <setting fps_policy="min_fps" value="30"/>
+                <SCENE value="default">
+                    <setting scene_policy="follow_temp_enable" value="1"/>
+                    <setting scene_policy="screen_brightness" value="unknown"/>
+                    <setting scene_policy="volume" value="unknown"/>
+                    <setting scene_policy="increased_footsteps" value="0"/>
+                    <setting scene_policy="cpu_freq" value="[0.8-0.8],[0.7-0.7],[0.7-0.7]"/>
+                    <setting scene_policy="fps" value="0.9,0.85,0.85"/>
+                </SCENE>
+            </FPS>
+            <FPS value="60">
+                <setting fps_policy="recover_shell_temp_interval" value="10"/>
+                <setting fps_policy="recover_pcb_temp_interval" value="1"/>
+                <setting fps_policy="shell_time_interval" value="15,10,5"/>
+                <setting fps_policy="pcb_temp_interval" value="3,1,0"/>
+                <setting fps_policy="min_shell_temp" value="30"/>
+                <setting fps_policy="min_pcb_temp" value="35"/>
+                <setting fps_policy="min_cpu_freq" value="0.5,0.5,0.5"/>
+                <setting fps_policy="min_fps" value="45"/>
+                <SCENE value="default">
+                    <setting scene_policy="follow_temp_enable" value="1"/>
+                    <setting scene_policy="screen_brightness" value="unknown"/>
+                    <setting scene_policy="volume" value="unknown"/>
+                    <setting scene_policy="increased_footsteps" value="0"/>
+                    <setting scene_policy="cpu_freq" value="unknown"/>
+                    <setting scene_policy="fps" value="0.9,0.85,0.85"/>
+                </SCENE>
+            </FPS>
+        </AMBIENT>
+    </TYPE>
+    <!--FF-->
+    <TYPE id="2">
+        <setting type_policy="policy_graphic" value="[0 60],[0 0 0 1001 1001]"/>
+        <AMBIENT value="100">
+            <setting ambient_policy="shell_temp_threshold" value="45"/>
+            <setting ambient_policy="screen_brightness_range" value="180,255"/>
+            <setting ambient_policy="volume_range" value="11,15"/>
+            <setting ambient_policy="shell_window_size" value="180"/>
+            <setting ambient_policy="pcb_window_size" value="30"/>
+            <setting ambient_policy="call_back_period" value="30"/>
+            <setting ambient_policy="shell_temp_sampling_period" value="10"/>
+            <setting ambient_policy="pcb_temp_sampling_period" value="10"/>
+            <setting ambient_policy="fps_avg_period" value="1"/>
+            <setting ambient_policy="target_fps_count" value="30"/>
+            <FPS value="Common">
+                <setting fps_policy="recover_shell_temp_interval" value="10"/>
+                <setting fps_policy="recover_pcb_temp_interval" value="1"/>
+                <setting fps_policy="shell_time_interval" value="15,10,5"/>
+                <setting fps_policy="pcb_temp_interval" value="3,1,0"/>
+                <setting fps_policy="min_shell_temp" value="30"/>
+                <setting fps_policy="min_pcb_temp" value="40"/>
+                <setting fps_policy="min_cpu_freq" value="0.5,0.5,0.5"/>
+                <setting fps_policy="min_fps" value="30"/>
+                <SCENE value="default">
+                    <setting scene_policy="follow_temp_enable" value="1"/>
+                    <setting scene_policy="screen_brightness" value="unknown"/>
+                    <setting scene_policy="volume" value="unknown"/>
+                    <setting scene_policy="increased_footsteps" value="0"/>
+                    <setting scene_policy="cpu_freq" value="[0.8-0.8],[0.7-0.7],[0.7-0.7]"/>
+                    <setting scene_policy="fps" value="0.9,0.85,0.85"/>
+                </SCENE>
+            </FPS>
+            <FPS value="90">
+                <setting fps_policy="recover_shell_temp_interval" value="10"/>
+                <setting fps_policy="recover_pcb_temp_interval" value="1"/>
+                <setting fps_policy="shell_time_interval" value="15,10,5"/>
+                <setting fps_policy="min_shell_temp" value="35"/>
+                <setting fps_policy="min_pcb_temp" value="35"/>
+                <setting fps_policy="pcb_temp_interval" value="30,10,5"/>
+                <setting fps_policy="min_cpu_freq" value="0.5,0.5,0.5"/>
+                <setting fps_policy="min_fps" value="70"/>
+                <SCENE value="default">
+                    <setting scene_policy="follow_temp_enable" value="1"/>
+                    <setting scene_policy="screen_brightness" value="unknown"/>
+                    <setting scene_policy="volume" value="unknown"/>
+                    <setting scene_policy="increased_footsteps" value="0"/>
+                    <setting scene_policy="cpu_freq" value="unknown"/>
+                    <setting scene_policy="fps" value="80,75,75"/>
+                </SCENE>
+            </FPS>
+        </AMBIENT>
+    </TYPE>
+    <!--原神-->
+    <TYPE id="3">
+        <setting type_policy="policy_graphic" value="[0 60],[0 0 0 1001 1001]"/>
+        <AMBIENT value="100">
+            <setting ambient_policy="shell_temp_threshold" value="45"/>
+            <setting ambient_policy="screen_brightness_range" value="180,255"/>
+            <setting ambient_policy="volume_range" value="11,15"/>
+            <setting ambient_policy="shell_window_size" value="180"/>
+            <setting ambient_policy="pcb_window_size" value="30"/>
+            <setting ambient_policy="call_back_period" value="30"/>
+            <setting ambient_policy="shell_temp_sampling_period" value="10"/>
+            <setting ambient_policy="pcb_temp_sampling_period" value="10"/>
+            <setting ambient_policy="fps_avg_period" value="1"/>
+            <setting ambient_policy="target_fps_count" value="30"/>
+            <FPS value="Common">
+                <setting fps_policy="recover_shell_temp_interval" value="10"/>
+                <setting fps_policy="recover_pcb_temp_interval" value="2"/>
+                <setting fps_policy="shell_time_interval" value="15,10,5"/>
+                <setting fps_policy="pcb_temp_interval" value="5,3,1"/>
+                <setting fps_policy="min_shell_temp" value="30"/>
+                <setting fps_policy="min_pcb_temp" value="40"/>
+                <setting fps_policy="min_cpu_freq" value="0.5,0.5,0.5"/>
+                <setting fps_policy="min_fps" value="1"/>
+                <SCENE value="default">
+                    <setting scene_policy="follow_temp_enable" value="1"/>
+                    <setting scene_policy="screen_brightness" value="15,35,55"/>
+                    <setting scene_policy="volume" value="1,2,5"/>
+                    <setting scene_policy="increased_footsteps" value="0"/>
+                    <setting scene_policy="cpu_freq" value="unknown"/>
+                    <setting scene_policy="fps" value="1,1,1"/>
+                </SCENE>
+            </FPS>
+            <FPS value="60">
+                <setting fps_policy="recover_shell_temp_interval" value="10"/>
+                <setting fps_policy="shell_time_interval" value="20,15,10"/>
+                <setting fps_policy="min_shell_temp" value="35"/>
+                <setting fps_policy="recover_pcb_temp_interval" value="2"/>
+                <setting fps_policy="pcb_temp_interval" value="4,2"/>
+                <setting fps_policy="min_pcb_temp" value="30"/>
+                <setting fps_policy="min_cpu_freq" value="0.5,0.5,0.5"/>
+                <setting fps_policy="min_fps" value="28"/>
+                <SCENE value="default">
+                    <setting scene_policy="follow_temp_enable" value="1"/>
+                    <setting scene_policy="screen_brightness" value="15,35,55"/>
+                    <setting scene_policy="volume" value="1,2,5"/>
+                    <setting scene_policy="increased_footsteps" value="0"/>
+                    <setting scene_policy="cpu_freq" value="unknown"/>
+                    <setting scene_policy="fps" value="40,30"/>
+                </SCENE>
+            </FPS>
+        </AMBIENT>
+    </TYPE>
+    <!--efootball-->
+    <TYPE id="4">
+        <setting type_policy="policy_graphic" value="[0 60],[0 0 0 1001 1001]"/>
+        <AMBIENT value="100">
+            <setting ambient_policy="shell_temp_threshold" value="45"/>
+            <setting ambient_policy="screen_brightness_range" value="180,255"/>
+            <setting ambient_policy="volume_range" value="11,15"/>
+            <setting ambient_policy="shell_window_size" value="180"/>
+            <setting ambient_policy="pcb_window_size" value="30"/>
+            <setting ambient_policy="call_back_period" value="30"/>
+            <setting ambient_policy="shell_temp_sampling_period" value="10"/>
+            <setting ambient_policy="pcb_temp_sampling_period" value="10"/>
+            <setting ambient_policy="fps_avg_period" value="1"/>
+            <setting ambient_policy="target_fps_count" value="30"/>
+            <FPS value="Common">
+                <setting fps_policy="recover_shell_temp_interval" value="10"/>
+                <setting fps_policy="recover_pcb_temp_interval" value="1"/>
+                <setting fps_policy="shell_time_interval" value="15,10,5"/>
+                <setting fps_policy="pcb_temp_interval" value="3,1,0"/>
+                <setting fps_policy="min_shell_temp" value="30"/>
+                <setting fps_policy="min_pcb_temp" value="40"/>
+                <setting fps_policy="min_cpu_freq" value="0.5,0.5,0.5"/>
+                <setting fps_policy="min_fps" value="15"/>
+                <SCENE value="default">
+                    <setting scene_policy="follow_temp_enable" value="1"/>
+                    <setting scene_policy="screen_brightness" value="unknown"/>
+                    <setting scene_policy="volume" value="unknown"/>
+                    <setting scene_policy="increased_footsteps" value="0"/>
+                    <setting scene_policy="cpu_freq" value="[0.8-0.8],[0.7-0.7],[0.7-0.7]"/>
+                    <setting scene_policy="fps" value="0.9,0.85,0.85"/>
+                </SCENE>
+            </FPS>
+            <FPS value="60">
+                <setting fps_policy="recover_shell_temp_interval" value="10"/>
+                <setting fps_policy="recover_pcb_temp_interval" value="1"/>
+                <setting fps_policy="shell_time_interval" value="15,10,5"/>
+                <setting fps_policy="min_shell_temp" value="35"/>
+                <setting fps_policy="min_pcb_temp" value="30"/>
+                <setting fps_policy="pcb_temp_interval" value="15,10,5"/>
+                <setting fps_policy="min_cpu_freq" value="0.5,0.5,0.5"/>
+                <setting fps_policy="min_fps" value="30"/>
+                <SCENE value="default">
+                    <setting scene_policy="follow_temp_enable" value="1"/>
+                    <setting scene_policy="screen_brightness" value="unknown"/>
+                    <setting scene_policy="volume" value="unknown"/>
+                    <setting scene_policy="increased_footsteps" value="0"/>
+                    <setting scene_policy="cpu_freq" value="unknown"/>
+                    <setting scene_policy="fps" value="50,45,40"/>
+                </SCENE>
+            </FPS>
+        </AMBIENT>
+    </TYPE>
+    <!--Roblox-->
+    <TYPE id="5">
+        <setting type_policy="policy_graphic" value="[0 60],[0 0 0 1001 1001]"/>
+        <AMBIENT value="100">
+            <setting ambient_policy="shell_temp_threshold" value="45"/>
+            <setting ambient_policy="screen_brightness_range" value="180,255"/>
+            <setting ambient_policy="volume_range" value="11,15"/>
+            <setting ambient_policy="shell_window_size" value="180"/>
+            <setting ambient_policy="pcb_window_size" value="30"/>
+            <setting ambient_policy="call_back_period" value="30"/>
+            <setting ambient_policy="shell_temp_sampling_period" value="10"/>
+            <setting ambient_policy="pcb_temp_sampling_period" value="10"/>
+            <setting ambient_policy="fps_avg_period" value="1"/>
+            <setting ambient_policy="target_fps_count" value="30"/>
+            <FPS value="Common">
+                <setting fps_policy="recover_shell_temp_interval" value="10"/>
+                <setting fps_policy="recover_pcb_temp_interval" value="1"/>
+                <setting fps_policy="shell_time_interval" value="15,10,5"/>
+                <setting fps_policy="pcb_temp_interval" value="12,6,0"/>
+                <setting fps_policy="min_shell_temp" value="30"/>
+                <setting fps_policy="min_pcb_temp" value="35"/>
+                <setting fps_policy="min_cpu_freq" value="0.5,0.5,0.5"/>
+                <setting fps_policy="min_fps" value="45"/>
+                <SCENE value="default">
+                    <setting scene_policy="follow_temp_enable" value="1"/>
+                    <setting scene_policy="screen_brightness" value="unknown"/>
+                    <setting scene_policy="volume" value="unknown"/>
+                    <setting scene_policy="increased_footsteps" value="0"/>
+                    <setting scene_policy="cpu_freq" value="unknown"/>
+                    <setting scene_policy="fps" value="0.75,0.75,0.75"/>
+                </SCENE>
+            </FPS>
+        </AMBIENT>
+    </TYPE>
+    <!--life after-->
+    <TYPE id="6">
+        <setting type_policy="policy_graphic" value="[0 60],[0 0 0 1001 1001]"/>
+        <AMBIENT value="100">
+            <setting ambient_policy="shell_temp_threshold" value="45"/>
+            <setting ambient_policy="screen_brightness_range" value="180,255"/>
+            <setting ambient_policy="volume_range" value="11,15"/>
+            <setting ambient_policy="shell_window_size" value="180"/>
+            <setting ambient_policy="pcb_window_size" value="30"/>
+            <setting ambient_policy="call_back_period" value="30"/>
+            <setting ambient_policy="shell_temp_sampling_period" value="10"/>
+            <setting ambient_policy="pcb_temp_sampling_period" value="10"/>
+            <setting ambient_policy="fps_avg_period" value="1"/>
+            <setting ambient_policy="target_fps_count" value="30"/>
+            <FPS value="Common">
+                <setting fps_policy="recover_shell_temp_interval" value="10"/>
+                <setting fps_policy="recover_pcb_temp_interval" value="1"/>
+                <setting fps_policy="shell_time_interval" value="15,10,5"/>
+                <setting fps_policy="pcb_temp_interval" value="20,1,0"/>
+                <setting fps_policy="min_shell_temp" value="35"/>
+                <setting fps_policy="min_pcb_temp" value="30"/>
+                <setting fps_policy="min_cpu_freq" value="0.5,0.5,0.5"/>
+                <setting fps_policy="min_fps" value="35"/>
+                <SCENE value="default">
+                    <setting scene_policy="follow_temp_enable" value="1"/>
+                    <setting scene_policy="screen_brightness" value="unknown"/>
+                    <setting scene_policy="volume" value="unknown"/>
+                    <setting scene_policy="increased_footsteps" value="0"/>
+                    <setting scene_policy="cpu_freq" value="unknown"/>
+                    <setting scene_policy="fps" value="unknown"/>
+                </SCENE>
+            </FPS>
+            <FPS value="60">
+                <setting fps_policy="recover_shell_temp_interval" value="10"/>
+                <setting fps_policy="recover_pcb_temp_interval" value="1"/>
+                <setting fps_policy="shell_time_interval" value="15,10,5"/>
+                <setting fps_policy="pcb_temp_interval" value="20,1,0"/>
+                <setting fps_policy="min_shell_temp" value="35"/>
+                <setting fps_policy="min_pcb_temp" value="30"/>
+                <setting fps_policy="min_cpu_freq" value="0.5,0.5,0.5"/>
+                <setting fps_policy="min_fps" value="35"/>
+                <SCENE value="default">
+                    <setting scene_policy="follow_temp_enable" value="1"/>
+                    <setting scene_policy="screen_brightness" value="unknown"/>
+                    <setting scene_policy="volume" value="unknown"/>
+                    <setting scene_policy="increased_footsteps" value="0"/>
+                    <setting scene_policy="cpu_freq" value="unknown"/>
+                    <setting scene_policy="fps" value="0.6,0.6,0.6"/>
+                </SCENE>
+            </FPS>
+        </AMBIENT>
+    </TYPE>
+    <!--top eleven-->
+    <TYPE id="7">
+        <setting type_policy="policy_graphic" value="[0 60],[0 0 0 1001 1001]"/>
+        <AMBIENT value="100">
+            <setting ambient_policy="shell_temp_threshold" value="45"/>
+            <setting ambient_policy="screen_brightness_range" value="180,255"/>
+            <setting ambient_policy="volume_range" value="11,15"/>
+            <setting ambient_policy="shell_window_size" value="180"/>
+            <setting ambient_policy="pcb_window_size" value="30"/>
+            <setting ambient_policy="call_back_period" value="30"/>
+            <setting ambient_policy="shell_temp_sampling_period" value="10"/>
+            <setting ambient_policy="pcb_temp_sampling_period" value="10"/>
+            <setting ambient_policy="fps_avg_period" value="1"/>
+            <setting ambient_policy="target_fps_count" value="30"/>
+            <FPS value="Common">
+                <setting fps_policy="recover_shell_temp_interval" value="10"/>
+                <setting fps_policy="recover_pcb_temp_interval" value="1"/>
+                <setting fps_policy="shell_time_interval" value="15,10,5"/>
+                <setting fps_policy="pcb_temp_interval" value="11,6,0"/>
+                <setting fps_policy="min_shell_temp" value="35"/>
+                <setting fps_policy="min_pcb_temp" value="30"/>
+                <setting fps_policy="min_cpu_freq" value="0.5,0.5,0.5"/>
+                <setting fps_policy="min_fps" value="1"/>
+                <SCENE value="default">
+                    <setting scene_policy="follow_temp_enable" value="1"/>
+                    <setting scene_policy="screen_brightness" value="unknown"/>
+                    <setting scene_policy="volume" value="unknown"/>
+                    <setting scene_policy="increased_footsteps" value="0"/>
+                    <setting scene_policy="cpu_freq" value="unknown"/>
+                    <setting scene_policy="fps" value="unknown"/>
+                </SCENE>
+            </FPS>
+            <FPS value="60">
+                <setting fps_policy="recover_shell_temp_interval" value="10"/>
+                <setting fps_policy="recover_pcb_temp_interval" value="1"/>
+                <setting fps_policy="shell_time_interval" value="15,10,5"/>
+                <setting fps_policy="pcb_temp_interval" value="16,8,0"/>
+                <setting fps_policy="min_shell_temp" value="35"/>
+                <setting fps_policy="min_pcb_temp" value="30"/>
+                <setting fps_policy="min_cpu_freq" value="0.5,0.5,0.5"/>
+                <setting fps_policy="min_fps" value="35"/>
+                <SCENE value="default">
+                    <setting scene_policy="follow_temp_enable" value="1"/>
+                    <setting scene_policy="screen_brightness" value="unknown"/>
+                    <setting scene_policy="volume" value="unknown"/>
+                    <setting scene_policy="increased_footsteps" value="0"/>
+                    <setting scene_policy="cpu_freq" value="unknown"/>
+                    <setting scene_policy="fps" value="50,45,45"/>
+                </SCENE>
+            </FPS>
+        </AMBIENT>
+    </TYPE>
+    <!--io.voodoo.holeio锁帧30-->
+    <TYPE id="8">
+        <setting type_policy="policy_graphic" value="[0 60],[0 0 0 1001 1001]"/>
+        <AMBIENT value="100">
+            <setting ambient_policy="shell_temp_threshold" value="45"/>
+            <setting ambient_policy="screen_brightness_range" value="180,255"/>
+            <setting ambient_policy="volume_range" value="11,15"/>
+            <setting ambient_policy="shell_window_size" value="180"/>
+            <setting ambient_policy="pcb_window_size" value="30"/>
+            <setting ambient_policy="call_back_period" value="30"/>
+            <setting ambient_policy="shell_temp_sampling_period" value="10"/>
+            <setting ambient_policy="pcb_temp_sampling_period" value="10"/>
+            <setting ambient_policy="fps_avg_period" value="1"/>
+            <setting ambient_policy="target_fps_count" value="30"/>
+            <FPS value="Common">
+                <setting fps_policy="recover_shell_temp_interval" value="10"/>
+                <setting fps_policy="recover_pcb_temp_interval" value="2"/>
+                <setting fps_policy="shell_time_interval" value="20,15,10"/>
+                <setting fps_policy="pcb_temp_interval" value="18,8,3"/>
+                <setting fps_policy="min_shell_temp" value="30"/>
+                <setting fps_policy="min_pcb_temp" value="40"/>
+                <setting fps_policy="min_cpu_freq" value="unknown"/>
+                <setting fps_policy="min_fps" value="30"/>
+                <SCENE value="default">
+                    <setting scene_policy="follow_temp_enable" value="1"/>
+                    <setting scene_policy="screen_brightness" value="15,35,55"/>
+                    <setting scene_policy="volume" value="unknown"/>
+                    <setting scene_policy="increased_footsteps" value="0"/>
+                    <setting scene_policy="cpu_freq" value="unknown"/>
+                    <setting scene_policy="fps" value="30,30,30"/>
+                </SCENE>
+            </FPS>
+            <FPS value="60">
+                <setting fps_policy="recover_shell_temp_interval" value="10"/>
+                <setting fps_policy="shell_time_interval" value="20,15,10"/>
+                <setting fps_policy="min_shell_temp" value="35"/>
+                <setting fps_policy="recover_pcb_temp_interval" value="2"/>
+                <setting fps_policy="pcb_temp_interval" value="18,8,3"/>
+                <setting fps_policy="min_pcb_temp" value="30"/>
+                <setting fps_policy="min_cpu_freq" value="unknown"/>
+                <setting fps_policy="min_fps" value="30"/>
+                <SCENE value="default">
+                    <setting scene_policy="follow_temp_enable" value="1"/>
+                    <setting scene_policy="screen_brightness" value="15,35,55"/>
+                    <setting scene_policy="volume" value="unknown"/>
+                    <setting scene_policy="increased_footsteps" value="0"/>
+                    <setting scene_policy="cpu_freq" value="unknown"/>
+                    <setting scene_policy="fps" value="30,30,30"/>
+                </SCENE>
+            </FPS>
+        </AMBIENT>
+    </TYPE>
+     <!--星铁-->
+    <TYPE id="9">
+        <setting type_policy="policy_graphic" value="[0 60],[0 0 0 1001 1001]"/>
+        <AMBIENT value="100">
+            <setting ambient_policy="shell_temp_threshold" value="45"/>
+            <setting ambient_policy="screen_brightness_range" value="180,255"/>
+            <setting ambient_policy="volume_range" value="11,15"/>
+            <setting ambient_policy="shell_window_size" value="180"/>
+            <setting ambient_policy="pcb_window_size" value="30"/>
+            <setting ambient_policy="call_back_period" value="30"/>
+            <setting ambient_policy="shell_temp_sampling_period" value="10"/>
+            <setting ambient_policy="pcb_temp_sampling_period" value="10"/>
+            <setting ambient_policy="fps_avg_period" value="1"/>
+            <setting ambient_policy="target_fps_count" value="30"/>
+            <FPS value="Common">
+                <setting fps_policy="recover_shell_temp_interval" value="10"/>
+                <setting fps_policy="recover_pcb_temp_interval" value="2"/>
+                <setting fps_policy="shell_time_interval" value="15,10,5"/>
+                <setting fps_policy="pcb_temp_interval" value="5,3,1"/>
+                <setting fps_policy="min_shell_temp" value="30"/>
+                <setting fps_policy="min_pcb_temp" value="40"/>
+                <setting fps_policy="min_cpu_freq" value="0.5,0.5,0.5"/>
+                <setting fps_policy="min_fps" value="1"/>
+                <SCENE value="default">
+                    <setting scene_policy="follow_temp_enable" value="1"/>
+                    <setting scene_policy="screen_brightness" value="15,35,55"/>
+                    <setting scene_policy="volume" value="1,2,5"/>
+                    <setting scene_policy="increased_footsteps" value="0"/>
+                    <setting scene_policy="cpu_freq" value="unknown"/>
+                    <setting scene_policy="fps" value="1,1,1"/>
+                </SCENE>
+            </FPS>
+            <FPS value="60">
+                <setting fps_policy="recover_shell_temp_interval" value="10"/>
+                <setting fps_policy="shell_time_interval" value="20,15,10"/>
+                <setting fps_policy="min_shell_temp" value="35"/>
+                <setting fps_policy="recover_pcb_temp_interval" value="2"/>
+                <setting fps_policy="pcb_temp_interval" value="15,10,0"/>
+                <setting fps_policy="min_pcb_temp" value="30"/>
+                <setting fps_policy="min_cpu_freq" value="0.5,0.5,0.5"/>
+                <setting fps_policy="min_fps" value="28"/>
+                <SCENE value="default">
+                    <setting scene_policy="follow_temp_enable" value="1"/>
+                    <setting scene_policy="screen_brightness" value="15,35,55"/>
+                    <setting scene_policy="volume" value="1,2,5"/>
+                    <setting scene_policy="increased_footsteps" value="0"/>
+                    <setting scene_policy="cpu_freq" value="unknown"/>
+                    <setting scene_policy="fps" value="35,30,30"/>
+                </SCENE>
+            </FPS>
+        </AMBIENT>
+    </TYPE>
+</GameThermalEngineTypeList>

@@ -1,0 +1,2460 @@
+{
+  "major_version": 2,
+  "version": 1510,
+  "update_time": 20240919,
+  "WHITELIST": {
+    "common": [
+      {
+        "name": "com.sh.smart.caller",
+        "auto": "90",
+        "high": "90",
+        "max": "144",
+        "touch": "1",
+        "activity": {
+          "com.sh.smart.caller/com.android.incallui.InCallActivity": "30"
+        }
+      },
+      {
+        "name": "com.goodix.fingerprint.setting",
+        "auto": "120",
+        "high": "120",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.jiiov.fingerprint_factorytest",
+        "auto": "120",
+        "high": "120",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.transsion.tranfacmode",
+        "auto": "120",
+        "high": "120",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.google.android.apps.messaging",
+        "auto": "90",
+        "high": "90",
+        "max": "144",
+        "touch": "1"
+      },
+      {
+        "name": "com.android.settings",
+        "auto": "90",
+        "high": "90",
+        "max": "144",
+        "touch": "1"
+      },
+      {
+        "name": "com.google.android.dialer",
+        "auto": "90",
+        "high": "90",
+        "max": "144",
+        "touch": "1"
+      },
+      {
+        "name": "com.transsion.smartmessage",
+        "auto": "90",
+        "high": "90",
+        "max": "144",
+        "touch": "1"
+      },
+      {
+        "name": "com.google.android.contacts",
+        "auto": "90",
+        "high": "90",
+        "max": "144",
+        "touch": "1"
+      },
+      {
+        "name": "tech.palm.id",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.transsion.iotservice",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.transsion.ossettingsext",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.transsion.resolver",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.transsion.stylus",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.transsion.globalsearch",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.ss.android.lark.transsion",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.tencent.mm",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0",
+        "activity": {
+          "com.tencent.mm/com.tencent.mm.plugin.voip.ui.VideoActivity": "30",
+          "com.tencent.mm/.plugin.voip.ui.VideoActivity": "30"
+        }
+      },
+      {
+        "name": "com.taobao.taobao",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0",
+        "activity": {
+          "com.taobao.taobao/com.taobao.taolive.room.TaoLiveVideoActivity": "45"
+        }
+      },
+      {
+        "name": "com.eg.android.AlipayGphone",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "1"
+      },
+      {
+        "name": "com.sina.weibo",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.baidu.searchbox",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.tencent.mobileqq",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "1",
+        "activity": {
+          "com.tencent.mobileqq/com.tencent.av.ui.AVActivity": "45"
+        }
+      },
+      {
+        "name": "com.sankuai.meituan",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.xunmeng.pinduoduo",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.jingdong.app.mall",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "cn.com.chinamobile.www",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.xingin.xhs",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.zhihu.android",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.mymoney",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.eastmoney.android.berlin",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.sankuai.meituan.takeoutnew",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.google.android.youtube",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.whatsapp",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0",
+        "activity": {
+          "com.whatsapp/.voipcalling.VoipActivityV2": "30",
+          "com.whatsapp/com.whatsapp.voipcalling.VoipActivityV2": "30"
+        }
+      },
+      {
+        "name": "com.facebook.katana",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.facebook.lite",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.instagram.android",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.transsion.hilauncher",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.transsion.XOSLauncher",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.whatsapp.w4b",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.facebook.orca",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.google.android.apps.nbu.files",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.gallery20",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "org.telegram.messenger",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "1"
+      },
+      {
+        "name": "com.transsion.itel.launcher",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.imo.android.imoim",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.transsion.calculator",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.google.android.googlequicksearchbox",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.vkontakte.android",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.transsion.deskclock",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.truecaller",
+        "auto": "60",
+        "high": "60",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "net.bat.store",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.android.vending",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.google.android.apps.searchlite",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.android.contacts",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.twitter.android",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.transsnet.store",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.imo.android.imoimhd",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.instagram.lite",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "ru.ok.android",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.shopee.id",
+        "auto": "60",
+        "high": "60",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.imo.android.imoimbeta",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.google.android.apps.docs",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.yandex.searchapp",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.viber.voip",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.transsion.filemanagerx",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "team.opay.pay",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.google.android.gms",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.google.android.gm",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.wildberries.ru",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.pinterest",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.transsion.notebook",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.imo.android.imoimlite",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.callapp.contacts",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.talpa.hibrowser",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.shopee.ph",
+        "auto": "60",
+        "high": "60",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.shopee.sg",
+        "auto": "60",
+        "high": "60",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.transsion.magazineservice",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.lazada.android",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.zaz.translate",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.resultadosfutbol.mobile",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "jp.naver.line.android",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "eu.livesport.FlashScore_com",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.avito.android",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.xui.xhide",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.meesho.supply",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.google.android.calendar",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.globe.gcash.android",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.phonepe.app",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.transsion.soundrecorder",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "ru.ozon.app.android",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.openai.chatgpt",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.discord",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.flipkart.android",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.google.android.apps.translate",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.android.systemui",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.binance.dev",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "ru.sberbankmobile",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.eyecon.global",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "org.thunderdog.challegram",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.zzkko",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.google.android.apps.assistant",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.einnovation.temu",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.transsnet.palmpay",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.duolingo",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.bybit.app",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.google.android.apps.nbu.paisa.user",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.silead.factorytest",
+        "auto": "60",
+        "high": "60",
+        "app_request": "0"
+      },
+      {
+        "name": "com.wave.personal",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.bancodevenezuela.bdvdigital",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.gbwhatsapp",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "id.dana",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.livescore",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "pk.com.telenor.phoenix",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.google.android.apps.safetyhub",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.instagram.barcelona",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.larus.wolf",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.microsoft.teams",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.ayoba.ayoba",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.isysway.free.alquran",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.dubox.drive",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.transsion.calendar",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.android.emergency",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.daraz.android",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.accessbank.nextgen",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.linkedin.android",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.fyxtech.muslim",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.moniepoint.business",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.vk.im",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.ton_keeper",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.firstbank.firstmobile",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.android.documentsui",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.google.android.documentsui",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.uba.vericash",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.techlogix.mobilinkcustomer",
+        "auto": "90",
+        "high": "90",
+        "touch": "1",
+        "app_request": "0"
+      },
+      {
+        "name": "com.ss.android.ugc.aweme",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "sbeslide": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.autonavi.minimap",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.baidu.BaiduMap",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.qiyi.video.pad",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.qiyi.video",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.tencent.qqlive",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0",
+        "activity": {
+          "com.tencent.qqlive/com.tencent.qqlive.ona.activity.VideoDetailActivity": "45"
+        }
+      },
+      {
+        "name": "iflix.play",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.lbe.parallel.intl.arm64",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.smile.gifmaker",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.sohu.sohuvideo",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.tencent.mtt",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.ss.android.article.news",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.tencent.news",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.UCMobile",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "sbeslide": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.hunantv.imgo.activity",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.youku.phone",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.kugou.android",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.tencent.qqmusic",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.cis.jiangnan.taptap",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.duowan.kiwi",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "sbeslide": "0",
+        "app_request": "0",
+        "activity": {
+          "com.duowan.kiwi/com.duowan.kiwi.liveroom.ChannelPage": "45"
+        }
+      },
+      {
+        "name": "com.dragon.read",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "gov.pianzong.androidnga",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.kmxs.reader",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "air.tv.douyu.android",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "tv.danmaku.bili",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0",
+        "activity": {
+          "tv.danmaku.bili/com.bilibili.bililive.room.ui.roomv3.LiveRoomActivityV3": "45"
+        }
+      },
+      {
+        "name": "com.baidu.tieba",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.bilibili.app.in",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.tencent.weread",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.zhiliaoapp.musically",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "sbeslide": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.zhiliaoapp.musically.go",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "sbeslide": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.ss.android.ugc.trill",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "sbeslide": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.android.incallui",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.android.chrome",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "sbeslide": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.transsion.magicshow",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.google.android.apps.photosgo",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.mxtech.videoplayer.ad",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.snapchat.android",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.transsion.phoenix",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.playit.videoplayer",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "cn.xender",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.google.android.apps.photos",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "video.player.videoplayer",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.video.fun.app",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "org.videolan.vlc",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.lemon.lvoverseas",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.kwai.bulldog",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.nemo.vidmate",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.google.android.apps.youtube.music",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.netflix.mediaclient",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.google.android.apps.maps",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "cn.wps.moffice_eng",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.opera.mini.native",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.community.oneroom",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.yandex.browser",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "video.like",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "sbeslide": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.transsion.applock",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.google.android.apps.youtube.kids",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.kwai.kuaishou.video.live",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.transsion.phonemaster",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.afmobi.boomplayer",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.dywx.larkplayer",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.lenovo.anyshare.gps",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "wp.wattpad",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.snaptube.premium",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.android.stk",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.bstar.intl",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.spotify.music",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "in.startv.hotstar",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.audiomack",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "free.tube.premium.advanced.tuber",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.community.moviebox",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "sg.bigo.live",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0",
+        "activity": {
+          "sg.bigo.live/sg.bigo.live.liveswitchable.LiveVideoAudienceActivity": "45"
+        }
+      },
+      {
+        "name": "premium.gotube.adblock.utube",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.dewmobile.kuaiya.play",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.UCMobile.intl",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "sbeslide": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.community.mbox.ng",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.search.music.mp3.musicplayer",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "us.zoom.videomeetings",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "in.mohalla.video",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.calculator.hideu",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.opera.browser",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "sinet.startup.inDriver",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.google.android.apps.tachyon",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.transsion.fmradio",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "in.mohalla.sharechat",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "vault.gallery.lock",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.camerasideas.instashot",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "cn.wps.moffice.lite.abroad.transsion",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.canva.editor",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "shareit.lite",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "ru.yandex.yandexmaps",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.domobile.applockwatcher",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.google.android.packageinstaller",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.spbtv.mobilinktv",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "sound.effect.equalizer.musicplayer",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.bigwinepot.nwdn.international",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "musicplayer.musicapps.music.mp3player",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.opera.app.news",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "sbeslide": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.vskit.lite",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.jio.media.ondemand",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "musicplayer.playmusic.audioplayer",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.starmakerinteractive.starmaker",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0",
+        "sbeslide": "0"
+      },
+      {
+        "name": "com.rlk.weathers",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "musicplayer.mp3player.musicapp",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.microsoft.office.word",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.flatfish.cal.privacy",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.picsart.studio",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.hatsune.eagleee",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.videoeditorpro.android",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.musicplayer.mena",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.whereismytrain.android",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "app.bible.lite.offline",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.intsig.camscanner",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.musixmusicx",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.jrzheng.supervpnfree",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.yomobigroup.chat",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.savermate.save.status",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.adobe.reader",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.offline.bible",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "pdf.pdfreader.viewer.editor.free",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "videoplayer.videodownloader.downloader",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.mast.status.video.edit",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.sirma.mobile.bible.android",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.solvus_lab.android.BibleFR_lsv",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "kjv.bible.kingjamesbible",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.martinvillar.android.bibliaenfrances",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.google.android.music",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "statussaver.videoimagestatusdownloader.savestatus.storysaver",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.google.android.apps.docs.editors.docs",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.infinix.xshare",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "istark.vpn.starkreloaded",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "vsin.t16_funny_photo",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.ezt.pdfreader.pdfviewer",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.google.android.apps.youtube.creator",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.hoffnung",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.talpa.share",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "ru.yandex.taxi",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.frontrow.vlog",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.transsnet.boomplay.lite",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.google.android.apps.docs.editors.sheets",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.yandex.yango",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.grabtaxi.passenger",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "sbeslide": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.funbase.xradio",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "free.alquran.holyquran",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.outfit7.talkingtom2free",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.gojek.app",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "livio.pack.lang.fr_FR",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "statussaver.statusdownloader.downloadstatus.videoimagesaver",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.meitu.meiyancamera",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.adobe.lrmobile",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "share.sharekaro.pro",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "livio.pack.lang.en_US",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.best.quick.browser",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.jio.media.jiobeats",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.commsource.beautyplus",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.fast.free.unblock.thunder.vpn",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "ee.mtakso.client",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.shazam.android",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.fast.free.unblock.secure.vpn",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.niksoftware.snapseed",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.google.android.videos",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.zenjoy.musicvideo",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "free.vpn.proxy.secure",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.android.providers.media",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.bsbportal.music",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "proxy.browser.unblock.sites.proxybrowser.unblocksites",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.transsion.compass",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.transsion.wifiplaytogether",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.free.vpn.super.hotspot.open",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "free.vpn.unblock.proxy.vpn.master.pro",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.ncloudtech.cloudoffice",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "free.vpn.unblock.proxy.turbovpn",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.yomobigroup.short",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "io.faceapp",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.xiaomi.midrop",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "applock.calculator.hide.photo.video.security.vault",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.transsion.beez",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.document.pdf.filereader",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.gamma.scan",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.transsion.hiparty",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.google.android.projection.gearhead",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.transsion.weathers",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.android.vpndialogs",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.google.android.apps.mapslite",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.transsion.sk",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.antutu.ABenchMark",
+        "auto": "60",
+        "high": "90",
+        "touch": "0",
+        "app_request": "0",
+        "activity": {
+          "com.antutu.ABenchMark/com.android.module.benchmark.platform.ux.ActivityUILagTest": "120",
+          "com.antutu.ABenchMark/com.android.module.benchmark.platform.ux.WebViewTestActivity": "120",
+          "com.antutu.ABenchMark/com.android.module.benchmark.platform.ux.ActivityQRCodeTest": "120"
+        }
+      },
+      {
+        "name": "newsapp.citizentv.royalmedia.citizentvnews",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "sbeslide": "0",
+        "app_request": "0"
+      },
+      {
+        "name": "com.afmobi.boomplayer",
+        "auto": "60",
+        "high": "60",
+        "touch": "0",
+        "app_request": "0",
+        "sbeslide": "0",
+        "animation": "0"
+      }
+    ],
+    "game": [
+      {
+        "name": "com.mobile.legends",
+        "auto": "90",
+        "high": "90",
+        "sbeslide": "0",
+        "touch": "0"
+      },
+      {
+        "name": "com.dts.freefireth",
+        "auto": "90",
+        "high": "90",
+        "sbeslide": "0",
+        "touch": "0"
+      },
+      {
+        "name": "com.dts.freefiremax",
+        "auto": "90",
+        "high": "90",
+        "sbeslide": "0",
+        "touch": "0"
+      },
+      {
+        "name": "com.garena.game.codm",
+        "auto": "90",
+        "high": "90",
+        "sbeslide": "0",
+        "touch": "0"
+      },
+      {
+        "name": "com.tencent.tmgp.cod",
+        "auto": "90",
+        "high": "90",
+        "sbeslide": "0",
+        "touch": "0"
+      },
+      {
+        "name": "com.vng.codmvn",
+        "auto": "90",
+        "high": "90",
+        "sbeslide": "0",
+        "touch": "0"
+      },
+      {
+        "name": "com.activision.callofduty.shooter",
+        "auto": "90",
+        "high": "90",
+        "sbeslide": "0",
+        "touch": "0"
+      },
+      {
+        "name": "com.activision.callofduty.codpbt",
+        "auto": "90",
+        "high": "90",
+        "sbeslide": "0",
+        "touch": "0"
+      },
+      {
+        "name": "com.tencent.tmgp.kr.codm",
+        "auto": "90",
+        "high": "90",
+        "sbeslide": "0",
+        "touch": "0"
+      },
+      {
+        "name": "com.activision.callofduty.warzone",
+        "auto": "90",
+        "high": "90",
+        "sbeslide": "0",
+        "touch": "0"
+      },
+      {
+        "name": "com.tencent.tmgp.sgame",
+        "auto": "90",
+        "high": "90",
+        "sbeslide": "0",
+        "touch": "0"
+      },
+      {
+        "name": "com.tencent.tmgp.sgamece",
+        "auto": "90",
+        "high": "90",
+        "sbeslide": "0",
+        "touch": "0"
+      },
+      {
+        "name": "com.levelinfinite.sgameGlobal",
+        "auto": "90",
+        "high": "90",
+        "sbeslide": "0",
+        "touch": "0"
+      },
+      {
+        "name": "com.levelinfinite.sgameGlobal.midaspay",
+        "auto": "90",
+        "high": "90",
+        "sbeslide": "0",
+        "touch": "0"
+      },
+      {
+        "name": "com.levelinfinite.sgameGlobalESports",
+        "auto": "90",
+        "high": "90",
+        "sbeslide": "0",
+        "touch": "0"
+      },
+      {
+        "name": "com.garena.game.kgth",
+        "auto": "90",
+        "high": "90",
+        "sbeslide": "0",
+        "touch": "0"
+      },
+      {
+        "name": "com.garena.game.kgtw",
+        "auto": "90",
+        "high": "90",
+        "sbeslide": "0",
+        "touch": "0"
+      },
+      {
+        "name": "com.farlightgames.farlight84.gray",
+        "auto": "90",
+        "high": "90",
+        "sbeslide": "0",
+        "touch": "0"
+      },
+      {
+        "name": "com.lilith.farlight84",
+        "auto": "90",
+        "high": "90",
+        "sbeslide": "0",
+        "touch": "0"
+      },
+      {
+        "name": "com.miraclegames.farlight84",
+        "auto": "90",
+        "high": "90",
+        "sbeslide": "0",
+        "touch": "0"
+      },
+      {
+        "name": "com.axlebolt.standoff2",
+        "auto": "90",
+        "high": "90",
+        "sbeslide": "0",
+        "touch": "0"
+      }
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "version": "1.0.1",
+  "upTime": 20241225,
+  "policyActiveHours": 1,
+  "policyExitMinutes": 5,
+  "policyDelayMinutes":30,
+  "PolicyNotifyBatteryLabInterval":7,
+  "enableUiSwitchAfterOta":false,
+  "versionDateAfterOta":20241030,
+  "globalPolicy": {
+    "enable": true,
+    "enableCustomSleepInterval": false,
+    "customSleepHour": 23,
+    "customWakeUpHour": 6
+  },
+  "appPolicy": {
+    "enable": false,
+    "enableCustomSleepInterval": false,
+    "customSleepHour": 23,
+    "customWakeUpHour": 6,
+    "blackPackages": [
+      "com.facebook.orca",
+      "com.facebook.lite",
+      "com.facebook.katana",
+      "com.whatsapp",
+      "com.instagram.android",
+      "com.twitter.android",
+      "com.imo.android.imoim",
+      "org.telegram.messenger",
+      "com.tencent.mm",
+      "com.ss.android.lark.transsion"
+    ]
+  }
+}

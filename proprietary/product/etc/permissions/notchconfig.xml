@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Transsion Top Secret-->
+
+<!-- These are configurations that must exist on all notch devices. -->
+<config>
+    <feature name="com.transsion.hardware.display.camera_notch" />
+</config>

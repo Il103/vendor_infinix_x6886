@@ -1,0 +1,7 @@
+service camerapostalgo /system_ext/bin/hw/camerapostalgo
+    class main
+    user cameraserver
+    disabled
+    group camera input system media graphics sdcard_rw
+    seclabel u:r:camerapostalgo:s0
+    writepid /dev/cpuset/camera-daemon/tasks

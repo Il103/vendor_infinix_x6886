@@ -1,0 +1,9 @@
+{
+  "key": "feature_health_standard_camera",
+  "version_code": 1,
+  "version_name": "v1.0",
+  "camera_bp_enable": 1,
+  "camera_time_expired": 3,
+  "camera_check_unit": 60,
+  "camera_upload_max_count": 100
+}

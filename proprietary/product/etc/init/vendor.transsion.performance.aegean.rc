@@ -1,0 +1,85 @@
+#SDD: add aegean2.0 by yunjun.yang at 20241021 start
+#/vendor/etc/init/
+on init
+    #fgl cpuset
+    mkdir /dev/cpuset/foreground-l/
+    copy /dev/cpuset/cpus /dev/cpuset/foreground-l/cpus
+    copy /dev/cpuset/mems /dev/cpuset/foreground-l/mems
+    chown system system /dev/cpuset/foreground-l
+    chown system system /dev/cpuset/foreground-l/tasks
+    chown system system /dev/cpuset/foreground-l/cgroup.procs
+    chmod 0664 /dev/cpuset/foreground-l/tasks
+    chmod 0664 /dev/cpuset/foreground-l/cgroup.procs
+    write /dev/cpuset/foreground-l/cpus 0-6
+    #bgl cpuset
+    mkdir /dev/cpuset/background-l/
+    copy /dev/cpuset/cpus /dev/cpuset/background-l/cpus
+    copy /dev/cpuset/mems /dev/cpuset/background-l/mems
+    chown system system /dev/cpuset/background-l
+    chown system system /dev/cpuset/background-l/tasks
+    chown system system /dev/cpuset/background-l/cgroup.procs
+    chmod 0664 /dev/cpuset/background-l/tasks
+    chmod 0664 /dev/cpuset/background-l/cgroup.procs
+    write /dev/cpuset/background-l/cpus 0-1
+    #sbl cpuset
+    mkdir /dev/cpuset/system-background-l/
+    copy /dev/cpuset/cpus /dev/cpuset/system-background-l/cpus
+    copy /dev/cpuset/mems /dev/cpuset/system-background-l/mems
+    chown system system /dev/cpuset/system-background-l
+    chown system system /dev/cpuset/system-background-l/tasks
+    chown system system /dev/cpuset/system-background-l/cgroup.procs
+    chmod 0664 /dev/cpuset/system-background-l/tasks
+    chmod 0664 /dev/cpuset/system-background-l/cgroup.procs
+    write /dev/cpuset/system-background-l/cpus 1-3
+    #sbh cpuset
+    mkdir /dev/cpuset/system-background-h/
+    copy /dev/cpuset/cpus /dev/cpuset/system-background-h/cpus
+    copy /dev/cpuset/mems /dev/cpuset/system-background-h/mems
+    chown system system /dev/cpuset/system-background-h
+    chown system system /dev/cpuset/system-background-h/tasks
+    chown system system /dev/cpuset/system-background-h/cgroup.procs
+    chmod 0664 /dev/cpuset/system-background-h/tasks
+    chmod 0664 /dev/cpuset/system-background-h/cgroup.procs
+    write /dev/cpuset/system-background-h/cpus 0-5
+    #fgl cpuctl
+    mkdir /dev/cpuctl/foreground-l/
+    chown system system /dev/cpuctl/foreground-l
+    chown system system /dev/cpuctl/foreground-l/tasks
+    chown system system /dev/cpuctl/foreground-l/cgroup.procs
+    chmod 0664 /dev/cpuctl/foreground-l/tasks
+    chmod 0664 /dev/cpuctl/foreground-l/cgroup.procs
+    write /dev/cpuctl/foreground-l/cpu.shares 2048
+    #bgl cpuctl
+    mkdir /dev/cpuctl/background-l/
+    chown system system /dev/cpuctl/background-l
+    chown system system /dev/cpuctl/background-l/tasks
+    chown system system /dev/cpuctl/background-l/cgroup.procs
+    chmod 0664 /dev/cpuctl/background-l/tasks
+    chmod 0664 /dev/cpuctl/background-l/cgroup.procs
+    write /dev/cpuctl/background-l/cpu.shares 512
+    #sbl cpuctl
+    mkdir /dev/cpuctl/system-background-l/
+    chown system system /dev/cpuctl/system-background-l
+    chown system system /dev/cpuctl/system-background-l/tasks
+    chown system system /dev/cpuctl/system-background-l/cgroup.procs
+    chmod 0664 /dev/cpuctl/system-background-l/tasks
+    chmod 0664 /dev/cpuctl/system-background-l/cgroup.procs
+    write /dev/cpuctl/system-background-l/cpu.shares 1024
+    #sbh cpuctl
+    mkdir /dev/cpuctl/system-background-h/
+    chown system system /dev/cpuctl/system-background-h
+    chown system system /dev/cpuctl/system-background-h/tasks
+    chown system system /dev/cpuctl/system-background-h/cgroup.procs
+    chmod 0664 /dev/cpuctl/system-background-h/tasks
+    chmod 0664 /dev/cpuctl/system-background-h/cgroup.procs
+    #SPD: modify sbh cpu shares by shuqin.dong 20250402 start
+    write /dev/cpuctl/system-background-h/cpu.shares 4096
+    #SPD: modify sbh cpu shares  by shuqin.dong 20250402 20250402 end
+    #SPD: modify cpu shares at 20250319 start
+    write /dev/cpuctl/top-app/cpu.shares 5120
+    write /dev/cpuctl/foreground/cpu.shares 4196
+    #SPD: modify cpu shares at 20250319 end
+#sbg cpuset
+on property:sys.tran.aegean.cpu.set.sbg=*
+    write /dev/cpuset/system-background/cpus ${sys.tran.aegean.cpu.set.sbg}
+#SDD: add aegean2.0 by yunjun.yang at 20241021 end

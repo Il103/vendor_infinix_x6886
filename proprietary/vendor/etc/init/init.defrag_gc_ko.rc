@@ -1,0 +1,3 @@
+
+on boot
+    insmod /vendor/lib/modules/defrag_gc_ko.ko

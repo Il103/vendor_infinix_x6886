@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<Document>
+    <theme-info>
+        <id>-99</id>
+        <name>Free Fire</name>
+        <filename>Xtheme_FF.apk</filename>
+        <filepath>product/theme/Xtheme_FF/Xtheme_FF.apk</filepath>
+    </theme-info>
+    <theme-info>
+        <id>-10</id>
+        <name>XOS</name>
+        <filename>Xtheme_F21.apk</filename>
+        <filepath>product/theme/Xtheme_F21/Xtheme_F21.apk</filepath>
+    </theme-info>
+</Document>

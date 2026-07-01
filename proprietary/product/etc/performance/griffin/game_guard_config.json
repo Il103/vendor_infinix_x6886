@@ -1,0 +1,30 @@
+{
+    "version": 2,
+    "update": 20241224,
+    "ram_level": 12,
+    "enabled": true,
+    "avail_mem_limit_mb": 1024,
+    "avail_mem_check_interval_seconds": 60,
+    "game_total_mem_limit_mb": 3072,
+    "max_keep_alive_num": 3,
+    "keep_alive_seconds": 86400,
+    "oom_adj": 400,
+    "freeze_delay_seconds": 600,
+    "min_mem_fusion_task_pos": 4,
+    "candidate_list":[
+        "com.mobile.legends",
+        "com.garena.game.kgth",
+        "com.pubg.imobile",
+        "com.tencent.ig",
+        "com.dts.freefiremax",
+        "com.dts.freefireth",
+        "com.garena.game.codm",
+        "com.miHoYo.GenshinImpact",
+        "com.HoYoverse.hkrpgoversea",
+        "com.miHoYo.bh3oversea",
+        "com.ea.gp.fifamobile",
+        "jp.konami.pesam",
+        "com.roblox.client",
+        "com.levelinfinite.sgameGlobal"
+    ]
+}

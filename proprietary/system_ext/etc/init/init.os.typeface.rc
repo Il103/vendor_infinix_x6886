@@ -1,0 +1,10 @@
+# Transsion Top Secret
+
+# OS: add by zhiwei.li for OSWDLDEV-1497 20181121 begin
+on post-fs-data
+    mkdir /data/typeface 0777 system system
+    mkdir /data/typeface/default 0777 system system
+    restorecon /data/typeface
+    restorecon /data/typeface/default
+# OS: add by zhiwei.li for OSWDLDEV-1497 20181121 end
+

@@ -1,0 +1,18 @@
+{
+  "ver": 1,
+  "ver_seq": "2025031401",
+  "mark_regex": "ux_exact_.*",
+  "mark_list": [
+    "wmshell.anim",
+    "android.ui",
+    "fingerprint-anim",
+    "audio_mixer_ux",
+    "camera_launch_ux",
+    "ZeroScreen",
+    "aegean_uias"
+  ],
+  "svc_list": [
+    "ll.splashscreen"
+  ],
+  "mark_forbid": []
+}

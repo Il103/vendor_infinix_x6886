@@ -1,0 +1,12 @@
+# This file needs to be executed by vendor_init at boot of the device,
+# in normal and FM mode.
+
+# For factory mode, nfcstackp to create the socket as vendor here
+on boot
+    mkdir /data/vendor/nfc_socket 0770 nfc nfc
+    mkdir /data/vendor 0777 nfc nfc
+    mkdir /data/vendor/nfc 0777 nfc nfc
+    mkdir /data/vendor/nfc/param 0777 nfc nfc
+    chmod 0660 /dev/tms_nfc
+    chown nfc nfc /dev/tms_nfc
+    chown nfc nfc /sys/nfc/chip_name

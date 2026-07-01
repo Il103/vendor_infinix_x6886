@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    Copyright (C) 2023 Transsion Inc
+    Author shaopu.luan
+    12/22/2023 Initial tranradionet system app
+-->
+
+<permissions>
+    <library name="com.transsion.tranradionet.manager"
+             file="/system_ext/framework/tranradionet-manager.jar" />
+</permissions>

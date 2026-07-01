@@ -1,0 +1,9 @@
+{
+  "key": "feature_health_standard_sensor",
+  "version_code": 1,
+  "version_name": "v1.0",
+  "sensor_limit_enable": 1,
+  "sensor_limit_bp_enable": 1,
+  "sensor_time_expired": 3,
+  "sensor_upload_max_count": 100
+}

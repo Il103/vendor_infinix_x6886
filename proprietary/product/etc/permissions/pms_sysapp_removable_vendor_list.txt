@@ -1,0 +1,17 @@
+com.mediatek.vnet
+com.iflytek.inputmethod
+com.hugeland.cdsplus
+com.google.android.apps.docs
+com.google.android.videos
+com.funbase.xradio
+com.transsion.filemanagerx
+com.transsion.gamespace.app
+com.transsion.healthlife
+com.transsion.mobilecloner
+com.transsion.calculator
+com.transsion.calendar
+com.transsion.soundrecorder
+com.transsion.theme
+com.transsion.tips
+com.rlk.weathers
+com.transsion.intercom

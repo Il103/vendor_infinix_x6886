@@ -1,0 +1,179 @@
+<SceneGameBalanceCloseMode>
+    <version value="20240528"/>
+    <support value="0"/>
+    <!-- 第一类游戏 pubg-->
+    <packagetype id="1">
+        <packagename>
+            <package  name="com.tencent.ig"/>
+            <package  name="com.tencent.tmgp.pubgmhd"/>
+            <package  name="com.rekoo.pubgm"/>
+            <package  name="com.vng.pubgmobile"/>
+            <package  name="com.tencent.iglite"/>
+            <package  name="com.tencent.igce"/>
+            <package  name="com.pubg.krmobile"/>
+        </packagename>
+        <!-- 游戏场景-->
+        <game_scene>
+            <game_home name="home" cpufreq="1" fps="0"/>
+            <game_targetfps value="90">
+                <!-- 圈数：第一阶段-->
+                <game_circle id="1" value="circle_01">
+                    <scene  name="born_island" cpufreq="1" fps="0"/>
+                    <scene  name="airplane" cpufreq="1" fps="0"/>
+                    <scene  name="parachuting" cpufreq="1" fps="0"/>
+                    <scene  name="mirror" cpufreq="1" fps="0"/>
+                    <scene  name="fire" cpufreq="1" fps="0"/>
+                    <scene  name="drive" cpufreq="1" fps="0"/>
+                    <scene  name="swim" cpufreq="1" fps="0"/>
+                    <scene  name="default" cpufreq="1" fps="0"/>
+                </game_circle>
+                <!-- 圈数：第二阶段-->
+                <game_circle id="2" value="circle_02">
+                    <scene  name="airplane" cpufreq="1" fps="0"/>
+                    <scene  name="parachuting" cpufreq="1" fps="0"/>
+                    <scene  name="mirror" cpufreq="1" fps="0"/>
+                    <scene  name="fire" cpufreq="1" fps="0"/>
+                    <scene  name="drive" cpufreq="1" fps="0"/>
+                    <scene  name="swim" cpufreq="1" fps="0"/>
+                    <scene  name="default" cpufreq="1" fps="0"/>
+                </game_circle>
+                <!-- 圈数：第三阶段-->
+                <game_circle id="3" value="circle_03">
+                    <scene  name="airplane" cpufreq="1" fps="0"/>
+                    <scene  name="parachuting" cpufreq="1" fps="0"/>
+                    <scene  name="mirror" cpufreq="1" fps="0"/>
+                    <scene  name="fire" cpufreq="1" fps="0"/>
+                    <scene  name="drive" cpufreq="1" fps="0"/>
+                    <scene  name="swim" cpufreq="1" fps="0"/>
+                    <scene  name="default" cpufreq="1" fps="0"/>
+                </game_circle>
+            </game_targetfps>
+            <game_targetfps value="60">
+                <!-- 圈数：第一阶段-->
+                <game_circle id="1" value="circle_01">
+                    <scene  name="born_island" cpufreq="1" fps="0"/>
+                    <scene  name="airplane" cpufreq="1" fps="0"/>
+                    <scene  name="parachuting" cpufreq="1" fps="0"/>
+                    <scene  name="mirror" cpufreq="1" fps="0"/>
+                    <scene  name="fire" cpufreq="1" fps="0"/>
+                    <scene  name="drive" cpufreq="1" fps="0"/>
+                    <scene  name="swim" cpufreq="1" fps="0"/>
+                    <scene  name="default" cpufreq="1" fps="0"/>
+                </game_circle>
+                <!-- 圈数：第二阶段-->
+                <game_circle id="2" value="circle_02">
+                    <scene  name="airplane" cpufreq="1" fps="0"/>
+                    <scene  name="parachuting" cpufreq="1" fps="0"/>
+                    <scene  name="mirror" cpufreq="1" fps="0"/>
+                    <scene  name="fire" cpufreq="1" fps="0"/>
+                    <scene  name="drive" cpufreq="1" fps="0"/>
+                    <scene  name="swim" cpufreq="1" fps="0"/>
+                    <scene  name="default" cpufreq="1" fps="0"/>
+                </game_circle>
+                <!-- 圈数：第三阶段-->
+                <game_circle id="3" value="circle_03">
+                    <scene  name="airplane" cpufreq="1" fps="0"/>
+                    <scene  name="parachuting" cpufreq="1" fps="0"/>
+                    <scene  name="mirror" cpufreq="1" fps="0"/>
+                    <scene  name="fire" cpufreq="1" fps="0"/>
+                    <scene  name="drive" cpufreq="1" fps="0"/>
+                    <scene  name="swim" cpufreq="1" fps="0"/>
+                    <scene  name="default" cpufreq="1" fps="0"/>
+                </game_circle>
+            </game_targetfps>
+            <game_targetfps value="40">
+                <!-- 圈数：第一阶段-->
+                <game_circle id="1" value="circle_01">
+                    <scene  name="born_island" cpufreq="1" fps="40"/>
+                    <scene  name="airplane" cpufreq="1" fps="40"/>
+                    <scene  name="parachuting" cpufreq="1" fps="40"/>
+                    <scene  name="mirror" cpufreq="1" fps="40"/>
+                    <scene  name="fire" cpufreq="1" fps="40"/>
+                    <scene  name="drive" cpufreq="1" fps="40"/>
+                    <scene  name="swim" cpufreq="1" fps="40"/>
+                    <scene  name="default" cpufreq="1" fps="40"/>
+                </game_circle>
+                <!-- 圈数：第二阶段-->
+                <game_circle id="2" value="circle_02">
+                    <scene  name="airplane" cpufreq="1" fps="40"/>
+                    <scene  name="parachuting" cpufreq="1" fps="40"/>
+                    <scene  name="mirror" cpufreq="1" fps="40"/>
+                    <scene  name="fire" cpufreq="1" fps="40"/>
+                    <scene  name="drive" cpufreq="1" fps="40"/>
+                    <scene  name="swim" cpufreq="1" fps="40"/>
+                    <scene  name="default" cpufreq="1" fps="40"/>
+                </game_circle>
+                <!-- 圈数：第三阶段-->
+                <game_circle id="3" value="circle_03">
+                    <scene  name="airplane" cpufreq="1" fps="40"/>
+                    <scene  name="parachuting" cpufreq="1" fps="40"/>
+                    <scene  name="mirror" cpufreq="1" fps="40"/>
+                    <scene  name="fire" cpufreq="1" fps="40"/>
+                    <scene  name="drive" cpufreq="1" fps="40"/>
+                    <scene  name="swim" cpufreq="1" fps="40"/>
+                    <scene  name="default" cpufreq="1" fps="40"/>
+                </game_circle>
+            </game_targetfps>
+            <game_targetfps value="30">
+                <!-- 圈数：第一阶段-->
+                <game_circle id="1" value="circle_01">
+                    <scene  name="born_island" cpufreq="1" fps="0"/>
+                    <scene  name="airplane" cpufreq="1" fps="0"/>
+                    <scene  name="parachuting" cpufreq="1" fps="0"/>
+                    <scene  name="mirror" cpufreq="1" fps="0"/>
+                    <scene  name="fire" cpufreq="1" fps="0"/>
+                    <scene  name="drive" cpufreq="1" fps="0"/>
+                    <scene  name="swim" cpufreq="1" fps="0"/>
+                    <scene  name="default" cpufreq="1" fps="0"/>
+                </game_circle>
+                <!-- 圈数：第二阶段-->
+                <game_circle id="2" value="circle_02">
+                    <scene  name="airplane" cpufreq="1" fps="0"/>
+                    <scene  name="parachuting" cpufreq="1" fps="0"/>
+                    <scene  name="mirror" cpufreq="1" fps="0"/>
+                    <scene  name="fire" cpufreq="1" fps="0"/>
+                    <scene  name="drive" cpufreq="1" fps="0"/>
+                    <scene  name="swim" cpufreq="1" fps="0"/>
+                    <scene  name="default" cpufreq="1" fps="0"/>
+                </game_circle>
+                <!-- 圈数：第三阶段-->
+                <game_circle id="3" value="circle_03">
+                    <scene  name="airplane" cpufreq="1" fps="0"/>
+                    <scene  name="parachuting" cpufreq="1" fps="0"/>
+                    <scene  name="mirror" cpufreq="1" fps="0"/>
+                    <scene  name="fire" cpufreq="1" fps="0"/>
+                    <scene  name="drive" cpufreq="1" fps="0"/>
+                    <scene  name="swim" cpufreq="1" fps="0"/>
+                    <scene  name="default" cpufreq="1" fps="0"/>
+                </game_circle>
+            </game_targetfps>
+        </game_scene>
+    </packagetype>
+
+    <!-- 第二类游戏 mlbb-->
+    <!--
+    <packagetype id="2">
+        <packagename>
+            <package  name="com.mobile.legends"/>
+        </packagename>
+        <game_scene>
+            <game_targetfps value="120">
+                <scene  name="default" cpufreq="1" fps="120"/>
+                <scene  name="team_battles" cpufreq="1" fps="120"/>
+            </game_targetfps>
+            <game_targetfps value="90">
+                <scene  name="default" cpufreq="1" fps="90"/>
+                <scene  name="team_battles" cpufreq="1" fps="90"/>
+            </game_targetfps>
+            <game_targetfps value="60">
+                <scene  name="default" cpufreq="1" fps="60"/>
+                <scene  name="team_battles" cpufreq="1" fps="60"/>
+            </game_targetfps>
+            <game_targetfps value="30">
+                <scene  name="default" cpufreq="1" fps="30"/>
+                <scene  name="team_battles" cpufreq="1" fps="30"/>
+            </game_targetfps>
+        </game_scene>
+    </packagetype>
+    -->
+</SceneGameBalanceCloseMode>

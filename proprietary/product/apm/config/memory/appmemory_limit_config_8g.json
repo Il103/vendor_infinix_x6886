@@ -1,0 +1,23 @@
+{
+  "update":20230517,
+  "ver": 2.0,
+  "enable": 1,
+  "ram": 8,
+  "default": 3072,
+  "begin": "02:00:00",
+  "end": "06:00:00",
+  "limit": [
+    {
+      "proc": "com.shopee.id",
+      "mem": 1907
+    },
+    {
+      "proc": "com.opera.mini.native",
+      "mem": 1885
+    },
+    {
+      "proc": "com.kwai.kuaishou.video.live",
+      "mem": 1329
+    }
+  ]
+}

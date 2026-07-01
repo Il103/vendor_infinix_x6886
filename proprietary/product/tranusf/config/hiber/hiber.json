@@ -1,0 +1,873 @@
+{
+  "version": "2.0.6",
+  "enable": true,
+  "longFreezeTrace": true,
+  "whitePackages": [
+    "com.yomobigroup.chat",
+    "com.vskit.lite",
+    "com.viber.voip",
+    "in.mohalla.video",
+    "in.mohalla.sharechat",
+    "com.parfield.prayers.lite",
+    "com.AppRocks.now.prayer",
+    "com.masarat.salati",
+    "com.transsnet.news.more.ngblog",
+    "com.transsnet.news.more.gh",
+    "com.transsnet.news.more.ke",
+    "org.thoughtcrime.securesms",
+    "com.transsnet.moreplus",
+    "com.funbase.xradio",
+    "com.oraimo.appjoywear",
+    "com.turkcell.bip",
+    "com.transsion.demomode",
+    "com.lbe.parallel.intl",
+    "com.payjoy.access",
+    "com.payjoy.status",
+    "com.scorpio.securitycom",
+    "ru.nspk.mirpay",
+    "com.ticktick.task",
+    "com.google.android.devicelockcontroller",
+    "com.google.android.apps.sample.kioskvnext",
+    "com.google.android.permissioncontroller",
+    "com.google.android.gsf",
+    "com.google.android.tts",
+    "com.safaricom.android.financing",
+    "com.safaricom.android.simupoa_android",
+    "com.trustonic.telecoms.standard.dlc",
+    "com.trustonic.telecoms.client.standard.dlc.playground",
+    "com.tencent.mobileqq",
+    "com.tencent.wework",
+    "com.ss.android.lark",
+    "com.ss.android.lark.transsion",
+    "com.microsoft.appmanager",
+    "com.transsion.plat.appupdate",
+    "com.transsion.healthifit",
+    "com.transsion.healthlife",
+    "com.transsion.mobilecloner",
+    "com.transsion.screenrecorder",
+    "com.transsion.healthlife.lite",
+    "com.transsion.aivoiceassistant"
+  ],
+  "testWhitePackages": {
+    "google": {
+      "startPrefixPackages": [
+      ],
+      "containPackages": [
+      ],
+      "packages": [
+      ]
+    },
+    "oem": {
+      "startPrefixPackages": [
+        "com.transsion.tts.",
+        "com.transsion.aicore."
+      ],
+      "packages": [
+        "com.transsion.iotservice",
+        "com.transsion.testcaserepository",
+        "com.transsion.testcaserepository.test",
+        "com.transsion.uiautotest",
+        "com.transsion.uitestcase",
+        "com.transsion.uitestcase.test",
+        "com.example.mtk10263.whatsTemp",
+        "com.oppo.batterymetertool",
+        "com.example.testtools",
+        "com.transsion.alarmmanager",
+        "com.transsion.agingfunction",
+        "com.transsion.emmctest",
+        "com.transsion.otastep",
+        "com.transsion.otastep.test",
+        "com.perfdog.app",
+        "com.github.uiautomator.test",
+        "com.github.uiautomator",
+        "com.trs.prevent_touch_test",
+        "com.transsion.easypic",
+        "com.transsion.aipaint.server",
+        "com.transsion.mediapipefilters",
+        "com.transsion.notebook",
+        "com.transsion.soundrecorder",
+        "com.transsion.cutepet",
+        "com.transsion.magazineservice.hios",
+        "com.transsion.magazineservice.xos",
+        "com.transsion.filemanagerx",
+        "com.transsion.intercom",
+        "com.transsion.applock",
+        "com.transsion.livewallpaper.colorart",
+        "com.sprd.logmanager",
+        "com.idea.questionnaire",
+        "com.transsion.trancare",
+        "com.transsion.personalizedService.xos",
+        "com.transsion.personalizedService.hios",
+        "com.transsion.personalizedService.itel",
+        "com.google.devtools.mobileharness.platform.android.app.binary.wifiutil",
+        "com.google.snippet.wifi.direct"
+      ]
+    }
+  },
+  "blackPackages": [],
+  "googlePackages": [
+    "com.google.android.ext.services",
+    "com.google.android.onetimeinitializer",
+    "com.google.android.ext.shared",
+    "com.google.android.overlay.documentsui",
+    "com.google.android.overlay.gmsgsaconfig",
+    "com.google.android.configupdater",
+    "com.android.vending",
+    "com.google.android.overlay.modules.permissioncontroller",
+    "com.google.android.permissioncontroller",
+    "com.google.android.setupwizard",
+    "com.google.android.overlay.modules.ext.services",
+    "com.google.android.apps.wellbeing",
+    "com.google.android.overlay.gmsconfig",
+    "com.google.android.modulemetadata",
+    "com.google.android.webview",
+    "com.google.android.syncadapters.contacts",
+    "com.google.android.packageinstaller",
+    "com.google.android.gms",
+    "com.google.android.gsf",
+    "com.google.android.ims",
+    "com.google.android.tts",
+    "com.google.android.partnersetup",
+    "com.google.android.overlay.modules.permissioncontroller.forframework",
+    "com.google.android.feedback",
+    "com.google.android.printservice.recommendation",
+    "com.google.android.documentsui",
+    "com.google.android.projection.gearhead",
+    "com.google.android.gms.location.history",
+    "com.google.android.gms.policy_sidecar_aps",
+    "com.google.android.backuptransport",
+    "com.google.android.googlequicksearchbox",
+    "com.google.android.nearby.mobly.snippet",
+    "com.google.android.nearby.mobly.snippet.second",
+    "com.google.android.nearby.mobly.snippet.thirdparty"
+  ],
+  "network": {
+    "app": {
+      "enable": true,
+      "whitePackages": [
+        "com.tencent.mobileqq",
+        "com.tencent.mm",
+        "com.tencent.wework",
+        "com.ss.android.lark",
+        "com.ss.android.lark.transsion",
+        "com.google.android.apps.messaging",
+        "com.whatsapp",
+        "com.facebook.orca",
+        "com.snapchat.android",
+        "com.truecaller",
+        "com.whatsapp.w4b",
+        "com.gbwhatsapp",
+        "org.telegram.messenger",
+        "com.imo.android.imoim",
+        "com.google.android.apps.tachyon",
+        "com.ayoba.ayoba",
+        "com.facebook.mlite",
+        "com.imo.android.imoimhd",
+        "com.viber.voip",
+        "jp.naver.line.android",
+        "com.callapp.contacts",
+        "com.discord",
+        "com.eyecon.global",
+        "com.zing.zalo",
+        "com.skype.raider",
+        "com.twitter.android",
+        "com.facebook.katana",
+        "com.instagram.android",
+        "com.microsoft.teams",
+        "us.zoom.videomeetings",
+        "com.turkcell.bip",
+        "com.facebook.lite",
+        "com.instagram.lite",
+        "com.instagram.barcelona",
+        "com.facebook.workchat",
+        "com.facebook.pages.app",
+        "com.facebook.work",
+        "com.vkontakte.android",
+        "com.microsoft.office.outlook",
+        "com.hiwhatsapp"
+      ],
+      "blackPackages": []
+    },
+    "detection": {
+      "enable": true
+    }
+  },
+  "proxies": {
+    "wakelock": {
+      "enable": true,
+      "whitePackages": [],
+      "blackPackages": [],
+      "workSourceTags": [
+        "*job*",
+        "AudioMix"
+      ],
+      "proxyButDropTags": [
+        "AudioMix"
+      ],
+      "proxyButDropTypes": [
+        26,
+        10,
+        32,
+        6
+      ]
+    },
+    "alarm": {
+      "enable": true,
+      "whitePackages": [{
+        "alarm": {
+          "actions": [
+            "*"
+          ]
+        }
+      }, {
+        "clock": {
+          "actions": [
+            "*"
+          ]
+        }
+      }, {
+        "calendar": {
+          "actions": [
+            "*"
+          ]
+        }
+      }, {
+        "com.xiasgcfytomgage.MysAlasrm": {
+          "actions": [
+            "*"
+          ]
+        }
+      }, {
+        "com.alhiwar": {
+          "actions": [
+            "*"
+          ]
+        }
+      }, {
+        "com.bitsmedia.android.muslimpro": {
+          "actions": [
+            "*"
+          ]
+        }
+      }, {
+        "com.EaseApps.IslamicCalFree": {
+          "actions": [
+            "*"
+          ]
+        }
+      }, {
+        "com.ticktick.task": {
+          "actions": [
+            "*"
+          ]
+        }
+      }, {
+        "com.athan": {
+          "actions": [
+            "*"
+          ]
+        }
+      }, {
+        "com.transsion.notebook": {
+          "actions": [
+            "*"
+          ]
+        }
+      }, {
+        "com.google.android.apps.tasks": {
+          "actions": [
+            "*"
+          ]
+        }
+      }, {
+        "com.tencent.mm": {
+          "actions": [
+            "*"
+          ]
+        }
+      }, {
+        "com.instagram.android": {
+          "actions": [
+            "*"
+          ]
+        }
+      }, {
+        "com.nati.cal": {
+          "actions": [
+            "*"
+          ]
+        }
+      }, {
+        "org.hicham.salaat": {
+          "actions": [
+            "*"
+          ]
+        }
+      }, {
+        "com.fyxtech.muslim": {
+          "actions": [
+            "*"
+          ]
+        }
+      }, {
+        "com.prayertimes.qiblafinder.muslim.android2023": {
+          "actions": [
+            "*"
+          ]
+        }
+      }, {
+        "com.pj.adhantimes.qibladirection.qiblacompass": {
+          "actions": [
+            "*"
+          ]
+        }
+      }, {
+        "droom.sleepIfUCan": {
+          "actions": [
+            "*"
+          ]
+        }
+      }, {
+        "uz.islom": {
+          "actions": [
+            "*"
+          ]
+        }
+      }
+    ],
+      "blackPackages": []
+    },
+    "broadcast": {
+      "enable": true,
+      "defaultBroadcasts": [
+        "android.intent.action.ANY_DATA_STATE",
+        "android.intent.action.TIME_TICK",
+        "android.intent.action.BATTERY_CHANGED",
+        "android.intent.action.SCREEN_ON",
+        "android.intent.action.SCREEN_OFF",
+        "android.intent.action.SIG_STR",
+        "android.intent.action.CONFIGURATION_CHANGED",
+        "android.intent.action.SERVICE_STATE",
+        "android.intent.action.USER_PRESENT",
+        "android.intent.action.PACKAGE_RESTARTED",
+        "android.intent.action.CLOSE_SYSTEM_DIALOGS",
+        "android.intent.action.PACKAGE_ADDED",
+        "android.intent.action.PACKAGE_REMOVED",
+        "android.intent.action.PACKAGE_CHANGED",
+        "android.intent.action.PACKAGE_REPLACED",
+        "android.intent.action.PHONE_STATE",
+        "android.intent.action.SIM_STATE_CHANGED",
+        "android.intent.action.MEDIA_SCANNER_FINISHED",
+        "android.intent.action.MEDIA_SCANNER_STARTED",
+        "android.intent.action.HEADSET_PLUG",
+        "android.intent.action.ACTION_DSDS_SUB1_OPERATOR_CHANGED",
+        "android.media.VOLUME_CHANGED_ACTION",
+        "android.net.conn.CONNECTIVITY_CHANGE",
+        "android.net.wifi.supplicant.CONNECTION_CHANGE",
+        "android.net.wifi.supplicant.STATE_CHANGE",
+        "android.net.wifi.WIFI_STATE_CHANGED",
+        "android.intent.action.CLOSE_SYSTEM_DIALOGS",
+        "android.intent.action.PACKAGE_ADDED",
+        "android.intent.action.PACKAGE_REMOVED",
+        "android.intent.action.PACKAGE_CHANGED",
+        "android.intent.action.PACKAGE_REPLACED",
+        "android.intent.action.PHONE_STATE",
+        "android.net.wifi.SCAN_RESULTS",
+        "android.net.wifi.STATE_CHANGE",
+        "android.net.wifi.RSSI_CHANGED",
+        "android.location.GPS_ENABLED_CHANGE",
+        "org.agoo.android.intent.action.ELECTION_RESULT_V4",
+        "com.tencent.android.tpush.service.channel.heartbeatIntent",
+        "com.tencent.android.tpush.action.SDK",
+        "com.baidu.android.pushservice.action.METHOD",
+        "com.igexin.sdk.action.execute",
+        "com.igexin.sdk.action.pushmanager",
+        "com.tencent.mm.plugin.openapi.Intent.ACTION_REFRESH_WXAPP",
+        "com.tencent.mm.plugin.openapi.Intent.ACTION_HANDLE_APP_REGISTER",
+        "com.huawei.espace.pushcheck",
+        "com.baidu.sapi2.ACTION_HOUR_FREQUENCY",
+        "com.baidu.android.pushservice.action.BIND_SYNC",
+        "android.location.GPS_FIX_CHANGE",
+        "com.android.eguan.drivermonitor",
+        "android.bluetooth.device.action.ACL_CONNECTED",
+        "android.bluetooth.device.action.ACL_DISCONNECTED",
+        "android.bluetooth.headset.profile.action.CONNECTION_STATE_CHANGED",
+        "android.os.action.DEVICE_IDLE_MODE_CHANGED",
+        "android.net.wifi.CONFIGURED_NETWORKS_CHANGE",
+        "com.action.utdid",
+        "wx_global_action",
+        "com.jingdong.jdpush.MSG_CENTER",
+        "com.bytedance.ttnet.config.appconfig.SYNC_MAIN_PROCESS_CONFIG",
+        "com.test.freezetest.action",
+        "android.intent.action.DROPBOX_ENTRY_ADDED",
+        "android.intent.action.NEW_OUTGOING_CALL",
+        "NETWORK_CONDITIONS_MEASURED"
+      ],
+      "whitePackages": [],
+      "blackPackages": []
+    },
+    "service": {
+      "enable": true,
+      "whitePackages": [],
+      "blackPackages": []
+    },
+    "sensor": {
+      "enable": true,
+      "whitePackages": [
+      ]
+    },
+    "gps": {
+      "enable": true,
+      "whitePackages": [],
+      "blackPackages": [
+        "com.test.powerhealth2",
+        "com.maps.locator.gps.gpstracker.phone",
+        "com.liontool.findmykid.gpstracker",
+        "io.chirptoken.kage"
+      ]
+    }
+  },
+  "components": {
+    "activity": {
+      "enable": true,
+      "whitePackages": [],
+      "blackPackages": []
+    },
+    "service": {
+      "enable": true,
+      "callerWhitePackages": [{
+        "com.android.systemui": {
+          "components": "*",
+          "actions": [
+            "*"
+          ]
+        }
+      }],
+      "callerBlackPackages": [],
+      "targetWhitePackages": [],
+      "targetBlackPackages": []
+    },
+    "broadcast": {
+      "enable": true,
+      "callerWhitePackages": [{
+        "*": [
+          "com.google.android.c2dm.intent.RECEIVE"
+        ]
+      }],
+      "callerBlackPackages": [],
+      "targetWhitePackages": [{
+        "com.google.android.packageinstaller": [
+          "android.intent.action.PACKAGE_ADDED",
+          "com.android.packageinstaller.ACTION_INSTALL_COMMIT"
+        ],
+        "com.transsion.livewallpaper.page": [
+          "com.transsion.wallpaper.third.close"
+        ],
+        "com.transsion.iotcard": [
+          "com.transsion.systemUi.ConfigurationChanged"
+        ],
+        "com.transsion.calendar": [
+          "android.intent.action.EVENT_REMINDER",
+          "android.intent.action.LOCALE_CHANGED"
+        ],
+        "com.transsion.airtransfer": [
+          "*"
+        ],
+        "com.transsion.kolun.aiservice": [
+          "android.intent.action.USER_PRESENT"
+        ],
+        "com.gallery20": [
+          "tran.intent.action.DRAG_STATE"
+        ],
+        "org.telegram.messenger": [
+          "android.net.conn.CONNECTIVITY_CHANGE"
+        ],
+        "*": [
+            "android.appwidget.action.APPWIDGET_ENABLED",
+            "com.google.android.c2dm.intent.RECEIVE",
+            "android.appwidget.action.APPWIDGET_UPDATE"
+        ]
+      }],
+      "targetBlackPackages": [],
+      "targetFastWhitePackages": [{
+        "com.gallery20": [
+          "com.transsion.permission.OCR_SUGGESTION_CHANGE"
+        ]
+      }]
+    },
+    "provider": {
+      "enable": true,
+      "callerWhitePackages": [{
+        "com.android.vending": [
+          "com.google.android.gsf.gservices.GservicesProvider"
+        ]
+      }],
+      "callerBlackPackages": [],
+      "targetWhitePackages": [],
+      "targetBlackPackages": []
+    },
+    "jobScheduler": {
+      "enable": true,
+      "whitePackages": [
+        "com.idea.questionnaire",
+        "com.transsion.camera",
+        "com.transsion.camera.debug",
+        "com.gallery20"
+      ],
+      "blackPackages": [
+        "com.jingdong.app.mall",
+        "com.eg.android.AlipayGphone",
+        "com.taobao.taobao",
+        "com.xunmeng.pinduoduo",
+        "com.ss.android.article.news",
+        "com.ss.android.ugc.aweme",
+        "com.achievo.vipshop",
+        "com.sankuai.meituan",
+        "com.netease.cloudmusic",
+        "com.xingin.xhs",
+        "com.qiyi.video",
+        "com.tencent.ig",
+        "com.quark.browser",
+        "com.tencent.mobileqq",
+        "com.zhihu.android",
+        "com.taobao.idlefish",
+        "com.baidu.searchbox",
+        "com.kuaishou.nebula",
+        "com.ss.android.ugc.trill",
+        "com.UCMobile.intl",
+        "com.sina.weibo",
+        "com.jingyao.easybike",
+        "tv.danmaku.bili",
+        "com.smile.gifmaker",
+        "com.njh.biubiu",
+        "com.tencent.wework",
+        "com.xs.fm",
+        "me.ele",
+        "com.duolingo",
+        "com.alibaba.wireless",
+        "com.baidu.youavideo",
+        "com.snda.wifilocating",
+        "cn.xiaofengkj.fitpro",
+        "com.sankuai.meituan.dispatch.crowdsource",
+        "com.tencent.android.qqdownloader",
+        "com.alibaba.intl.android.apps.poseidon",
+        "io.teslatech.callbreak",
+        "com.livescore",
+        "com.hatsune.eagleee",
+        "org.mozilla.firefox",
+        "com.pocketnews.lite",
+        "com.playit.videoplayer",
+        "org.torproject.torbrowser",
+        "com.purple.files.manager.king",
+        "com.ezt.pdfreader.pdfviewer",
+        "com.wavefilemaster.filemanager.wav",
+        "com.maps.locator.gps.gpstracker.phone",
+        "tv.africa.streaming",
+        "com.roblox.client",
+        "proxy.browser.unblock.sites.proxybrowser.unblocksites",
+        "com.cleaner.fastcleaner.booster.security.clean",
+        "com.clean.oneboost.cleaner.onebooster.security",
+        "com.fcmusicplayer.app",
+        "com.shortbox.drama",
+        "com.best.quick.browser",
+        "com.short.reels.drama.sh"
+      ]
+    },
+    "syncManager": {
+      "enable": true,
+      "whitePackages": ["com.android.email", "com.google.android.gms"],
+      "blackPackages": []
+    },
+    "binder": {
+      "enable": true,
+      "asyncBinder": {
+        "callerWhitePackages": [{
+            "android.service.quicksettings.IQSTileService": {
+              "methods": ["*"]
+            }
+          }, {
+            "android.app.job.IJobService": {
+              "methods": ["*"]
+            }
+          }
+        ],
+        "callerBlackPackages": [
+        ],
+        "targetWhitePackages": [{
+            "android.media.IAudioFocusDispatcher": {
+              "methods": ["*"]
+            }
+          }, {
+            "android.media.IAudioPolicyServiceClient": {
+              "methods": ["*"]
+            }
+          }, {
+            "android.media.IAudioFlingerClient": {
+              "methods": ["*"]
+            }
+          }, {
+            "android.service.controls.IControlsProvider": {
+              "methods": ["*"]
+            }
+          }, {
+            "android.speech.tts.ITextToSpeechCallback": {
+              "methods": ["*"]
+            }
+          }, {
+            "android.media.session.ISessionCallback": {
+              "methods": ["*"]
+            }
+          }, {
+            "com.transsion.hubcore.necessity.ITranNecessityService": {
+              "methods": ["*"]
+            }
+          }, {
+            "com.transsion.hubsdk.trancare.cloudengine.ITranCloudEngineCall": {
+              "methods": ["*"]
+            }
+          }, {
+            "android.bluetooth.IBluetoothGattCallback": {
+              "methods": ["TRANSACTION_onClientConnectionState", "TRANSACTION_onConnectionUpdated"]
+            }
+          }, {
+            "android.content.IContentProvider": {
+              "methods": ["TRANSACTION_29_openTypedAssetFile"]
+            }
+          }, {
+            "android.os.storage.IStorageEventListener": {
+              "methods": ["TRANSACTION_2_onStorageStateChanged"]
+            }
+          }, {
+            "android.app.IApplicationThread": {
+              "methods": ["TRANSACTION_13_dumpService", "TRANSACTION_24_dumpHeap", "TRANSACTION_25_dumpActivity", "TRANSACTION_28_updateHttpProxy", "TRANSACTION_32_dumpMemInfo", "TRANSACTION_33_dumpMemInfoProto", "SEND_GFX_TRIM"]
+            }
+          }],
+        "targetBlackPackages": []
+      }
+    },
+    "audioMix": {
+      "enable": true,
+      "blackPackages": [
+        "com.tencent.tmgp.pubgmhd",
+        "com.roblox.client",
+        "com.tencent.ig",
+        "com.tencent.lolm",
+        "jp.konami.pesam",
+        "com.jingdong.app.mall",
+        "com.king.candycrushsaga",
+        "com.firsttouchgames.dls7",
+        "com.yalla.yallagames",
+        "com.king.candycrushsodasaga",
+        "com.rhythm.rush.piano.music.tile.song.games.guitar.tiles",
+        "piano.tiles.pop.music.game.beat.tunes.master",
+        "com.icloudzone.DeathMoto3",
+        "com.ction.playergames",
+        "com.pubg.imobile",
+        "com.mobile.legends",
+        "com.alibaba.aliexpresshd",
+        "com.drama.happy.look",
+        "ae.brandsforless.android",
+        "com.gopro.smarty",
+        "com.cwph.vipxces"
+      ],
+      "whitePackages": [
+      ]
+    },
+    "audioIn": {
+      "enable": false,
+      "blackPackages": [
+      ],
+      "whitePackages": [
+      ]
+    }
+  },
+  "scenes": {
+    "traffic": {
+      "enable": true,
+      "whitePackages": [
+        "com.miHoYo.Yuanshen",
+        "com.miHoYo.GenshinImpact"
+      ],
+      "blackPackages": []
+    }
+  },
+  "strategies": {
+    "uidIdle": {
+      "enable": true,
+      "whitePackages": [],
+      "blackPackages": []
+    },
+    "abnormalUnfreezeBinder": {
+      "enable": true,
+      "lowTime": 2,
+      "lowCount": 10,
+      "whitePackages": [],
+      "blackPackagesOn": [
+        "io.teslatech.callbreak"
+      ],
+      "blackPackagesOff": [
+        "tv.danmaku.bili",
+        "com.duolingo",
+        "com.kuaishou.nebula",
+        "com.qiyi.video",
+        "com.njh.biubiu",
+        "com.UCMobile.intl",
+        "com.smile.gifmaker",
+        "com.tencent.wework",
+        "com.zhiliaoapp.musically.go",
+        "com.zhiliaoapp.musically",
+        "com.tencent.android.qqdownloader",
+        "io.teslatech.callbreak",
+        "co.keeptop.multi.space",
+        "com.pocketnews.lite",
+        "com.apkpure.aegon",
+        "com.purple.files.manager.king",
+        "com.ezt.pdfreader.pdfviewer",
+        "com.bpfit.bloodpressure.health",
+        "com.appsky.android.bloodpressure",
+        "com.bloodpressuretracker.bloodbressure.bloodpressurelog",
+        "proxy.browser.unblock.sites.proxybrowser.unblocksites",
+        "com.community.oneroom",
+        "com.lazada.android",
+        "com.myliushisi.wogan",
+        "com.peake.hindicalender",
+        "com.snake.io.slither.worms",
+        "com.block.puzzle.tetris.games",
+        "com.beachracingpinpin.yingjia",
+        "com.army.fight.toy.draw.defense",
+        "com.joylife.talkingkitty.runner",
+        "com.block.puzzle.jewel.android.games",
+        "com.alibaba.intl.android.apps.poseidon",
+        "com.best.quick.browser",
+        "com.mearsure.heartratepro.manage",
+        "vault.gallery.lock",
+        "com.liked.livenews",
+        "com.mxtech.videoplayer.ad",
+        "com.video.free.hd.downloader",
+        "com.healthapplines.android.pedometer",
+        "com.hatsune.eagleee",
+        "com.rlk.weathers",
+        "com.kwai.bulldog"
+      ]
+    }
+  },
+  "fastFreezer": {
+    "enable": true,
+    "whitePackages": [
+      "com.google.android.providers.media.module",
+      "com.android.providers.media.module",
+      "com.android.providers.contacts",
+      "com.google.android.sdksandbox",
+      "com.debug.loggerui",
+      "com.sh.smart.caller",
+      "com.transsion.dynamicbar",
+      "com.transsion.secondaryhome",
+      "com.android.soundpicker",
+      "com.android.mtp",
+      "com.transsion.sk",
+      "com.transsion.overlaysuw",
+      "com.transsion.cloudserver",
+      "com.transsion.thunderback",
+      "com.transsion.resolver",
+      "com.transsion.demomode",
+      "com.transsion.stylus",
+      "com.android.storagemanager",
+      "com.android.externalstorage",
+      "com.android.intentresolver",
+      "com.android.proxyhandler",
+      "com.android.htmlviewer",
+      "com.android.printspooler",
+      "com.android.emergency",
+      "com.android.sharedstoragebackup",
+      "com.android.traceur",
+      "com.android.fanstrace",
+      "com.transsion.hilauncher",
+      "com.transsion.itel.launcher",
+      "com.transsion.XOSLauncher",
+      "com.transsion.XOSLauncher.upgrade",
+      "com.transsion.hilauncher.upgrade",
+      "android.auto_generated_rro_product__",
+      "com.transsion.auto_generated_rro_product__",
+      "com.transsion.thub.res.auto_generated_rro_product__",
+      "com.transsion.trproduct.overlaysuw.resoverlay",
+      "com.transsion.childmode.resoverlay",
+      "com.transsion.dynamicbar.overlay",
+      "com.android.connectivity.resources.overlay",
+      "com.android.settings.resoverlay",
+      "com.transsion.overlaysuw.resoverlay",
+      "com.android.cellbroadcast.overlay",
+      "com.android.theme.font.notoserifsource",
+      "com.android.customization.themes",
+      "com.transsion.theme.icon",
+      "com.android.role.notes.enabled",
+      "com.google.android.connectivity.resources",
+      "com.google.android.safetycenter.resources",
+      "com.android.uwb.resources",
+      "com.android.virtualmachine.res",
+      "com.transsion.globalsearch",
+      "com.transsion.pcconnect",
+      "com.hoffnung",
+      "tech.palm.find",
+      "tech.palm.id",
+      "com.transsion.aisupportercore",
+      "com.transsion.aicore.llm"
+    ],
+    "whitePrefixPackages": [
+      "com.mediatek",
+      "com.theme",
+      "com.android.cts",
+      "com.android.systemui",
+      "com.android.wifi",
+      "com.google.android.wifi",
+      "com.android.networkstack",
+      "com.google.android.networkstack",
+      "com.android.internal.systemui",
+      "com.google.android.overlay",
+      "com.android.internal.display.cutout",
+      "com.android.hotwordenrollment",
+      "com.transsion.personalizedService"
+    ],
+    "blackPackages": [
+      "com.ss.android.lark.transsion",
+      "com.tencent.mm",
+      "com.transsion.trancare"
+    ]
+  },
+  "freezeSysApp": {
+    "enable": true,
+    "tranPackages":[
+      "tech.palm.id",
+      "tech.palm.find",
+      "com.rlk.weathers",
+      "com.talpa.hiservice",
+      "com.idea.questionnaire",
+      "com.westalgo.factorycamera"
+    ],
+    "blackPackages": [
+      "com.android.chrome",
+      "com.google.android.gm",
+      "com.google.android.youtube",
+      "com.google.android.apps.maps",
+      "com.google.android.apps.photos",
+      "com.google.android.apps.tachyon",
+      "com.google.android.apps.nbu.files",
+      "com.google.android.apps.safetyhub",
+      "com.google.android.inputmethod.latin",
+      "com.google.android.apps.youtube.music",
+      "com.facebook.appmanager"
+    ],
+    "whitePackages": []
+  },
+  "freezeSharedPackages": {
+    "enable": false,
+    "blackPackages": []
+  },
+  "nextTryFreezeTime": {
+    "enable": true,
+    "unfreezeReasons": [
+      {"unfreezeReason": "asyncBinderWhiteList_TRANSACTION_24", "time": 20000},
+      {"unfreezeReason": "asyncBinderWhiteList_TRANSACTION_32", "time": 10000},
+      {"unfreezeReason": "asyncBinderWhiteList_TRANSACTION_33", "time": 10000}
+    ]
+  }
+}

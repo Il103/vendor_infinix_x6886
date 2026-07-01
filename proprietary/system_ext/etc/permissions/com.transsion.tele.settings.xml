@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2018 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License
+  -->
+<permissions>
+    <privapp-permissions package="com.transsion.tele.settings">
+        <permission name="android.permission.REQUEST_NETWORK_SCORES"/>
+        <permission name="android.permission.WRITE_SETTINGS"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+        <permission name="android.permission.CHANGE_CONFIGURATION"/>
+        <permission name="android.permission.CONTROL_UI_TRACING"/>
+        <permission name="android.permission.ACCESS_DOWNLOAD_MANAGER" />
+        <permission name="android.permission.ACCESS_NETWORK_STATE"/>
+        <permission name="android.permission.FOREGROUND_SERVICE"/>
+        <permission name="android.permission.INTERNET"/>
+        <permission name="android.permission.READ_PHONE_STATE" />
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+        <permission name="android.permission.MODIFY_PHONE_STATE"/>
+        <permission name="android.permission.READ_PHONE_NUMBERS"/>
+        <permission name="android.permission.USE_ICC_AUTH_WITH_DEVICE_IDENTIFIER"/>
+        <permission name="android.permission.WRITE_APN_SETTINGS" />
+        <permission name="android.permission.ACCESS_CHECKIN_PROPERTIES"/>
+        <permission name="android.permission.READ_USER_DICTIONARY"/>
+        <permission name="android.permission.WRITE_USER_DICTIONARY" />
+        <permission name="android.permission.FORCE_STOP_PACKAGES"/>
+        <permission name="android.permission.MOVE_PACKAGE"/>
+        <permission name="android.permission.USE_CREDENTIALS"/>
+        <permission name="android.permission.BACKUP"/>
+        <permission name="android.permission.READ_SYNC_STATS"/>
+        <permission name="android.permission.READ_SYNC_SETTINGS"/>
+        <permission name="android.permission.WRITE_SYNC_SETTINGS"/>
+        <permission name="android.permission.READ_DEVICE_CONFIG"/>
+        <permission name="android.permission.STATUS_BAR"/>
+        <permission name="android.permission.INTERACT_ACROSS_USERS_FULL"/>
+        <permission name="android.permission.MANAGE_PROFILE_AND_DEVICE_OWNERS"/>
+        <permission name="android.permission.MANAGE_USERS"/>
+        <permission name="android.permission.COPY_PROTECTED_DATA"/>
+        <permission name="android.permission.READ_PROFILE" />
+        <permission name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+        <permission name="android.permission.READ_SEARCH_INDEXABLES"/>
+        <permission name="android.permission.BIND_SETTINGS_SUGGESTIONS_SERVICE"/>
+        <permission name="android.permission.BIND_REMOTE_LOCKSCREEN_VALIDATION_SERVICE"/>
+        <permission name="android.permission.OEM_UNLOCK_STATE"/>
+        <permission name="android.permission.MANAGE_USER_OEM_UNLOCK_STATE"/>
+        <permission name="android.permission.HIDE_NON_SYSTEM_OVERLAY_WINDOWS"/>
+        <permission name="android.permission.NETWORK_SETTINGS"/>
+        <permission name="android.permission.SYSTEM_ALERT_WINDOW" />
+        <permission name="android.permission.MANAGE_APP_HIBERNATION"/>
+        <permission name="android.permission.POST_NOTIFICATIONS"/>
+        <permission name="android.permission.READ_APP_SPECIFIC_LOCALES"/>
+        <permission name="android.permission.QUERY_ADMIN_POLICY"/>
+        <permission name="android.permission.CUSTOMIZE_SYSTEM_UI" />
+        <permission name="android.permission.REMAP_MODIFIER_KEYS"/>
+    </privapp-permissions>
+</permissions>

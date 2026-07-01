@@ -1,0 +1,16 @@
+
+{
+  "update":20230328,
+  "ver": 1.0,
+  "enable": 1,
+  "ram": 12,
+  "default": 3072,
+  "begin": "02:00:00",
+  "end": "06:00:00",
+  "limit": [
+    {
+      "proc": "com.facemoji.lite.transsion",
+      "mem": 2339
+    }
+  ]
+}

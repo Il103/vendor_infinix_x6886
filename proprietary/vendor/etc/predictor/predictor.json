@@ -1,0 +1,24 @@
+{
+  "version": 20240111,
+  "support": "1",
+  "predictor_game": [
+    "com.tencent.tmgp.pubgmhd",
+    "com.tencent.ig",
+    "com.tencet.igce",
+    "com.rekoo.pubgm",
+    "com.pubg.krmobile",
+    "com.vng.pubgmobile",
+    "com.dts.freefireth",
+    "com.dts.freefiremax",
+    "com.mobile.legends"
+  ],
+  "param": {
+    "shell_temp_threshold_01":42,
+    "shell_temp_threshold_02":45,
+    "shell_temp_threshold_03":49,
+    "window_size": 180,
+    "call_back_period": 60,
+    "pcb_temp_sampling_period": 10,
+    "shell_temp_sampling_period": 10
+  }
+}

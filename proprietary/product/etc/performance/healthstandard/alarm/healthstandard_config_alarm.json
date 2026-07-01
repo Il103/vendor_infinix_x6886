@@ -1,0 +1,10 @@
+{
+  "key": "feature_health_standard_alarm",
+  "version_code": 2,
+  "version_name": "v2.0",
+  "alarm_limit_enable": 1,
+  "alarm_limit_bp_enable": 1,
+  "alarm_count_threshold": 12,
+  "alarm_count_time_period": 60,
+  "alarm_upload_max_count": 100
+}

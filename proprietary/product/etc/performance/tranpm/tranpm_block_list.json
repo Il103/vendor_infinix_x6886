@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "product": "default",
+  "up_time": 2024090601,
+  "muslin_pkg_list": [
+    "com.alhiwar",
+    "com.pakdata.QuranMajeed",
+    "com.vmuslimpro",
+    "com.masarat.salati",
+    "com.guidedways.ipray",
+    "com.reworewo.prayertimes",
+    "com.greentech.quran",
+    "com.raimbekov.android.sajde",
+    "com.shiamuslimproject.main",
+    "qibla.compass.finddirection.hijricalendar",
+    "org.dailyislam.android.preview",
+    "com.rakibofc.inspiretobeislamic",
+    "my.smartech.mp3quran",
+    "com.namaztime"
+  ]
+}

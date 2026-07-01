@@ -1,0 +1,15 @@
+{
+  "major_version":2,
+  "minor_version":1000,
+  "update_time":20220801,
+  "input_method_switch": true,
+  "navigation_switch": true,
+  "video_switch": true,
+  "audio_switch": true,
+  "high_temperature_threshold": 0,
+  "high_temperature_refresh_rate": 0,
+  "camera_notification_high_temerature_switch": false,
+  "high_temperature_white_list_switch": false,
+  "multi_window_refresh_rate": 60,
+  "screen_record": 60
+}

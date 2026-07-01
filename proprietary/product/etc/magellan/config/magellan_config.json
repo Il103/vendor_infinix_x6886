@@ -1,0 +1,55 @@
+{
+    "version":"1.1",
+    "create_time":"20220727",
+    "switch":true,
+    "video_full_screen_switch": false,
+    "fast_slow_slide_switch": true,
+    "swap_page_gesture_switch": true,
+    "fast_slow_slide_list": [
+        "com.transsion.phoenix",
+        "com.android.contacts",
+        "com.gallery20",
+        "com.facebook.katana",
+        "com.facebook.orca",
+        "com.facebook.lite",
+        "com.facebook.pages.app",
+        "com.facebook.mlite",
+        "com.google.android.youtube",
+        "org.telegram.messenger",
+        "com.android.chrome"
+    ],
+    "video_full_screen_list": [
+        "org.videolan.vlc",
+        "com.mxtech.videoplayer.ad",
+        "com.snckvideo.lite",
+        "com.playit.videoplayer",
+        "com.iqiyi.i18n",
+        "sg.bigo.live"
+    ],
+    "gesture_detect":{
+        "switch":true,
+        "text_mode_list":[
+            {
+                "package_name":"com.microsoft.office.word",
+                "activity_list":["com.microsoft.office.word.WordActivity"]
+            },
+            {
+                "package_name":"com.android.chrome",
+                "activity_list":["org.chromium.chrome.browser.ChromeTabbedActivity"]
+            }
+        ],
+        "picture_mode_list":[
+            {
+                "package_name":"com.google.android.apps.photos",
+                "activity_list":["com.google.android.apps.photos.home.HomeActivity"]
+            },
+            {
+                "package_name":"com.gallery20",
+                "activity_list":[
+                    "com.gallery20.activities.GalleryActivity",
+                    "com.gallery20.app.photo.PhotoPageActivity"
+                ]
+            }
+        ]
+    }
+}

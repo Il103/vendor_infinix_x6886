@@ -1,0 +1,150 @@
+  {
+    "version": "1.2",
+    "update": 20250416,
+    "enable": true,
+    "config": [
+      {
+        "metirc": "startup",
+        "enable": true,
+        "sampling_interval": 20,
+        "default_threshold": [
+          {
+            "cold": 4000,
+            "hot": 2000
+          }
+        ],
+        "customized_tne": [
+          {
+            "id": "com.android.settings",
+            "sampling_interval":20,
+            "enable": true,
+            "threshold": [
+              {
+                "cold": 4000,
+                "hot": 2000
+              }
+            ]
+          },
+          {
+            "id": "com.android.chrome",
+            "sampling_interval": 20,
+            "enable": true,
+            "threshold": [
+              {
+                "cold": 4000,
+                "hot": 2000
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "metirc": "latency",
+        "enable":true,
+        "sampling_interval": 30,
+        "default_threshold": 1000,
+        "customized_tne": [
+         {
+            "id": 5,
+            "enable": true,
+            "sampling_interval": 30,
+            "threshold": 1600
+          },
+          {
+            "id": 20,
+            "enable": false,
+            "sampling_interval": 30,
+            "threshold": 1000
+          },
+           {
+            "id": 21,
+            "enable": false,
+            "sampling_interval": 30,
+            "threshold": 1000
+          },
+           {
+            "id": 1000,
+            "enable": true,
+            "sampling_interval": 30,
+            "threshold": 3000
+          },
+           {
+            "id": 1001,
+            "enable": true,
+            "sampling_interval": 30,
+            "threshold": 1000
+          },
+           {
+            "id": 1002,
+            "enable": true,
+            "sampling_interval": 30,
+            "threshold": 1500
+          },
+         {
+            "id": 1003,
+            "enable": true,
+            "sampling_interval": 30,
+            "threshold": 1800
+          },
+          {
+            "id": 1004,
+            "enable": true,
+            "sampling_interval": 30,
+            "threshold":550
+          },
+          {
+            "id": 1005,
+             "enable": true,
+            "sampling_interval": 30,
+            "threshold":4200
+          },
+          {
+            "id": 1006,
+             "enable": true,
+            "sampling_interval": 30,
+            "threshold":4550
+          },
+          {
+            "id": 1020,
+             "enable": true,
+            "sampling_interval": 30,
+            "threshold":4000
+          }
+        ]
+      },
+      {
+        "metirc": "jank",
+        "enable": true,
+        "sampling_interval": 60,
+        "default_threshold": 100,
+        "customized_tne": [
+          {
+            "id": 0,
+             "enable": true,
+            "sampling_interval": 60,
+            "threshold":100
+          },
+          {
+            "id": 10304,
+             "enable": false,
+            "sampling_interval": 60,
+            "threshold":100
+          }
+        ]
+      },
+      {
+        "metirc": "transition",
+        "enable": true,
+        "sampling_interval": 30,
+        "default_threshold":1000,
+        "customized_tne": [
+          {
+            "id": "com.android.settings",
+             "enable": true,
+            "sampling_interval": 30,
+            "threshold":1000
+          }
+        ]
+      }
+    ]
+  }

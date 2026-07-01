@@ -1,0 +1,484 @@
+{
+  "version": 20241206,
+  "support": "1",
+  "game_list": [
+    {
+      "package_name": [
+        "com.tencent.ig",
+        "com.tencent.tmgp.pubgmhd",
+        "com.tencent.ig",
+        "com.rekoo.pubgm",
+        "com.vng.pubgmobile"
+      ],
+      "fps_common": {
+        "thermal_core": {
+          "level_01": 3,
+          "level_02": 1,
+          "level_03": 0,
+          "min_pcb_thermal_threshold": 40
+        },
+        "frame_override": {
+          "enable": 1,
+          "param": {
+            "level_01": 0.9,
+            "level_02": 0.85,
+            "level_03": 0.85,
+            "fps_recent_time": 30,
+            "min_target_fps": 30,
+            "amend": -1
+          }
+        },
+        "powerHal": {
+          "enable": 1,
+          "param": {
+            "level_01": 0.8,
+            "level_02": 0.7,
+            "level_03": 0.7
+          }
+        },
+        "fre_thermal": {
+          "enable": 0,
+          "param": {
+            "level_01": 40000,
+            "level_02": 44000,
+            "level_03_threshold": 2000,
+            "level_04": 49000,
+            "min_limit_fps": 20,
+            "max_limit_fps": 120,
+            "tune_down_level": 40,
+            "tune_up_level": 10
+          }
+        },
+        "screen": {
+          "enable": 0,
+          "param": {
+            "adjust_range": 10,
+            "max_brightness": 220,
+            "min_brightness": 180
+          }
+        }
+      }
+    },
+    {
+      "package_name": [
+        "com.dts.freefireth",
+        "com.dts.freefiremax"
+      ],
+      "fps_common": {
+        "thermal_core": {
+          "level_01": 3,
+          "level_02": 1,
+          "level_03": 0,
+          "min_pcb_thermal_threshold": 40
+        },
+        "frame_override": {
+          "enable": 1,
+          "param": {
+            "level_01": 0.9,
+            "level_02": 0.85,
+            "level_03": 0.85,
+            "fps_recent_time": 30,
+            "min_target_fps": 30,
+            "amend": -1
+          }
+        },
+        "powerHal": {
+          "enable": 1,
+          "param": {
+            "level_01": 0.8,
+            "level_02": 0.7,
+            "level_03": 0.7
+          }
+        },
+        "fre_thermal": {
+          "enable": 0,
+          "param": {
+            "level_01": 40000,
+            "level_02": 44000,
+            "level_03_threshold": 2000,
+            "level_04": 49000,
+            "min_limit_fps": 20,
+            "max_limit_fps": 120,
+            "tune_down_level": 40,
+            "tune_up_level": 10
+          }
+        },
+        "screen": {
+          "enable": 0,
+          "param": {
+            "adjust_range": 10,
+            "max_brightness": 220,
+            "min_brightness": 180
+          }
+        }
+      },
+      "fps_90": {
+        "thermal_core": {
+          "level_01": 30,
+          "level_02": 0,
+          "level_03": 0,
+          "min_pcb_thermal_threshold": 40
+        },
+        "frame_override": {
+          "enable": 1,
+          "param_01": {
+            "level_01": 80,
+            "level_02": 80,
+            "level_03": 80
+          }
+        },
+        "powerHal": {
+          "enable": 0,
+          "param_01": {
+            "level_01": [
+              0.9,
+              0.9
+            ],
+            "level_02": [
+              0.85,
+              0.85
+            ],
+            "level_03": [
+              0.85,
+              0.85
+            ]
+          }
+        },
+        "fre_thermal": {
+          "enable": 0,
+          "param": {
+            "level_01": 40000,
+            "level_02": 44000,
+            "level_03_threshold": 2000,
+            "level_04": 49000,
+            "min_limit_fps": 70,
+            "max_limit_fps": 90,
+            "tune_down_level": 20,
+            "tune_up_level": 10
+          }
+        },
+        "screen": {
+          "enable": 0,
+          "param": {
+            "adjust_range": 10,
+            "max_brightness": 220,
+            "min_brightness": 180
+          }
+        }
+      }
+    },
+    {
+      "package_name": [
+        "com.mobile.legends"
+      ],
+      "fps_common": {
+        "thermal_core": {
+          "level_01": 3,
+          "level_02": 1,
+          "level_03": 0,
+          "min_pcb_thermal_threshold": 40
+        },
+        "frame_override": {
+          "enable": 1,
+          "param": {
+            "level_01": 0.9,
+            "level_02": 0.85,
+            "level_03": 0.85,
+            "fps_recent_time": 30,
+            "min_target_fps": 30,
+            "amend": -1
+          }
+        },
+        "powerHal": {
+          "enable": 0,
+          "param": {
+            "level_01": 0.8,
+            "level_02": 0.7,
+            "level_03": 0.7
+          }
+        },
+        "fre_thermal": {
+          "enable": 0,
+          "param": {
+            "level_01": 40000,
+            "level_02": 44000,
+            "level_03_threshold": 2000,
+            "level_04": 49000,
+            "min_limit_fps": 20,
+            "max_limit_fps": 120,
+            "tune_down_level": 40,
+            "tune_up_level": 10
+          }
+        },
+        "screen": {
+          "enable": 0,
+          "param": {
+            "adjust_range": 10,
+            "max_brightness": 220,
+            "min_brightness": 180
+          }
+        }
+      },
+      "fps_90": {
+        "thermal_core": {
+          "level_01": 30,
+          "level_02": 0,
+          "level_03": 0,
+          "min_pcb_thermal_threshold": 40
+        },
+        "frame_override": {
+          "enable": 1,
+          "param_01": {
+            "level_01": 80,
+            "level_02": 80,
+            "level_03": 80
+          }
+        },
+        "powerHal": {
+          "enable": 0,
+          "param_01": {
+            "level_01": [
+              0.9,
+              0.9
+            ],
+            "level_02": [
+              0.85,
+              0.85
+            ],
+            "level_03": [
+              0.85,
+              0.85
+            ]
+          }
+        },
+        "fre_thermal": {
+          "enable": 0,
+          "param": {
+            "level_01": 40000,
+            "level_02": 44000,
+            "level_03_threshold": 2000,
+            "level_04": 49000,
+            "min_limit_fps": 70,
+            "max_limit_fps": 90,
+            "tune_down_level": 20,
+            "tune_up_level": 10
+          }
+        },
+        "screen": {
+          "enable": 0,
+          "param": {
+            "adjust_range": 10,
+            "max_brightness": 220,
+            "min_brightness": 180
+          }
+        }
+      }
+    },
+    {
+      "package_name": [
+        "com.miHoYo.GenshinImpact",
+        "com.miHoYo.Yuanshen"
+      ],
+      "fps_common": {
+        "thermal_core": {
+          "level_01": 3,
+          "level_02": 1,
+          "level_03": 0,
+          "min_pcb_thermal_threshold": 40
+        },
+        "frame_override": {
+          "enable": 1,
+          "param": {
+            "level_01": 0.9,
+            "level_02": 0.85,
+            "level_03": 0.85,
+            "fps_recent_time": 30,
+            "min_target_fps": 30,
+            "amend": -1
+          }
+        },
+        "powerHal": {
+          "enable": 1,
+          "param": {
+            "level_01": 0.8,
+            "level_02": 0.7,
+            "level_03": 0.7
+          }
+        },
+        "fre_thermal": {
+          "enable": 0,
+          "param": {
+            "level_01": 40000,
+            "level_02": 44000,
+            "level_03_threshold": 2000,
+            "level_04": 49000,
+            "min_limit_fps": 20,
+            "max_limit_fps": 120,
+            "tune_down_level": 40,
+            "tune_up_level": 10
+          }
+        },
+        "screen": {
+          "enable": 0,
+          "param": {
+            "adjust_range": 10,
+            "max_brightness": 220,
+            "min_brightness": 180
+          }
+        }
+      }
+    },
+    {
+      "package_name": [
+        "jp.konami.pesam"
+      ],
+      "fps_common": {
+        "thermal_core": {
+          "level_01": 3,
+          "level_02": 1,
+          "level_03": 0,
+          "min_pcb_thermal_threshold": 40
+        },
+        "frame_override": {
+          "enable": 1,
+          "param": {
+            "level_01": 0.9,
+            "level_02": 0.85,
+            "level_03": 0.85,
+            "fps_recent_time": 30,
+            "min_target_fps": 15,
+            "amend": -1
+          }
+        },
+        "powerHal": {
+          "enable": 1,
+          "param": {
+            "level_01": 0.8,
+            "level_02": 0.7,
+            "level_03": 0.7
+          }
+        },
+        "fre_thermal": {
+          "enable": 0,
+          "param": {
+            "level_01": 40000,
+            "level_02": 44000,
+            "level_03_threshold": 2000,
+            "level_04": 49000,
+            "min_limit_fps": 20,
+            "max_limit_fps": 120,
+            "tune_down_level": 40,
+            "tune_up_level": 10
+          }
+        },
+        "screen": {
+          "enable": 0,
+          "param": {
+            "adjust_range": 10,
+            "max_brightness": 220,
+            "min_brightness": 180
+          }
+        }
+      },
+      "fps_60": {
+        "thermal_core": {
+          "level_01": 30,
+          "level_02": 0,
+          "level_03": 0,
+          "min_pcb_thermal_threshold": 40
+        },
+        "frame_override": {
+          "enable": 1,
+          "param_01": {
+            "level_01": 50,
+            "level_02": 50,
+            "level_03": 50
+          }
+        },
+        "powerHal": {
+          "enable": 0,
+          "param": {
+            "level_01": 0.8,
+            "level_02": 0.7,
+            "level_03": 0.7
+          }
+        },
+        "fre_thermal": {
+          "enable": 0,
+          "param": {
+            "level_01": 40000,
+            "level_02": 44000,
+            "level_03_threshold": 2000,
+            "level_04": 49000,
+            "min_limit_fps": 20,
+            "max_limit_fps": 120,
+            "tune_down_level": 40,
+            "tune_up_level": 10
+          }
+        },
+        "screen": {
+          "enable": 0,
+          "param": {
+            "adjust_range": 10,
+            "max_brightness": 220,
+            "min_brightness": 180
+          }
+        }
+      }
+    },
+    {
+      "package_name": [
+        "com.roblox.client"
+      ],
+      "fps_common": {
+        "force_enable":1,
+        "thermal_core": {
+          "level_01": 12,
+          "level_02": 6,
+          "level_03": 0,
+          "min_pcb_thermal_threshold": 40
+        },
+        "frame_override": {
+          "enable": 1,
+          "param": {
+            "level_01": 0.75,
+            "level_02": 0.75,
+            "level_03": 0.75,
+            "fps_recent_time": 30,
+            "min_target_fps": 45,
+            "amend": -1
+          }
+        },
+        "powerHal": {
+          "enable": 1,
+          "param": {
+            "level_01": 1,
+            "level_02": 1,
+            "level_03": 1
+          }
+        },
+        "fre_thermal": {
+          "enable": 0,
+          "param": {
+            "level_01": 40000,
+            "level_02": 44000,
+            "level_03_threshold": 2000,
+            "level_04": 49000,
+            "min_limit_fps": 20,
+            "max_limit_fps": 120,
+            "tune_down_level": 40,
+            "tune_up_level": 10
+          }
+        },
+        "screen": {
+          "enable": 0,
+          "param": {
+            "adjust_range": 10,
+            "max_brightness": 220,
+            "min_brightness": 180
+          }
+        }
+      }
+    }
+  ]
+}

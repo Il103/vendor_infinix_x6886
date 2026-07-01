@@ -1,0 +1,24 @@
+{
+  "ver": 1,
+  "ver_seq": "2024102901",
+  "abn_enable": 1,
+  "freeze_enable": 1,
+  "cg_enable": 1,
+  "ta_enable": 1,
+  "disable_plat": [
+  ],
+  "cg_exempt_list": [
+    "com.google.android.webview",
+    "com.google.android.permissioncontroller",
+    "com.transsion.dynamicbar",
+    "com.android.systemui",
+    "system",
+    "android",
+    "webview_zygote",
+    "com.google.android.webview:webview_service",
+    "com.transsion.livecaption",
+    "com.transsion.aicore.speech",
+    "com.transsion.aivoiceassistant",
+    "com.transsion.tranvoicecommand"
+  ]
+}

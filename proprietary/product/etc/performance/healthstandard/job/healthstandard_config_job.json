@@ -1,0 +1,10 @@
+{
+  "key": "feature_health_standard_job",
+  "version_code": 1,
+  "version_name": "v1.0",
+  "job_limit_bp_enable": 1,
+  "job_time_expired": 2,
+  "job_upload_max_count": 100,
+  "job_count_threshold": 12,
+  "job_count_time_period": 60
+}

@@ -1,0 +1,17 @@
+on post-fs-data
+    # add for goodix Fingerprint
+
+    chmod 0660 /dev/goodix_fp
+    chown system root /dev/goodix_fp
+
+    mkdir /data/vendor/goodix
+    chmod 0777 /data/vendor/goodix
+    chown system system /data/vendor/goodix
+
+    mkdir /data/vendor/goodix/gf_data
+    chmod 0777 /data/vendor/goodix
+    chown system system /data/vendor/goodix/gf_data
+
+    chmod 0777 /proc/ppm/enabled
+    chmod 0777 /proc/ppm/policy/ut_fix_core_num
+    chmod 0777 /proc/ppm/policy/ut_fix_freq_idx
