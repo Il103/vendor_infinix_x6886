@@ -13,4 +13,4 @@ on post-fs-data
     mkdir /data/vendor/nn/debug_plus 0775 system system
 
 on property:ro.vendor.mtk_nn_baseline_support=1
-    start neuralnetworks_hal_service_shim_mtk
+    enable neuralnetworks_hal_service_shim_mtk

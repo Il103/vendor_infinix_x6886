@@ -1,3 +1,0 @@
-on post-fs-data
-    mkdir /data/xos_secure 0777 system system
-

@@ -1,2 +1,0 @@
-on zygote-start
-    mkdir /data/magellan 0771 system system encryption=None

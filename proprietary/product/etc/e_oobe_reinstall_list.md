@@ -1,5 +1,0 @@
-com.facemoji.lite.transsion(CN)
-com.transsion.gamespace.app(ALL)
-com.einnovation.temu(JO,EC,PE,BR)
-com.zhiliaoapp.musically(VE,ET,DO,KW,QA,SO,CL,LY,RO,TJ,PY,PG,KG,BG,OM,BH,PA,BI,SB,AR)
-com.transtech.geniex(ID)

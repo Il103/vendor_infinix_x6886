@@ -5,5 +5,5 @@ service thermal_core /vendor/bin/thermal_core
     group system radio
     disabled
 
-on property:ro.vendor.mtk_thermal_2_0=1
+on property:vendor.thermal.link_ready=1
     start thermal_core
