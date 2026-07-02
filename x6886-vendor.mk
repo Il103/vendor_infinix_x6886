@@ -41,7 +41,6 @@ PRODUCT_COPY_FILES += \
     vendor/infinix/x6886/proprietary/vendor/app/mcRegistry/e97c270ea5c44c58bcd3384a2fa2539e.tabin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/e97c270ea5c44c58bcd3384a2fa2539e.tabin \
     vendor/infinix/x6886/proprietary/vendor/bin/AgentTest:$(TARGET_COPY_OUT_VENDOR)/bin/AgentTest \
     vendor/infinix/x6886/proprietary/vendor/bin/TransSchedTest:$(TARGET_COPY_OUT_VENDOR)/bin/TransSchedTest \
-    vendor/infinix/x6886/proprietary/vendor/bin/[:$(TARGET_COPY_OUT_VENDOR)/bin/[ \
     vendor/infinix/x6886/proprietary/vendor/bin/acpi:$(TARGET_COPY_OUT_VENDOR)/bin/acpi \
     vendor/infinix/x6886/proprietary/vendor/bin/aee_aedv64_v2:$(TARGET_COPY_OUT_VENDOR)/bin/aee_aedv64_v2 \
     vendor/infinix/x6886/proprietary/vendor/bin/aee_dumpstatev_v2:$(TARGET_COPY_OUT_VENDOR)/bin/aee_dumpstatev_v2 \
