@@ -1,4 +1,0 @@
-on boot
-    chown system system /sys/pnpmgr/ams/enable_record
-    chmod 0664 /sys/pnpmgr/ams/enable_record
-

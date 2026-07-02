@@ -1,1 +1,3 @@
-# Auto-generated - intentionally empty
+#
+# Automatically generated file. DO NOT MODIFY
+#
