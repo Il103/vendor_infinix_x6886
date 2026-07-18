@@ -15,7 +15,7 @@ Certificate:
         Version: 3 (0x2)
         Serial Number:
             06:6c:9f:d5:74:97:36:66:3f:3b:0b:9a:d9:e8:9e:76:03:f2:4a
-        Signature Algorithm: ecdsa-with-SHA256
+    Signature Algorithm: ecdsa-with-SHA256
         Issuer: C=US, O=Amazon, CN=Amazon Root CA 3
         Validity
             Not Before: May 26 00:00:00 2015 GMT
@@ -23,15 +23,13 @@ Certificate:
         Subject: C=US, O=Amazon, CN=Amazon Root CA 3
         Subject Public Key Info:
             Public Key Algorithm: id-ecPublicKey
-                Public-Key: (256 bit)
+                Public-Key: (P-256)
                 pub:
                     04:29:97:a7:c6:41:7f:c0:0d:9b:e8:01:1b:56:c6:
                     f2:52:a5:ba:2d:b2:12:e8:d2:2e:d7:fa:c9:c5:d8:
                     aa:6d:1f:73:81:3b:3b:98:6b:39:7c:33:a5:c5:4e:
                     86:8e:80:17:68:62:45:57:7d:44:58:1d:b3:37:e5:
                     67:08:eb:66:de
-                ASN1 OID: prime256v1
-                NIST CURVE: P-256
         X509v3 extensions:
             X509v3 Basic Constraints: critical
                 CA:TRUE

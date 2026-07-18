@@ -37,7 +37,7 @@ Certificate:
         Version: 3 (0x2)
         Serial Number:
             05:f7:0e:86:da:49:f3:46:35:2e:ba:b2
-        Signature Algorithm: sha256WithRSAEncryption
+    Signature Algorithm: sha256WithRSAEncryption
         Issuer: C=US, ST=Illinois, L=Chicago, O=Trustwave Holdings, Inc., CN=Trustwave Global Certification Authority
         Validity
             Not Before: Aug 23 19:34:12 2017 GMT
@@ -45,7 +45,7 @@ Certificate:
         Subject: C=US, ST=Illinois, L=Chicago, O=Trustwave Holdings, Inc., CN=Trustwave Global Certification Authority
         Subject Public Key Info:
             Public Key Algorithm: rsaEncryption
-                RSA Public-Key: (4096 bit)
+                Public-Key: (4096 bit)
                 Modulus:
                     00:b9:5d:51:28:4b:3c:37:92:d1:82:ce:bd:1d:bd:
                     cd:dd:b8:ab:cf:0a:3e:e1:5d:e5:dc:aa:09:b9:57:

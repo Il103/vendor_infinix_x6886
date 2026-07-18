@@ -18,7 +18,7 @@ Certificate:
         Version: 3 (0x2)
         Serial Number:
             66:f2:3d:af:87:de:8b:b1:4a:ea:0c:57:31:01:c2:ec
-        Signature Algorithm: ecdsa-with-SHA384
+    Signature Algorithm: ecdsa-with-SHA384
         Issuer: C=US, O=Microsoft Corporation, CN=Microsoft ECC Root Certificate Authority 2017
         Validity
             Not Before: Dec 18 23:06:45 2019 GMT
@@ -26,7 +26,7 @@ Certificate:
         Subject: C=US, O=Microsoft Corporation, CN=Microsoft ECC Root Certificate Authority 2017
         Subject Public Key Info:
             Public Key Algorithm: id-ecPublicKey
-                Public-Key: (384 bit)
+                Public-Key: (P-384)
                 pub:
                     04:d4:bc:3d:02:42:75:41:13:23:cd:80:04:86:02:
                     51:2f:6a:a8:81:62:0b:65:cc:f6:ca:9d:1e:6f:4a:
@@ -35,8 +35,6 @@ Certificate:
                     63:04:66:99:f8:fa:f2:93:10:05:e1:81:28:42:e3:
                     c6:68:f4:e6:1b:84:60:4a:89:af:ed:79:0f:3b:ce:
                     f1:f6:44:f5:01:78:c0
-                ASN1 OID: secp384r1
-                NIST CURVE: P-384
         X509v3 extensions:
             X509v3 Key Usage: critical
                 Digital Signature, Certificate Sign, CRL Sign

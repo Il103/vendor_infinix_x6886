@@ -18,7 +18,7 @@ Certificate:
         Version: 3 (0x2)
         Serial Number:
             21:2a:56:0c:ae:da:0c:ab:40:45:bf:2b:a2:2d:3a:ea
-        Signature Algorithm: ecdsa-with-SHA384
+    Signature Algorithm: ecdsa-with-SHA384
         Issuer: C=CH, O=WISeKey, OU=OISTE Foundation Endorsed, CN=OISTE WISeKey Global Root GC CA
         Validity
             Not Before: May  9 09:48:34 2017 GMT
@@ -26,7 +26,7 @@ Certificate:
         Subject: C=CH, O=WISeKey, OU=OISTE Foundation Endorsed, CN=OISTE WISeKey Global Root GC CA
         Subject Public Key Info:
             Public Key Algorithm: id-ecPublicKey
-                Public-Key: (384 bit)
+                Public-Key: (P-384)
                 pub:
                     04:4c:e9:50:c0:c6:0f:72:18:bc:d8:f1:ba:b3:89:
                     e2:79:4a:a3:16:a7:6b:54:24:db:51:ff:ea:f4:09:
@@ -35,8 +35,6 @@ Certificate:
                     4b:21:7e:16:a7:63:90:d2:39:d4:b1:87:78:5f:18:
                     96:0f:50:1b:35:37:0f:6a:c6:dc:d9:13:4d:a4:8e:
                     90:37:e6:bd:5b:31:91
-                ASN1 OID: secp384r1
-                NIST CURVE: P-384
         X509v3 extensions:
             X509v3 Key Usage: critical
                 Certificate Sign, CRL Sign

@@ -18,7 +18,7 @@ Certificate:
         Version: 3 (0x2)
         Serial Number:
             3c:f6:07:a9:68:70:0e:da:8b:84
-        Signature Algorithm: ecdsa-with-SHA384
+    Signature Algorithm: ecdsa-with-SHA384
         Issuer: C=IN, OU=emSign PKI, O=eMudhra Technologies Limited, CN=emSign ECC Root CA - G3
         Validity
             Not Before: Feb 18 18:30:00 2018 GMT
@@ -26,7 +26,7 @@ Certificate:
         Subject: C=IN, OU=emSign PKI, O=eMudhra Technologies Limited, CN=emSign ECC Root CA - G3
         Subject Public Key Info:
             Public Key Algorithm: id-ecPublicKey
-                Public-Key: (384 bit)
+                Public-Key: (P-384)
                 pub:
                     04:23:a5:0c:b8:2d:12:f5:28:f3:b1:b2:dd:e2:02:
                     12:80:9e:39:5f:49:4d:9f:c9:25:34:59:74:ec:bb:
@@ -35,8 +35,6 @@ Certificate:
                     d0:86:23:bf:46:d5:8e:0f:3f:04:f4:d7:1c:92:7e:
                     f6:a5:63:c2:f5:5f:8e:2e:4f:a1:18:19:02:2b:32:
                     0a:82:64:7d:16:93:d1
-                ASN1 OID: secp384r1
-                NIST CURVE: P-384
         X509v3 extensions:
             X509v3 Subject Key Identifier: 
                 7C:5D:02:84:13:D4:CC:8A:9B:81:CE:17:1C:2E:29:1E:9C:48:63:42

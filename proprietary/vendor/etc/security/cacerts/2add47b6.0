@@ -17,7 +17,7 @@ Certificate:
         Version: 3 (0x2)
         Serial Number:
             60:59:49:e0:26:2e:bb:55:f9:0a:77:8a:71:f9:4a:d8:6c
-        Signature Algorithm: ecdsa-with-SHA384
+    Signature Algorithm: ecdsa-with-SHA384
         Issuer: OU=GlobalSign ECC Root CA - R5, O=GlobalSign, CN=GlobalSign
         Validity
             Not Before: Nov 13 00:00:00 2012 GMT
@@ -25,7 +25,7 @@ Certificate:
         Subject: OU=GlobalSign ECC Root CA - R5, O=GlobalSign, CN=GlobalSign
         Subject Public Key Info:
             Public Key Algorithm: id-ecPublicKey
-                Public-Key: (384 bit)
+                Public-Key: (P-384)
                 pub:
                     04:47:45:0e:96:fb:7d:5d:bf:e9:39:d1:21:f8:9f:
                     0b:b6:d5:7b:1e:92:3a:48:59:1c:f0:62:31:2d:c0:
@@ -34,8 +34,6 @@ Certificate:
                     33:a1:c5:9d:4d:a4:6f:41:95:38:7f:c9:1e:84:eb:
                     d1:9e:49:92:87:94:87:0c:3a:85:4a:66:9f:9d:59:
                     93:4d:97:61:06:86:4a
-                ASN1 OID: secp384r1
-                NIST CURVE: P-384
         X509v3 extensions:
             X509v3 Key Usage: critical
                 Certificate Sign, CRL Sign

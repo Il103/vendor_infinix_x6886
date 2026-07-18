@@ -25,7 +25,7 @@ Certificate:
         Version: 3 (0x2)
         Serial Number:
             31:f5:e4:62:0c:6c:58:ed:d6:d8
-        Signature Algorithm: sha256WithRSAEncryption
+    Signature Algorithm: sha256WithRSAEncryption
         Issuer: C=IN, OU=emSign PKI, O=eMudhra Technologies Limited, CN=emSign Root CA - G1
         Validity
             Not Before: Feb 18 18:30:00 2018 GMT
@@ -33,7 +33,7 @@ Certificate:
         Subject: C=IN, OU=emSign PKI, O=eMudhra Technologies Limited, CN=emSign Root CA - G1
         Subject Public Key Info:
             Public Key Algorithm: rsaEncryption
-                RSA Public-Key: (2048 bit)
+                Public-Key: (2048 bit)
                 Modulus:
                     00:93:4b:bb:e9:66:8a:ee:9d:5b:d5:34:93:d0:1b:
                     1e:c3:e7:9e:b8:64:33:7f:63:78:68:b4:cd:2e:71:

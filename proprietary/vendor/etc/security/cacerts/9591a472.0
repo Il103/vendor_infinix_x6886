@@ -36,7 +36,7 @@ Certificate:
         Version: 3 (0x2)
         Serial Number:
             1e:d3:97:09:5f:d8:b4:b3:47:70:1e:aa:be:7f:45:b3
-        Signature Algorithm: sha384WithRSAEncryption
+    Signature Algorithm: sha384WithRSAEncryption
         Issuer: C=US, O=Microsoft Corporation, CN=Microsoft RSA Root Certificate Authority 2017
         Validity
             Not Before: Dec 18 22:51:22 2019 GMT
@@ -44,7 +44,7 @@ Certificate:
         Subject: C=US, O=Microsoft Corporation, CN=Microsoft RSA Root Certificate Authority 2017
         Subject Public Key Info:
             Public Key Algorithm: rsaEncryption
-                RSA Public-Key: (4096 bit)
+                Public-Key: (4096 bit)
                 Modulus:
                     00:ca:5b:be:94:33:8c:29:95:91:16:0a:95:bd:47:
                     62:c1:89:f3:99:36:df:46:90:c9:a5:ed:78:6a:6f:

@@ -34,7 +34,7 @@ Certificate:
         Version: 3 (0x2)
         Serial Number:
             11:00:34:b6:4e:c6:36:2d:36
-        Signature Algorithm: sha256WithRSAEncryption
+    Signature Algorithm: sha256WithRSAEncryption
         Issuer: C=RO, O=CERTSIGN SA, OU=certSIGN ROOT CA G2
         Validity
             Not Before: Feb  6 09:27:35 2017 GMT
@@ -42,7 +42,7 @@ Certificate:
         Subject: C=RO, O=CERTSIGN SA, OU=certSIGN ROOT CA G2
         Subject Public Key Info:
             Public Key Algorithm: rsaEncryption
-                RSA Public-Key: (4096 bit)
+                Public-Key: (4096 bit)
                 Modulus:
                     00:c0:c5:75:19:91:7d:44:74:74:87:fe:0e:3b:96:
                     dc:d8:01:16:cc:ee:63:91:e7:0b:6f:ce:3b:0a:69:

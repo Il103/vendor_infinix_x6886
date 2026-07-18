@@ -18,7 +18,7 @@ Certificate:
         Version: 3 (0x2)
         Serial Number:
             0d:6a:5f:08:3f:28:5c:3e:51:95:df:5d
-        Signature Algorithm: ecdsa-with-SHA256
+    Signature Algorithm: ecdsa-with-SHA256
         Issuer: C=US, ST=Illinois, L=Chicago, O=Trustwave Holdings, Inc., CN=Trustwave Global ECC P256 Certification Authority
         Validity
             Not Before: Aug 23 19:35:10 2017 GMT
@@ -26,15 +26,13 @@ Certificate:
         Subject: C=US, ST=Illinois, L=Chicago, O=Trustwave Holdings, Inc., CN=Trustwave Global ECC P256 Certification Authority
         Subject Public Key Info:
             Public Key Algorithm: id-ecPublicKey
-                Public-Key: (256 bit)
+                Public-Key: (P-256)
                 pub:
                     04:7e:fb:6c:e6:23:e3:73:32:08:ca:60:e6:53:9c:
                     ba:74:8d:18:b0:78:90:52:80:dd:38:c0:4a:1d:d1:
                     a8:cc:93:a4:97:06:38:ca:0d:15:62:c6:8e:01:2a:
                     65:9d:aa:df:34:91:2e:81:c1:e4:33:92:31:c4:fd:
                     09:3a:a6:3f:ad
-                ASN1 OID: prime256v1
-                NIST CURVE: P-256
         X509v3 extensions:
             X509v3 Basic Constraints: critical
                 CA:TRUE

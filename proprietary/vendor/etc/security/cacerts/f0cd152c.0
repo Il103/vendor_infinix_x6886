@@ -39,7 +39,7 @@ Certificate:
         Version: 3 (0x2)
         Serial Number:
             d9:b5:43:7f:af:a9:39:0f:00:00:00:00:55:65:ad:58
-        Signature Algorithm: sha256WithRSAEncryption
+    Signature Algorithm: sha256WithRSAEncryption
         Issuer: C=US, O=Entrust, Inc., OU=See www.entrust.net/legal-terms, OU=(c) 2015 Entrust, Inc. - for authorized use only, CN=Entrust Root Certification Authority - G4
         Validity
             Not Before: May 27 11:11:16 2015 GMT
@@ -47,7 +47,7 @@ Certificate:
         Subject: C=US, O=Entrust, Inc., OU=See www.entrust.net/legal-terms, OU=(c) 2015 Entrust, Inc. - for authorized use only, CN=Entrust Root Certification Authority - G4
         Subject Public Key Info:
             Public Key Algorithm: rsaEncryption
-                RSA Public-Key: (4096 bit)
+                Public-Key: (4096 bit)
                 Modulus:
                     00:b1:ec:2c:42:ee:e2:d1:30:ff:a5:92:47:e2:2d:
                     c3:ba:64:97:6d:ca:f7:0d:b5:59:c1:b3:cb:a8:68:
