@@ -1199,7 +1199,7 @@ service osi /system/bin/osi
 
 #BSP:add meta features XLQLBH-14 by wang.qin 20220412 start
 on property:persist.vendor.tran.wipedata=1 && property:ro.boot.atm=enable
-    tran_factory_reset
+    #tran_factory_reset
 #BSP:add meta features XLQLBH-14 by wang.qin 20220412 end
 
 #SPD: add resmonitor and smartpanel bind small core by rui.fu 20230117 start

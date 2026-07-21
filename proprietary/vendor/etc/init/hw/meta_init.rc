@@ -369,7 +369,6 @@ service factory_no_image /vendor/bin/factory
     socket factory-atci stream 660 radio system
 
 service atcid-daemon-u /vendor/bin/atcid
-    interface vendor.mediatek.hardware.atci@1.0::IAtcid default
     class hal
     class core
     socket adb_atci_socket stream 660 radio system

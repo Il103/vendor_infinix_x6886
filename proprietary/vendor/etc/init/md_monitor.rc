@@ -6,7 +6,6 @@ on post-fs-data
 
 # MTK platform .rc configure
 service md_monitor /vendor/bin/md_monitor
-    interface vendor.mediatek.hardware.mdmonitor@1.0::IMDMonitorService default
     class hal
     class main
     user system
