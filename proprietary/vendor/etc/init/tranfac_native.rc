@@ -1,0 +1,6 @@
+service tranfac_native /vendor/bin/tranfac_native
+    user root
+    group system root wifi radio
+    oneshot
+    disabled
+

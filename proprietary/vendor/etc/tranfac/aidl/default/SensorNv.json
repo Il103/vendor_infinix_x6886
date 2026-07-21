@@ -1,0 +1,128 @@
+{
+  "ACCELEROMETER": [
+    {
+      "caliType": "DEFAULT",
+      "path": "HWMON_ACC",
+      "intSize": 3
+    }
+  ],
+  "GYROSCOPE": [
+    {
+      "caliType": "DEFAULT",
+      "path": "HWMON_GYRO",
+      "intSize": 3
+    }
+  ],
+  "PROXIMITY": [
+    {
+      "caliType": "DEFAULT",
+      "path": "HWMON_PS",
+      "intSize": 3
+    },
+    {
+      "caliType": "GOODIX",
+      "path": "HWMON_ALSNUMBER18BIT32",
+      "intSize": 4
+    }
+  ],
+  "ANTI_TOUCH_PS": [
+    {
+      "caliType": "DEFAULT",
+      "path": "HWMON_PS",
+      "intSize": 3
+    },
+    {
+      "caliType": "GOODIX",
+      "path": "HWMON_ALSNUMBER18BIT32",
+      "intSize": 4
+    }
+  ],
+  "LIGHT": [
+    {
+      "caliType": "DEFAULT",
+      "path": "HWMON_ALS",
+      "intSize": 2
+    },
+    {
+      "caliType": "K_NEW",
+      "path": "HWMON_ALS_MAIN_KVALUE",
+      "intSize": 2
+    },
+    {
+      "caliType": "A",
+      "path": "HWMON_ALS_AVALUE",
+      "intSize": 9
+    },
+    {
+      "caliType": "B",
+      "path": "HWMON_ALS_BVALUE",
+      "intSize": 9
+    },
+    {
+      "caliType": "SENSOR_TEK_CUTOUT_V100",
+      "path": "HWMON_ALS_NUMBER27_BIT32",
+      "intSize": 2,
+      "totalIntSize": 20
+    },
+    {
+      "caliType": "COLLECT_DATA"
+    },
+    {
+      "caliType": "EMINENT_CUTOUT_V100",
+      "path": "HWMON_ALS_NUMBER27_BIT32",
+      "intSize": 8
+    },
+    {
+      "caliType": "GOODIX_CUTOUT_V100",
+      "path": "HWMON_ALS",
+      "intSize": 1
+    }
+  ],
+  "SUBACCEL": [
+    {
+      "caliType": "DEFAULT",
+      "path": "HWMON_SUB_ACCEL",
+      "intSize": 3
+    }
+  ],
+  "SUBGYRO": [
+    {
+      "caliType": "DEFAULT",
+      "path": "HWMON_SUB_GYRO",
+      "intSize": 3
+    }
+  ],
+  "LINEAR_HALL": [
+    {
+      "caliType": "DEFAULT",
+      "path": "HWMON_3DHALL",
+      "intSize": 14
+    }
+  ],
+  "OIS": [
+    {
+      "caliType": "DEFAULT",
+      "path": "",
+      "intSize": 0
+    }
+  ],
+  "SAR": [
+    {
+      "caliType": "DEFAULT",
+      "path": "HWMON_SAR",
+      "intSize": 3
+    }
+  ],
+  "SUBALS": [
+    {
+      "caliType": "DEFAULT",
+      "path": "HWMON_SUB_ALS",
+      "intSize": 2
+    },
+    {
+      "caliType": "K_NEW",
+      "path": "HWMON_ALS_SUB_KVALUE",
+      "intSize": 2
+    }
+  ]
+}

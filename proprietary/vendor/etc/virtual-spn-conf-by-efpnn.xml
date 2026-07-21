@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<virtualSpnOverridesByEfPnn version="1">
+<virtualSpnOverride mccmncpnn="23207HoT" name="HoT"/>
+<virtualSpnOverride mccmncpnn="26006Mobile Vikings" name="Mobile Vikings"/>
+<virtualSpnOverride mccmncpnn="26203Ortel D" name="Ortel D"/>
+<virtualSpnOverride mccmncpnn="26203MEDIONmobile" name="MEDIONmobile"/>
+<virtualSpnOverride mccmncpnn="26203Willkommen" name="Willkommen"/>
+<virtualSpnOverride mccmncpnn="23430EE" name="EE"/>
+<virtualSpnOverride mccmncpnn="33450AT&amp;T" name="AT&amp;T"/>
+<virtualSpnOverride mccmncpnn="33450AT&amp;T 4G" name="AT&amp;T 4G"/>
+<virtualSpnOverride mccmncpnn="334050AT&amp;T" name="AT&amp;T"/>
+<virtualSpnOverride mccmncpnn="334050AT&amp;T 4G" name="AT&amp;T 4G"/>
+<virtualSpnOverride mccmncspn="502153UNI5G" name="UNI5G"/>
+<virtualSpnOverride mccmncspn="50503KOGAN" name="KOGAN"/>
+<virtualSpnOverride mccmncpnn="52017K4" name="K4"/>
+<virtualSpnOverride mccmncpnn="334050UNEFON" name="UNEFON"/>
+<virtualSpnOverride mccmncpnn="64003Zantel" name="Yas"/>
+</virtualSpnOverridesByEfPnn>

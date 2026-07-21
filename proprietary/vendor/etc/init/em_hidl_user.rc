@@ -1,0 +1,6 @@
+service emhidl_user /vendor/bin/em_hidl
+    class hal
+    oneshot
+    disabled
+    user system
+    group bluetooth radio gps system nfc

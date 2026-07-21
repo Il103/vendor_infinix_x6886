@@ -1,0 +1,13 @@
+<manifest version="1.0" type="device">
+    <!--SDD:add optical fingerprint by wangweidong start-->
+    <hal format="hidl">
+        <name>vendor.mediatek.hardware.biometrics.fingerprint</name>
+        <transport>hwbinder</transport>
+        <version>2.1</version>
+        <interface>
+            <name>ITranBiometricsFingerprint</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <!--SDD:add optical fingerprint by wangweidong end-->
+</manifest>

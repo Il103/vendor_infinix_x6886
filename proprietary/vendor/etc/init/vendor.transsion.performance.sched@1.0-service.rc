@@ -1,0 +1,15 @@
+on init
+    chown root root /dev/trans_sched
+    chmod 0666 /dev/trans_sched
+
+on property:init.svc.zygote=running
+    start vendor.trans_sched
+
+on post-fs-data
+    mkdir /data/vendor/trans_sched/ 0775 system system
+
+service vendor.trans_sched /vendor/bin/hw/vendor.transsion.performance.sched@1.0-service
+    class core
+    user root
+    group root system
+    disabled

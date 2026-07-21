@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EccTable>
+    <!--
+        Configure emergency numbers for open market load. For the emergey numbers defined in
+        3GPP TS 22.101 (112/911 when SIM/USIM present and 112/911/000/08/110/118/119/999
+        when SIM/USIM not present) it will be configure in default emergency number source,
+        so no need to configure here if there is no special request for these numbers.
+
+        The attribute definition for tag EccEntry:
+        - Ecc: the emergnecy number
+        - Category: the service category (From 3GPP TS24.008)
+            - Bit 1 (1): Police
+            - Bit 2 (2): Ambulance
+            - Bit 3 (4): Fire Brigade
+            - Bit 4 (8): Marine Guard
+            - Bit 5 (16): Mountain Rescue
+            - Bit 6 (32): Manually initiated eCall
+            - Bit 7 (64): Automatically initiated eCall
+            - Bit 8 (128): is spare and set to "0"
+        - Condition: there are following values:
+            - 0: ecc only when no sim
+            - 1: ecc always
+            - 2: MMI will show ecc but send to nw as normal call
+        - Plmn: Operator PLMN which contains MCC+MNC.
+                Use FFF or FF for all operators under same country
+                Ex: 460 FFF means all operators in China
+    -->
+
+    <!-- TDD: modify ecc list XLJQGXLJB-3392 by zhangzhendong 20210728 start -->
+    <EccEntry Ecc="999" Category="0" Condition="2" Plmn="260 01" />
+    <EccEntry Ecc="119" Category="0" Condition="2" Plmn="510 09"/>
+    <!-- TDD:add ecc list for ADSHBSE-17919 by meijuan.ma 2023.4.06 start -->
+    <EccEntry Ecc="115" Category="0" Condition="1" Plmn="510 28"/>
+    <!-- TDD:add ecc list for ADSHBSE-17919 by meijuan.ma 2023.4.06 end -->
+    <EccEntry Ecc="129" Category="0" Condition="3" Plmn="510 01"/>
+    <EccEntry Ecc="119" Category="0" Condition="1" Plmn="510 01"/>
+    <EccEntry Ecc="113" Category="0" Condition="1" Plmn="510 01"/>
+    <EccEntry Ecc="118" Category="0" Condition="1" Plmn="510 01"/>
+    <EccEntry Ecc="110" Category="0" Condition="1" Plmn="510 21"/>
+    <EccEntry Ecc="113" Category="0" Condition="1" Plmn="510 21"/>
+    <EccEntry Ecc="118" Category="0" Condition="1" Plmn="510 21"/>
+    <EccEntry Ecc="113" Category="0" Condition="1" Plmn="510 10"/>
+    <EccEntry Ecc="118" Category="0" Condition="1" Plmn="510 10"/>
+    <EccEntry Ecc="115" Category="0" Condition="1" Plmn="510 11"/>
+    <EccEntry Ecc="113" Category="0" Condition="1" Plmn="510 11"/>
+    <EccEntry Ecc="118" Category="0" Condition="1" Plmn="510 11"/>
+    <EccEntry Ecc="110" Category="0" Condition="1" Plmn="510 11"/>
+    <EccEntry Ecc="113" Category="0" Condition="1" Plmn="510 89"/>
+    <EccEntry Ecc="110" Category="1" Condition="1" Plmn="510 89"/>
+    <EccEntry Ecc="118" Category="0" Condition="1" Plmn="510 89"/>
+    <EccEntry Ecc="911" Category="1" Condition="4" Plmn="616 FFF"/>
+    <EccEntry Ecc="000" Category="1" Condition="4" Plmn="616 FFF"/>
+    <EccEntry Ecc="08" Category="1" Condition="4" Plmn="616 FFF"/>
+    <EccEntry Ecc="119" Category="1" Condition="4" Plmn="616 FFF"/>
+    <EccEntry Ecc="000" Category="1" Condition="4" Plmn="604 FFF"/>
+    <!-- TDD: modify ecc list ADBHBSY-4436 by meijuan.ma 20220929 start -->
+    <EccEntry Ecc="08" Category="0" Condition="4" Plmn="628 FFF" />
+    <EccEntry Ecc="999" Category="0" Condition="4" Plmn="628 FFF" />
+    <EccEntry Ecc="110" Category="0" Condition="4" Plmn="628 FFF" />
+    <EccEntry Ecc="000" Category="0" Condition="4" Plmn="628 FFF" />
+    <EccEntry Ecc="118" Category="0" Condition="4" Plmn="628 FFF" />
+    <EccEntry Ecc="119" Category="0" Condition="4" Plmn="628 FFF"/>
+    <!-- TDD: modify ecc list ADBHBSY-4436 by meijuan.ma 20220929 end -->
+    <!-- TDD:add ecc list for XLBSSB-3978 by meijuan.ma 2023.4.07 start -->
+    <EccEntry Ecc="999" Category="0" Condition="1" Plmn="286 02" />
+    <!-- TDD:add ecc list for XLBSSB-3978 by meijuan.ma 2023.4.07 end -->
+    <!-- TDD:add ecc list for LFQHLJYB-4084 by meijuan.ma 2022.5.30 start -->
+    <EccEntry Ecc="999" Category="0" Condition="0" Plmn="286 FFF" />
+    <EccEntry Ecc="999" Category="0" Condition="4" Plmn="286 FFF" />
+    <EccEntry Ecc="110" Category="0" Condition="0" Plmn="286 FFF" />
+    <EccEntry Ecc="155" Category="0" Condition="0" Plmn="286 FFF" />
+    <!-- TDD:add ecc list for LFQHLJYB-4084 by meijuan.ma 2022.5.30 end -->
+    <EccEntry Ecc="112" Category="0" Condition="4" Plmn="605 FFF"/>
+    <EccEntry Ecc="911" Category="0" Condition="4" Plmn="605 FFF"/>
+    <EccEntry Ecc="112" Category="0" Condition="1" Plmn=""/>
+    <EccEntry Ecc="911" Category="0" Condition="1" Plmn=""/>
+    <EccEntry Ecc="08" Category="0" Condition="0" Plmn="" />
+    <EccEntry Ecc="999" Category="0" Condition="4" Plmn="636 FFF"/>
+    <EccEntry Ecc="999" Category="0" Condition="1" Plmn="636 02" />
+    <EccEntry Ecc="939" Category="0" Condition="1" Plmn="636 02" />
+    <EccEntry Ecc="909" Category="0" Condition="1" Plmn="636 02" />
+    <EccEntry Ecc="929" Category="0" Condition="1" Plmn="636 02" />
+    <EccEntry Ecc="999" Category="0" Condition="4" Plmn="615 FFF" />
+    <EccEntry Ecc="08" Category="0" Condition="2" Plmn="226 FFF" />
+    <EccEntry Ecc="110" Category="0" Condition="0" Plmn="NOMAL1" />
+    <EccEntry Ecc="110" Category="0" Condition="0" Plmn="NOMAL2" />
+    <EccEntry Ecc="110" Category="0" Condition="0" Plmn="NOMAL3" />
+    <EccEntry Ecc="110" Category="0" Condition="0" Plmn="NOMAL4" />
+    <EccEntry Ecc="110" Category="0" Condition="0" Plmn="NOMAL5" />
+    <EccEntry Ecc="110" Category="0" Condition="0" Plmn="NOMAL6" />
+    <EccEntry Ecc="110" Category="0" Condition="0" Plmn="NOMAL7" />
+    <EccEntry Ecc="110" Category="0" Condition="0" Plmn="NOMAL8" />
+    <EccEntry Ecc="110" Category="0" Condition="0" Plmn="NOMAL9" />
+    <EccEntry Ecc="110" Category="0" Condition="0" Plmn="NOMAL10" />
+    <EccEntry Ecc="110" Category="0" Condition="0" Plmn="NOMAL11" />
+    <EccEntry Ecc="110" Category="0" Condition="0" Plmn="NOMAL12" />
+    <EccEntry Ecc="000" Category="0" Condition="0" Plmn="" />
+    <EccEntry Ecc="118" Category="0" Condition="0" Plmn="" />
+    <EccEntry Ecc="119" Category="0" Condition="0" Plmn=""/>
+    <EccEntry Ecc="999" Category="0" Condition="1" Plmn="" />
+    <!-- TDD:add ecc list for APNPUB-331 by meijuan.ma 2022.5.8 start -->
+    <EccEntry Ecc="158" Category="0" Condition="0" Plmn="231 FFF" />
+    <EccEntry Ecc="155" Category="0" Condition="0" Plmn="231 FFF" />
+    <EccEntry Ecc="150" Category="0" Condition="0" Plmn="231 FFF" />
+    <EccEntry Ecc="159" Category="0" Condition="0" Plmn="231 FFF" />
+    <!-- TDD:add ecc list for APNPUB-331 by meijuan.ma 2022.5.8 end -->
+    <!-- TDD:add ecc list for CMSFTASK-388 by meijuan.ma 2022.5.7 start -->
+    <EccEntry Ecc="112" Category="0" Condition="0" Plmn="260 FFF" />
+    <EccEntry Ecc="997" Category="0" Condition="0" Plmn="260 FFF" />
+    <EccEntry Ecc="998" Category="0" Condition="0" Plmn="260 FFF" />
+    <!-- TDD:add ecc list for CMSFTASK-388 by meijuan.ma 2022.5.7 end -->
+    <EccEntry Ecc="767" Category="0" Condition="2" Plmn="621 FFF" />
+    <!-- TDD: add ecc list for CMSFTASK-385 by meijuan.ma 2022.5.6 start -->
+    <EccEntry Ecc="112" Category="0" Condition="0" Plmn="208 FFF" />
+    <!-- TDD: add ecc list for CMSFTASK-385 by meijuan.ma 2022.5.6 end -->
+    <EccEntry Ecc="125" Category="0" Condition="0" Plmn="432 FFF" />
+    <EccEntry Ecc="115" Category="2" Condition="0" Plmn="432 FFF" />
+    <EccEntry Ecc="110" Category="0" Condition="0" Plmn="432 FFF" />
+    <EccEntry Ecc="112" Category="0" Condition="0" Plmn="432 FFF" />
+    <EccEntry Ecc="118" Category="0" Condition="0" Plmn="432 FFF" />
+    <EccEntry Ecc="000" Category="0" Condition="0" Plmn="432 FFF" />
+
+    <!-- TDD: add ecc list for CMSFTASK-243 by guoyi.qu 2021.11.3 start -->
+    <EccEntry Ecc="112" Category="0" Condition="0" Plmn="230 FFF" />
+    <EccEntry Ecc="155" Category="0" Condition="0" Plmn="230 FFF" />
+    <EccEntry Ecc="158" Category="0" Condition="0" Plmn="230 FFF" />
+    <EccEntry Ecc="150" Category="0" Condition="0" Plmn="230 FFF" />
+    <EccEntry Ecc="156" Category="0" Condition="1" Plmn="230 FFF" />
+    <!-- TDD: add ecc list for CMSFTASK-243 by guoyi.qu 2021.11.3 end -->
+
+    <!-- TDD: add ecc list for XLBJFHLWYL-1077 by guoyi.qu 2021.12.23 start -->
+    <EccEntry Ecc="111" Category="0" Condition="2" Plmn="612 FFF" />
+    <EccEntry Ecc="170" Category="0" Condition="2" Plmn="612 FFF" />
+    <EccEntry Ecc="180" Category="0" Condition="2" Plmn="612 FFF" />
+    <EccEntry Ecc="185" Category="0" Condition="2" Plmn="612 FFF" />
+    <!-- TDD: add ecc list for XLBJFHLWYL-1077 by guoyi.qu 2021.12.23 end -->
+
+    <!-- TDD: add ecc list for XLBJFHLWYL-1077 by guoyi.qu 2021.12.23 start -->
+    <EccEntry Ecc="190" Category="0" Condition="3" Plmn="724 FFF" />
+    <!-- TDD: add ecc list for XLBJFHLWYL-1077 by guoyi.qu 2021.12.23 end -->
+
+    <!-- TDD: add ecc list for CKQNHB-4488 by meijuan.ma 2023.4.13 start -->
+    <EccEntry Ecc="117" Category="0" Condition="1" Plmn="607 FFF" />
+    <EccEntry Ecc="116" Category="0" Condition="1" Plmn="607 FFF" />
+    <EccEntry Ecc="118" Category="0" Condition="1" Plmn="607 FFF" />
+    <!-- TDD: add ecc list for CKQNHB-4488 by meijuan.ma 2023.4.13 end -->
+
+    <!-- TDD: add ecc list for XLLWEHLYL-685 by meijuan.ma 2022.6.24 start -->
+    <EccEntry Ecc="1404" Category="0" Condition="0" Plmn="628 FFF" />
+    <EccEntry Ecc="1432" Category="0" Condition="0" Plmn="628 FFF" />
+    <EccEntry Ecc="8586" Category="0" Condition="0" Plmn="628 FFF" />
+    <EccEntry Ecc="1300" Category="0" Condition="0" Plmn="628 FFF" />
+    <EccEntry Ecc="1401" Category="0" Condition="0" Plmn="628 FFF" />
+    <EccEntry Ecc="1410" Category="0" Condition="0" Plmn="628 FFF" />
+    <EccEntry Ecc="18" Category="0" Condition="0" Plmn="628 FFF" />
+    <EccEntry Ecc="1442" Category="0" Condition="0" Plmn="628 FFF" />
+    <EccEntry Ecc="1420" Category="0" Condition="0" Plmn="628 FFF" />
+    <EccEntry Ecc="1488" Category="0" Condition="0" Plmn="628 FFF" />
+    <EccEntry Ecc="8510" Category="0" Condition="0" Plmn="628 FFF" />
+    <EccEntry Ecc="12" Category="0" Condition="0" Plmn="628 FFF" />
+    <EccEntry Ecc="1333" Category="0" Condition="0" Plmn="628 FFF" />
+    <EccEntry Ecc="1324" Category="0" Condition="0" Plmn="628 FFF" />
+    <!-- TDD: add ecc list for XLLWEHLYL-685 by meijuan.ma 2022.6.24 end -->
+
+    <!-- TDD: add ecc list for XLQYXLQS-5126 by guoyi.qu 2022.3.30 start -->
+    <EccEntry Ecc="911" Category="1" Condition="1" Plmn="515 FFF" />
+    <!-- TDD: add ecc list for XLQYXLQS-5126 by guoyi.qu 2022.3.30 end -->
+    <!-- TDD: modify ecc list XLJQGXLJB-3392 by zhangzhendong 20210728 end -->
+
+    <!-- TDD: add ecc list for XLQLHBW-4067 by meijuan.ma 2022.4.07 start -->
+    <EccEntry Ecc="991" Category="0" Condition="0" Plmn="502 FFF" />
+    <!-- TDD: add ecc list for XLQLHBW-4067 by meijuan.ma 2022.4.07 end -->
+
+    <!-- TDD: add ecc list for KHLHLWYS-38 by meijuan.ma 2022.4.28 start -->
+    <EccEntry Ecc="117" Category="0" Condition="0" Plmn="629 FFF" />
+    <EccEntry Ecc="118" Category="0" Condition="0" Plmn="629 FFF" />
+    <!-- TDD: add ecc list for KHLHLWYS-38 by meijuan.ma 2022.4.28 end -->
+
+    <!-- TDD: add ecc list for CMSFTASK-406 by meijuan.ma 2022.5.30 start -->
+    <EccEntry Ecc="100" Category="0" Condition="0" Plmn="202 FFF" />
+    <EccEntry Ecc="166" Category="0" Condition="0" Plmn="202 FFF" />
+    <EccEntry Ecc="199" Category="0" Condition="0" Plmn="202 FFF" />
+    <!-- TDD: add ecc list for CMSFTASK-406 by meijuan.ma 2022.5.30 end -->
+
+    <!-- TDD: add ecc list for XLLWEHLYL-685 by meijuan.ma 2022.6.22 start -->
+    <EccEntry Ecc="166" Category="0" Condition="0" Plmn="284 FFF" />
+    <EccEntry Ecc="150" Category="0" Condition="0" Plmn="284 FFF" />
+    <EccEntry Ecc="160" Category="0" Condition="0" Plmn="284 FFF" />
+    <!-- TDD: add ecc list for XLLWEHLYL-685 by meijuan.ma 2022.6.22 end -->
+
+    <!-- TDD: add ecc list for KHQPUB-3141 by meijuan.ma 2022.9.7 start -->
+    <EccEntry Ecc="123" Category="0" Condition="0" Plmn="732 FFF" />
+    <!-- TDD: add ecc list for KHQPUB-3141 by meijuan.ma 2022.9.7 end -->
+
+    <!-- TDD: add ecc list for XLBYQHLJEL-4394 by meijuan.ma 2022.6.21 start -->
+    <EccEntry Ecc="192" Category="0" Condition="1" Plmn="212 FFF" />
+    <EccEntry Ecc="193" Category="0" Condition="1" Plmn="212 FFF" />
+    <EccEntry Ecc="194" Category="0" Condition="1" Plmn="212 FFF" />
+
+    <EccEntry Ecc="192" Category="0" Condition="1" Plmn="221 FFF" />
+    <EccEntry Ecc="193" Category="0" Condition="1" Plmn="221 FFF" />
+    <EccEntry Ecc="194" Category="0" Condition="1" Plmn="221 FFF" />
+    <!-- TDD: add ecc list for XLBYQHLJEL-4394 by meijuan.ma 2022.6.21 end -->
+
+    <!-- TDD: add ecc list for  CMSFTASK-437 by meijuan.ma 2022.6.27 start -->
+    <EccEntry Ecc="192" Category="0" Condition="1" Plmn="219 FFF" />
+    <EccEntry Ecc="193" Category="0" Condition="1" Plmn="219 FFF" />
+    <EccEntry Ecc="194" Category="0" Condition="1" Plmn="219 FFF" />
+
+    <EccEntry Ecc="917" Category="0" Condition="1" Plmn="542 FFF" />
+    <!-- TDD: add ecc list for  CMSFTASK-437 by meijuan.ma 2022.6.27 end -->
+
+    <!-- TDD: add ecc list for XLLWCHLYEL-481 by meijuan.ma 2022.7.08 start -->
+    <EccEntry Ecc="115" Category="0" Condition="0" Plmn="616 FFF" />
+    <EccEntry Ecc="117" Category="0" Condition="0" Plmn="616 FFF" />
+    <!-- TDD: add ecc list for XLLWCHLYEL-481 by meijuan.ma 2022.7.08 end -->
+
+    <!-- TDD: add ecc list for XLLWCHLYEL-481 by meijuan.ma 2022.7.14 start -->
+    <EccEntry Ecc="122" Category="0" Condition="0" Plmn="214 FFF" />
+    <!-- TDD: add ecc list for XLLWCHLYEL-481 by meijuan.ma 2022.7.14 end -->
+
+    <!-- TDD: add ecc list for XLLWCHLYEL-481 by meijuan.ma 2022.7.18 start -->
+    <EccEntry Ecc="199" Category="0" Condition="0" Plmn="280 FFF" />
+    <!-- TDD: add ecc list for XLLWCHLYEL-481 by meijuan.ma 2022.7.18 end -->
+
+    <!-- TDD: add ecc list for CMSFTASK-461 by meijuan.ma 2022.7.28 start -->
+    <EccEntry Ecc="101" Category="0" Condition="0" Plmn="437 FFF" />
+    <EccEntry Ecc="102" Category="0" Condition="0" Plmn="437 FFF" />
+    <EccEntry Ecc="103" Category="0" Condition="0" Plmn="437 FFF" />
+    <EccEntry Ecc="104" Category="0" Condition="0" Plmn="437 FFF" />
+    <EccEntry Ecc="161" Category="0" Condition="0" Plmn="437 FFF" />
+    <!-- TDD: add ecc list for CMSFTASK-461 by meijuan.ma 2022.7.28 end -->
+
+    <!-- TDD: add ecc list for XLBELB-1271 by meijuan.ma 2022.7.28 start -->
+    <EccEntry Ecc="113" Category="0" Condition="0" Plmn="510 FFF" />
+    <EccEntry Ecc="129" Category="0" Condition="0" Plmn="510 FFF" />
+    <EccEntry Ecc="115" Category="0" Condition="0" Plmn="510 FFF" />
+    <EccEntry Ecc="117" Category="0" Condition="0" Plmn="510 FFF" />
+    <!-- TDD: add ecc list for XLBELB-1271 by meijuan.ma 2022.7.28 end -->
+
+    <!-- TDD: add ecc list for KHQPUB-3085 by meijuan.ma 2022.8.12 start -->
+    <EccEntry Ecc="133" Category="0" Condition="1" Plmn="730 03" />
+    <EccEntry Ecc="133" Category="0" Condition="0" Plmn="730 FFF" />
+    <!-- TDD: add ecc list for KHQPUB-3085 by meijuan.ma 2022.8.12 end -->
+
+    <!-- TDD: add ecc list for XLBELHQQS-9054 by meijuan.ma 2022.8.12 start -->
+    <EccEntry Ecc="993" Category="0" Condition="3" Plmn="420 01"/>
+    <EccEntry Ecc="998" Category="0" Condition="0" Plmn="420 FFF" />
+    <EccEntry Ecc="997" Category="0" Condition="0" Plmn="420 FFF" />
+    <!-- TDD: add ecc list for XLBELHQQS-9054 by meijuan.ma 2022.8.12 end -->
+
+    <!-- TDD: add ecc list for P661N-1127 by xiangjian.li 2023.09.19 start -->
+    <EccEntry Ecc="993" Category="0" Condition="1" Plmn="420 FFF" />
+    <!-- TDD: add ecc list for P661N-1127 by xiangjian.li 2023.09.19 end -->
+
+    <!-- TDD: add ecc list for KHQPUB-3085 by meijuan.ma 2022.8.12 start -->
+    <EccEntry Ecc="666" Category="0" Condition="0" Plmn="456 FFF" />
+    <!-- TDD: add ecc list for KHQPUB-3085 by meijuan.ma 2022.8.12 end -->
+
+    <EccEntry Ecc="1191" Category="0" Condition="0" Plmn="457 FFF" />
+
+    <EccEntry Ecc="114" Category="0" Condition="0" Plmn="617 FFF" />
+    <EccEntry Ecc="115" Category="0" Condition="0" Plmn="617 FFF" />
+    <EccEntry Ecc="995" Category="0" Condition="0" Plmn="617 FFF" />
+
+    <EccEntry Ecc="786" Category="0" Condition="2" Plmn="410 99"/>
+    <EccEntry Ecc="15" Category="0" Condition="2" Plmn="410 FFF" />
+    <EccEntry Ecc="16" Category="0" Condition="2" Plmn="410 FFF" />
+    <EccEntry Ecc="115" Category="0" Condition="2" Plmn="410 FFF" />
+    <EccEntry Ecc="1020" Category="0" Condition="2" Plmn="410 FFF" />
+    <EccEntry Ecc="130" Category="0" Condition="2" Plmn="410 FFF" />
+    <EccEntry Ecc="1122" Category="0" Condition="2" Plmn="410 FFF" />
+    <EccEntry Ecc="1717" Category="0" Condition="2" Plmn="410 FFF" />
+
+    <EccEntry Ecc="101" Category="0" Condition="0" Plmn="436 FFF" />
+    <EccEntry Ecc="102" Category="0" Condition="0" Plmn="436 FFF" />
+    <EccEntry Ecc="103" Category="0" Condition="0" Plmn="436 FFF" />
+</EccTable>

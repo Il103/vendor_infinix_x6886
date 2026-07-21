@@ -1,0 +1,364 @@
+<PACKAGELIST>
+    <version value="20251202"/>
+    <PACKAGENAME>
+      <package name="com.mobile.legends" proc_name="com.mobile.legends:UnityKillsMe"/>
+        <RAM value = "Common">
+            <GAMEMODE value="GameConserveMode">
+              <setting mode_policy="policy_enable" value="1"/>
+              <setting mode_policy="policy_type" value="0"/>
+              <setting mode_policy="policy_switch" value="0"/>
+              <setting mode_policy="policy_fps_mode" value="2"/>
+            </GAMEMODE>
+            <GAMEMODE value="GameBalanceOpenMode">
+              <setting mode_policy="policy_enable" value="1"/>
+              <setting mode_policy="policy_type" value="0"/>
+              <setting mode_policy="policy_switch" value="0"/>
+              <setting mode_policy="policy_fps_mode" value="2"/>
+            </GAMEMODE>
+            <GAMEMODE value="GameBalanceCloseMode">
+              <setting mode_policy="policy_enable" value="0"/>
+              <setting mode_policy="policy_type" value="0"/>
+              <setting mode_policy="policy_switch" value="0"/>
+              <setting mode_policy="policy_fps_mode" value="2"/>
+            </GAMEMODE>
+            <GAMEMODE value="GamePerformanceMode">
+              <setting mode_policy="policy_enable" value="0"/>
+              <setting mode_policy="policy_type" value="0"/>
+              <setting mode_policy="policy_switch" value="0"/>
+              <setting mode_policy="policy_fps_mode" value="2"/>
+            </GAMEMODE>
+            <GAMEMODE value="GameMatchMode">
+              <setting mode_policy="policy_enable" value="0"/>
+              <setting mode_policy="policy_type" value="0"/>
+              <setting mode_policy="policy_switch" value="0"/>
+              <setting mode_policy="policy_fps_mode" value="2"/>
+            </GAMEMODE>
+        </RAM>
+    </PACKAGENAME>
+    <PACKAGENAME>
+      <package name="com.tencent.ig"/>
+      <package name="com.tencent.tmgp.pubgmhd"/>
+      <package name="com.rekoo.pubgm"/>
+      <package name="com.vng.pubgmobile"/>
+      <package name="com.tencent.iglite"/>
+      <package name="com.tencent.igce"/>
+      <package name="com.pubg.krmobile"/>
+      <package name="com.pubg.imobile"/>
+        <RAM value = "Common">
+            <GAMEMODE value="GameConserveMode">
+              <setting mode_policy="policy_enable" value="1"/>
+              <setting mode_policy="policy_type" value="1"/>
+              <setting mode_policy="policy_switch" value="0"/>
+              <setting mode_policy="policy_fps_mode" value="2"/>
+            </GAMEMODE>
+            <GAMEMODE value="GameBalanceOpenMode">
+              <setting mode_policy="policy_enable" value="1"/>
+              <setting mode_policy="policy_type" value="1"/>
+              <setting mode_policy="policy_switch" value="0"/>
+              <setting mode_policy="policy_fps_mode" value="2"/>
+            </GAMEMODE>
+            <GAMEMODE value="GameBalanceCloseMode">
+              <setting mode_policy="policy_enable" value="0"/>
+              <setting mode_policy="policy_type" value="1"/>
+              <setting mode_policy="policy_switch" value="0"/>
+              <setting mode_policy="policy_fps_mode" value="2"/>
+            </GAMEMODE>
+            <GAMEMODE value="GamePerformanceMode">
+              <setting mode_policy="policy_enable" value="0"/>
+              <setting mode_policy="policy_type" value="1"/>
+              <setting mode_policy="policy_switch" value="0"/>
+              <setting mode_policy="policy_fps_mode" value="2"/>
+            </GAMEMODE>
+            <GAMEMODE value="GameMatchMode">
+              <setting mode_policy="policy_enable" value="0"/>
+              <setting mode_policy="policy_type" value="1"/>
+              <setting mode_policy="policy_switch" value="0"/>
+              <setting mode_policy="policy_fps_mode" value="2"/>
+            </GAMEMODE>
+        </RAM>
+    </PACKAGENAME>
+    <PACKAGENAME>
+      <package name="com.dts.freefireth"/>
+      <package name="com.dts.freefiremax"/>
+        <RAM value = "Common">
+            <GAMEMODE value="GameConserveMode">
+              <setting mode_policy="policy_enable" value="1"/>
+              <setting mode_policy="policy_type" value="2"/>
+              <setting mode_policy="policy_switch" value="0"/>
+              <setting mode_policy="policy_fps_mode" value="2"/>
+            </GAMEMODE>
+            <GAMEMODE value="GameBalanceOpenMode">
+              <setting mode_policy="policy_enable" value="1"/>
+              <setting mode_policy="policy_type" value="2"/>
+              <setting mode_policy="policy_switch" value="0"/>
+              <setting mode_policy="policy_fps_mode" value="2"/>
+            </GAMEMODE>
+            <GAMEMODE value="GameBalanceCloseMode">
+              <setting mode_policy="policy_enable" value="0"/>
+              <setting mode_policy="policy_type" value="2"/>
+              <setting mode_policy="policy_switch" value="0"/>
+              <setting mode_policy="policy_fps_mode" value="2"/>
+            </GAMEMODE>
+            <GAMEMODE value="GamePerformanceMode">
+              <setting mode_policy="policy_enable" value="1"/>
+              <setting mode_policy="policy_type" value="2"/>
+              <setting mode_policy="policy_switch" value="0"/>
+              <setting mode_policy="policy_fps_mode" value="2"/>
+            </GAMEMODE>
+            <GAMEMODE value="GameMatchMode">
+              <setting mode_policy="policy_enable" value="0"/>
+              <setting mode_policy="policy_type" value="2"/>
+              <setting mode_policy="policy_switch" value="0"/>
+              <setting mode_policy="policy_fps_mode" value="2"/>
+            </GAMEMODE>
+        </RAM>
+    </PACKAGENAME>
+    <PACKAGENAME>
+      <package name="com.miHoYo.GenshinImpact"/>
+      <package name="com.miHoYo.Yuanshen"/>
+      <package name="com.miHoYo.ys"/>
+      <package name="com.miHoYo.ys.bilibili"/>
+        <RAM value = "Common">
+            <GAMEMODE value="GameConserveMode">
+              <setting mode_policy="policy_enable" value="1"/>
+              <setting mode_policy="policy_type" value="3"/>
+              <setting mode_policy="policy_switch" value="0"/>
+              <setting mode_policy="policy_fps_mode" value="2"/>
+            </GAMEMODE>
+            <GAMEMODE value="GameBalanceOpenMode">
+              <setting mode_policy="policy_enable" value="1"/>
+              <setting mode_policy="policy_type" value="3"/>
+              <setting mode_policy="policy_switch" value="0"/>
+              <setting mode_policy="policy_fps_mode" value="2"/>
+              </GAMEMODE>
+            <GAMEMODE value="GameBalanceCloseMode">
+              <setting mode_policy="policy_enable" value="0"/>
+              <setting mode_policy="policy_type" value="3"/>
+              <setting mode_policy="policy_switch" value="0"/>
+              <setting mode_policy="policy_fps_mode" value="2"/>
+            </GAMEMODE>
+            <GAMEMODE value="GamePerformanceMode">
+              <setting mode_policy="policy_enable" value="0"/>
+              <setting mode_policy="policy_type" value="3"/>
+              <setting mode_policy="policy_switch" value="0"/>
+              <setting mode_policy="policy_fps_mode" value="2"/>
+            </GAMEMODE>
+            <GAMEMODE value="GameMatchMode">
+              <setting mode_policy="policy_enable" value="0"/>
+              <setting mode_policy="policy_type" value="3"/>
+              <setting mode_policy="policy_switch" value="0"/>
+              <setting mode_policy="policy_fps_mode" value="2"/>
+            </GAMEMODE>
+       </RAM>
+    </PACKAGENAME>
+    <PACKAGENAME>
+      <package name="jp.konami.pesam"/>
+        <RAM value = "Common">
+            <GAMEMODE value="GameConserveMode">
+              <setting mode_policy="policy_enable" value="1"/>
+              <setting mode_policy="policy_type" value="4"/>
+              <setting mode_policy="policy_switch" value="0"/>
+              <setting mode_policy="policy_fps_mode" value="2"/>
+            </GAMEMODE>
+            <GAMEMODE value="GameBalanceOpenMode">
+              <setting mode_policy="policy_enable" value="1"/>
+              <setting mode_policy="policy_type" value="4"/>
+              <setting mode_policy="policy_switch" value="0"/>
+              <setting mode_policy="policy_fps_mode" value="2"/>
+            </GAMEMODE>
+            <GAMEMODE value="GameBalanceCloseMode">
+              <setting mode_policy="policy_enable" value="0"/>
+              <setting mode_policy="policy_type" value="4"/>
+              <setting mode_policy="policy_switch" value="0"/>
+              <setting mode_policy="policy_fps_mode" value="2"/>
+            </GAMEMODE>
+            <GAMEMODE value="GamePerformanceMode">
+              <setting mode_policy="policy_enable" value="0"/>
+              <setting mode_policy="policy_type" value="4"/>
+              <setting mode_policy="policy_switch" value="0"/>
+              <setting mode_policy="policy_fps_mode" value="2"/>
+            </GAMEMODE>
+            <GAMEMODE value="GameMatchMode">
+              <setting mode_policy="policy_enable" value="0"/>
+              <setting mode_policy="policy_type" value="4"/>
+              <setting mode_policy="policy_switch" value="0"/>
+              <setting mode_policy="policy_fps_mode" value="2"/>
+            </GAMEMODE>
+        </RAM>
+    </PACKAGENAME>
+    <PACKAGENAME>
+      <package name="com.roblox.client"/>
+        <RAM value = "Common">
+            <GAMEMODE value="GameConserveMode">
+              <setting mode_policy="policy_enable" value="1"/>
+              <setting mode_policy="policy_type" value="5"/>
+              <setting mode_policy="policy_switch" value="0"/>
+              <setting mode_policy="policy_fps_mode" value="2"/>
+            </GAMEMODE>
+            <GAMEMODE value="GameBalanceOpenMode">
+              <setting mode_policy="policy_enable" value="1"/>
+              <setting mode_policy="policy_type" value="5"/>
+              <setting mode_policy="policy_switch" value="0"/>
+              <setting mode_policy="policy_fps_mode" value="2"/>
+            </GAMEMODE>
+            <GAMEMODE value="GameBalanceCloseMode">
+              <setting mode_policy="policy_enable" value="1"/>
+              <setting mode_policy="policy_type" value="5"/>
+              <setting mode_policy="policy_switch" value="0"/>
+              <setting mode_policy="policy_fps_mode" value="2"/>
+            </GAMEMODE>
+            <GAMEMODE value="GamePerformanceMode">
+              <setting mode_policy="policy_enable" value="1"/>
+              <setting mode_policy="policy_type" value="5"/>
+              <setting mode_policy="policy_switch" value="0"/>
+              <setting mode_policy="policy_fps_mode" value="2"/>
+            </GAMEMODE>
+            <GAMEMODE value="GameMatchMode">
+              <setting mode_policy="policy_enable" value="1"/>
+              <setting mode_policy="policy_type" value="5"/>
+              <setting mode_policy="policy_switch" value="0"/>
+              <setting mode_policy="policy_fps_mode" value="2"/>
+            </GAMEMODE>
+        </RAM>
+    </PACKAGENAME>
+    <PACKAGENAME>
+      <package name="com.netease.mrzhna"/>
+        <RAM value = "Common">
+            <GAMEMODE value="GameConserveMode">
+              <setting mode_policy="policy_enable" value="1"/>
+              <setting mode_policy="policy_type" value="6"/>
+              <setting mode_policy="policy_switch" value="0"/>
+              <setting mode_policy="policy_fps_mode" value="2"/>
+            </GAMEMODE>
+            <GAMEMODE value="GameBalanceOpenMode">
+              <setting mode_policy="policy_enable" value="1"/>
+              <setting mode_policy="policy_type" value="6"/>
+              <setting mode_policy="policy_switch" value="0"/>
+              <setting mode_policy="policy_fps_mode" value="2"/>
+            </GAMEMODE>
+            <GAMEMODE value="GameBalanceCloseMode">
+              <setting mode_policy="policy_enable" value="1"/>
+              <setting mode_policy="policy_type" value="6"/>
+              <setting mode_policy="policy_switch" value="0"/>
+              <setting mode_policy="policy_fps_mode" value="2"/>
+            </GAMEMODE>
+            <GAMEMODE value="GamePerformanceMode">
+              <setting mode_policy="policy_enable" value="1"/>
+              <setting mode_policy="policy_type" value="6"/>
+              <setting mode_policy="policy_switch" value="0"/>
+              <setting mode_policy="policy_fps_mode" value="2"/>
+            </GAMEMODE>
+            <GAMEMODE value="GameMatchMode">
+              <setting mode_policy="policy_enable" value="1"/>
+              <setting mode_policy="policy_type" value="6"/>
+              <setting mode_policy="policy_switch" value="0"/>
+              <setting mode_policy="policy_fps_mode" value="2"/>
+            </GAMEMODE>
+        </RAM>
+    </PACKAGENAME>
+    <PACKAGENAME>
+      <package name="eu.nordeus.topeleven.android"/>
+        <RAM value = "Common">
+            <GAMEMODE value="GameConserveMode">
+              <setting mode_policy="policy_enable" value="1"/>
+              <setting mode_policy="policy_type" value="7"/>
+              <setting mode_policy="policy_switch" value="0"/>
+              <setting mode_policy="policy_fps_mode" value="2"/>
+            </GAMEMODE>
+            <GAMEMODE value="GameBalanceOpenMode">
+              <setting mode_policy="policy_enable" value="1"/>
+              <setting mode_policy="policy_type" value="7"/>
+              <setting mode_policy="policy_switch" value="0"/>
+              <setting mode_policy="policy_fps_mode" value="2"/>
+            </GAMEMODE>
+            <GAMEMODE value="GameBalanceCloseMode">
+              <setting mode_policy="policy_enable" value="0"/>
+              <setting mode_policy="policy_type" value="7"/>
+              <setting mode_policy="policy_switch" value="0"/>
+              <setting mode_policy="policy_fps_mode" value="2"/>
+            </GAMEMODE>
+            <GAMEMODE value="GamePerformanceMode">
+              <setting mode_policy="policy_enable" value="0"/>
+              <setting mode_policy="policy_type" value="7"/>
+              <setting mode_policy="policy_switch" value="0"/>
+              <setting mode_policy="policy_fps_mode" value="2"/>
+            </GAMEMODE>
+            <GAMEMODE value="GameMatchMode">
+              <setting mode_policy="policy_enable" value="0"/>
+              <setting mode_policy="policy_type" value="7"/>
+              <setting mode_policy="policy_switch" value="0"/>
+              <setting mode_policy="policy_fps_mode" value="2"/>
+            </GAMEMODE>
+        </RAM>
+    </PACKAGENAME>
+    <PACKAGENAME>
+      <package name="io.voodoo.holeio"/>
+        <RAM value = "Common">
+            <GAMEMODE value="GameConserveMode">
+              <setting mode_policy="policy_enable" value="1"/>
+              <setting mode_policy="policy_type" value="8"/>
+              <setting mode_policy="policy_switch" value="0"/>
+              <setting mode_policy="policy_fps_mode" value="2"/>
+            </GAMEMODE>
+            <GAMEMODE value="GameBalanceOpenMode">
+              <setting mode_policy="policy_enable" value="1"/>
+              <setting mode_policy="policy_type" value="8"/>
+              <setting mode_policy="policy_switch" value="0"/>
+              <setting mode_policy="policy_fps_mode" value="2"/>
+            </GAMEMODE>
+            <GAMEMODE value="GameBalanceCloseMode">
+              <setting mode_policy="policy_enable" value="1"/>
+              <setting mode_policy="policy_type" value="8"/>
+              <setting mode_policy="policy_switch" value="0"/>
+              <setting mode_policy="policy_fps_mode" value="2"/>
+            </GAMEMODE>
+            <GAMEMODE value="GamePerformanceMode">
+              <setting mode_policy="policy_enable" value="1"/>
+              <setting mode_policy="policy_type" value="8"/>
+              <setting mode_policy="policy_switch" value="0"/>
+              <setting mode_policy="policy_fps_mode" value="2"/>
+            </GAMEMODE>
+            <GAMEMODE value="GameMatchMode">
+              <setting mode_policy="policy_enable" value="0"/>
+              <setting mode_policy="policy_type" value="2"/>
+              <setting mode_policy="policy_switch" value="0"/>
+              <setting mode_policy="policy_fps_mode" value="2"/>
+            </GAMEMODE>
+        </RAM>
+    </PACKAGENAME>
+    <PACKAGENAME>
+      <package name="com.HoYoverse.hkrpgoversea"/>
+        <RAM value = "Common">
+            <GAMEMODE value="GameConserveMode">
+              <setting mode_policy="policy_enable" value="1"/>
+              <setting mode_policy="policy_type" value="9"/>
+              <setting mode_policy="policy_switch" value="0"/>
+              <setting mode_policy="policy_fps_mode" value="2"/>
+            </GAMEMODE>
+            <GAMEMODE value="GameBalanceOpenMode">
+              <setting mode_policy="policy_enable" value="1"/>
+              <setting mode_policy="policy_type" value="9"/>
+              <setting mode_policy="policy_switch" value="0"/>
+              <setting mode_policy="policy_fps_mode" value="2"/>
+              </GAMEMODE>
+            <GAMEMODE value="GameBalanceCloseMode">
+              <setting mode_policy="policy_enable" value="0"/>
+              <setting mode_policy="policy_type" value="9"/>
+              <setting mode_policy="policy_switch" value="0"/>
+              <setting mode_policy="policy_fps_mode" value="2"/>
+            </GAMEMODE>
+            <GAMEMODE value="GamePerformanceMode">
+              <setting mode_policy="policy_enable" value="0"/>
+              <setting mode_policy="policy_type" value="9"/>
+              <setting mode_policy="policy_switch" value="0"/>
+              <setting mode_policy="policy_fps_mode" value="2"/>
+            </GAMEMODE>
+            <GAMEMODE value="GameMatchMode">
+              <setting mode_policy="policy_enable" value="0"/>
+              <setting mode_policy="policy_type" value="9"/>
+              <setting mode_policy="policy_switch" value="0"/>
+              <setting mode_policy="policy_fps_mode" value="2"/>
+            </GAMEMODE>
+       </RAM>
+    </PACKAGENAME>
+</PACKAGELIST>

@@ -1,0 +1,294 @@
+<?xml version="1.0" ?>
+<!--
+    Package for thirdpart apk size & fpsrange
+    EvictedPackage for Evicted Camera, stillname > comingname
+-->
+
+<TranITDCamProfiles>
+<!--
+    Package
+      API1：
+        arg1: name:  app package name
+        arg2: supportedPreviewSizes: Supported preview sizes
+        arg3: supportedVideoSizes: Supported video sizes
+        arg4: supportedPictureSizes: Supported picture sizes
+        arg5: fpsRange: fps range
+-->
+<!--API1 Begin-->
+        <Package name="sg.bigo.live"
+            supportedPreviewSizes="1280x720,960x720,960x540,720x480,704x704,640x480,352x288,320x240,176x144"
+            supportedVideoSizes=""
+            supportedPictureSizes=""
+            fpsRange=""
+            />
+        <!--Paytm-->
+        <Package name="net.one97.paytm"
+            supportedPreviewSizes="1280x720,960x720,960x540,720x480,704x704,640x480,352x288,320x240,176x144"
+            supportedVideoSizes=""
+            supportedPictureSizes=""
+            fpsRange=""
+            />
+        <!--Alibaba.com-->
+        <Package name="com.alibaba.intl.android.apps.poseidon"
+            supportedPreviewSizes="1280x720,960x720,960x540,720x480,704x704,640x480,352x288,320x240,176x144"
+            supportedVideoSizes=""
+            supportedPictureSizes=""
+            fpsRange=""
+            />
+        <!--[SPD] modify 20fps for CGQHLJQ-819 performance  by weizhong.sun 20201230 start-->
+        <!--line-->
+        <Package name="jp.naver.line.android"
+            supportedPreviewSizes="1280x720,960x720,960x540,720x480,704x704,640x480,352x288,320x240,176x144"
+            supportedVideoSizes=""
+            supportedPictureSizes=""
+            fpsRange=""
+            />
+        <!--[SPD] modify 20fps for CGQHLJQ-819  performance  by weizhong.sun 20201230 end-->
+        <!--twitter-->
+        <Package name="com.twitter.android"
+            supportedPreviewSizes="1280x720,960x720,960x540,720x480,704x704,640x480,352x288,320x240,176x144"
+            supportedVideoSizes=""
+            supportedPictureSizes=""
+            fpsRange=""
+            />
+        <!--[ITD] modify for ACBHBWS-1175 by wei.miao 20210125 start-->
+        <!--OK-->
+        <Package name="ru.ok.android"
+            supportedPreviewSizes=""
+            supportedVideoSizes="1280x720,960x720,960x540,720x480,704x704,640x480,352x288,320x240,176x144"
+            supportedPictureSizes=""
+            fpsRange=""
+            />
+        <!--[ITD] modify for ACBHBWS-1175 by wei.miao 20210125 end-->
+
+        <!--messaging-->
+        <Package name="com.google.android.apps.messaging"
+            supportedPreviewSizes=""
+            supportedVideoSizes=""
+            supportedPictureSizes=""
+            fpsRange="5,20"
+            />
+        <!--[ITD] modify for wavepay preview size KFLHLEYJ-1967 by xuelong.chen 20210129 start-->
+        <!--wavepay-->
+        <Package name="mm.com.wavemoney.wavepay"
+            supportedPreviewSizes="1280x720,960x720,960x540,720x480,704x704,640x480,352x288,320x240,176x144"
+            supportedVideoSizes=""
+            supportedPictureSizes=""
+            fpsRange=""
+            />
+        <!--[ITD] modify for wavepay preview size KFLHLEYJ-1967 by xuelong.chen 20210129 end-->
+        <!--[ITD] modify for CGCGJHRS-232 by desuo.lu 20210726 start-->
+        <!--cardfeed-->
+        <Package name="com.cardfeed.video_public"
+            supportedPreviewSizes=""
+            supportedVideoSizes="1280x720,960x720,960x540,720x480,704x704,640x480,352x288,320x240,176x144"
+            supportedPictureSizes=""
+            fpsRange=""
+            />
+        <!--[ITD] modify for CGCGJHRS-232 by desuo.lu 20210726 end-->
+        <!--[ITD] modify for CGCGJHRS-6066 by desuo.lu 20210826 start-->
+        <!--cardfeed-->
+        <Package name="com.video.master"
+            supportedPreviewSizes=""
+            supportedVideoSizes="1280x720,960x720,960x540,720x480,704x704,640x480,352x288,320x240,176x144"
+            supportedPictureSizes=""
+            fpsRange=""
+            />
+        <!--[ITD] modify for CGCGJHRS-6066 by desuo.lu 20210826 end-->
+        <!--[ITD] modify for CIQNHS-6579 by desuo.lu 20220619 start-->
+        <!--cardfeed-->
+        <Package name="com.vulte.app"
+            supportedPreviewSizes="1280x720,960x720,960x540,720x480,704x704"
+            supportedVideoSizes=""
+            supportedPictureSizes=""
+            fpsRange=""
+            />
+        <!--[ITD] modify for CIQNHS-6579 by desuo.lu 20220619 end-->
+        <!--[ITD] modify for CGCGJHRS-1850 by desuo.lu 20210803 start-->
+        <!--takatak-->
+        <Package name="com.next.innovation.takatak"
+            supportedPreviewSizes="1280x720,960x720,960x540,720x480,704x704,640x480,352x288,320x240,176x144"
+            supportedVideoSizes=""
+            supportedPictureSizes=""
+            fpsRange=""
+            />
+        <!--[ITD] modify for CGCGJHRS-1850 by desuo.lu 20210803 end-->
+        <!--[ITD] modify for XLQYXLQS-1456 by desuo.lu 20211229 start-->
+        <!--instagram.lite-->
+        <Package name="com.instagram.lite"
+            supportedPreviewSizes="1280x720,960x720,960x540,720x480,704x704,640x480,352x288,320x240,176x144"
+            supportedVideoSizes="1280x720,960x720,960x540,720x480,704x704,640x480,352x288,320x240,176x144"
+            supportedPictureSizes="1280x720,960x720,960x540,720x480,704x704,640x480,352x288,320x240,176x144"
+            fpsRange=""
+            />
+        <!--[ITD] modify for XLQYXLQS-1456 by desuo.lu 20211229 end-->
+        <!--[ITD] modify for XLQLBH-1838 by jian.hu 20220617 start-->
+        <!--instagram.lite-->
+        <Package name="com.facebook.lite"
+            supportedPreviewSizes="1280x720,960x720,960x540,720x480,704x704,640x480,352x288,320x240,176x144"
+            supportedVideoSizes="1280x720,960x720,960x540,720x480,704x704,640x480,352x288,320x240,176x144"
+            supportedPictureSizes="1280x720,960x720,960x540,720x480,704x704,640x480,352x288,320x240,176x144"
+            fpsRange=""
+            />
+        <!--[ITD] modify for XLQLBH-1838 by jian.hu 20220617 end-->
+        <!--[ITD] modify for XLWYEHLYEL-159 by zhoumw 20220105 start-->
+        <!--com.pinterest-->
+        <Package name="com.pinterest"
+            supportedPreviewSizes=""
+            supportedVideoSizes=""
+            supportedPictureSizes="1280x720,960x720,960x540,720x480,704x704,640x480,352x288,320x240,176x144"
+            fpsRange=""
+            />
+        <!--[ITD] modify for XLWYEHLYEL-159 by zhoumw 20220105 end-->
+        <!--[ITD] modify for XLBESCHLYW-761 by desuo.lu 20220624 start-->
+        <!--com.linkedin.android-->
+        <Package name="com.linkedin.android"
+            supportedPreviewSizes=""
+            supportedVideoSizes=""
+            supportedPictureSizes=""
+            fpsRange="5,30"
+            />
+        <!--[ITD] modify for XLBESCHLYW-761 by desuo.lu 20220624 end-->
+        <!--[ITD] modify for XLBELB-923 by zhiben.zou 20220711 start-->
+        <!--com.camera12.iphone12-->
+        <Package name="com.camera12.iphone12"
+            supportedPreviewSizes="1280x720,960x720,960x540,720x480,704x704,640x480,352x288,320x240,176x144"
+            supportedVideoSizes="1280x720,960x720,960x540,720x480,704x704,640x480,352x288,320x240,176x144"
+            supportedPictureSizes="1280x720,960x720,960x540,720x480,704x704,640x480,352x288,320x240,176x144"
+            fpsRange=""
+            />
+        <!--[ITD] modify for XLBELB-923 by zhiben.zou 20220711 end-->
+	<!--[ITD] modify for X6853H895-5422 by xuelong.chen 20231201 start-->
+	<!--Selfie Camera iphone 13-->
+        <Package name="tapstudio.photoremove.unwanted.object"
+            supportedPreviewSizes=""
+            supportedVideoSizes=""
+            supportedPictureSizes="1920x1080,1280x720,960x720,960x540,720x480,704x704,640x480,352x288,320x240,176x144"
+            fpsRange=""
+            />
+        <!--[ITD] modify for X6853H895-5422 by xuelong.chen 20231201 end-->
+        <!--[ITD] add 2560x1440 size for common ruls for whatsapp HD by shiyang.mei 20240704 start-->
+        <Package name="com.whatsapp.w4b"
+            supportedPreviewSizes="1280x720,960x720,960x540,720x480,704x704,640x480,352x288,320x240,176x144"
+            supportedVideoSizes="1280x720,960x720,960x540,720x480,704x704,640x480,352x288,320x240,176x144"
+            supportedPictureSizes="2560x1440,1280x720,960x720,960x540,720x480,704x704,640x480,352x288,320x240,176x144"
+            fpsRange=""
+            />
+        <Package name="com.whatsapp"
+            supportedPreviewSizes="1280x720,960x720,960x540,720x480,704x704,640x480,352x288,320x240,176x144"
+            supportedVideoSizes="1280x720,960x720,960x540,720x480,704x704,640x480,352x288,320x240,176x144"
+            supportedPictureSizes="2560x1440,1280x720,960x720,960x540,720x480,704x704,640x480,352x288,320x240,176x144"
+            fpsRange=""
+            />
+        <Package name="com.dhgate.buyermob"
+            supportedPreviewSizes="1440x1080"
+            supportedVideoSizes="1440x1080"
+            supportedPictureSizes="1440x1080"
+            fpsRange=""
+            />
+        <!--[ITD] add 2560x1440 size for common ruls for whatsapp HD by shiyang.mei 20240704 end-->
+<!--API1 End-->
+
+<!--
+    Package
+      API2：
+        arg1: name:  app package name
+        arg2: targetAPI="2"
+        arg3: supportedPreviewSizes: Supported preview sizes
+        arg4: supportedVideoSizes: Supported video sizes
+        arg5: supportedPictureSizes: Supported picture sizes
+        arg6: fpsRange: fps range //not use
+-->
+<!--API2 Begin-->
+        <Package name="com.dhgate.buyermob"
+            targetAPI="2"
+            supportedPreviewSizes="1440x1080"
+            supportedVideoSizes="1440x1080"
+            supportedPictureSizes="1440x1080"
+            fpsRange=""
+            />
+        <Package name="com.snapchat.android"
+            targetAPI="2"
+            supportedPreviewSizes="1280x720,960x720,960x540,720x480,704x704,640x480,352x288,320x240,176x144"
+            supportedVideoSizes=""
+            supportedPictureSizes=""
+            fpsRange=""
+            />
+        <Package name="com.whatsapp.w4b"
+            targetAPI="2"
+            supportedPreviewSizes="1280x720,960x720,960x540,720x480,704x704,640x480,352x288,320x240,176x144"
+            supportedVideoSizes="1280x720,960x720,960x540,720x480,704x704,640x480,352x288,320x240,176x144"
+            supportedPictureSizes="2560x1440,1280x720,960x720,960x540,720x480,704x704,640x480,352x288,320x240,176x144"
+            fpsRange=""
+            />
+        <!--[ITD] add 2560x1440 size for common ruls for whatsapp HD by shiyang.mei 20240704 start-->
+        <Package name="com.whatsapp"
+            targetAPI="2"
+            supportedPreviewSizes="1280x720,960x720,960x540,720x480,704x704,640x480,352x288,320x240,176x144"
+            supportedVideoSizes="1280x720,960x720,960x540,720x480,704x704,640x480,352x288,320x240,176x144"
+            supportedPictureSizes="2560x1440,1280x720,960x720,960x540,720x480,704x704,640x480,352x288,320x240,176x144"
+            fpsRange=""
+            />
+        <!--[ITD] add 2560x1440 size for common ruls for whatsapp HD by shiyang.mei 20240704 end-->
+        <Package name="com.flatfish.cal.privacy"
+            targetAPI="2"
+            supportedPreviewSizes="1280x720,960x720,960x540,720x480,704x704,640x480,352x288,320x240,176x144"
+            supportedVideoSizes=""
+            supportedPictureSizes=""
+            fpsRange=""
+            />
+        <Package name="us.zoom.videomeetings"
+            targetAPI="2"
+            supportedPreviewSizes=""
+            supportedVideoSizes=""
+            supportedPictureSizes="1280x720,960x720,960x540,720x480,704x704,640x480,352x288,320x240,176x144"
+            fpsRange=""
+            />
+        <Package name="com.facebook.katana"
+            targetAPI="2"
+            supportedPreviewSizes="1280x720,960x720,960x540,720x480,704x704,640x480,352x288,320x240,176x144"
+            supportedVideoSizes=""
+            supportedPictureSizes=""
+            fpsRange=""
+            />
+        <Package name="com.meitu.meiyancamera"
+            targetAPI="2"
+            supportedPreviewSizes="1280x720,960x720,960x540,720x480,704x704,640x480,352x288,320x240,176x144"
+            supportedVideoSizes=""
+            supportedPictureSizes=""
+            fpsRange=""
+            />
+        <Package name="com.alibaba.aliexpresshd"
+            targetAPI="2"
+            supportedPreviewSizes="1280x720,960x720,960x540,720x480,704x704,640x480,352x288,320x240,176x144"
+            supportedVideoSizes=""
+            supportedPictureSizes=""
+            fpsRange=""
+            />
+  <!--[ITD] modify for XLSEAHGW-2960 by jian.hu 20231205 start-->
+        <Package name="com.skype.raider"
+            targetAPI="2"
+            supportedPreviewSizes="1280x720,960x720,960x540,720x480,704x704,640x480,352x288,320x240,176x144"
+            supportedVideoSizes="1280x720,960x720,960x540,720x480,704x704,640x480,352x288,320x240,176x144"
+            supportedPictureSizes="1280x720,960x720,960x540,720x480,704x704,640x480,352x288,320x240,176x144"
+            fpsRange=""
+            />
+  <!--[ITD] modify for XLSEAHGW-2960 by jian.hu 20231205 end-->
+        <Package name="com.mt.mtxx.mtxx"
+            targetAPI="2"
+            supportedPreviewSizes="1280x720,960x720,960x540,720x480,704x704,640x480,352x288,320x240,176x144"
+            supportedVideoSizes=""
+            supportedPictureSizes=""
+            fpsRange=""
+            />
+<!--API2 End-->
+<!--
+    EvictedPackage
+        arg1: comingname:  current app package name
+        arg2: stillname:  still alive app package name
+-->
+        <!--[ITD] modify for LCQHLYYLR-2079 by zhoumw 20200827 start-->
+        <EvictedPackage comingname="com.transsion.scanningrecharger" stillname="com.tencent.mm"/>
+        <!--[ITD] modify for LCQHLYYLR-2079 by zhoumw 20200827 end-->
+
+</TranITDCamProfiles>

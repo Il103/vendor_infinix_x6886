@@ -1,0 +1,20 @@
+service vendor.tranradionet /vendor/bin/hw/tranradionet
+    #interface aidl vendor.transsion.hardware.trannet.ITranNet/default
+    class hal
+    user system
+    group system radio misc net_admin net_raw sdcard_r sdcard_rw
+    capabilities NET_ADMIN NET_RAW
+    oneshot
+    disabled
+
+on property:init.svc.zygote=restarting && property:init.svc.vendor.tranradionet=running
+    stop vendor.tranradionet
+
+on property:init.svc.zygote=stopped && property:init.svc.vendor.tranradionet=running
+    stop vendor.tranradionet
+
+on property:init.svc.zygote=running
+    start vendor.tranradionet
+
+on property:vendor.tranradionet.restart=1
+    restart vendor.tranradionet

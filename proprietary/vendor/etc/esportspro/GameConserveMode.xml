@@ -1,0 +1,210 @@
+<GameConserveMode>
+    <version value="20240528"/>
+    <support value="1"/>
+    <!-- 档位分区定义-->
+    <fences>
+        <!-- 环境温度档位-->
+        <fence policy="ambient_temp_level_min" value="25"/>
+        <fence policy="ambient_temp_level_max" value="30"/>
+        <!-- 达到温度阈值时间档位-->
+        <fence policy="shell_temp_threshold_time_1" value="10"/>
+        <fence policy="shell_temp_threshold_time_2" value="15"/>
+        <fence policy="shell_temp_threshold_time_3" value="20"/>
+        <!-- 音量调节的下界和上界-->
+        <fence policy="volume_lower" value="11"/>
+        <fence policy="volume_upper" value="15"/>
+        <!-- 屏幕亮度调节的下界和上界-->
+        <fence policy="brightness_lower" value="180"/>
+        <fence policy="brightness_upper" value="255"/>
+        <!-- 壳温降低到多少恢复策略-->
+        <fence policy="recover_when_skin_temp_drop" value="10"/>
+    </fences>
+    <!-- (int) x:环温, y:壳温阈值档位-->
+    <points>
+        <point x="25" y="40"/>
+        <point x="30" y="43"/>
+        <point x="35" y="45"/>
+        <point x="40" y="50"/>
+    </points>
+    <type value="Common">
+    <!-- 环境温度 0-25-->
+    <ambient_temp_level id="1" value="(0,25]">
+        <!-- 达到温度阈值时间 档位1-->
+        <level id="1" shell_temp_threshold_time="10">
+            <setting  policy="screen_brightness_level" value="75"/>
+            <setting  policy="volume_level" value="3"/>
+            <setting  policy="increased_footsteps" value="0"/>
+            <setting  policy="frameOverride_level" value="1"/>
+            <setting  policy="frameOverride_level_60" value="60"/>
+            <setting  policy="frameOverride_level_90" value="90"/>
+            <setting  policy="frameOverride_level_120" value="120"/>
+            <setting  policy="cpufreq_level" value="1,1,1"/>
+            <setting  policy="cpufreq_level_60" value="1,1,1"/>
+            <setting  policy="cpufreq_level_90" value="1,1,1"/>
+            <setting  policy="cpufreq_level_120" value="1,1,1"/>
+        </level>
+        <!-- 达到温度阈值时间 档位2-->
+        <level id="2" shell_temp_threshold_time="15">
+            <setting  policy="screen_brightness_level" value="55"/>
+            <setting  policy="volume_level" value="3"/>
+            <setting  policy="increased_footsteps" value="1"/>
+            <setting  policy="frameOverride_level" value="1"/>
+            <setting  policy="frameOverride_level_60" value="60"/>
+            <setting  policy="frameOverride_level_90" value="90"/>
+            <setting  policy="frameOverride_level_120" value="120"/>
+            <setting  policy="cpufreq_level" value="1,1,1"/>
+            <setting  policy="cpufreq_level_60" value="1,1,1"/>
+            <setting  policy="cpufreq_level_90" value="1,1,1"/>
+            <setting  policy="cpufreq_level_120" value="1,1,1"/>
+        </level>
+        <!-- 达到温度阈值时间 档位3-->
+        <level id="3" shell_temp_threshold_time="20">
+            <setting  policy="screen_brightness_level" value="35"/>
+            <setting  policy="volume_level" value="2"/>
+            <setting  policy="increased_footsteps" value="1"/>
+            <setting  policy="frameOverride_level" value="1"/>
+            <setting  policy="frameOverride_level_60" value="60"/>
+            <setting  policy="frameOverride_level_90" value="90"/>
+            <setting  policy="frameOverride_level_120" value="120"/>
+            <setting  policy="cpufreq_level" value="1,1,1"/>
+            <setting  policy="cpufreq_level_60" value="1,1,1"/>
+            <setting  policy="cpufreq_level_90" value="1,1,1"/>
+            <setting  policy="cpufreq_level_120" value="1,1,1"/>
+        </level>
+    </ambient_temp_level>
+    <!-- 环境温度 25-30-->
+    <ambient_temp_level id="2" value="(25,30]">
+        <level id="1" shell_temp_threshold_time="10">
+            <setting  policy="screen_brightness_level" value="75"/>
+            <setting  policy="volume_level" value="3"/>
+            <setting  policy="increased_footsteps" value="0"/>
+            <setting  policy="frameOverride_level" value="0.75"/>
+            <setting  policy="frameOverride_level_60" value="45"/>
+            <setting  policy="frameOverride_level_90" value="70"/>
+            <setting  policy="frameOverride_level_120" value="100"/>
+            <setting  policy="cpufreq_level" value="0.75,0.75,0.75"/>
+            <setting  policy="cpufreq_level_60" value="0.75,0.75,0.75"/>
+            <setting  policy="cpufreq_level_90" value="1,1,1"/>
+            <setting  policy="cpufreq_level_120" value="1,1,1"/>
+        </level>
+        <level id="2" shell_temp_threshold_time="15">
+            <setting  policy="screen_brightness_level" value="55"/>
+            <setting  policy="volume_level" value="3"/>
+            <setting  policy="increased_footsteps" value="1"/>
+            <setting  policy="frameOverride_level" value="0.8"/>
+            <setting  policy="frameOverride_level_60" value="50"/>
+            <setting  policy="frameOverride_level_90" value="80"/>
+            <setting  policy="frameOverride_level_120" value="110"/>
+            <setting  policy="cpufreq_level" value="0.8,0.8,0.8"/>
+            <setting  policy="cpufreq_level_60" value="0.8,0.8,0.8"/>
+            <setting  policy="cpufreq_level_90" value="1,1,1"/>
+            <setting  policy="cpufreq_level_120" value="1,1,1"/>
+        </level>
+        <level id="3" shell_temp_threshold_time="20">
+            <setting  policy="screen_brightness_level" value="35"/>
+            <setting  policy="volume_level" value="2"/>
+            <setting  policy="increased_footsteps" value="1"/>
+            <setting  policy="frameOverride_level" value="0.85"/>
+            <setting  policy="frameOverride_level_60" value="50"/>
+            <setting  policy="frameOverride_level_90" value="80"/>
+            <setting  policy="frameOverride_level_120" value="110"/>
+            <setting  policy="cpufreq_level" value="0.85,0.85,0.85"/>
+            <setting  policy="cpufreq_level_60" value="0.85,0.85,0.85"/>
+            <setting  policy="cpufreq_level_90" value="1,1,1"/>
+            <setting  policy="cpufreq_level_120" value="1,1,1"/>
+        </level>
+    </ambient_temp_level>
+    <!-- 环境温度 30以上-->
+    <ambient_temp_level id="3" value="(30,+oo)">
+        <level id="1" shell_temp_threshold_time="10">
+            <setting  policy="screen_brightness_level" value="75"/>
+            <setting  policy="volume_level" value="3"/>
+            <setting  policy="increased_footsteps" value="0"/>
+            <setting  policy="frameOverride_level" value="0.75"/>
+            <setting  policy="frameOverride_level_60" value="45"/>
+            <setting  policy="frameOverride_level_90" value="70"/>
+            <setting  policy="frameOverride_level_120" value="100"/>
+            <setting  policy="cpufreq_level" value="0.75,0.75,0.75"/>
+            <setting  policy="cpufreq_level_60" value="0.75,0.75,0.75"/>
+            <setting  policy="cpufreq_level_90" value="1,1,1"/>
+            <setting  policy="cpufreq_level_120" value="1,1,1"/>
+        </level>
+        <level id="2" shell_temp_threshold_time="15">
+            <setting  policy="screen_brightness_level" value="55"/>
+            <setting  policy="volume_level" value="3"/>
+            <setting  policy="increased_footsteps" value="1"/>
+            <setting  policy="frameOverride_level" value="0.8"/>
+            <setting  policy="frameOverride_level_60" value="50"/>
+            <setting  policy="frameOverride_level_90" value="80"/>
+            <setting  policy="frameOverride_level_120" value="110"/>
+            <setting  policy="cpufreq_level" value="0.8,0.8,0.8"/>
+            <setting  policy="cpufreq_level_60" value="0.8,0.8,0.8"/>
+            <setting  policy="cpufreq_level_90" value="1,1,1"/>
+            <setting  policy="cpufreq_level_120" value="1,1,1"/>
+        </level>
+        <level id="3" shell_temp_threshold_time="20">
+            <setting  policy="screen_brightness_level" value="35"/>
+            <setting  policy="volume_level" value="2"/>
+            <setting  policy="increased_footsteps" value="1"/>
+            <setting  policy="frameOverride_level" value="0.85"/>
+            <setting  policy="frameOverride_level_60" value="50"/>
+            <setting  policy="frameOverride_level_90" value="80"/>
+            <setting  policy="frameOverride_level_120" value="110"/>
+            <setting  policy="cpufreq_level" value="0.85,0.85,0.85"/>
+            <setting  policy="cpufreq_level_60" value="0.85,0.85,0.85"/>
+            <setting  policy="cpufreq_level_90" value="1,1,1"/>
+            <setting  policy="cpufreq_level_120" value="1,1,1"/>
+        </level>
+    </ambient_temp_level>
+    </type>
+    <type value="YuanShen">
+        <packagename>
+            <package  name="com.miHoYo.Yuanshen"/>
+            <package  name="com.miHoYo.GenshinImpact"/>
+            <package  name="com.miHoYo.ys"/>
+            <package  name="com.miHoYo.ys.bilibili"/>
+        </packagename>
+        <ambient_temp_level id="1" value="(0,25]">
+            <level id="1" shell_temp_threshold_time="5">
+                <setting  policy="frameOverride_level_60" value="40"/>
+                <setting  policy="cpufreq_level_60" value="1,1,1"/>
+            </level>
+            <level id="2" shell_temp_threshold_time="10">
+                <setting  policy="frameOverride_level_60" value="40"/>
+                <setting  policy="cpufreq_level_60" value="1,1,1"/>
+            </level>
+            <level id="3" shell_temp_threshold_time="15">
+                <setting  policy="frameOverride_level_60" value="40"/>
+                <setting  policy="cpufreq_level_60" value="1,1,1"/>
+            </level>
+        </ambient_temp_level>
+        <ambient_temp_level id="2" value="(25,30]">
+            <level id="1" shell_temp_threshold_time="5">
+                <setting  policy="frameOverride_level_60" value="35"/>
+                <setting  policy="cpufreq_level_60" value="1,1,1"/>
+            </level>
+            <level id="2" shell_temp_threshold_time="10">
+                <setting  policy="frameOverride_level_60" value="40"/>
+                <setting  policy="cpufreq_level_60" value="1,1,1"/>
+            </level>
+            <level id="3" shell_temp_threshold_time="15">
+                <setting  policy="frameOverride_level_60" value="40"/>
+                <setting  policy="cpufreq_level_60" value="1,1,1"/>
+            </level>
+        </ambient_temp_level>
+        <ambient_temp_level id="3" value="(30,+oo)">
+            <level id="1" shell_temp_threshold_time="5">
+                <setting  policy="frameOverride_level_60" value="35"/>
+                <setting  policy="cpufreq_level_60" value="1,1,1"/>
+            </level>
+            <level id="2" shell_temp_threshold_time="10">
+                <setting  policy="frameOverride_level_60" value="35"/>
+                <setting  policy="cpufreq_level_60" value="1,1,1"/>
+            </level>
+            <level id="3" shell_temp_threshold_time="15">
+                <setting  policy="frameOverride_level_60" value="35"/>
+                <setting  policy="cpufreq_level_60" value="1,1,1"/>
+            </level>
+        </ambient_temp_level>
+    </type>
+</GameConserveMode>

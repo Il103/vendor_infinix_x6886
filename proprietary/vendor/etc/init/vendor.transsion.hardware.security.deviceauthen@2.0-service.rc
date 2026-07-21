@@ -1,0 +1,4 @@
+service deviceauthen_hal_service /vendor/bin/hw/vendor.transsion.hardware.security.deviceauthen@2.0-service
+	class hal
+	user system
+	group system

@@ -1,0 +1,8 @@
+# MTK platform .rc configure
+service dmc_core /vendor/bin/dmc_core
+    class core
+    class hal
+    user system
+    group system
+    disabled
+    oneshot

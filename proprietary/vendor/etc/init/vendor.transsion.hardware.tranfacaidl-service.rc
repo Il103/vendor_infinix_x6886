@@ -1,0 +1,40 @@
+service vendor.transsion.hardware.tranfacaidl-service /vendor/bin/hw/vendor.transsion.hardware.tranfacaidl-service
+    interface aidl vendor.transsion.hardware.tranfacaidl.ITranfacAidl/default
+    class hal
+    user system
+    group system
+
+on post-fs
+    mkdir /tranfs/tranfac 0775 system system
+    mkdir /tranfs/tranfac/app 0775 system system
+    mkdir /tranfs/tranfac/cache 0775 system system
+    mkdir /tranfs/tranfac/config 0775 system system
+    mkdir /tranfs/tranfac/config/common 0775 system system
+    mkdir /tranfs/tranfac/config/mode 0775 system system
+    mkdir /tranfs/tranfac/config/mode/QT 0775 system system
+    mkdir /tranfs/tranfac/config/mode/MMI1 0775 system system
+    mkdir /tranfs/tranfac/config/mode/MMI2 0775 system system
+    mkdir /tranfs/tranfac/config/aging 0775 system system
+
+on post-fs-data
+    # for mtk: vendor/mediatek/proprietary/external/libnvram/nvram_daemon/nvram_daemon.rc
+    # for sprd
+    chmod 0660 /mnt/vendor/productinfo/tranfac_sensor.properties
+    chmod 0660 /mnt/vendor/productinfo/tranfacmode.db
+    chmod 0660 /mnt/vendor/productinfo/oximeter.txt
+
+on boot
+    setprop sys.tranfac.ro.cmd.verified 0
+
+# for mtk
+on property:sys.tranfac.ro.db.mtk.rm=1
+    rm /mnt/vendor/persist/tranfacmode.db
+    setprop sys.tranfac.ro.db.mtk.rm 0
+
+# for sprd
+on property:sys.tranfac.ro.db.sprd.rm=1
+    rm /mnt/vendor/productinfo/tranfacmode.db
+    setprop sys.tranfac.ro.db.sprd.rm 0
+
+on property:sys.tranfac.ro.adb.tcp.port=*
+    setprop service.adb.tcp.port ${sys.tranfac.ro.adb.tcp.port}

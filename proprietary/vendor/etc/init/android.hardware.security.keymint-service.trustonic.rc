@@ -1,0 +1,3 @@
+service vendor.keymint-trustonic /vendor/bin/hw/android.hardware.security.keymint-service.trustonic
+    class early_hal
+    user system

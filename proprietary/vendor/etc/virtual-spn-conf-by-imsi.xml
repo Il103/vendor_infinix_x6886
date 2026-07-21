@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<virtualSpnOverridesByImsi version="1">
+<virtualSpnOverride imsipattern="2080120801xxx67xxxxx" name="Virgin"/>
+<virtualSpnOverride imsipattern="2320723207718xxxxxxx" name="HoT"/>
+<virtualSpnOverride imsipattern="232072320776xxxxxxxx" name="HoT"/>
+<virtualSpnOverride imsipattern="2320723207799xxxxxxx" name="HoT"/>
+<virtualSpnOverride imsipattern="4186641866xxx82xxxxx" name="Fastlink"/>
+<virtualSpnOverride imsipattern="4186641866xxx83xxxxx" name="Fastlink"/>
+<virtualSpnOverride imsipattern="4186641866xxx36xxxxx" name="Newroz4G"/>
+<virtualSpnOverride imsipattern="4188241882xxx40xxxxx" name="Tishknet"/>
+<virtualSpnOverride imsipattern="4240342403022" name="Virgin Mobile"/>
+<virtualSpnOverride imsipattern="505015050156" name="Konec"/>
+</virtualSpnOverridesByImsi>

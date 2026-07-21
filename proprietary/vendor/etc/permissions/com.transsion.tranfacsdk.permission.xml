@@ -1,0 +1,6 @@
+<permissions>
+    <feature name="com.transsion.tranfacsdk"/>
+    <library
+        name="com.transsion.tranfacsdk"
+        file="/vendor/framework/com.transsion.tranfacsdk.jar"/>
+</permissions>

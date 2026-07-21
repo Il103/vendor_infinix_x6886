@@ -1,0 +1,23 @@
+<GameGPUMaster>
+    <version value="20240701"/>
+    <support value="1"/>
+    <packagename>
+        <package  name="com.tencent.ig"/>
+        <package  name="com.tencent.tmgp.pubgmhd"/>
+        <package  name="com.rekoo.pubgm"/>
+        <package  name="com.vng.pubgmobile"/>
+        <package  name="com.tencent.iglite"/>
+        <package  name="com.tencent.igce"/>
+        <package  name="com.pubg.krmobile"/>
+        <package  name="com.pubg.imobile"/>
+        <package  name="com.mobile.legends"/>
+        <package  name="com.dts.freefireth"/>
+        <package  name="com.dts.freefirethmax"/>
+    </packagename>
+    <gpu>
+        <gpumode name="GameConserveMode" aivrs="0" AF= "0" TF="0" minLOD="1001" maxLOD="1001"/>
+        <gpumode name="GameBalanceOpenMode" aivrs="0" AF= "0" TF="0" minLOD="1001" maxLOD="1001"/>
+        <gpumode name="GameBalanceCloseMode" aivrs="0" AF= "0" TF="0" minLOD="1001" maxLOD="1001"/>
+        <gpumode name="GamePerformanceMode" aivrs="0" AF= "0" TF="0" minLOD="1001" maxLOD="1001"/>
+    </gpu>
+</GameGPUMaster>

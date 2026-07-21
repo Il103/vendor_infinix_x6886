@@ -1,0 +1,6 @@
+service mms-1-6 /vendor/bin/hw/vendor.mediatek.hardware.mms@1.6-service
+    oneshot
+    disabled
+    class main
+    user system
+    group system graphics

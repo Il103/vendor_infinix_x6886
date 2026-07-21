@@ -1,0 +1,12 @@
+//
+// Automatically generated file. DO NOT MODIFY
+//
+
+soong_namespace {
+    imports: [
+        "device/infinix/x6886",
+        "hardware/mediatek",
+        "hardware/mediatek/libmtkperf_client",
+        "hardware/transsion",
+    ],
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<virtualSpnOverridesByEfGid1 version="1">
+<virtualSpnOverride mccmncgid1="2343040" name="Virgin"/>
+<virtualSpnOverride mccmncgid1="208104C" name="LA POSTE MOBILE"/>
+<virtualSpnOverride mccmncgid1="22250F003" name="ILIAD"/>
+<virtualSpnOverride mccmncgid1="2142244474553" name="Digi.Mobil"/>
+<virtualSpnOverride mccmncgid1="2320770" name="HoT"/>
+<virtualSpnOverride mccmncgid1="2320772" name="HoT"/>
+<virtualSpnOverride mccmncgid1="2320774" name="HoT"/>
+<virtualSpnOverride mccmncgid1="2320775" name="HoT"/>
+<virtualSpnOverride mccmncgid1="25020FA3207FFFFFFFFFFFFFF" name="SberMobile"/>
+<virtualSpnOverride mccmncgid1="26006FFFFFFFFFFFFFFFFFFFF" name="Mobile Vikings"/>
+</virtualSpnOverridesByEfGid1>
