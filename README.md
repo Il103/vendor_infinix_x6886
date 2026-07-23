@@ -2,48 +2,52 @@
 
 Proprietary blobs extracted from stock firmware (X6886-H668L-G2954).
 
+| Info | Value |
+| :--- | :--- |
+| Branch | `Vendor.Lineage.23.2` |
+| Android | 15 (SDK 35) |
+| Platform | MT6789 (Helio G200) |
+| Firmware | X6886-H668L-G2954 |
+
 ## Contents
 
-| Directory | Size | Description |
-|-----------|------|-------------|
-| `proprietary/vendor/` | 4,338 files | Vendor partition blobs |
-| `proprietary/system_ext/` | 1,233 files | system_ext partition blobs |
-| `proprietary/product/` | 893 files | Product partition blobs |
-| **Total** | **7,074 files, ~19 GB** | |
+| Directory | Description |
+|-----------|-------------|
+| `proprietary/vendor/` | Vendor partition blobs |
+| `proprietary/system_ext/` | system_ext partition blobs |
+| `proprietary/product/` | Product partition blobs |
+| **Total** | **5010 files** |
 
 ## Blob categories
 
-- Audio effects and configs
-- Camera HAL and algorithms
-- Display and graphics drivers
-- Media codecs and firmware
-- Modem and RIL libraries
-- NFC firmware
-- Sensors HAL
-- WiFi and Bluetooth firmware
-- Thermal management
-- MTK-specific services and libs
+- 65 HAL services
+- 138 HAL libraries
+- 1959 camera files
+- 430 audio files
+- 722 MTK-specific files
+- 73 Transsion-specific files
+- 119 firmware files
+- 53 VINTF manifests
+- 128 init scripts
 
 ## Build
 
 ```bash
-# After repo sync, pull LFS blobs
 cd vendor/infinix/x6886
 git lfs pull
 cd ../../..
 
-# Build
 source build/envsetup.sh
 lunch lineage_x6886-userdebug
-mka bacon -j$(nproc)
+mka bacon -j24
 ```
 
 ## Notes
 
-- All blobs tracked with Git LFS (4,112 files, ~6.7 GB)
-- Extracted from full firmware dump via `extract-files.py`
-- `x6886-vendor.mk` has 7,074 `PRODUCT_COPY_FILES` entries (relative paths)
-- Source: stock ROM (Android 15, kernel 5.10.237)
+- All blobs tracked with Git LFS
+- `proprietary-files.txt` contains 5010 entries
+- `x6886-vendor.mk` has 5010 `PRODUCT_COPY_FILES` entries
+- Source: stock ROM (Android 15, kernel 5.10.198)
 
 ## Credits
 
