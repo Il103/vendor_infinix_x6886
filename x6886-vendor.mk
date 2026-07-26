@@ -42,10 +42,6 @@ PRODUCT_COPY_FILES += \
     vendor/infinix/x6886/proprietary/lib64/vendor.pixelworks.hardware.feature-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.pixelworks.hardware.feature-V1-ndk.so \
     vendor/infinix/x6886/proprietary/lib64/vendor.pixelworks.hardware.feature@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.pixelworks.hardware.feature@1.0.so \
     vendor/infinix/x6886/proprietary/lib64/vendor.pixelworks.hardware.feature@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.pixelworks.hardware.feature@1.1.so \
-    vendor/infinix/x6886/proprietary/odm/etc/vintf/manifest_dsds.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_dsds.xml \
-    vendor/infinix/x6886/proprietary/odm/etc/vintf/manifest_qsqs.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_qsqs.xml \
-    vendor/infinix/x6886/proprietary/odm/etc/vintf/manifest_ss.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_ss.xml \
-    vendor/infinix/x6886/proprietary/odm/etc/vintf/manifest_tsts.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_tsts.xml \
     vendor/infinix/x6886/proprietary/system_ext/bin/hw/android.hardware.audio.parameter_parser.service:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/hw/android.hardware.audio.parameter_parser.service \
     vendor/infinix/x6886/proprietary/system_ext/etc/a2dp_audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/a2dp_audio_policy_configuration.xml \
     vendor/infinix/x6886/proprietary/system_ext/etc/a2dp_in_audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/a2dp_in_audio_policy_configuration.xml \
@@ -118,12 +114,6 @@ PRODUCT_COPY_FILES += \
     vendor/infinix/x6886/proprietary/system_ext/lib64/vendor.mediatek.hardware.pq@2.3.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.pq@2.3.so \
     vendor/infinix/x6886/proprietary/system_ext/lib64/vendor.mediatek.hardware.videotelephony-V1-ndk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.videotelephony-V1-ndk.so \
     vendor/infinix/x6886/proprietary/system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.videotelephony@1.0.so \
-    vendor/infinix/x6886/proprietary/vendor/app/GoogleTetheringResOverlay/GoogleTetheringResOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/app/GoogleTetheringResOverlay/GoogleTetheringResOverlay.apk \
-    vendor/infinix/x6886/proprietary/vendor/app/InProcessTetheringResOverlay/InProcessTetheringResOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/app/InProcessTetheringResOverlay/InProcessTetheringResOverlay.apk \
-    vendor/infinix/x6886/proprietary/vendor/app/NetworkStackGoogleResOverlay/NetworkStackGoogleResOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/app/NetworkStackGoogleResOverlay/NetworkStackGoogleResOverlay.apk \
-    vendor/infinix/x6886/proprietary/vendor/app/NetworkStackInProcessResOverlay/NetworkStackInProcessResOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/app/NetworkStackInProcessResOverlay/NetworkStackInProcessResOverlay.apk \
-    vendor/infinix/x6886/proprietary/vendor/app/NetworkStackResOverlay/NetworkStackResOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/app/NetworkStackResOverlay/NetworkStackResOverlay.apk \
-    vendor/infinix/x6886/proprietary/vendor/app/TetheringResOverlay/TetheringResOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/app/TetheringResOverlay/TetheringResOverlay.apk \
     vendor/infinix/x6886/proprietary/vendor/app/mcRegistry/020f0000000000000000000000000000.drbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/020f0000000000000000000000000000.drbin \
     vendor/infinix/x6886/proprietary/vendor/app/mcRegistry/020f0000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/020f0000000000000000000000000000.tlbin \
     vendor/infinix/x6886/proprietary/vendor/app/mcRegistry/033c0000000000000000000000000000.drbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/033c0000000000000000000000000000.drbin \
@@ -157,7 +147,6 @@ PRODUCT_COPY_FILES += \
     vendor/infinix/x6886/proprietary/vendor/app/mcRegistry/e97c270ea5c44c58bcd3384a2fa2539e.tabin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/e97c270ea5c44c58bcd3384a2fa2539e.tabin \
     vendor/infinix/x6886/proprietary/vendor/bin/AgentTest:$(TARGET_COPY_OUT_VENDOR)/bin/AgentTest \
     vendor/infinix/x6886/proprietary/vendor/bin/TransSchedTest:$(TARGET_COPY_OUT_VENDOR)/bin/TransSchedTest \
-    vendor/infinix/x6886/proprietary/vendor/bin/[:$(TARGET_COPY_OUT_VENDOR)/bin/[ \
     vendor/infinix/x6886/proprietary/vendor/bin/acpi:$(TARGET_COPY_OUT_VENDOR)/bin/acpi \
     vendor/infinix/x6886/proprietary/vendor/bin/aee_aedv64_v2:$(TARGET_COPY_OUT_VENDOR)/bin/aee_aedv64_v2 \
     vendor/infinix/x6886/proprietary/vendor/bin/aee_dumpstatev_v2:$(TARGET_COPY_OUT_VENDOR)/bin/aee_dumpstatev_v2 \
@@ -1809,52 +1798,6 @@ PRODUCT_COPY_FILES += \
     vendor/infinix/x6886/proprietary/vendor/etc/usb_audio_accessory_only_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usb_audio_accessory_only_policy_configuration.xml \
     vendor/infinix/x6886/proprietary/vendor/etc/usb_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usb_audio_policy_configuration.xml \
     vendor/infinix/x6886/proprietary/vendor/etc/vendor-apns-conf.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vendor-apns-conf.xml \
-    vendor/infinix/x6886/proprietary/vendor/etc/vintf/compatibility_matrix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/compatibility_matrix.xml \
-    vendor/infinix/x6886/proprietary/vendor/etc/vintf/manifest.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest.xml \
-    vendor/infinix/x6886/proprietary/vendor/etc/vintf/manifest/android.hardware.biometrics.fingerprint@2.1-service-mediatek.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.biometrics.fingerprint@2.1-service-mediatek.xml \
-    vendor/infinix/x6886/proprietary/vendor/etc/vintf/manifest/android.hardware.boot@1.2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.boot@1.2.xml \
-    vendor/infinix/x6886/proprietary/vendor/etc/vintf/manifest/android.hardware.cas@1.2-service-lazy.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.cas@1.2-service-lazy.xml \
-    vendor/infinix/x6886/proprietary/vendor/etc/vintf/manifest/android.hardware.health@2.1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.health@2.1.xml \
-    vendor/infinix/x6886/proprietary/vendor/etc/vintf/manifest/android.hardware.neuralnetworks-shim-service-mtk.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.neuralnetworks-shim-service-mtk.xml \
-    vendor/infinix/x6886/proprietary/vendor/etc/vintf/manifest/android.hardware.security.keymint-service.trustonic.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.security.keymint-service.trustonic.xml \
-    vendor/infinix/x6886/proprietary/vendor/etc/vintf/manifest/android.hardware.security.secureclock-service.trustonic.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.security.secureclock-service.trustonic.xml \
-    vendor/infinix/x6886/proprietary/vendor/etc/vintf/manifest/android.hardware.security.sharedsecret-service.trustonic.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.security.sharedsecret-service.trustonic.xml \
-    vendor/infinix/x6886/proprietary/vendor/etc/vintf/manifest/android.hardware.usb@1.2-service-mediatekv2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.usb@1.2-service-mediatekv2.xml \
-    vendor/infinix/x6886/proprietary/vendor/etc/vintf/manifest/android.hardware.wifi.hostapd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.wifi.hostapd.xml \
-    vendor/infinix/x6886/proprietary/vendor/etc/vintf/manifest/android.hardware.wifi.supplicant.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.wifi.supplicant.xml \
-    vendor/infinix/x6886/proprietary/vendor/etc/vintf/manifest/android.hardware.wifi@1.0-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.wifi@1.0-service.xml \
-    vendor/infinix/x6886/proprietary/vendor/etc/vintf/manifest/gnss-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/gnss-default.xml \
-    vendor/infinix/x6886/proprietary/vendor/etc/vintf/manifest/gnss@2.1-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/gnss@2.1-service.xml \
-    vendor/infinix/x6886/proprietary/vendor/etc/vintf/manifest/lbs_hidl_service@1.0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/lbs_hidl_service@1.0.xml \
-    vendor/infinix/x6886/proprietary/vendor/etc/vintf/manifest/lights-mtk-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/lights-mtk-default.xml \
-    vendor/infinix/x6886/proprietary/vendor/etc/vintf/manifest/manifest.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/manifest.xml \
-    vendor/infinix/x6886/proprietary/vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.4-service.clearkey.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/manifest_android.hardware.drm@1.4-service.clearkey.xml \
-    vendor/infinix/x6886/proprietary/vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.4-service.widevine.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/manifest_android.hardware.drm@1.4-service.widevine.xml \
-    vendor/infinix/x6886/proprietary/vendor/etc/vintf/manifest/manifest_apuware_apusys.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/manifest_apuware_apusys.xml \
-    vendor/infinix/x6886/proprietary/vendor/etc/vintf/manifest/manifest_apuware_hmp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/manifest_apuware_hmp.xml \
-    vendor/infinix/x6886/proprietary/vendor/etc/vintf/manifest/manifest_apuware_utils.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/manifest_apuware_utils.xml \
-    vendor/infinix/x6886/proprietary/vendor/etc/vintf/manifest/manifest_cameraprovider.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/manifest_cameraprovider.xml \
-    vendor/infinix/x6886/proprietary/vendor/etc/vintf/manifest/manifest_face_default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/manifest_face_default.xml \
-    vendor/infinix/x6886/proprietary/vendor/etc/vintf/manifest/manifest_fingerprint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/manifest_fingerprint.xml \
-    vendor/infinix/x6886/proprietary/vendor/etc/vintf/manifest/manifest_hwcomposer.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/manifest_hwcomposer.xml \
-    vendor/infinix/x6886/proprietary/vendor/etc/vintf/manifest/manifest_media_c2_V1_1_default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/manifest_media_c2_V1_1_default.xml \
-    vendor/infinix/x6886/proprietary/vendor/etc/vintf/manifest/manifest_storage.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/manifest_storage.xml \
-    vendor/infinix/x6886/proprietary/vendor/etc/vintf/manifest/manifest_tneengine.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/manifest_tneengine.xml \
-    vendor/infinix/x6886/proprietary/vendor/etc/vintf/manifest/memtrack-mediatek.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/memtrack-mediatek.xml \
-    vendor/infinix/x6886/proprietary/vendor/etc/vintf/manifest/power-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/power-default.xml \
-    vendor/infinix/x6886/proprietary/vendor/etc/vintf/manifest/vendor.hardware.trancharge-service.example.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.hardware.trancharge-service.example.xml \
-    vendor/infinix/x6886/proprietary/vendor/etc/vintf/manifest/vendor.hardware.trantp-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.hardware.trantp-service.xml \
-    vendor/infinix/x6886/proprietary/vendor/etc/vintf/manifest/vendor.mediatek.hardware.paytrigger@1.0-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.mediatek.hardware.paytrigger@1.0-service.xml \
-    vendor/infinix/x6886/proprietary/vendor/etc/vintf/manifest/vendor.mediatek.hardware.tranHwInfo@1.0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.mediatek.hardware.tranHwInfo@1.0.xml \
-    vendor/infinix/x6886/proprietary/vendor/etc/vintf/manifest/vendor.tms.hardware.nfc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.tms.hardware.nfc.xml \
-    vendor/infinix/x6886/proprietary/vendor/etc/vintf/manifest/vendor.transsion.hardware.security.deviceauthen@2.0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.transsion.hardware.security.deviceauthen@2.0.xml \
-    vendor/infinix/x6886/proprietary/vendor/etc/vintf/manifest/vendor.transsion.hardware.security.hap@1.0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.transsion.hardware.security.hap@1.0.xml \
-    vendor/infinix/x6886/proprietary/vendor/etc/vintf/manifest/vendor.transsion.hardware.security.rpmbservice@1.0-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.transsion.hardware.security.rpmbservice@1.0-service.xml \
-    vendor/infinix/x6886/proprietary/vendor/etc/vintf/manifest/vendor.transsion.hardware.security.trancriticalparavfy@1.0-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.transsion.hardware.security.trancriticalparavfy@1.0-service.xml \
-    vendor/infinix/x6886/proprietary/vendor/etc/vintf/manifest/vendor.transsion.hardware.trancam.trancamserver@1.0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.transsion.hardware.trancam.trancamserver@1.0.xml \
-    vendor/infinix/x6886/proprietary/vendor/etc/vintf/manifest/vendor.transsion.hardware.tranfacaidl-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.transsion.hardware.tranfacaidl-service.xml \
-    vendor/infinix/x6886/proprietary/vendor/etc/vintf/manifest/vendor.transsion.hardware.tranradionet.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.transsion.hardware.tranradionet.xml \
-    vendor/infinix/x6886/proprietary/vendor/etc/vintf/manifest/vibrator-mtk-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vibrator-mtk-default.xml \
     vendor/infinix/x6886/proprietary/vendor/etc/virtual-spn-conf-by-efgid1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/virtual-spn-conf-by-efgid1.xml \
     vendor/infinix/x6886/proprietary/vendor/etc/virtual-spn-conf-by-efpnn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/virtual-spn-conf-by-efpnn.xml \
     vendor/infinix/x6886/proprietary/vendor/etc/virtual-spn-conf-by-efspn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/virtual-spn-conf-by-efspn.xml \
@@ -4176,10 +4119,6 @@ PRODUCT_COPY_FILES += \
     vendor/infinix/x6886/proprietary/vendor/odm/etc/build.prop:$(TARGET_COPY_OUT_VENDOR)/odm/etc/build.prop \
     vendor/infinix/x6886/proprietary/vendor/odm/etc/group:$(TARGET_COPY_OUT_VENDOR)/odm/etc/group \
     vendor/infinix/x6886/proprietary/vendor/odm/etc/passwd:$(TARGET_COPY_OUT_VENDOR)/odm/etc/passwd \
-    vendor/infinix/x6886/proprietary/vendor/odm/etc/vintf/manifest_dsds.xml:$(TARGET_COPY_OUT_VENDOR)/odm/etc/vintf/manifest_dsds.xml \
-    vendor/infinix/x6886/proprietary/vendor/odm/etc/vintf/manifest_qsqs.xml:$(TARGET_COPY_OUT_VENDOR)/odm/etc/vintf/manifest_qsqs.xml \
-    vendor/infinix/x6886/proprietary/vendor/odm/etc/vintf/manifest_ss.xml:$(TARGET_COPY_OUT_VENDOR)/odm/etc/vintf/manifest_ss.xml \
-    vendor/infinix/x6886/proprietary/vendor/odm/etc/vintf/manifest_tsts.xml:$(TARGET_COPY_OUT_VENDOR)/odm/etc/vintf/manifest_tsts.xml \
     vendor/infinix/x6886/proprietary/vendor/res/sound/ringtone.wav:$(TARGET_COPY_OUT_VENDOR)/res/sound/ringtone.wav \
     vendor/infinix/x6886/proprietary/vendor/res/sound/testpattern1.wav:$(TARGET_COPY_OUT_VENDOR)/res/sound/testpattern1.wav \
     vendor/infinix/x6886/proprietary/vendor/resources.arsc:$(TARGET_COPY_OUT_VENDOR)/resources.arsc \
@@ -4990,14 +4929,6 @@ PRODUCT_COPY_FILES += \
     vendor/infinix/x6886/proprietary/vendor/lib64/vendor.trustonic.tee.tui@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.trustonic.tee.tui@1.0.so \
     vendor/infinix/x6886/proprietary/vendor/lib64/vendor.trustonic.tee@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.trustonic.tee@1.0.so \
     vendor/infinix/x6886/proprietary/vendor/lib64/vendor.trustonic.tee@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.trustonic.tee@1.1.so \
-    vendor/infinix/x6886/proprietary/vendor/overlay/ConnectivityResOverlay/ConnectivityResOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/ConnectivityResOverlay/ConnectivityResOverlay.apk \
-    vendor/infinix/x6886/proprietary/vendor/overlay/FrameworkResOverlay/FrameworkResOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/FrameworkResOverlay/FrameworkResOverlay.apk \
-    vendor/infinix/x6886/proprietary/vendor/overlay/FrameworkResOverlayExt/FrameworkResOverlayExt.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/FrameworkResOverlayExt/FrameworkResOverlayExt.apk \
-    vendor/infinix/x6886/proprietary/vendor/overlay/MtkSettingsResOverlay/MtkSettingsResOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/MtkSettingsResOverlay/MtkSettingsResOverlay.apk \
-    vendor/infinix/x6886/proprietary/vendor/overlay/MtkTelephonyServiceResOverlay/MtkTelephonyServiceResOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/MtkTelephonyServiceResOverlay/MtkTelephonyServiceResOverlay.apk \
-    vendor/infinix/x6886/proprietary/vendor/overlay/SettingsProviderResOverlay/SettingsProviderResOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/SettingsProviderResOverlay/SettingsProviderResOverlay.apk \
-    vendor/infinix/x6886/proprietary/vendor/overlay/WifiResMainlineOverlay/WifiResMainlineOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/WifiResMainlineOverlay/WifiResMainlineOverlay.apk \
-    vendor/infinix/x6886/proprietary/vendor/overlay/WifiResOverlay/WifiResOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/WifiResOverlay/WifiResOverlay.apk \
     vendor/infinix/x6886/proprietary/vendor/raw_hdr/params_bin/gc13a0_17201982_EXPO_BRACKET_HDR_basic.bin:$(TARGET_COPY_OUT_VENDOR)/raw_hdr/params_bin/gc13a0_17201982_EXPO_BRACKET_HDR_basic.bin \
     vendor/infinix/x6886/proprietary/vendor/raw_hdr/params_bin/gc13a0_17201982_EXPO_BRACKET_HDR_brightness.bin:$(TARGET_COPY_OUT_VENDOR)/raw_hdr/params_bin/gc13a0_17201982_EXPO_BRACKET_HDR_brightness.bin \
     vendor/infinix/x6886/proprietary/vendor/raw_hdr/params_bin/gc13a0_17201982_EXPO_BRACKET_HDR_nr.bin:$(TARGET_COPY_OUT_VENDOR)/raw_hdr/params_bin/gc13a0_17201982_EXPO_BRACKET_HDR_nr.bin \
