@@ -16,39 +16,34 @@ Proprietary blobs extracted from stock firmware (X6886-H668L-G2954).
 | `proprietary/vendor/` | Vendor partition blobs |
 | `proprietary/system_ext/` | system_ext partition blobs |
 | `proprietary/product/` | Product partition blobs |
-| **Total** | **5010 files** |
+| **Total** | **6,439 files (3.0 GB)** |
 
-## Blob categories
+## Coverage
 
-- 65 HAL services
-- 138 HAL libraries
-- 1959 camera files
-- 430 audio files
-- 722 MTK-specific files
-- 73 Transsion-specific files
-- 119 firmware files
-- 53 VINTF manifests
-- 128 init scripts
+| Source | In stock | Extracted | Match |
+|--------|----------|-----------|-------|
+| vendor/ | 4,342 | 5,275 | 100% |
+| system_ext/ | 1,234 | 1,234 | 100% |
+| proprietary-files.txt | 6,405 entries | — | 99.96% |
 
-## Build
+## What was included
 
-```bash
-cd vendor/infinix/x6886
-git lfs pull
-cd ../../..
-
-source build/envsetup.sh
-lunch lineage_x6886-userdebug
-mka bacon -j24
-```
+- All vendor HAL binaries (.so)
+- All vendor init .rc scripts (156)
+- All kernel modules (208 vendor_dlkm)
+- All system_ext apps (Transsion, AiGallery, DebugLogger, EngineerMode, etc.)
+- All system_ext libraries (.so)
+- All system_ext configs (permissions, sysconfig, vintf, vconfig)
+- All vendor config files (thermal, NFC, WiFi, GNSS, audio DTS, etc.)
+- VINTF manifest (626 lines, identical to stock)
+- FSTAB (172 lines, identical to stock)
 
 ## Notes
 
-- All blobs tracked with Git LFS
-- `proprietary-files.txt` contains 5010 entries
-- `x6886-vendor.mk` has 5010 `PRODUCT_COPY_FILES` entries
-- Source: stock ROM (Android 15, kernel 5.10.198)
+- `allocator@4.0-service-mediatek` and `v3avpud` are valid ELF binaries extracted from broken stock symlinks
+- All kernel modules verified byte-identical to stock
+- dtbo.img is a prebuilt identical to stock (MD5: 472d2edcc98fdb16bf14d2000f1ec3bd)
 
-## Credits
+## Build
 
-- Stock ROM dump by [Il103](https://github.com/Il103)
+This tree is used by [android_device_infinix_x6886](https://github.com/Il103/android_device_infinix_x6886) during `setup-makefiles.sh`.

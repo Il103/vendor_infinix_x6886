@@ -1,0 +1,6 @@
+<permissions>
+    <feature name="com.transsion.tranfacfwk"/>
+    <library
+        name="com.transsion.tranfacfwk"
+        file="/system_ext/framework/com.transsion.tranfacfwk.jar"/>
+</permissions>

@@ -1,0 +1,19 @@
+#!/system/bin/sh
+###
+ # @Author: fujia.chu
+ # @Email: fujia.chu@transsion.com
+ # @Date: 2023-06-21 11:21:33
+ # @LastEditors: fujia.chu
+ # @LastEditTime: 2023-06-21 11:20:32
+ # @FilePath: \TranfacAidl\command\tranfacaidl.sh
+ # @Description:
+ #
+ # Copyright (c) 2023 by transsion, All Rights Reserved.
+###
+
+# execute command
+function main(){
+    dumpsys -t 30 vendor.transsion.hardware.tranfacaidl.ITranfacAidl/default "$@"
+}
+
+main "$@"

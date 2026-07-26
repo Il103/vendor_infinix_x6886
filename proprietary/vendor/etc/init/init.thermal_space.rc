@@ -1,0 +1,12 @@
+service thermal_space /vendor/bin/thermal_space
+    class core
+    user root
+    group root system shell
+    disabled
+
+on post-fs-data
+    mkdir /tranfs/thermal_space 0777 system system
+
+on property:sys.boot_completed=1
+    start thermal_space
+    

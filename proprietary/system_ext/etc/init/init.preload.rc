@@ -1,0 +1,2 @@
+on post-fs-data
+    mkdir /data/preload-app-lib 0771 system system encryption=Require

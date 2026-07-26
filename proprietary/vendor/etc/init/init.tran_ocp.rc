@@ -1,0 +1,8 @@
+on property:dev.bootcomplete=1 && property:ro.boot.bootreason=ocp
+    start tran_ocp
+
+service tran_ocp /vendor/bin/tran_ocp
+    user root
+    group root
+    disabled
+    oneshot

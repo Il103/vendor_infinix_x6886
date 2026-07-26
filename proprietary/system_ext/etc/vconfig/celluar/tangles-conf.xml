@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tangles-conf>
+    <!--注意：
+    1，在通话状态下，默认所有恢复动作不能执行；
+    2，配置id要和TranRadioTangleConsts.java中定义常量要匹配上;
+    -->
+    <!--reg module network tangles-->
+    <tangle id="100" scene="ratstall">
+        <precond/>
+        <recovery action="resetModem"/>
+    </tangle>
+    <tangle id="101" scene="brightScreenOOS">
+        <precond/>
+        <recovery action="plmnSearch" totalPerday="5"/>
+    </tangle>
+    <tangle id="102" scene="neighborCellSignalStronger">
+        <precond rat="4G,5G" thrNeighborRsrp="-108"/>
+        <recovery action="rrcRelease" totalPerday="5"/>
+    </tangle>
+    <!--data module network tangles-->
+    <tangle id="201" scene="datastall">
+        <precond rat="4G,5G" thrServingCellRsrp="-108" delay="800"/>
+        <recovery action="reactivateDatacall, reattach, barcell, disableRat" totalPerday="5"/>
+    </tangle>
+</tangles-conf>

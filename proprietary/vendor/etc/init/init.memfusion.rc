@@ -1,0 +1,9 @@
+on property:sys.boot_completed=1
+    start memfusion
+
+service memfusion /vendor/bin/memfusion
+    class core
+    user root
+    group root system
+    disabled
+    oneshot

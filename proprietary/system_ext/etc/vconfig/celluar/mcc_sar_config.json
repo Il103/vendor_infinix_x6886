@@ -1,0 +1,14 @@
+{
+  "sarMap":["14","14","14"],
+  "csList":["0","0","0"],
+  "foldSarMap":["14","14","14"],
+  "foldCsList":["0","0","0"],
+  "singleHead":[""],
+  "singleBody":[""],
+  "combineHead":[""],
+  "combineBody":[""],
+  "recover":"",
+  "isErftxCmd": false,
+  "isErfidxCmd": false,
+  "isEgmcCmd": false
+}

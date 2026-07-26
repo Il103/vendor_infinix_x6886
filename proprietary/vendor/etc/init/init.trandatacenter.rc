@@ -1,0 +1,9 @@
+
+on boot
+    start vendor.datacenter
+
+service vendor.datacenter /vendor/bin/hw/trandatacenter
+    class core
+    user system
+    group system
+    disabled

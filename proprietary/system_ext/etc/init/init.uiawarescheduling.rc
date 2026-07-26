@@ -1,0 +1,2 @@
+on zygote-start
+    mkdir /data/trans_sched 0771 system system encryption=None

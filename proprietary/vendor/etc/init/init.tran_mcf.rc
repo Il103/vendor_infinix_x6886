@@ -1,0 +1,18 @@
+service tran_mcf /vendor/bin/init.tran_mcf.sh ${gsm.sim.state} ${gsm.version.baseband}
+    class core
+    user radio
+    group shell system radio sdcard_r sdcard_rw
+    oneshot
+    disabled
+
+on property:vendor.tran_mcf=1
+    start tran_mcf
+    setprop vendor.tran_mcf 0
+    
+on property:vendor.mtk.md1.status=ready
+    setprop vendor.tran_mcf 2
+    
+on property:vendor.tran_mcf=8
+    setprop vendor.ril.mux.report.case 2
+    setprop vendor.ril.muxreport 1
+

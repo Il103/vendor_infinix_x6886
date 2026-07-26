@@ -1,0 +1,85 @@
+#!/system/bin/sh
+
+###
+ # @Author: fujia.chu
+ # @Date: 2023-08-18 10:34:26
+ # @LastEditors: fujia.chu
+ # @LastEditTime: 2023-11-23 10:53:55
+ # @FilePath: \TranfacSys\command\trancmd.sh
+ # @Description: 
+ # 
+ # Copyright (c) 2023 by transsion, All Rights Reserved. 
+###
+
+# check whether the service is alive
+function isServiceRunning(){
+    running_result=$(dumpsys activity service "$1" | grep -oE "pid=[0-9]+")
+    if [ -z "$running_result" ];then
+        return 0
+    else
+        return 1
+    fi
+}
+
+# if start fail, restart
+function tryStartService(){
+    start_result=$(am startservice -n "$1" 2>&1 | grep -o "Error:")
+    while [ "$start_result" ];do
+        start_result=$(am startservice -n "$1" 2>&1 | grep -o "Error:")
+    done
+    return 1
+}
+
+# if service is not alive, try start it
+function startServiceIfNecessary(){
+    isServiceRunning "$1"
+    if [ "$?" -eq 0 ];then
+        tryStartService "$1"
+
+        # wait
+        isServiceRunning "$1"
+        is_start_success="$?"
+        while [ "$is_start_success" -eq 0 ];do
+            isServiceRunning "$1"
+            is_start_success="$?"
+        done
+    fi
+}
+
+function isPropEq(){
+    prop="$1"
+    expect_value="$2"
+    value=$(getprop "$prop")
+    if [ "$value" == "$expect_value" ];then
+        return 1
+    else
+        return 0
+    fi
+}
+
+function checkReady(){
+    isPropEq "sys.tranfac.system.ready" "1"
+    if [ "$?" -eq 0 ];then
+        isPropEq "sys.boot_completed" "1"
+        is_boot_completed="$?"
+        isPropEq "init.svc.bootanim" "stopped"
+        is_bootanim_stopped="$?"
+        if [ "$is_boot_completed" -eq 0 -o "$is_bootanim_stopped" -eq 0 ];then
+            echo "boot is not completed, please retry later"
+            exit
+        else
+            setprop "sys.tranfac.system.ready" "1"
+        fi
+    fi
+}
+
+function main(){
+    checkReady
+
+    package_name="com.transsion.tranfacmode"
+    startServiceIfNecessary "$package_name/.command.AidlCmdService"
+    # execute command, timeout 5min
+    dumpsys -t 300 vendor.transsion.hardware.tranfacaidl.ITranfacAidl/default "$@"
+}
+
+main "$@"

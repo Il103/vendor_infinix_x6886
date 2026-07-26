@@ -1,0 +1,4 @@
+on boot
+#Thermal CC
+    chmod 666 /sys/class/thermal/cooling_device0/cur_state
+    chmod 666 /sys/class/thermal/cooling_device0/type

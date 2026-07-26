@@ -1,0 +1,14 @@
+on post-fs-data
+    write /proc/bootprof "INIT:get_ufs_error--start"
+    restorecon_recursive /tranfs
+    mkdir /tranfs/storage 0700 system shell
+    mkdir /data/storage_dbg 0775 root shell
+    chmod 0777 /tranfs/storage
+    chmod 0777 /data/storage_dbg
+    start get_ufs_error
+
+service get_ufs_error /vendor/bin/get_ufs_error
+    user root
+    group root
+    oneshot
+    disabled
