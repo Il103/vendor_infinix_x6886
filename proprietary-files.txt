@@ -149,7 +149,6 @@ vendor/app/mcRegistry/df1edda8627911e980ae507b9d9a7e7d.tabin
 vendor/app/mcRegistry/e97c270ea5c44c58bcd3384a2fa2539e.tabin
 vendor/bin/AgentTest
 vendor/bin/TransSchedTest
-vendor/bin/[
 vendor/bin/acpi
 vendor/bin/aee_aedv64_v2
 vendor/bin/aee_dumpstatev_v2
