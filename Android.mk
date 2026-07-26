@@ -158,18 +158,3 @@ LOCAL_DEX_PREOPT := false
 LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/overlay/WifiResOverlay
 include $(BUILD_PREBUILT)
 
-PRODUCT_PACKAGES += \
-    GoogleTetheringResOverlay \
-    InProcessTetheringResOverlay \
-    NetworkStackGoogleResOverlay \
-    NetworkStackInProcessResOverlay \
-    NetworkStackResOverlay \
-    TetheringResOverlay \
-    ConnectivityResOverlay \
-    FrameworkResOverlay \
-    FrameworkResOverlayExt \
-    MtkSettingsResOverlay \
-    MtkTelephonyServiceResOverlay \
-    SettingsProviderResOverlay \
-    WifiResMainlineOverlay \
-    WifiResOverlay
